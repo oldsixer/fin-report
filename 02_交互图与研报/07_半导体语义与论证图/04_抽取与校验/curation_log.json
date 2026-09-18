@@ -1,0 +1,479 @@
+[
+  {
+    "claim_id": "F010",
+    "parent": "C010",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F011",
+    "parent": "C010",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F012",
+    "parent": "C010",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F013",
+    "parent": "C010",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F014",
+    "parent": "C010",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F021",
+    "parent": "C017",
+    "action": "事件方向统一为公司宣布某产品量产"
+  },
+  {
+    "claim_id": "F022",
+    "parent": "C018",
+    "action": "明确产品代际升级，避免含混的技术特征边"
+  },
+  {
+    "claim_id": "F023",
+    "parent": "C019",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F024",
+    "parent": "C019",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F027",
+    "parent": "C022",
+    "action": "原文next-generation servers不能擅自限定为异构服务器；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F028",
+    "parent": "C022",
+    "action": "原文next-generation servers不能擅自限定为异构服务器；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F029",
+    "parent": "C022",
+    "action": "原文next-generation servers不能擅自限定为异构服务器；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F042",
+    "parent": "C035",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F043",
+    "parent": "C035",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F044",
+    "parent": "C035",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F045",
+    "parent": "C035",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F046",
+    "parent": "C035",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "parent": "C037",
+    "action": "删除：基地不是子公司，且地理信息不是本轮关键研究关系"
+  },
+  {
+    "claim_id": "F052",
+    "parent": "C042",
+    "action": "未来有条件服务不是现有客户"
+  },
+  {
+    "claim_id": "F056",
+    "parent": "C046",
+    "action": "纠正晶圆代工服务不是销售半导体硅片产品"
+  },
+  {
+    "claim_id": "F057",
+    "parent": "C046",
+    "action": "纠正晶圆代工服务不是销售半导体硅片产品"
+  },
+  {
+    "parent": "C047",
+    "action": "删除：基地不是子公司，且地理信息不是本轮关键研究关系"
+  },
+  {
+    "claim_id": "F058",
+    "parent": "C048",
+    "action": "保留账单billings原指标与原币种量纲，避免与实物出货量混淆"
+  },
+  {
+    "claim_id": "F059",
+    "parent": "C049",
+    "action": "修复归因边目标；仅记录SEMI解释，不确证因果"
+  },
+  {
+    "claim_id": "F060",
+    "parent": "C050",
+    "action": "口径不是一个已实现数值，避免滥用披露统计边"
+  },
+  {
+    "claim_id": "F061",
+    "parent": "C051",
+    "action": "恢复原文货币量纲，分别保留预测发布时点和目标期"
+  },
+  {
+    "claim_id": "F062",
+    "parent": "C052",
+    "action": "恢复原文货币量纲，分别保留预测发布时点和目标期"
+  },
+  {
+    "claim_id": "F063",
+    "parent": "C053",
+    "action": "恢复原文货币量纲，分别保留预测发布时点和目标期"
+  },
+  {
+    "claim_id": "F064",
+    "parent": "C054",
+    "action": "恢复原文货币量纲，分别保留预测发布时点和目标期"
+  },
+  {
+    "claim_id": "F065",
+    "parent": "C055",
+    "action": "恢复原文货币量纲，分别保留预测发布时点和目标期"
+  },
+  {
+    "claim_id": "F067",
+    "parent": "C057",
+    "action": "覆盖多种集成路线不表示各组件同时存在；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F068",
+    "parent": "C057",
+    "action": "覆盖多种集成路线不表示各组件同时存在；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F069",
+    "parent": "C057",
+    "action": "覆盖多种集成路线不表示各组件同时存在；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F070",
+    "parent": "C058",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F071",
+    "parent": "C058",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F072",
+    "parent": "C058",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F073",
+    "parent": "C058",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F075",
+    "parent": "C060",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F076",
+    "parent": "C060",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F077",
+    "parent": "C061",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F078",
+    "parent": "C061",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F079",
+    "parent": "C061",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F080",
+    "parent": "C061",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F081",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F082",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F083",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F084",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F085",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F086",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F087",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F088",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F089",
+    "parent": "C062",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F090",
+    "parent": "C063",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F091",
+    "parent": "C063",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F092",
+    "parent": "C063",
+    "action": "保留，经语义复核；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F094",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F095",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F096",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F097",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F098",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F099",
+    "parent": "C065",
+    "action": "重点研发方向不等于已掌握或已有供给；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F100",
+    "parent": "C066",
+    "action": "明确这是公司自述的技术突破，不是产品交付；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F101",
+    "parent": "C066",
+    "action": "明确这是公司自述的技术突破，不是产品交付；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F102",
+    "parent": "C066",
+    "action": "明确这是公司自述的技术突破，不是产品交付；将明确枚举拆成原子关系"
+  },
+  {
+    "claim_id": "F103",
+    "parent": "C067",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F104",
+    "parent": "C068",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F105",
+    "parent": "C069",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F106",
+    "parent": "C070",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F107",
+    "parent": "C071",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F108",
+    "parent": "C072",
+    "action": "不将页面图表统计截止日冒充所有业务描述的有效日"
+  },
+  {
+    "claim_id": "F109",
+    "parent": "rejected_1",
+    "action": "修复已定位的来源ID/换行/截句错误，并核对真实原文"
+  },
+  {
+    "claim_id": "F110",
+    "parent": "rejected_2",
+    "action": "修复已定位的来源ID/换行/截句错误，并核对真实原文"
+  },
+  {
+    "claim_id": "F111",
+    "parent": "rejected_3",
+    "action": "修复已定位的来源ID/换行/截句错误，并核对真实原文"
+  },
+  {
+    "claim_id": "F112",
+    "parent": "rejected_4",
+    "action": "修复已定位的来源ID/换行/截句错误，并核对真实原文"
+  },
+  {
+    "parent": "rejected_T19",
+    "action": "保持拒收：风险引文原文中不存在，不通过近似匹配放行"
+  },
+  {
+    "claim_id": "F113",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F114",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F115",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F116",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F117",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F118",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F119",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F120",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F121",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F122",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F123",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F124",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F125",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F126",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F127",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F128",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F129",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F130",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F131",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F132",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  },
+  {
+    "claim_id": "F133",
+    "parent": "review_addition",
+    "action": "分析者补充：原文支持的缺失连接，非模型自动产物"
+  }
+]

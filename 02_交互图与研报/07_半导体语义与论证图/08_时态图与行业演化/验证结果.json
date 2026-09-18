@@ -1,0 +1,287 @@
+{
+  "pass": true,
+  "checks_passed": 56,
+  "checks": [
+    {
+      "name": "输入文件未改变：07_半导体语义与论证图/05_图与查询/explorer_data.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/history_881121.TI.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/history_884229.TI.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/history_884091.TI.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/history_000300.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_603986.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_603986.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_688008.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_688008.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_688981.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_688981.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_002371.SZ.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_002371.SZ.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_688012.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_688012.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_600584.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_600584.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_002156.SZ.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_002156.SZ.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/income_688126.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "输入文件未改变：06_半导体板块图研报实验/02_原始数据/cash_688126.SH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "四条序列，每条65个交易日",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "48条公司报告期记录，192条财务指标观测",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "时态图节点ID唯一",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "所有观测与时间边端点存在",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "业务边端点存在",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "无凭据被写入导出",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "不伪造业务有效期",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NEXT_OBSERVATION只连接同实体同指标并严格递增",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "452个观测值逐项等于原始响应或单位换算值",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "现金代理计算且流量累计口径保留",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "默认截面是采集日",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "最后行情日期明确为09-14，不假装09-15行情",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "市场按钮四个，公司财务八行",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "点击节点联动概念时间线",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "原文证据可打开并明确有效期未知",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "送样披露前不可见T03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "披露当天T03出现",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "预测发布前不可见T14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "预测发布日可见且2028仍是预测目标非观测",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "统计公告公开前不可见T13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "统计公告公开日可见T13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "无日期背景不回填到采集日前",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "采集日可单独查看无日期背景",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "所有133条关系均可从截止日背景模式查看",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "已知日期与未知日期独立",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "旧比较期修订日期没有前移",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "非交易日用最后已保存交易日，未插值",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "点击行业指数切换日频曲线",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "点击日频点联动日期",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "财务轨迹可查看尚不应暴露给当时截面的观测",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "披露时间线点击同步截面",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "页面本地链接存在",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "窄屏无页面级横向溢出",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "JavaScript运行无错误",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "页面完全离线无外部依赖请求",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "scope": "实现、日期过滤与输入一致性；不证明数据真实、历史首次可知性、因果关系或研报质量"
+}

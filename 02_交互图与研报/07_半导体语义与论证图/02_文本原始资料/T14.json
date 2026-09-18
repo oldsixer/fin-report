@@ -1,0 +1,16 @@
+{
+  "source_id": "T14",
+  "title": "SEMI设备销售预测",
+  "company": "SEMI",
+  "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-forecast-to-reach-a-record-229-billion-dollars-in-2028-semi-reports",
+  "publication_date": "2026-07-14",
+  "retrieved_at": "2026-09-15T11:35:03.460199+00:00",
+  "source_class": "industry_association",
+  "http_status": 200,
+  "sha256": "bbdb5fdfbb1d21ef6e34d01607141879b9cdc2ba5bfc6552e5dafd2d1590a671",
+  "raw_path": "02_文本原始资料/T14.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 7353,
+  "text_path": "03_文本证据/T14.txt",
+  "status": "ok"
+}

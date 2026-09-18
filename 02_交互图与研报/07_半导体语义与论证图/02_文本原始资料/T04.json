@@ -1,0 +1,16 @@
+{
+  "source_id": "T04",
+  "title": "澜起PCIe5.0 Retimer量产",
+  "company": "688008.SH",
+  "url": "https://www.montage-tech.com/Press_Releases/20230106",
+  "publication_date": "2023-01-06",
+  "retrieved_at": "2026-09-15T11:34:55.733908+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "679aef79cc96453f3de00d610363c9c3295fa4b5389edfcfecf5e89e37551e2c",
+  "raw_path": "02_文本原始资料/T04.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 3286,
+  "text_path": "03_文本证据/T04.txt",
+  "status": "ok"
+}

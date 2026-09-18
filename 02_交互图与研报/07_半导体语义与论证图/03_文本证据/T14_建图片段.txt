@@ -1,0 +1,25 @@
+Jul 14, 2026
+Jul 14, 2026
+Global Semiconductor Equipment Sales Forecast to Reach a Record $229 Billion in 2028, SEMI Reports
+Previous Page
+Press Releases
+AI-fueled Investment in Leading-edge Logic, Advanced Memory, Test and Packaging Drives Five-Year Growth Surge in Semiconductor Equipment
+MILPITAS, Calif. — July 14, 2026 —
+Global sales of total semiconductor manufacturing equipment by original equipment manufacturers (OEMs) are forecast to reach a record high of $165.9 billion in 2026, increasing 23.2% year-on-year, SEMI announced today in its
+Mid-Year Total Semiconductor Equipment Forecast – OEM Perspective
+. Growth momentum is expected to continue through 2028, with total equipment sales forecast to reach a record $229.5 billion, marking five consecutive years of growth as AI-driven demand reshapes semiconductor manufacturing investment.
+The stronger outlook reflects accelerating investment in AI infrastructure, leading-edge logic, advanced memory, and back-end technologies needed to support higher compute density, high bandwidth memory (HBM)-related investment, and increasingly complex device architectures.
+“AI is accelerating demand for more powerful and efficient chips, driving increased investment across the semiconductor capital equipment market,” said Ajit Manocha, SEMI president and CEO. “The mid-year forecast points to a higher equipment spending trajectory as chipmakers invest in the leading-edge logic, advanced memory, test and packaging capabilities required for the AI era.”
+Semiconductor Equipment Sales by Segment
+After registering a record $116.9 billion in sales last year, the Wafer Fab Equipment (WFE) segment, which includes wafer processing, mask/reticle, and fab facilities equipment, is projected to increase 23.1% to $143.9 billion in 2026. This represents a significant upward revision from SEMI’s 2025 year-end forecast and reflects stronger investment in advanced memory, especially HBM-related DRAM technologies, and leading-edge logic applications. WFE segment sales are projected to expand 21.8% in 2027 and 14.1% in 2028 to reach the $200 billion mark, as manufacturers accelerate capacity expansion and technology migration for AI-related workloads.
+AI-related semiconductor demand is also driving expansion in back-end equipment. After surging 55.3% in 2025, semiconductor test equipment sales are projected to increase 31.0% to $15.3 billion in 2026, marking a strong upward revision from SEMI’s 2025 year-end forecast. Assembly and packaging equipment sales, which increased 20.8% in 2025, are projected to rise 9.6% to $6.7 billion in 2026, broadly in line with the prior forecast. Growth is expected to continue through 2028, with test equipment reaching $20.8 billion and assembly and packaging equipment reaching $8.6 billion, supported by increasing device complexity, advanced and heterogeneous packaging adoption, and more rigorous performance and reliability requirements for AI and HBM devices.
+WFE Sales by Application
+WFE sales for foundry and logic applications are expected to increase 18.9% year-over-year to $78.0 billion in 2026, driven by advanced-node capacity buildouts for AI accelerators, high-performance computing, and premium mobile processors. The segment is forecast to grow 18.1% in 2027 and 13.6% in 2028, reaching $104.7 billion, as the industry advances toward high-volume manufacturing at the 2nm gate-all-around node.
+Memory-related equipment spending is projected to expand significantly through 2028, supported by HBM demand, advanced DRAM node migration, and NAND technology transitions. DRAM equipment sales are projected to rise 39.0% to $38.8 billion in 2026, followed by 27.4% growth in 2027 and 15.0% growth in 2028, reaching $56.9 billion. NAND equipment sales are expected to grow 30.7% to $13.9 billion in 2026, then increase 31.1% in 2027 and 14.5% in 2028, reaching $20.8 billion, driven by 3D NAND layer migration and investment in higher-density architectures.
+Semiconductor Equipment Sales by Region
+China, Taiwan and Korea are expected to remain the top three destinations for equipment spending through 2028. China is projected to maintain the leading position over the forecast period, though growth is expected to moderate in 2026 following elevated investment levels in recent years. In Taiwan, spending is supported by leading-edge capacity builds for AI and high-performance computing, while Korea’s equipment spending is driven by advanced memory technologies, including HBM. Other regions tracked are expected to see equipment spending increase in 2027 and 2028, supported by regionalization efforts, government incentives and targeted specialty capacity expansions.
+The SEMI forecast is based on collective input from top equipment suppliers, the SEMI
+Worldwide Semiconductor Equipment Market Statistics
+(WWSEMS) data collection program, and the industry-recognized SEMI
+World Fab Forecast
+database.

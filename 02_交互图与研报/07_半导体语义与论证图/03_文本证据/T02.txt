@@ -1,0 +1,60 @@
+汽车产品汇总页
+Home
+>
+Products
+>
+汽车产品汇总页
+Overview
+随着汽车电动化、智能化与网联化发展，汽车电子系统对汽车芯片的性能、可靠性、功能安全和长期供货能力提出了更高要求。兆易创新持续深耕汽车半导体领域，构建覆盖车规级 Flash、车规级 MCU 和系统基础芯片（SBC）的汽车芯片产品矩阵，为汽车电子提供高性能、高可靠性的车规级芯片解决方案。
+兆易创新车规级 Flash 包括 SPI NOR Flash 和 SPI NAND Flash，面向汽车电子系统提供可靠的数据与代码存储；车规级 GD32 MCU 基于 Arm® Cortex® 内核，覆盖车身控制、车用照明、智能座舱、辅助驾驶及电机电源等应用；SBC 产品则面向汽车系统基础功能需求，进一步完善汽车芯片产品布局。
+凭借完善的汽车芯片研发、质量管理与安全体系，兆易创新持续提升车规级产品的可靠性与安全性，助力汽车电子系统实现更高效、更安全的设计，为智能汽车的发展提供可靠的半导体产品与技术支持。
+汽车产品矩阵
+车规级 SPI NOR Flash
+高可靠高性能车规级存储，满足汽车代码与数据存储需求。
+车规级 SPI NAND Flash
+高容量车规级存储，满足汽车数据存储需求。
+车规级 MCU
+高性能车规级 MCU，助力汽车电子智能控制。
+系统基础芯片（SBC）
+高集成车规级芯片，满足汽车电源与通信需求。
+我们的优势
+AEC-Q100
+产品符合 AEC-Q100 等汽车可靠性标准，满足严苛车规环境要求。
+功能安全认证
+提供 Functional Safety 支持，助力汽车安全系统开发。
+支持长期供货 (PLP)
+稳定的供应体系和长期供货策略，满足汽车产品生命周期需求。
+丰富产品组合
+覆盖存储、MCU 与系统基础芯片，为客户提供完整汽车电子产品组合。
+汽车应用
+探索兆易创新汽车产品在车身电子、智能座舱、动力系统等汽车应用中的解决方案，了解产品如何赋能智能汽车创新。
+立即前往
+Resource Center
+We are committed to providing efficient support for your product selection and development process. From initial selection through mass production, we streamline decision-making and accelerate project implementation.
+Flash Cross-reference
+查看更多
+MCU Cross-reference
+查看更多
+Global Sales Network
+查看更多
+Product Briefs
+查看更多
+News
+GigaDevice Secures Broad Multi-Product Automotive Design Wins with Tury, Accelerating Expansion in Latin America
+May 27,2026
+查看更多
+GigaDevice Achieves ISO/SAE 21434 Certification and ASPICE CL2 Assessment, Strengthening Automotive Cybersecurity Together with TÜV Rheinland
+Dec 22,2025
+查看更多
+Embedded World: GigaDevice Showcases Advances in Flash and MCU Technologies for Edge AI, Green Energy, Automotive and IoT
+Mar 10,2025
+查看更多
+GigaDevice GD25/55 Serial NOR Flash Automotive-Grade Product Family Certified for ISO 26262 ASIL D
+Dec 05,2024
+查看更多
+GigaDevice to showcase innovations for accelerated IOT and automotive sectors at Electronica 2024
+Nov 12,2024
+查看更多
+GigaDevice's Industry-Leading Automotive Flash Memory Achieves 100 Million Units Shipment Milestone
+Apr 14,2023
+查看更多

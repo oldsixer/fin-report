@@ -1,0 +1,14 @@
+首页
+新闻动态
+Montage Technology PCIe 5.0/CXL 2.0 Retimer Chip Achieves Mass Production
+Montage Technology PCIe 5.0/CXL 2.0 Retimer Chip Achieves Mass Production
+2023-01-06
+Shanghai, January 6, 2023
+-- Montage Technology, a leading data processing and interconnect IC design company, announced today that its PCIe 5.0/CXL 2.0 Retimer has successfully achieved mass production. This chip is a key upgrade based on Montage’s PCIe 4.0 Retimer, providing a stable and reliable PCIe 5.0 and CXL 2.0 interconnect solution with high bandwidth and low latency for the cloud and high-performance computing market.
+Montage’s PCIe 5.0/CXL 2.0 Retimer employs advanced signal conditioning technologies to improve signal integrity and increase the effective transmission distance of high-speed signals. Compliant with relevant PCI-SIG and CXL specifications, the chip meets mainstream package requirements, supports transfer rate up to 32 GT/s, and takes the lead in supporting ultra-low transmission latency of less than 5 ns. The chip supports various complex system topologies such as SRIS and Retimer cascading, offering an ideal solution to address the PCIe/CXL signal integrity challenges in next-generation servers, enterprise storage, and acceleration systems. The PCIe 5.0/CXL 2.0 Retimer has passed extensive interoperability testing with a variety of compute, storage and networking products, such as CPU, PCIe switches, SSDs, GPUs and NICs, thus laying a solid foundation for the large-scale deployment of cloud computing and data centers.
+"PCIe 5.0 and CXL interconnect technologies are the cornerstones of building cloud computing and data center infrastructure, which will significantly promote the application requirements of Retimer in heterogeneous computing servers and storage systems. Looking forward, Montage will continue to work closely with CPU,GPU, NIC, SSD, and PCIe/CXL equipment manufacturers, constantly updating and expanding our product portfolios, and make unremitting efforts to improve the performance of artificial intelligence, machine learning and cloud computing systems,” said Mr. Stephen Tai, President of Montage Technology.
+For typical application scenarios such as heterogeneous computing servers, NVMe SSDs and Riser Cards, Montage Technology provides comprehensive technical supports, such as PCIe 5.0/CXL 2.0 Retimer-based reference design, evaluation board, and supporting software, to help customers quickly complete the design-in and shorten the product launch cycle.
+Availability
+Montage Technology’s 16-lane PCIe 5.0/CXL 2.0 Retimer (Part Number: M88RT51632) is available for purchase now. For more details, please contact Montage Technology at
+globalsales@montage-tech.com
+.

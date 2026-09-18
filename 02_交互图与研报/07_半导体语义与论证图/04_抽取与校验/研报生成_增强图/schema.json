@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "report_markdown": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_markdown"
+  ],
+  "additionalProperties": false
+}

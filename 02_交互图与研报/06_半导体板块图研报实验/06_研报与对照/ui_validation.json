@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "js_errors": [],
+  "checks": [
+    "graph rendered",
+    "company selection",
+    "full provenance layer",
+    "search calculation",
+    "reset",
+    "two report tables",
+    "citation navigation"
+  ]
+}

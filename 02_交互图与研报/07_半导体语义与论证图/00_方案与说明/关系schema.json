@@ -1,0 +1,185 @@
+{
+  "兼容标准": {
+    "direction": "subject → object",
+    "meaning": "兼容标准",
+    "allowed_type_pairs": [
+      "产品→标准"
+    ]
+  },
+  "前序工艺": {
+    "direction": "subject → object",
+    "meaning": "subject工艺先于object工艺；不是反方向。仅限本文所述流程。",
+    "allowed_type_pairs": [
+      "工艺→工艺"
+    ]
+  },
+  "升级自": {
+    "direction": "subject → object",
+    "meaning": "升级自",
+    "allowed_type_pairs": [
+      "产品→产品"
+    ]
+  },
+  "发布预测": {
+    "direction": "subject → object",
+    "meaning": "发布预测",
+    "allowed_type_pairs": [
+      "组织→指标"
+    ]
+  },
+  "宣布送样": {
+    "direction": "subject → object",
+    "meaning": "宣布送样",
+    "allowed_type_pairs": [
+      "公司→产品"
+    ]
+  },
+  "宣布量产": {
+    "direction": "subject → object",
+    "meaning": "宣布量产",
+    "allowed_type_pairs": [
+      "公司→产品",
+      "公司→工艺",
+      "公司→技术"
+    ]
+  },
+  "布局产品": {
+    "direction": "subject → object",
+    "meaning": "布局产品",
+    "allowed_type_pairs": [
+      "公司→产品"
+    ]
+  },
+  "应用于": {
+    "direction": "subject → object",
+    "meaning": "应用于",
+    "allowed_type_pairs": [
+      "产品→产品",
+      "产品→应用",
+      "公司→应用",
+      "技术→应用"
+    ]
+  },
+  "归因于": {
+    "direction": "subject → object",
+    "meaning": "归因于",
+    "allowed_type_pairs": [
+      "事件→应用"
+    ]
+  },
+  "技术特征": {
+    "direction": "subject → object",
+    "meaning": "技术特征",
+    "allowed_type_pairs": [
+      "产品→指标"
+    ]
+  },
+  "披露客户": {
+    "direction": "subject → object",
+    "meaning": "披露客户",
+    "allowed_type_pairs": [
+      "公司→公司"
+    ]
+  },
+  "披露技术突破": {
+    "direction": "subject → object",
+    "meaning": "披露技术突破",
+    "allowed_type_pairs": [
+      "公司→技术"
+    ]
+  },
+  "披露统计": {
+    "direction": "subject → object",
+    "meaning": "披露统计",
+    "allowed_type_pairs": [
+      "组织→指标"
+    ]
+  },
+  "拟收购": {
+    "direction": "subject → object",
+    "meaning": "拟收购",
+    "allowed_type_pairs": [
+      "事件→公司"
+    ]
+  },
+  "拟服务客户": {
+    "direction": "subject → object",
+    "meaning": "拟服务客户",
+    "allowed_type_pairs": [
+      "事件→公司"
+    ]
+  },
+  "拥有子公司": {
+    "direction": "subject → object",
+    "meaning": "拥有子公司",
+    "allowed_type_pairs": [
+      "公司→公司"
+    ]
+  },
+  "提供产品": {
+    "direction": "subject → object",
+    "meaning": "提供产品",
+    "allowed_type_pairs": [
+      "公司→产品"
+    ]
+  },
+  "提供技术": {
+    "direction": "subject → object",
+    "meaning": "提供技术",
+    "allowed_type_pairs": [
+      "产品→技术",
+      "公司→技术"
+    ]
+  },
+  "提供服务": {
+    "direction": "subject → object",
+    "meaning": "提供服务",
+    "allowed_type_pairs": [
+      "公司→业务模式",
+      "公司→产品",
+      "公司→应用"
+    ]
+  },
+  "涵盖集成技术": {
+    "direction": "subject → object",
+    "meaning": "涵盖集成技术",
+    "allowed_type_pairs": [
+      "工艺→技术"
+    ]
+  },
+  "用于工艺": {
+    "direction": "subject → object",
+    "meaning": "用于工艺",
+    "allowed_type_pairs": [
+      "产品→工艺"
+    ]
+  },
+  "计划研发": {
+    "direction": "subject → object",
+    "meaning": "计划研发",
+    "allowed_type_pairs": [
+      "公司→技术"
+    ]
+  },
+  "采用业务模式": {
+    "direction": "subject → object",
+    "meaning": "采用业务模式",
+    "allowed_type_pairs": [
+      "公司→业务模式"
+    ]
+  },
+  "采用统计口径": {
+    "direction": "subject → object",
+    "meaning": "采用统计口径",
+    "allowed_type_pairs": [
+      "标准→指标"
+    ]
+  },
+  "须获批准": {
+    "direction": "subject → object",
+    "meaning": "须获批准",
+    "allowed_type_pairs": [
+      "事件→事件"
+    ]
+  }
+}

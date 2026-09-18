@@ -1,0 +1,16 @@
+{
+  "source_id": "T17",
+  "title": "中微公司英文事实页",
+  "company": "688012.SH",
+  "url": "https://static.amec-inc.com/uploads/c99d51d37d754b90af8a01be5680499c.pdf",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:39:43.834421+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "25bea86ac280ed692507a24205e3256daa71af499bfa4fb52bba632c125828c8",
+  "raw_path": "02_文本原始资料/T17.pdf",
+  "extraction": "pdftotext -layout; page breaks retained",
+  "text_characters": 5132,
+  "text_path": "03_文本证据/T17.txt",
+  "status": "ok"
+}

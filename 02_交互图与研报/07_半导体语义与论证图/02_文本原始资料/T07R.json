@@ -1,0 +1,16 @@
+{
+  "source_id": "T07R",
+  "title": "中微公司官方事实页（重试）",
+  "company": "688012.SH",
+  "url": "https://www.amec-inc.com/uploads/files/20250902/17568042727426.pdf",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:38:58.366617+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "c6f06a01efd424fff4e5ca73a86c6245a09339f6cfd33a7f5f14284dc4a2fb75",
+  "raw_path": "02_文本原始资料/T07R.pdf",
+  "extraction": "pdftotext -layout; page breaks retained",
+  "text_characters": 1,
+  "text_path": "03_文本证据/T07R.txt",
+  "status": "insufficient_text"
+}

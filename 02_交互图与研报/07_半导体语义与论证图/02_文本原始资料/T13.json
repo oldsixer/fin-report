@@ -1,0 +1,16 @@
+{
+  "source_id": "T13",
+  "title": "SEMI 2026Q2设备统计",
+  "company": "SEMI",
+  "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-billings-increased-23-percent-year-over-year-in-q2-2026-semi-reports",
+  "publication_date": "2026-09-03",
+  "retrieved_at": "2026-09-15T11:35:02.669103+00:00",
+  "source_class": "industry_association",
+  "http_status": 200,
+  "sha256": "48841b9e62b8dd015b8fb647167908aecd32480f9df8fd5e4a7542c47500438f",
+  "raw_path": "02_文本原始资料/T13.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 5511,
+  "text_path": "03_文本证据/T13.txt",
+  "status": "ok"
+}

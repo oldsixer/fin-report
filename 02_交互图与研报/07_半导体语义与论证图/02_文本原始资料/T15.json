@@ -1,0 +1,16 @@
+{
+  "source_id": "T15",
+  "title": "长电XDFOI封装技术论文",
+  "company": "600584.SH",
+  "url": "https://imapsjmep.org/article/73375-study-on-cpi-behaviors-of-x-dimension-fan-out-integration-xdfoi-packages",
+  "publication_date": "2022-12-01",
+  "retrieved_at": "2026-09-15T11:38:58.366814+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "5a4a73cd928e8d21a0686f253b8f4c5826024d341fc5a7f25ad91205a2c2fc19",
+  "raw_path": "02_文本原始资料/T15.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 1701,
+  "text_path": "03_文本证据/T15.txt",
+  "status": "ok"
+}

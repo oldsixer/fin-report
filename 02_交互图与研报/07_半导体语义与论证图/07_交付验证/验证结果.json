@@ -1,0 +1,194 @@
+{
+  "source_hashes": [
+    {
+      "source_id": "T01",
+      "match": true
+    },
+    {
+      "source_id": "T02",
+      "match": true
+    },
+    {
+      "source_id": "T03",
+      "match": true
+    },
+    {
+      "source_id": "T04",
+      "match": true
+    },
+    {
+      "source_id": "T06",
+      "match": true
+    },
+    {
+      "source_id": "T08",
+      "match": true
+    },
+    {
+      "source_id": "T09",
+      "match": true
+    },
+    {
+      "source_id": "T12",
+      "match": true
+    },
+    {
+      "source_id": "T13",
+      "match": true
+    },
+    {
+      "source_id": "T14",
+      "match": true
+    },
+    {
+      "source_id": "T18",
+      "match": true
+    },
+    {
+      "source_id": "T19",
+      "match": true
+    },
+    {
+      "source_id": "T07R",
+      "match": true
+    }
+  ],
+  "graph_endpoints": {
+    "业务语义图.json": true,
+    "限定断言与论证图.json": true
+  },
+  "baseline_snapshot_unchanged": true,
+  "unknown_report_citations": [],
+  "excluded_topic_present": false,
+  "report_table_24_values": [
+    {
+      "company": "兆易创新",
+      "actual": [
+        115.66,
+        60.48,
+        51.03
+      ],
+      "expected": [
+        115.657604,
+        60.483411,
+        51.032356
+      ],
+      "pass": true
+    },
+    {
+      "company": "澜起科技",
+      "actual": [
+        33.35,
+        13.28,
+        10.73
+      ],
+      "expected": [
+        33.354975,
+        13.28028,
+        10.727345
+      ],
+      "pass": true
+    },
+    {
+      "company": "中芯国际",
+      "actual": [
+        386.35,
+        207.6,
+        10.35
+      ],
+      "expected": [
+        386.35115,
+        207.59511,
+        10.34856
+      ],
+      "pass": true
+    },
+    {
+      "company": "北方华创",
+      "actual": [
+        201.61,
+        37.74,
+        29.43
+      ],
+      "expected": [
+        201.614169,
+        37.736988,
+        29.432245
+      ],
+      "pass": true
+    },
+    {
+      "company": "中微公司",
+      "actual": [
+        66.91,
+        6.85,
+        -0.92
+      ],
+      "expected": [
+        66.912873,
+        6.845535,
+        -0.923826
+      ],
+      "pass": true
+    },
+    {
+      "company": "长电科技",
+      "actual": [
+        195.27,
+        29.64,
+        -17.36
+      ],
+      "expected": [
+        195.272233,
+        29.644269,
+        -17.357184
+      ],
+      "pass": true
+    },
+    {
+      "company": "通富微电",
+      "actual": [
+        160.41,
+        29.33,
+        -22.66
+      ],
+      "expected": [
+        160.410199,
+        29.32767,
+        -22.659596
+      ],
+      "pass": true
+    },
+    {
+      "company": "沪硅产业",
+      "actual": [
+        23.17,
+        1.79,
+        -19.69
+      ],
+      "expected": [
+        23.172448,
+        1.789875,
+        -19.687307
+      ],
+      "pass": true
+    }
+  ],
+  "browser": {
+    "initial_graph_nodes": 21,
+    "claim_modal": true,
+    "eight_company_filters": true,
+    "all_relations": 133,
+    "withdraw_marks": 3,
+    "withdraw_message": true,
+    "restore_marks": 0,
+    "query_cards": 6,
+    "source_rows": 13,
+    "report_rows": 9,
+    "report_citation_opens": true,
+    "missing_local_links": [],
+    "page_errors": [],
+    "mobile_page_overflow": false
+  },
+  "pass": true
+}

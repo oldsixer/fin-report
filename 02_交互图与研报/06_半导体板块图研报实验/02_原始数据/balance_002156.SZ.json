@@ -1,0 +1,69 @@
+{
+  "name": "balance_002156.SZ",
+  "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=002156.SZ&period=quarterly&limit=3",
+  "fetched_at": "2026-09-15T09:22:32.621960+00:00",
+  "http_status": 200,
+  "sha256": "a32191815caf8a972d9d34e0b9b3248577ab8517150fe2905dc3008f2024d60e",
+  "bytes": 1351,
+  "payload": {
+    "code": 0,
+    "message": "success",
+    "request_id": "131f3319e4d14469b7e9a038b170f34b",
+    "data": {
+      "timestamp": 1782748800000,
+      "item": [
+        {
+          "thscode": "002156.SZ",
+          "ticker": "002156",
+          "period": "quarterly",
+          "fiscal_year": 2026,
+          "fiscal_period": "Q2",
+          "report_date_ms": 1787932800000,
+          "period_end_ms": 1782748800000,
+          "currency": "CNY",
+          "assets_total": 51527231727.42,
+          "total_current_assets": 16787380851.8,
+          "non_current_nets_total": 34739850875.62,
+          "cash": 4820751708.74,
+          "accounts_receivable": 5345379921.36,
+          "total_debt": 33048778672.97,
+          "holder_equity_total": 18478453054.45
+        },
+        {
+          "thscode": "002156.SZ",
+          "ticker": "002156",
+          "period": "quarterly",
+          "fiscal_year": 2026,
+          "fiscal_period": "Q1",
+          "report_date_ms": 1777478400000,
+          "period_end_ms": 1774886400000,
+          "currency": "CNY",
+          "assets_total": 49226227129.25,
+          "total_current_assets": 15911990864.34,
+          "non_current_nets_total": 33314236264.91,
+          "cash": 4827895223.9,
+          "accounts_receivable": 5364359704.4,
+          "total_debt": 31958634843.98,
+          "holder_equity_total": 17267592285.27
+        },
+        {
+          "thscode": "002156.SZ",
+          "ticker": "002156",
+          "period": "quarterly",
+          "fiscal_year": 2025,
+          "fiscal_period": "Q4",
+          "report_date_ms": 1787932800000,
+          "period_end_ms": 1767110400000,
+          "currency": "CNY",
+          "assets_total": 47266459661.25,
+          "total_current_assets": 15564925814.47,
+          "non_current_nets_total": 31701533846.78,
+          "cash": 5410081493.81,
+          "accounts_receivable": 5067814530.19,
+          "total_debt": 30125174755.95,
+          "holder_equity_total": 17141284905.3
+        }
+      ]
+    }
+  }
+}

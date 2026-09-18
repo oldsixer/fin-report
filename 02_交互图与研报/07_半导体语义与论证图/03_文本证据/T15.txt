@@ -1,0 +1,80 @@
+ISSN
+1551-4897
+General
+Vol. 20, Issue 1, 2023
+January 01, 2023 EDT
+Study on CPI Behaviors of X Dimension Fan-Out Integration (XDFOI) Packages
+Haijie Chen
+,
+Zhen Hu
+,
+Ming He
+,
+Jielei Xie
+,
+Yaojian Lin
+,
+Choon Heung Lee
+,
+Chip packaging interaction (CPI)
+XDFOI
+FOWLP
+dielectric material stress
+Copyright Logo
+ccby-nc-nd-4.0
+•
+https://doi.org/10.4071/imaps.1926257
+Vol. 20, Issue 1, 2023
+Articles in Vol. 20, Issue 1, 2023
+Vol. 20, Issue 1, 2023
+AlGaN High Electron Mobility Transistor for High-Temperature Logic
+B. A. Klein
+A. A. Allerman
+A. G. Baca
+C. D. Nordquist
+A. M. Armstrong
+M. Van Heukelom
+A. Rice
+V. Patel
+M. Rosprim
+L. Caravello
+R. DeBerry
+J. R. Pipkin
+V. M. Abate
+R. J. Kaplar
+Electromigration Risk Assessment and Circuit Optimization Using Innovative Multiphysics Modeling
+Chongyang Cai
+Zhi Yang
+Yuan Li
+Padam Jain
+Terry Kang
+Krishna Mellachervu
+Prevention of Cu Electrolytic Migration Defects on RDL by a Cu-Selective Passivation to Enhance Reliability
+Ashish S. Salunke
+John Alptekin
+Kaushik Akula
+Subiksha Jayakumar
+Shaurya Kumar
+Oliver Chyan
+A Physics-of-Failure Investigation of Flip Chip Reliability Based on Lead-Free Solder Fatigue Modeling
+Sean Brinlee
+Scott Popelar
+Study on CPI Behaviors of X Dimension Fan-Out Integration (XDFOI) Packages
+Haijie Chen
+Zhen Hu
+Ming He
+Jielei Xie
+Yaojian Lin
+Choon Heung Lee
+Journal of Microelectronics & Elect Pkg
+Chen, Haijie, Zhen Hu, Ming He, Jielei Xie, Yaojian Lin, and Choon Heung Lee. 2023. “Study on CPI Behaviors of X Dimension Fan-Out Integration (XDFOI) Packages.”
+Journal of Microelectronics and Electronic Packaging
+20 (1): 36–42.
+https://doi.org/10.4071/imaps.1926257
+.
+Save article as...
+▾
+PDF
+XML
+Citation (BibTeX)
+View more stats

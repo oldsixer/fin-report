@@ -1,0 +1,16 @@
+{
+  "source_id": "T19",
+  "title": "沪硅产业2025年度报告摘要（新浪转载披露）",
+  "company": "688126.SH",
+  "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12103531&stockid=688126",
+  "publication_date": "2026-04-17",
+  "retrieved_at": "2026-09-15T11:40:50.589539+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "c4e3ae3da3fd01e5e7f2481cca80af6cdcba4e0a7218bfd09818236867238d9d",
+  "raw_path": "02_文本原始资料/T19.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 11810,
+  "text_path": "03_文本证据/T19.txt",
+  "status": "ok"
+}

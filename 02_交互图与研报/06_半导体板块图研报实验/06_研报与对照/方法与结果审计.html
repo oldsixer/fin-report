@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>方法与结果审计</title><style>body{font:16px/1.85 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:#f3f5ef;color:#213c35;margin:0}main{max-width:1160px;margin:30px auto;padding:40px 50px;background:white;border:1px solid #dfe6dc;border-radius:12px}h1{font-size:31px;line-height:1.4}h2{font-size:22px;margin-top:36px;padding-top:18px;border-top:1px solid #e4e9e0}a{color:#187767}nav{font-size:13px;display:flex;gap:20px}.notice{background:#fff8e7;border-left:3px solid #cc9a39;padding:16px;font-size:13px}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.6}th{background:#eaf1e9;text-align:left}td,th{padding:10px 8px;border-bottom:1px solid #dfe6dc;min-width:75px}td:first-child{font-weight:600}tr:nth-child(even){background:#f7f9f5}.cite{font-size:11px;white-space:nowrap;text-decoration:none}details{font-size:12px;border-bottom:1px solid #e6e9e2;padding:10px}summary{cursor:pointer}pre{white-space:pre-wrap;word-break:break-word;background:#f4f6f0;padding:15px}small{color:#63776a}.bullet{padding-left:12px}@media(max-width:800px){main{margin:0;padding:22px}h1{font-size:26px}}</style><main><nav><a href="index.html">← 知识图与实验入口</a><a href="原始数据版研报.html">Raw 研报</a><a href="图信息版研报.html">Graph 研报</a><a href="方法与结果审计.html">审计</a></nav><h1>纯半导体板块：方法与执行审计</h1>
+<h2>本轮重新做了什么</h2>
+<p>主板块是同花顺881121.TI的188只当前成分，全部获得行情和估值快照。设备指数884229.TI有26只成分，材料指数884091.TI有29只；本次都落入主板块，但两者不被当作互斥、穷尽分类。另取沪深300作价格表现基准。</p>
+<p>全部接口数据本轮重新采集，没有复用上一轮快照、报告或官网正文。41次成功API响应，另1次网络失败随后重试成功。八家财务样本为兆易创新、澜起科技、中芯国际、北方华创、中微公司、长电科技、通富微电、沪硅产业。财务样本不是全板块财务汇总。</p>
+<h2>建图方法和边的含义</h2>
+<p>借鉴<a href="https://aclanthology.org/2026.acl-long.446.pdf">FinKario</a>的属性—事件双结构。本轮来源全部为结构化API，用确定性映射，不再通过LLM提取官网信息，也不复现论文的完整检索或交易流程。</p>
+<p>图包含1197节点、3746条去重关系：188个公司、4个指数、1个研究样本集合、41个来源、926个观测、2个报告期、16个财报版本事件、19个计算结果。保留当前成分、公司观测、报告期、披露版本、计算输入和来源关系。没有供应链边、因果边、GNN训练或自动学习权重。</p>
+<p>示例一：半导体指数 → 成分公司 → 行情/估值观测 → 来源；D016再指向188家公司横截面统计的输入记录。例二：中微公司 → 2026H1财报版本 → 利润/现金流观测 → D005财务计算。事件日期只是供应商当前版本日期，不保证首次披露，不能做严格PIT回测。</p>
+<p>界面默认只展示八家财务样本以避免188个成分挤在同一屏；取消勾选即可展示全体业务关系。完整JSON一直保留所有节点，切换完整图可追溯来源。</p>
+<h2>Raw与Graph如何进入模型</h2>
+<p>两路共同资料为926条选定API记录和19组计算，包含完整区间指数K线、所有成分清单、全部主板块行情/估值、样本2025/2026H1流量和2026H1资产负债表；更早季度保存在原始响应中但不进入模型。</p>
+<p>Raw按来源排列记录；Graph从图节点中恢复同一记录集、按实体邻域组织，并附加成员关系、披露事件等元数据。每个记录在各自输入中仅出现一次。逐条哈希、来源目录、派生计算一致性均通过。记录排序和图结构开销仍不同，因此不是等token预算实验。</p>
+<p>同一本机Codex CLI配置gpt-5.6-terra / low，独立临时目录、关闭联网和工具。最终两次trace均无工具执行条目。用户API密钥未传入模型输入。</p>
+<div class="tablewrap"><table><tr><th>最终运行</th><th>Raw</th><th>Graph</th></tr><tr><td>输入token</td><td>137401</td><td>162653</td></tr><tr><td>输出token</td><td>3761</td><td>4058</td></tr><tr><td>正文字符数</td><td>5194</td><td>5531</td></tr><tr><td>八家公司固定表格核对</td><td>48/48</td><td>48/48</td></tr><tr><td>无效引用ID</td><td>0</td><td>0</td></tr></table></div>
+<p>图版输入token为Raw的1.18倍。此处只报告真实开销，不宣称图提高报告质量。没有独立人工盲评、重复随机种子实验或收益回测。</p>
+<h2>中间发现、修正和保留的运行记录</h2>
+<p>首轮Raw生成曾把沪硅产业负PE写成缺失，并将单时点上涨广度称为改善。核验后，对两路共同提示同时补充“负值不等于缺失、截面不等于变化”的要求，重新生成两份最终报告，而非只修一份。首轮output/trace保留在report_raw和report_graph目录，最终在report_raw_final和report_graph_final目录。最终阅读版不对模型正文做静默人工改写。</p>
+<p>另外完善了D019样本收入同比中位数的逐记录依赖，把上年同期利润表加入input_record_ids；未改变任何数值。此项修正后重新构建两路输入、重跑最终生成。首轮输入另存为raw_input_initial/graph_input_initial，保证每次运行可追溯。</p>
+<h2>校验能力与边界</h2>
+<p>41份成功来源哈希一致；926条记录在两种表示中完全一致；所有边端点存在；两篇固定财务表格合计96个数值与输入按两位小数一致，且每行财务/估值引用均可定位。没有遗留上轮公司事件主题。</p>
+<p>这些检查不是外部真值验证、全文语义评分或全部正文数字验算。尚未逐项对账交易所原始公告。负PE保留，不解释为便宜；正PE中位数仅在正值子集计算，不是行业整体PE。现金余量代理不是严格FCFF；资产负债表total_debt是负债合计。单日广度与财务共振不证明供需周期反转。</p>
+<h2>下一步应如何比较</h2>
+<p>本轮比上轮少了网页抽取压缩的信息差异，更适合观察来源顺序和实体邻域组织的差异。但单次长篇生成仍不足以评价算法贡献。后续可固定同一语义记录，增加线性三元组对照、多时点和重复运行，再评价口径混淆、负值保留、证据支持、条件判断与成本。</p></main></html>

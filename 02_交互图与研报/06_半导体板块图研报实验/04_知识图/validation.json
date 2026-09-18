@@ -1,0 +1,23 @@
+{
+  "nodes": 1197,
+  "edges": 3746,
+  "node_types": {
+    "company": 188,
+    "index": 4,
+    "concept": 1,
+    "source": 41,
+    "observation": 926,
+    "period": 2,
+    "event": 16,
+    "calculation": 19
+  },
+  "raw_records": 926,
+  "graph_records": 926,
+  "every_record_hash_matches": true,
+  "same_derived": true,
+  "same_sources": true,
+  "all_edge_endpoints_exist": true,
+  "financial_samples": 8,
+  "main_constituents": 188,
+  "method": "结构化API确定性映射；无文本抽取、GNN、自动因果推断；按实体组织输入，不重复提供同一记录。"
+}

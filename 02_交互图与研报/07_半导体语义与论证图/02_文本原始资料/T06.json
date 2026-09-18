@@ -1,0 +1,16 @@
+{
+  "source_id": "T06",
+  "title": "北方华创TSV先进封装方案",
+  "company": "002371.SZ",
+  "url": "https://www-a.naura.com/content/details_30_2309.html",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:34:58.597238+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "f59fdca8e83fbba95dc97fc5f3100509266914c8ec72717c4746e4d53f7902b3",
+  "raw_path": "02_文本原始资料/T06.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 2357,
+  "text_path": "03_文本证据/T06.txt",
+  "status": "ok"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "index_search_retry1",
+  "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93&asset_type=a-share-index&limit=30",
+  "fetched_at": "2026-09-15T09:20:48.195323+00:00",
+  "http_status": 200,
+  "sha256": "9722b6317b275e54d0368c11d13c82f6a5c6717ab968bcfd9341cbd352ae8f8a",
+  "bytes": 1712,
+  "payload": {
+    "code": 0,
+    "message": "success",
+    "request_id": "dc754c0ac9bd438896f517663750ae79",
+    "data": {
+      "timestamp": 1789459222055,
+      "item": [
+        {
+          "thscode": "881121.TI",
+          "ticker": "881121",
+          "name": "半导体",
+          "exchange": null,
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2007-08-01",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "884091.TI",
+          "ticker": "884091",
+          "name": "半导体材料",
+          "exchange": null,
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2018-10-30",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "884229.TI",
+          "ticker": "884229",
+          "name": "半导体设备",
+          "exchange": null,
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2021-07-30",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "885908.TI",
+          "ticker": "885908",
+          "name": "第三代半导体",
+          "exchange": null,
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2020-09-07",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "950103.SH",
+          "ticker": "950103",
+          "name": "智选科创半导体",
+          "exchange": "SH",
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2024-05-16",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "950103CNY010.SH",
+          "ticker": "950103CNY010",
+          "name": "智选科创半导体全收益",
+          "exchange": "SH",
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2024-05-16",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        },
+        {
+          "thscode": "950103CNY020.SH",
+          "ticker": "950103CNY020",
+          "name": "智选科创半导体净收益",
+          "exchange": "SH",
+          "asset_type": "a-share-index",
+          "currency": "CNY",
+          "list_date": "2024-05-16",
+          "end_date": null,
+          "last_trade_date": null,
+          "last_delivery_date": null
+        }
+      ]
+    }
+  }
+}

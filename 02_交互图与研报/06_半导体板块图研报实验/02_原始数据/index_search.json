@@ -1,0 +1,7 @@
+{
+  "name": "index_search",
+  "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93&asset_type=a-share-index&limit=30",
+  "fetched_at": "2026-09-15T09:20:45.302038+00:00",
+  "status": "network_error",
+  "error_type": "URLError"
+}

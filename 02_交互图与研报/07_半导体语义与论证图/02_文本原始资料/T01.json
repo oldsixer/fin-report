@@ -1,0 +1,16 @@
+{
+  "source_id": "T01",
+  "title": "兆易创新公司介绍",
+  "company": "603986.SH",
+  "url": "https://www.gigadevice.com/about/company-profile",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:34:55.732200+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "98a9a2f6fe113ecc3119b6afcf55107f990191e76c99bb831322d39f6abba8e8",
+  "raw_path": "02_文本原始资料/T01.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 1937,
+  "text_path": "03_文本证据/T01.txt",
+  "status": "ok"
+}

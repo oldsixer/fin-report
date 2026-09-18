@@ -1,0 +1,16 @@
+{
+  "source_id": "T12",
+  "title": "中芯国际公司介绍",
+  "company": "688981.SH",
+  "url": "https://www.smics.com/en/site/about_summary",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:35:02.287681+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "3d871ad828d9829d88b9fbc90670a217277886357b7db0803ba3b731b355de4f",
+  "raw_path": "02_文本原始资料/T12.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 4867,
+  "text_path": "03_文本证据/T12.txt",
+  "status": "ok"
+}

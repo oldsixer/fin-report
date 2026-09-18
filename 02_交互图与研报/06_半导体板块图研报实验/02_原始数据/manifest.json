@@ -1,0 +1,421 @@
+[
+  {
+    "name": "balance_002156.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=002156.SZ&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:22:32.621960+00:00",
+    "http_status": 200,
+    "sha256": "a32191815caf8a972d9d34e0b9b3248577ab8517150fe2905dc3008f2024d60e",
+    "bytes": 1351,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_002371.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=002371.SZ&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:22:06.118190+00:00",
+    "http_status": 200,
+    "sha256": "d1140e5a0893b02a28bcea0fa53458b46c7dfb4468d7f1e271054d1b2728041e",
+    "bytes": 1357,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_600584.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=600584.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:22:21.148507+00:00",
+    "http_status": 200,
+    "sha256": "87af4017ad8166b363ec1f7b37dc16724db271cad9b649782d0e5a30a2993856",
+    "bytes": 1353,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_603986.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=603986.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:21:43.410047+00:00",
+    "http_status": 200,
+    "sha256": "269df21388c745a6a7400716b87ce6ffc435af3c48303a30294c6f6c8d18d5e4",
+    "bytes": 1345,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_688008.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=688008.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:21:50.328915+00:00",
+    "http_status": 200,
+    "sha256": "0645739a04cd27a82de4bd948cb1d24cfc31268993a12bf239d6aca70e847964",
+    "bytes": 1345,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_688012.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=688012.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:22:13.203492+00:00",
+    "http_status": 200,
+    "sha256": "910e29c57b8cd0830af6b86a0f2b551a2c4fb8d6676b619be03631dd1c6e1cfc",
+    "bytes": 1351,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_688126.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=688126.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:22:42.500041+00:00",
+    "http_status": 200,
+    "sha256": "020e6a5089518c7a3b08e951eaaea541201591ee19ab2902d8ecc1f3b1af7d73",
+    "bytes": 1351,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "balance_688981.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/balance-sheets?thscode=688981.SH&period=quarterly&limit=3",
+    "fetched_at": "2026-09-15T09:21:58.302640+00:00",
+    "http_status": 200,
+    "sha256": "40b5555b530021304ef0cab3e79224c564d374ee7d0781c4e5bea4c2eb8a1c39",
+    "bytes": 1310,
+    "business_code": 0,
+    "item_count": 3
+  },
+  {
+    "name": "cash_002156.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=002156.SZ&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:35.489815+00:00",
+    "http_status": 200,
+    "sha256": "e9ee281f4e52a45bbd51370c1c1e6a38b4af290bec89a5d3f25f2ab505017388",
+    "bytes": 2708,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_002371.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=002371.SZ&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:08.940793+00:00",
+    "http_status": 200,
+    "sha256": "897dcbfd9d6df058ecc8072aacfb15a80edb208e75066afbfee31ea8bfe35fbb",
+    "bytes": 2700,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_600584.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=600584.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:24.953790+00:00",
+    "http_status": 200,
+    "sha256": "6bbbeb8936667c2bdb910bd377bc23f7e6a9291eea493e53803e426c495ff0d0",
+    "bytes": 2703,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_603986.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=603986.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:21:45.651858+00:00",
+    "http_status": 200,
+    "sha256": "10f299493748f9f422e1d32cc18cb38e874f6c35039809b5ebd1e08b49bf67b2",
+    "bytes": 2694,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_688008.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=688008.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:21:52.697344+00:00",
+    "http_status": 200,
+    "sha256": "e0cf2a9111fb3ff00086367b0a2a8f7f5d9b2ea9d6c4a7ed0654d25e70c05d70",
+    "bytes": 2681,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_688012.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=688012.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:15.403700+00:00",
+    "http_status": 200,
+    "sha256": "e9673c77e8b0cdce3aa54da474ef000d10457c6b9fcd960d655dc5b3ee376df8",
+    "bytes": 2674,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_688126.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=688126.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:46.270128+00:00",
+    "http_status": 200,
+    "sha256": "26c6f3dee5d1d78c3ede2a12fa837fd3ea91ece3fb35c4d95e286f83eacc43cf",
+    "bytes": 2692,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "cash_688981.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/cash-flow-statements?thscode=688981.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:00.599528+00:00",
+    "http_status": 200,
+    "sha256": "df231c661e755ca1d57394fbb00715af8ab1ccd55a3b02c7edc875eb700d9135",
+    "bytes": 2633,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "history_000300.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/historical?thscode=000300.SH&interval=1d&start=1781452800000&end=1789315200000",
+    "fetched_at": "2026-09-15T09:21:38.288307+00:00",
+    "http_status": 200,
+    "sha256": "488428300cc187b5fc52cb3f27dca01925d0cee1a07958252a750200cfc0adca",
+    "bytes": 10217,
+    "business_code": 0,
+    "item_count": 65
+  },
+  {
+    "name": "history_881121.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/historical?thscode=881121.TI&interval=1d&start=1781452800000&end=1789315200000",
+    "fetched_at": "2026-09-15T09:21:31.121257+00:00",
+    "http_status": 200,
+    "sha256": "5de7a0e16ab5f13d2f47c386c4223cfd7b97208d90a5b25c2527c766db28cd6a",
+    "bytes": 10668,
+    "business_code": 0,
+    "item_count": 65
+  },
+  {
+    "name": "history_884091.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/historical?thscode=884091.TI&interval=1d&start=1781452800000&end=1789315200000",
+    "fetched_at": "2026-09-15T09:21:35.919967+00:00",
+    "http_status": 200,
+    "sha256": "5af3f9cbfcea04389e4dc4991038b6c6f1068a6be0103ddb24298c2240a232e2",
+    "bytes": 10478,
+    "business_code": 0,
+    "item_count": 65
+  },
+  {
+    "name": "history_884229.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/historical?thscode=884229.TI&interval=1d&start=1781452800000&end=1789315200000",
+    "fetched_at": "2026-09-15T09:21:33.619771+00:00",
+    "http_status": 200,
+    "sha256": "117b0ff02202fba48446b8216394f4d4dfd3b082a9e4b2b6470549cf53ef2d42",
+    "bytes": 10552,
+    "business_code": 0,
+    "item_count": 65
+  },
+  {
+    "name": "income_002156.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=002156.SZ&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:30.429108+00:00",
+    "http_status": 200,
+    "sha256": "c9f703c7ae46cc1d5667e18be356f8c456e41d8c0ad4c40427cf36d39d427e39",
+    "bytes": 3635,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_002371.SZ",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=002371.SZ&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:02.849768+00:00",
+    "http_status": 200,
+    "sha256": "e679bd189d08eff4953c78e7d4ce0e999d662f20991e4c0c80ad2d809b986fcb",
+    "bytes": 3668,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_600584.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=600584.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:18.969339+00:00",
+    "http_status": 200,
+    "sha256": "beb5986f7d36d462c180641a006ff88310058c7f6b49c75124297def44677d9d",
+    "bytes": 3627,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_603986.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=603986.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:21:41.197045+00:00",
+    "http_status": 200,
+    "sha256": "ad55a1e6456d723f70671e54ca2be6db0b01b1a952a78dccb7f72f732c2a5021",
+    "bytes": 3624,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_688008.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=688008.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:21:47.981329+00:00",
+    "http_status": 200,
+    "sha256": "e475e8eff7a0a57b89c2e6fa64084e555b1fb29ed64fd5213ac270920e54ad00",
+    "bytes": 3612,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_688012.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=688012.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:11.087733+00:00",
+    "http_status": 200,
+    "sha256": "f5db16d50aaa8ed294ab26f1863b50ae223e6b4816476b43f2a77c31a6d7936f",
+    "bytes": 3623,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_688126.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=688126.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:22:38.232707+00:00",
+    "http_status": 200,
+    "sha256": "f20d8fb569483567d08bd352f1b6c1ba880e7435e57529479c50e8767a70caa6",
+    "bytes": 3646,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "income_688981.SH",
+    "url": "https://fuyao.aicubes.cn/api/a-share/financials/income-statements?thscode=688981.SH&period=quarterly&limit=6",
+    "fetched_at": "2026-09-15T09:21:56.103471+00:00",
+    "http_status": 200,
+    "sha256": "c45e2601b07cc0f254c0f3b5b367ad98a9ca9be1a6a9c60e5888db66fc29e2bf",
+    "bytes": 3473,
+    "business_code": 0,
+    "item_count": 6
+  },
+  {
+    "name": "index_search",
+    "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93&asset_type=a-share-index&limit=30",
+    "fetched_at": "2026-09-15T09:20:45.302038+00:00",
+    "status": "network_error",
+    "error_type": "URLError",
+    "business_code": null,
+    "item_count": 0
+  },
+  {
+    "name": "index_search_retry1",
+    "url": "https://fuyao.aicubes.cn/api/meta/tickers/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93&asset_type=a-share-index&limit=30",
+    "fetched_at": "2026-09-15T09:20:48.195323+00:00",
+    "http_status": 200,
+    "sha256": "9722b6317b275e54d0368c11d13c82f6a5c6717ab968bcfd9341cbd352ae8f8a",
+    "bytes": 1712,
+    "business_code": 0,
+    "item_count": 7
+  },
+  {
+    "name": "index_snapshot",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/snapshot?thscodes=881121.TI%2C884229.TI%2C884091.TI%2C000300.SH",
+    "fetched_at": "2026-09-15T09:21:27.895848+00:00",
+    "http_status": 200,
+    "sha256": "2ff25a2fa88d9e76b0f0bc5f24e034e097a247f67ec2a6f87be28773c5c27f53",
+    "bytes": 1141,
+    "business_code": 0,
+    "item_count": 4
+  },
+  {
+    "name": "members_881121.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=881121.TI",
+    "fetched_at": "2026-09-15T09:20:51.372526+00:00",
+    "http_status": 200,
+    "sha256": "4018a694743e93f95c646dc409d0681a7e0f3484005813f630651b90d569abf5",
+    "bytes": 12023,
+    "business_code": 0,
+    "item_count": 188
+  },
+  {
+    "name": "members_884091.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=884091.TI",
+    "fetched_at": "2026-09-15T09:20:58.773804+00:00",
+    "http_status": 200,
+    "sha256": "42cb5184bcc4a95d22739cc853f486aabfb3cb485173123342dfb118166c2b00",
+    "bytes": 1968,
+    "business_code": 0,
+    "item_count": 29
+  },
+  {
+    "name": "members_884229.TI",
+    "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=884229.TI",
+    "fetched_at": "2026-09-15T09:20:54.499097+00:00",
+    "http_status": 200,
+    "sha256": "4288e5c3387d00abdc0675e335fea5e68b7c6ee1949c5e7c6f36af941a4ec095",
+    "bytes": 1768,
+    "business_code": 0,
+    "item_count": 26
+  },
+  {
+    "name": "prices_01",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=001309.SZ%2C002049.SZ%2C002077.SZ%2C002119.SZ%2C002151.SZ%2C002156.SZ%2C002185.SZ%2C002213.SZ%2C002371.SZ%2C002409.SZ%2C003026.SZ%2C003043.SZ%2C300046.SZ%2C300053.SZ%2C300077.SZ%2C300223.SZ%2C300327.SZ%2C300373.SZ%2C300456.SZ%2C300458.SZ%2C300604.SZ%2C300613.SZ%2C300623.SZ%2C300661.SZ%2C300666.SZ%2C300671.SZ%2C300672.SZ%2C300706.SZ%2C300782.SZ%2C300831.SZ%2C301297.SZ%2C301308.SZ%2C301348.SZ%2C301369.SZ%2C301536.SZ%2C301583.SZ%2C301611.SZ%2C301629.SZ%2C301666.SZ%2C301678.SZ%2C301717.SZ%2C600171.SH%2C600198.SH%2C600206.SH%2C600360.SH%2C600460.SH%2C600584.SH%2C600641.SH%2C600745.SH%2C600877.SH",
+    "fetched_at": "2026-09-15T09:21:02.278754+00:00",
+    "http_status": 200,
+    "sha256": "8269b8ab68ac9193974b4f1407113d58d19541bacdaf64b0dd082267921171c8",
+    "bytes": 11564,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "prices_02",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=603005.SH%2C603061.SH%2C603068.SH%2C603160.SH%2C603290.SH%2C603316.SH%2C603375.SH%2C603501.SH%2C603690.SH%2C603893.SH%2C603986.SH%2C603991.SH%2C605111.SH%2C605358.SH%2C688002.SH%2C688008.SH%2C688012.SH%2C688018.SH%2C688037.SH%2C688041.SH%2C688045.SH%2C688047.SH%2C688048.SH%2C688049.SH%2C688052.SH%2C688061.SH%2C688072.SH%2C688082.SH%2C688099.SH%2C688107.SH%2C688110.SH%2C688120.SH%2C688123.SH%2C688126.SH%2C688130.SH%2C688135.SH%2C688138.SH%2C688141.SH%2C688147.SH%2C688153.SH%2C688167.SH%2C688172.SH%2C688173.SH%2C688200.SH%2C688209.SH%2C688213.SH%2C688216.SH%2C688220.SH%2C688230.SH%2C688233.SH",
+    "fetched_at": "2026-09-15T09:21:07.685703+00:00",
+    "http_status": 200,
+    "sha256": "fb4ab7c20b3c801097e76626ac51fcf1e2df06207ff46ec58f1c2d1bc98e7bd4",
+    "bytes": 11560,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "prices_03",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=688234.SH%2C688249.SH%2C688252.SH%2C688256.SH%2C688259.SH%2C688261.SH%2C688262.SH%2C688270.SH%2C688279.SH%2C688286.SH%2C688325.SH%2C688332.SH%2C688347.SH%2C688352.SH%2C688361.SH%2C688362.SH%2C688368.SH%2C688372.SH%2C688380.SH%2C688381.SH%2C688385.SH%2C688391.SH%2C688396.SH%2C688401.SH%2C688403.SH%2C688409.SH%2C688416.SH%2C688432.SH%2C688449.SH%2C688458.SH%2C688469.SH%2C688478.SH%2C688484.SH%2C688486.SH%2C688498.SH%2C688508.SH%2C688512.SH%2C688515.SH%2C688521.SH%2C688525.SH%2C688530.SH%2C688535.SH%2C688536.SH%2C688582.SH%2C688584.SH%2C688589.SH%2C688591.SH%2C688593.SH%2C688595.SH%2C688601.SH",
+    "fetched_at": "2026-09-15T09:21:14.403236+00:00",
+    "http_status": 200,
+    "sha256": "1a90617eb584c1291bcbd636ebbb8af984b5be87157a50d67fc2e159f60e7ecb",
+    "bytes": 11550,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "prices_04",
+    "url": "https://fuyao.aicubes.cn/api/a-share/prices/snapshot?thscodes=688605.SH%2C688608.SH%2C688620.SH%2C688652.SH%2C688653.SH%2C688661.SH%2C688689.SH%2C688691.SH%2C688693.SH%2C688699.SH%2C688702.SH%2C688709.SH%2C688711.SH%2C688720.SH%2C688721.SH%2C688727.SH%2C688728.SH%2C688729.SH%2C688766.SH%2C688783.SH%2C688785.SH%2C688790.SH%2C688795.SH%2C688797.SH%2C688798.SH%2C688801.SH%2C688802.SH%2C688807.SH%2C688809.SH%2C688820.SH%2C688825.SH%2C688981.SH%2C920012.BJ%2C920138.BJ%2C920139.BJ%2C920179.BJ%2C920186.BJ%2C920526.BJ",
+    "fetched_at": "2026-09-15T09:21:21.293890+00:00",
+    "http_status": 200,
+    "sha256": "f60eca3f2038fcd2932510bb4ab454d94cca52758e258f3bc28cff5978456239",
+    "bytes": 8773,
+    "business_code": 0,
+    "item_count": 38
+  },
+  {
+    "name": "valuations_01",
+    "url": "https://fuyao.aicubes.cn/api/a-share/valuations/snapshot?thscodes=001309.SZ%2C002049.SZ%2C002077.SZ%2C002119.SZ%2C002151.SZ%2C002156.SZ%2C002185.SZ%2C002213.SZ%2C002371.SZ%2C002409.SZ%2C003026.SZ%2C003043.SZ%2C300046.SZ%2C300053.SZ%2C300077.SZ%2C300223.SZ%2C300327.SZ%2C300373.SZ%2C300456.SZ%2C300458.SZ%2C300604.SZ%2C300613.SZ%2C300623.SZ%2C300661.SZ%2C300666.SZ%2C300671.SZ%2C300672.SZ%2C300706.SZ%2C300782.SZ%2C300831.SZ%2C301297.SZ%2C301308.SZ%2C301348.SZ%2C301369.SZ%2C301536.SZ%2C301583.SZ%2C301611.SZ%2C301629.SZ%2C301666.SZ%2C301678.SZ%2C301717.SZ%2C600171.SH%2C600198.SH%2C600206.SH%2C600360.SH%2C600460.SH%2C600584.SH%2C600641.SH%2C600745.SH%2C600877.SH",
+    "fetched_at": "2026-09-15T09:21:04.683235+00:00",
+    "http_status": 200,
+    "sha256": "438cbd75f79c1cc7edf0c637216d4023cd392ac61eeee4e867c8a81a7e27e11f",
+    "bytes": 8075,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "valuations_02",
+    "url": "https://fuyao.aicubes.cn/api/a-share/valuations/snapshot?thscodes=603005.SH%2C603061.SH%2C603068.SH%2C603160.SH%2C603290.SH%2C603316.SH%2C603375.SH%2C603501.SH%2C603690.SH%2C603893.SH%2C603986.SH%2C603991.SH%2C605111.SH%2C605358.SH%2C688002.SH%2C688008.SH%2C688012.SH%2C688018.SH%2C688037.SH%2C688041.SH%2C688045.SH%2C688047.SH%2C688048.SH%2C688049.SH%2C688052.SH%2C688061.SH%2C688072.SH%2C688082.SH%2C688099.SH%2C688107.SH%2C688110.SH%2C688120.SH%2C688123.SH%2C688126.SH%2C688130.SH%2C688135.SH%2C688138.SH%2C688141.SH%2C688147.SH%2C688153.SH%2C688167.SH%2C688172.SH%2C688173.SH%2C688200.SH%2C688209.SH%2C688213.SH%2C688216.SH%2C688220.SH%2C688230.SH%2C688233.SH",
+    "fetched_at": "2026-09-15T09:21:11.273488+00:00",
+    "http_status": 200,
+    "sha256": "c0c5c2c22325fadcd93098c710ac2719be6760213b19d6f15d02cb2ba8bdc2e6",
+    "bytes": 8111,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "valuations_03",
+    "url": "https://fuyao.aicubes.cn/api/a-share/valuations/snapshot?thscodes=688234.SH%2C688249.SH%2C688252.SH%2C688256.SH%2C688259.SH%2C688261.SH%2C688262.SH%2C688270.SH%2C688279.SH%2C688286.SH%2C688325.SH%2C688332.SH%2C688347.SH%2C688352.SH%2C688361.SH%2C688362.SH%2C688368.SH%2C688372.SH%2C688380.SH%2C688381.SH%2C688385.SH%2C688391.SH%2C688396.SH%2C688401.SH%2C688403.SH%2C688409.SH%2C688416.SH%2C688432.SH%2C688449.SH%2C688458.SH%2C688469.SH%2C688478.SH%2C688484.SH%2C688486.SH%2C688498.SH%2C688508.SH%2C688512.SH%2C688515.SH%2C688521.SH%2C688525.SH%2C688530.SH%2C688535.SH%2C688536.SH%2C688582.SH%2C688584.SH%2C688589.SH%2C688591.SH%2C688593.SH%2C688595.SH%2C688601.SH",
+    "fetched_at": "2026-09-15T09:21:18.863882+00:00",
+    "http_status": 200,
+    "sha256": "344ffa5137c28fc063453e5292110eee28e661df04b1ad0d9783357cdf41579a",
+    "bytes": 8122,
+    "business_code": 0,
+    "item_count": 50
+  },
+  {
+    "name": "valuations_04",
+    "url": "https://fuyao.aicubes.cn/api/a-share/valuations/snapshot?thscodes=688605.SH%2C688608.SH%2C688620.SH%2C688652.SH%2C688653.SH%2C688661.SH%2C688689.SH%2C688691.SH%2C688693.SH%2C688699.SH%2C688702.SH%2C688709.SH%2C688711.SH%2C688720.SH%2C688721.SH%2C688727.SH%2C688728.SH%2C688729.SH%2C688766.SH%2C688783.SH%2C688785.SH%2C688790.SH%2C688795.SH%2C688797.SH%2C688798.SH%2C688801.SH%2C688802.SH%2C688807.SH%2C688809.SH%2C688820.SH%2C688825.SH%2C688981.SH%2C920012.BJ%2C920138.BJ%2C920139.BJ%2C920179.BJ%2C920186.BJ%2C920526.BJ",
+    "fetched_at": "2026-09-15T09:21:24.911167+00:00",
+    "http_status": 200,
+    "sha256": "f01140ad43002ffc2d6f747c40d360f61aeac1d9de16403d6c40165f8a685f41",
+    "bytes": 6245,
+    "business_code": 0,
+    "item_count": 38
+  }
+]

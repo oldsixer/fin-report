@@ -1,0 +1,77 @@
+[
+  {
+    "source_id": "T03",
+    "subject": "第二子代MRCD和MDB套片",
+    "object": "DDR5多路复用双列直插内存模组（MRDIMM）",
+    "quote": "该套片专为DDR5多路复用双列直插内存模组 (MRDIMM) 而设计，最高支持12800 MT/s传输速率，旨在为下一代计算平台提供卓越的内存性能。",
+    "time": "2025-01-24",
+    "qualifiers": "最高支持12800 MT/s传输速率",
+    "subject_type": "产品",
+    "object_type": "产品",
+    "relation": "应用于",
+    "status": "公司披露",
+    "errors": [
+      "quote_not_exact_contiguous_span"
+    ]
+  },
+  {
+    "source_id": "PSE V300Gi",
+    "subject": "PSE V300Gi",
+    "object": "TSV孔洞刻蚀",
+    "quote": "北方华创自主研发的深孔刻蚀设备\nPSE V300Gi\n通过超快步间切换和实时控制算法，实现了侧壁无损伤、形貌光滑以及高速率刻蚀",
+    "time": "2025-05-28",
+    "qualifiers": "公司披露；深孔刻蚀设备，用于TSV孔洞形成环节。",
+    "subject_type": "产品",
+    "object_type": "工艺",
+    "relation": "用于工艺",
+    "status": "公司披露",
+    "errors": [
+      "unknown_source"
+    ]
+  },
+  {
+    "source_id": "T18",
+    "subject": "长电科技",
+    "object": "SiP、WL-CSP、FC、eWLB、PiP、PoP及XDFOI®系列先进封装技术",
+    "quote": "在高算力及对应存储和连接、AI 端侧、功率与能源、汽车和工业等重要领域拥有行业领先的半导体先进封装技术（如 SiP、WL-CSP、FC、eWLB、PiP、PoP 及\nXDFOI®系列等）以及混合信号/射频集成电路测试和资源优势，并实现规模量产",
+    "time": "2024年上半年",
+    "qualifiers": "应用领域包括高算力及对应存储和连接、人工智能端侧、功率与能源、汽车和工业；已实现规模量产",
+    "subject_type": "公司",
+    "object_type": "技术",
+    "relation": "提供技术",
+    "status": "公司披露",
+    "errors": [
+      "quote_not_exact_contiguous_span"
+    ]
+  },
+  {
+    "source_id": "T18",
+    "subject": "XDFOI® Chiplet高密度多维异构集成系列工艺",
+    "object": "稳定量产阶段",
+    "quote": "在高性能先进封装领域，公司推出的 XDFOI® Chiplet 高密度多维异构集成系列工艺已按计划进入稳定量产阶段。",
+    "time": "2024年上半年",
+    "qualifiers": "按计划进入",
+    "subject_type": "工艺",
+    "object_type": "事件",
+    "relation": "宣布量产",
+    "status": "公司披露",
+    "errors": [
+      "quote_not_exact_contiguous_span"
+    ]
+  },
+  {
+    "source_id": "T19",
+    "subject": "沪硅产业",
+    "object": "产能爬坡、折旧、减值和市场竞争加剧风险",
+    "quote": "公司新建产能释放过程中，可能面临产能爬坡不及预期、固定资产折旧增加、资产减值及市场竞争加剧等风险。",
+    "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+    "qualifiers": "风险提示；发生与程度存在不确定性",
+    "subject_type": "公司",
+    "object_type": "风险",
+    "relation": "面临风险",
+    "status": "公司披露",
+    "errors": [
+      "quote_not_exact_contiguous_span"
+    ]
+  }
+]

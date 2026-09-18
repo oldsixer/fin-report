@@ -1,0 +1,163 @@
+{
+  "name": "members_884091.TI",
+  "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=884091.TI",
+  "fetched_at": "2026-09-15T09:20:58.773804+00:00",
+  "http_status": 200,
+  "sha256": "42cb5184bcc4a95d22739cc853f486aabfb3cb485173123342dfb118166c2b00",
+  "bytes": 1968,
+  "payload": {
+    "code": 0,
+    "message": "success",
+    "request_id": "3138cc8746664b2884ce002a32dd4aa3",
+    "data": {
+      "timestamp": 1789464063796,
+      "item": [
+        {
+          "thscode": "002119.SZ",
+          "ticker": "002119",
+          "name": "康强电子"
+        },
+        {
+          "thscode": "002409.SZ",
+          "ticker": "002409",
+          "name": "雅克科技"
+        },
+        {
+          "thscode": "003026.SZ",
+          "ticker": "003026",
+          "name": "中晶科技"
+        },
+        {
+          "thscode": "300666.SZ",
+          "ticker": "300666",
+          "name": "江丰电子"
+        },
+        {
+          "thscode": "300706.SZ",
+          "ticker": "300706",
+          "name": "阿石创"
+        },
+        {
+          "thscode": "301611.SZ",
+          "ticker": "301611",
+          "name": "珂玛科技"
+        },
+        {
+          "thscode": "301678.SZ",
+          "ticker": "301678",
+          "name": "新恒汇"
+        },
+        {
+          "thscode": "600206.SH",
+          "ticker": "600206",
+          "name": "有研新材"
+        },
+        {
+          "thscode": "600641.SH",
+          "ticker": "600641",
+          "name": "先导基电"
+        },
+        {
+          "thscode": "603991.SH",
+          "ticker": "603991",
+          "name": "领先股份"
+        },
+        {
+          "thscode": "605358.SH",
+          "ticker": "605358",
+          "name": "立昂微"
+        },
+        {
+          "thscode": "688126.SH",
+          "ticker": "688126",
+          "name": "沪硅产业"
+        },
+        {
+          "thscode": "688138.SH",
+          "ticker": "688138",
+          "name": "清溢光电"
+        },
+        {
+          "thscode": "688233.SH",
+          "ticker": "688233",
+          "name": "神工股份"
+        },
+        {
+          "thscode": "688234.SH",
+          "ticker": "688234",
+          "name": "天岳先进"
+        },
+        {
+          "thscode": "688401.SH",
+          "ticker": "688401",
+          "name": "路维光电"
+        },
+        {
+          "thscode": "688432.SH",
+          "ticker": "688432",
+          "name": "有研硅"
+        },
+        {
+          "thscode": "688530.SH",
+          "ticker": "688530",
+          "name": "欧莱新材"
+        },
+        {
+          "thscode": "688535.SH",
+          "ticker": "688535",
+          "name": "华海诚科"
+        },
+        {
+          "thscode": "688584.SH",
+          "ticker": "688584",
+          "name": "上海合晶"
+        },
+        {
+          "thscode": "688661.SH",
+          "ticker": "688661",
+          "name": "和林微纳"
+        },
+        {
+          "thscode": "688720.SH",
+          "ticker": "688720",
+          "name": "艾森股份"
+        },
+        {
+          "thscode": "688721.SH",
+          "ticker": "688721",
+          "name": "龙图光罩"
+        },
+        {
+          "thscode": "688727.SH",
+          "ticker": "688727",
+          "name": "恒坤新材"
+        },
+        {
+          "thscode": "688783.SH",
+          "ticker": "688783",
+          "name": "西安奕材-U"
+        },
+        {
+          "thscode": "688797.SH",
+          "ticker": "688797",
+          "name": "臻宝科技"
+        },
+        {
+          "thscode": "920012.BJ",
+          "ticker": "920012",
+          "name": "创达新材"
+        },
+        {
+          "thscode": "920179.BJ",
+          "ticker": "920179",
+          "name": "凯德石英"
+        },
+        {
+          "thscode": "920526.BJ",
+          "ticker": "920526",
+          "name": "凯华材料"
+        }
+      ]
+    }
+  }
+}

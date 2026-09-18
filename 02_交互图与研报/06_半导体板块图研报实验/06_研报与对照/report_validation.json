@@ -1,0 +1,403 @@
+{
+  "raw": {
+    "usage": {
+      "input_tokens": 137401,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3761,
+      "reasoning_output_tokens": 45
+    },
+    "report_characters": 5194,
+    "unknown_citations": [],
+    "nontext_trace_items": [],
+    "excluded_topic_hits": [],
+    "table_checks": [
+      {
+        "company": "兆易创新",
+        "reported": [
+          115.66,
+          178.67,
+          68.57,
+          60.48,
+          51.03,
+          32.24
+        ],
+        "expected": [
+          115.657604,
+          178.672298,
+          68.567864,
+          60.483411,
+          51.032356,
+          32.237144
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "澜起科技",
+        "reported": [
+          33.35,
+          26.66,
+          19.97,
+          13.28,
+          10.73,
+          74.58
+        ],
+        "expected": [
+          33.354975,
+          26.65854,
+          19.973745,
+          13.28028,
+          10.727345,
+          74.581342
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "中芯国际",
+        "reported": [
+          386.35,
+          19.44,
+          44.67,
+          207.6,
+          10.35,
+          136.45
+        ],
+        "expected": [
+          386.35115,
+          19.435688,
+          44.67431,
+          207.59511,
+          10.34856,
+          136.453574
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "北方华创",
+        "reported": [
+          201.61,
+          24.9,
+          33.7,
+          37.74,
+          29.43,
+          81.47
+        ],
+        "expected": [
+          201.614169,
+          24.903876,
+          33.700207,
+          37.736988,
+          29.432245,
+          81.474834
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "中微公司",
+        "reported": [
+          66.91,
+          34.89,
+          28.25,
+          6.85,
+          -0.92,
+          74.85
+        ],
+        "expected": [
+          66.912873,
+          34.888635,
+          28.251946,
+          6.845535,
+          -0.923826,
+          74.847864
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "长电科技",
+        "reported": [
+          195.27,
+          4.96,
+          8.45,
+          29.64,
+          -17.36,
+          61.7
+        ],
+        "expected": [
+          195.272233,
+          4.955593,
+          8.446443,
+          29.644269,
+          -17.357184,
+          61.698953
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "通富微电",
+        "reported": [
+          160.41,
+          23.03,
+          17.17,
+          29.33,
+          -22.66,
+          34.46
+        ],
+        "expected": [
+          160.410199,
+          23.030504,
+          17.174586,
+          29.32767,
+          -22.659596,
+          34.457571
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "沪硅产业",
+        "reported": [
+          23.17,
+          36.51,
+          -9.65,
+          1.79,
+          -19.69,
+          -34.4
+        ],
+        "expected": [
+          23.172448,
+          36.514677,
+          -9.651519,
+          1.789875,
+          -19.687307,
+          -34.3979
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      }
+    ],
+    "table_values_checked": 48,
+    "all_table_values_match": true,
+    "all_rows_have_sources": true,
+    "prompt_characters": 346752
+  },
+  "graph": {
+    "usage": {
+      "input_tokens": 162653,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4058,
+      "reasoning_output_tokens": 0
+    },
+    "report_characters": 5531,
+    "unknown_citations": [],
+    "nontext_trace_items": [],
+    "excluded_topic_hits": [],
+    "table_checks": [
+      {
+        "company": "兆易创新",
+        "reported": [
+          115.66,
+          178.67,
+          68.57,
+          60.48,
+          51.03,
+          32.24
+        ],
+        "expected": [
+          115.657604,
+          178.672298,
+          68.567864,
+          60.483411,
+          51.032356,
+          32.237144
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "澜起科技",
+        "reported": [
+          33.35,
+          26.66,
+          19.97,
+          13.28,
+          10.73,
+          74.58
+        ],
+        "expected": [
+          33.354975,
+          26.65854,
+          19.973745,
+          13.28028,
+          10.727345,
+          74.581342
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "中芯国际",
+        "reported": [
+          386.35,
+          19.44,
+          44.67,
+          207.6,
+          10.35,
+          136.45
+        ],
+        "expected": [
+          386.35115,
+          19.435688,
+          44.67431,
+          207.59511,
+          10.34856,
+          136.453574
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "北方华创",
+        "reported": [
+          201.61,
+          24.9,
+          33.7,
+          37.74,
+          29.43,
+          81.47
+        ],
+        "expected": [
+          201.614169,
+          24.903876,
+          33.700207,
+          37.736988,
+          29.432245,
+          81.474834
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "中微公司",
+        "reported": [
+          66.91,
+          34.89,
+          28.25,
+          6.85,
+          -0.92,
+          74.85
+        ],
+        "expected": [
+          66.912873,
+          34.888635,
+          28.251946,
+          6.845535,
+          -0.923826,
+          74.847864
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "长电科技",
+        "reported": [
+          195.27,
+          4.96,
+          8.45,
+          29.64,
+          -17.36,
+          61.7
+        ],
+        "expected": [
+          195.272233,
+          4.955593,
+          8.446443,
+          29.644269,
+          -17.357184,
+          61.698953
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "通富微电",
+        "reported": [
+          160.41,
+          23.03,
+          17.17,
+          29.33,
+          -22.66,
+          34.46
+        ],
+        "expected": [
+          160.410199,
+          23.030504,
+          17.174586,
+          29.32767,
+          -22.659596,
+          34.457571
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      },
+      {
+        "company": "沪硅产业",
+        "reported": [
+          23.17,
+          36.51,
+          -9.65,
+          1.79,
+          -19.69,
+          -34.4
+        ],
+        "expected": [
+          23.172448,
+          36.514677,
+          -9.651519,
+          1.789875,
+          -19.687307,
+          -34.3979
+        ],
+        "numeric_pass": true,
+        "row_source_ids_present": true
+      }
+    ],
+    "table_values_checked": 48,
+    "all_table_values_match": true,
+    "all_rows_have_sources": true,
+    "prompt_characters": 421636
+  },
+  "integrity": {
+    "source_hashes_checked": 41,
+    "all_match": true,
+    "same_evidence": {
+      "nodes": 1197,
+      "edges": 3746,
+      "node_types": {
+        "company": 188,
+        "index": 4,
+        "concept": 1,
+        "source": 41,
+        "observation": 926,
+        "period": 2,
+        "event": 16,
+        "calculation": 19
+      },
+      "raw_records": 926,
+      "graph_records": 926,
+      "every_record_hash_matches": true,
+      "same_derived": true,
+      "same_sources": true,
+      "all_edge_endpoints_exist": true,
+      "financial_samples": 8,
+      "main_constituents": 188,
+      "method": "结构化API确定性映射；无文本抽取、GNN、自动因果推断；按实体组织输入，不重复提供同一记录。"
+    }
+  }
+}

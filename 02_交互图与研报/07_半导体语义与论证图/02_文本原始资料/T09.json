@@ -1,0 +1,16 @@
+{
+  "source_id": "T09",
+  "title": "通富与AMD历史交易公告",
+  "company": "002156.SZ",
+  "url": "https://www.tfme.com/news/400.html",
+  "publication_date": "2015-10-17",
+  "retrieved_at": "2026-09-15T11:35:00.368885+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "1fbc81846e216f591a6cc268431f002cd1fd2b716fd1d6e7f1fe46413bda5651",
+  "raw_path": "02_文本原始资料/T09.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 2566,
+  "text_path": "03_文本证据/T09.txt",
+  "status": "ok"
+}

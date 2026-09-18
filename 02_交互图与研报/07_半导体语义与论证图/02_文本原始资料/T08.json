@@ -1,0 +1,16 @@
+{
+  "source_id": "T08",
+  "title": "通富微电公司介绍",
+  "company": "002156.SZ",
+  "url": "https://www.tfme.com/About.html",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:34:58.703903+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "e9a0888a0851b779a28c36c675b4b17997dc6976e9e2c6d9084db0d1ae775afa",
+  "raw_path": "02_文本原始资料/T08.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 917,
+  "text_path": "03_文本证据/T08.txt",
+  "status": "ok"
+}

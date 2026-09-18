@@ -1,0 +1,12 @@
+{
+  "raw_pointer_roundtrips": 926,
+  "all_passed": true,
+  "derived_dependency_groups": 19,
+  "financial_recalculations": 40,
+  "index_recalculations": 8,
+  "balance_sheet_identities": 8,
+  "cross_section_denominators": 3,
+  "credential_occurrences": 0,
+  "files_scanned": 127,
+  "topic_check": "本轮数据、图、输入和报告无旧主题内容；不扫描旧实验"
+}

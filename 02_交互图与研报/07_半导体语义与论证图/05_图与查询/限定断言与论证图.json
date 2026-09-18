@@ -1,0 +1,5120 @@
+{
+  "nodes": [
+    {
+      "id": "E0cbd5ae0a6d8",
+      "label": "兆易创新",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E1cfc2bf8c5e8",
+      "label": "Flash存储器",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ef75e2ab26b87",
+      "label": "32位通用MCU",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb083fae21983",
+      "label": "智能人机交互传感器",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E55a15ade16ac",
+      "label": "模拟产品及解决方案",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ecfcafb8959f2",
+      "label": "车规级Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ecdcf0dde6184",
+      "label": "车规级MCU",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E997d2a2c08f1",
+      "label": "系统基础芯片（SBC）",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E9ca3787ebc8d",
+      "label": "车规级SPI NOR Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebb9f9ebce57e",
+      "label": "汽车电子系统",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ec48faa06b2e0",
+      "label": "车规级SPI NAND Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E25de611a7aaa",
+      "label": "车身控制",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E5226fae7cc30",
+      "label": "车用照明",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E7458239c919c",
+      "label": "智能座舱",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ecb3d75376550",
+      "label": "辅助驾驶",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E5e563bd5878d",
+      "label": "电机电源",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E274913faacef",
+      "label": "车规级产品",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ec960755850b1",
+      "label": "AEC-Q100",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "Ede4cbdfcc749",
+      "label": "澜起科技",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E6fc055dd40a2",
+      "label": "第二子代MRCD和MDB套片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E1b1076ae4d04",
+      "label": "MRCD和MDB",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E5979cc0543d1",
+      "label": "DDR5 MRDIMM",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E6dc5a27366f9",
+      "label": "第一子代MRCD和MDB套片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Edab1e174db32",
+      "label": "8800 MT/s数据速率",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "Ed7d501386683",
+      "label": "12800 MT/s数据速率",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4abc66c6caf3",
+      "label": "DDR5第五子代RCD芯片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebbc0409c4f97",
+      "label": "PCIe 5.0/CXL 2.0 Retimer",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E426f5f7f18f2",
+      "label": "PCIe 4.0 Retimer",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebe0cc94f44c1",
+      "label": "云计算",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee615d0f10439",
+      "label": "高性能计算",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E1c01281d3eb9",
+      "label": "PCI-SIG和CXL规范",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "Edcf2c0f5971f",
+      "label": "32 GT/s",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4631092f41c4",
+      "label": "下一代服务器",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee04018a8b9e2",
+      "label": "企业存储",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eea5d15dd5619",
+      "label": "加速系统",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E7ee8a205eba1",
+      "label": "北方华创",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eaf3241908cc7",
+      "label": "TSV工艺全链条解决方案",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb8097c831c29",
+      "label": "TSV孔洞刻蚀",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E58a3aa63ce66",
+      "label": "去胶处理",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E4ffe17201c6a",
+      "label": "ACE I300V",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E2a77cec8e848",
+      "label": "Ascent 3120G",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E48d16566d0ab",
+      "label": "清洗作业",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "Ec2358a824df5",
+      "label": "SC3080D",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E8f70efc6a261",
+      "label": "Cygnus Capella SiO",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ef4281767fe6b",
+      "label": "绝缘层沉积",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E12075f4ccdc4",
+      "label": "eVictor CX30T II",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E4b6ade2efb08",
+      "label": "阻挡层/种子层沉积",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E75e3404286ca",
+      "label": "电镀填充",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E676c745eb375",
+      "label": "Ausip T830",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E080480779439",
+      "label": "退火处理",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E8283f2d2b133",
+      "label": "THEORIS A302L",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ed529f208a38f",
+      "label": "铜退火",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E19d9bbf5be1a",
+      "label": "通富微电",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eb396114c1b7a",
+      "label": "设计仿真和封装测试一站式服务",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E1f385bed36c0",
+      "label": "网络通讯",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ef99cdec7dc20",
+      "label": "移动终端",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eb2a5a4ed9613",
+      "label": "家用电器",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E161332dd5ba2",
+      "label": "人工智能",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E1b3d54b5cf17",
+      "label": "汽车电子",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E40ee5f89f414",
+      "label": "集成电路封装测试",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E131507539710",
+      "label": "通富微电2015年AMD交易",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E8ce39f1a4319",
+      "label": "AMD苏州和AMD槟城各85%股权",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E5c01fc615863",
+      "label": "相关政府部门审批",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E55f4d2a12e03",
+      "label": "AMD苏州和AMD槟城",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ef3a903ef2a7f",
+      "label": "高端集成电路封测业务",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E0478b2225514",
+      "label": "FCBGA、FCPGA、FCLGA、MCM",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E0fd3e4e71b62",
+      "label": "AMD",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ea664971148cf",
+      "label": "Bumping技术",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E965733bb4acc",
+      "label": "12英寸28纳米手机处理器芯片后工序全制程大规模生产",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E18126b597cb2",
+      "label": "中芯国际",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E0da1da125604",
+      "label": "半导体晶圆代工和技术服务",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E2f1fb62ecae4",
+      "label": "8英寸晶圆代工",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E66832f83edbe",
+      "label": "12英寸晶圆代工",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E77c43aa5a725",
+      "label": "SEMI",
+      "type": "组织",
+      "types": [
+        "组织"
+      ]
+    },
+    {
+      "id": "E6e0e1894cfc3",
+      "label": "2026Q2全球半导体设备账单额 US$40.53 billion",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E8ba99d335e7d",
+      "label": "SEMI对2026Q2设备账单增长的解释",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E821f603eb2ed",
+      "label": "人工智能基础设施投资",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eb86c89a6c326",
+      "label": "WWSEMS报告",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "E9b4ced75ab14",
+      "label": "成员提交的全球半导体设备月度账单汇总",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4c01845a215b",
+      "label": "2026年全球设备销售额 $165.9 billion；同比23.2%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "Ef21c2eda0868",
+      "label": "2028年全球设备销售额 $229.5 billion",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E9e9595978fa1",
+      "label": "2026年WFE销售额 $143.9 billion；同比23.1%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E77184c7c7251",
+      "label": "2026年测试设备销售额 $15.3 billion；同比31.0%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E52e8e580c4ea",
+      "label": "2026年封装设备销售额 $6.7 billion；同比9.6%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E25bf64178f52",
+      "label": "长电科技",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E1259eb50bee9",
+      "label": "半导体微系统集成和封装测试服务",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E5cda912a8314",
+      "label": "XDFOI",
+      "type": "工艺",
+      "types": [
+        "工艺",
+        "技术"
+      ]
+    },
+    {
+      "id": "E2db23c263faf",
+      "label": "2D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E03349d81cb6b",
+      "label": "2.5D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ecabd3a3d7ff2",
+      "label": "3D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E7e83d640a0d4",
+      "label": "5G",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ed1a4c3dcf7e4",
+      "label": "DRAM、Flash等存储芯片封测服务",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb98e005788df",
+      "label": "沪硅产业",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E3b7ed9aea60c",
+      "label": "300mm半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E42b37b9d0c39",
+      "label": "200mm及以下半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E8b25ba1df4b6",
+      "label": "抛光片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E28fb725038a3",
+      "label": "外延片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E75fbf79a1b62",
+      "label": "SOI硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E9db4c2f368d8",
+      "label": "压电薄膜衬底材料",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Efe82152e2361",
+      "label": "沪硅产业半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E33aeeebac2d3",
+      "label": "存储芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E6829e2935e32",
+      "label": "逻辑芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ea0fa1584271a",
+      "label": "硅光芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E45744a2e0396",
+      "label": "图像处理芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee6a7a585b65b",
+      "label": "通用处理器芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E17cbeb005147",
+      "label": "功率芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E39491d21a453",
+      "label": "射频芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eff8816874f46",
+      "label": "模拟芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E2e53237e7d90",
+      "label": "分立芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E0ee8aab013d1",
+      "label": "华虹宏力",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ea9b9e1e5150e",
+      "label": "华润微",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E80922ff3f89d",
+      "label": "Okmetic",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E3dd0b848c032",
+      "label": "单晶生长",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E7a1323dc782f",
+      "label": "切割",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E5f2a071aa248",
+      "label": "研磨",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E2ac2e3394004",
+      "label": "抛光",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ea0e87414e2cd",
+      "label": "外延",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ec276c26a85a7",
+      "label": "SOI",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ec1af16c4ecaa",
+      "label": "300mm近完美单晶生长",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E5a1730cb88c8",
+      "label": "超平坦抛光工艺",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E42f3f447b33b",
+      "label": "极限表征",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E952589f06560",
+      "label": "中微公司",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eddba52775701",
+      "label": "CCP高能等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eecfb2aacd7ee",
+      "label": "MOCVD设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E6165b58ede71",
+      "label": "LPCVD设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E22d6e989dc2f",
+      "label": "LED和功率器件外延片生产",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "Edc69beffed33",
+      "label": "中微公司等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ead278259d686",
+      "label": "先进工艺芯片加工制造与封装",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E026c74304869",
+      "label": "中微公司硅通孔刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ed8ab013a06e9",
+      "label": "PSE V300Gi",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eae5899ed3cb6",
+      "label": "ICP低能等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Efca171475604",
+      "label": "TSV",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E1782fefe353a",
+      "label": "消费电子",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E04f7acfcd28c",
+      "label": "数据中心",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "F001",
+      "label": "兆易创新 → 提供产品 → Flash存储器",
+      "type": "证据断言",
+      "source_id": "T01"
+    },
+    {
+      "id": "F002",
+      "label": "兆易创新 → 提供产品 → 32位通用MCU",
+      "type": "证据断言",
+      "source_id": "T01"
+    },
+    {
+      "id": "F003",
+      "label": "兆易创新 → 提供产品 → 智能人机交互传感器",
+      "type": "证据断言",
+      "source_id": "T01"
+    },
+    {
+      "id": "F004",
+      "label": "兆易创新 → 提供产品 → 模拟产品及解决方案",
+      "type": "证据断言",
+      "source_id": "T01"
+    },
+    {
+      "id": "F005",
+      "label": "兆易创新 → 提供产品 → 车规级Flash",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F006",
+      "label": "兆易创新 → 提供产品 → 车规级MCU",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F007",
+      "label": "兆易创新 → 提供产品 → 系统基础芯片（SBC）",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F008",
+      "label": "车规级SPI NOR Flash → 应用于 → 汽车电子系统",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F009",
+      "label": "车规级SPI NAND Flash → 应用于 → 汽车电子系统",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F010",
+      "label": "车规级MCU → 应用于 → 车身控制",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F011",
+      "label": "车规级MCU → 应用于 → 车用照明",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F012",
+      "label": "车规级MCU → 应用于 → 智能座舱",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F013",
+      "label": "车规级MCU → 应用于 → 辅助驾驶",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F014",
+      "label": "车规级MCU → 应用于 → 电机电源",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F015",
+      "label": "车规级产品 → 兼容标准 → AEC-Q100",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F016",
+      "label": "澜起科技 → 宣布送样 → 第二子代MRCD和MDB套片",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F017",
+      "label": "MRCD和MDB → 应用于 → DDR5 MRDIMM",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F018",
+      "label": "第一子代MRCD和MDB套片 → 技术特征 → 8800 MT/s数据速率",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F019",
+      "label": "第二子代MRCD和MDB套片 → 技术特征 → 12800 MT/s数据速率",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F020",
+      "label": "澜起科技 → 宣布送样 → DDR5第五子代RCD芯片",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F021",
+      "label": "澜起科技 → 宣布量产 → PCIe 5.0/CXL 2.0 Retimer",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F022",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 升级自 → PCIe 4.0 Retimer",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F023",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 应用于 → 云计算",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F024",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 应用于 → 高性能计算",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F025",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 兼容标准 → PCI-SIG和CXL规范",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F026",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 技术特征 → 32 GT/s",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F027",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 应用于 → 下一代服务器",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F028",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 应用于 → 企业存储",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F029",
+      "label": "PCIe 5.0/CXL 2.0 Retimer → 应用于 → 加速系统",
+      "type": "证据断言",
+      "source_id": "T04"
+    },
+    {
+      "id": "F030",
+      "label": "北方华创 → 提供产品 → TSV工艺全链条解决方案",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F031",
+      "label": "TSV孔洞刻蚀 → 前序工艺 → 去胶处理",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F032",
+      "label": "ACE I300V → 用于工艺 → 去胶处理",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F033",
+      "label": "Ascent 3120G → 用于工艺 → 清洗作业",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F034",
+      "label": "SC3080D → 用于工艺 → 清洗作业",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F035",
+      "label": "Cygnus Capella SiO → 用于工艺 → 绝缘层沉积",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F036",
+      "label": "eVictor CX30T II → 用于工艺 → 阻挡层/种子层沉积",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F037",
+      "label": "阻挡层/种子层沉积 → 前序工艺 → 电镀填充",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F038",
+      "label": "Ausip T830 → 用于工艺 → 电镀填充",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F039",
+      "label": "电镀填充 → 前序工艺 → 退火处理",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F040",
+      "label": "THEORIS A302L → 用于工艺 → 铜退火",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F041",
+      "label": "通富微电 → 提供服务 → 设计仿真和封装测试一站式服务",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F042",
+      "label": "通富微电 → 应用于 → 网络通讯",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F043",
+      "label": "通富微电 → 应用于 → 移动终端",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F044",
+      "label": "通富微电 → 应用于 → 家用电器",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F045",
+      "label": "通富微电 → 应用于 → 人工智能",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F046",
+      "label": "通富微电 → 应用于 → 汽车电子",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F047",
+      "label": "通富微电 → 采用业务模式 → 集成电路封装测试",
+      "type": "证据断言",
+      "source_id": "T08"
+    },
+    {
+      "id": "F048",
+      "label": "通富微电2015年AMD交易 → 拟收购 → AMD苏州和AMD槟城各85%股权",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F049",
+      "label": "通富微电2015年AMD交易 → 须获批准 → 相关政府部门审批",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F050",
+      "label": "AMD苏州和AMD槟城 → 提供服务 → 高端集成电路封测业务",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F051",
+      "label": "AMD苏州和AMD槟城 → 提供技术 → FCBGA、FCPGA、FCLGA、MCM",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F052",
+      "label": "通富微电2015年AMD交易 → 拟服务客户 → AMD",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F053",
+      "label": "通富微电 → 宣布量产 → Bumping技术",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F054",
+      "label": "通富微电 → 宣布量产 → 12英寸28纳米手机处理器芯片后工序全制程大规模生产",
+      "type": "证据断言",
+      "source_id": "T09"
+    },
+    {
+      "id": "F055",
+      "label": "中芯国际 → 提供服务 → 半导体晶圆代工和技术服务",
+      "type": "证据断言",
+      "source_id": "T12"
+    },
+    {
+      "id": "F056",
+      "label": "中芯国际 → 提供服务 → 8英寸晶圆代工",
+      "type": "证据断言",
+      "source_id": "T12"
+    },
+    {
+      "id": "F057",
+      "label": "中芯国际 → 提供服务 → 12英寸晶圆代工",
+      "type": "证据断言",
+      "source_id": "T12"
+    },
+    {
+      "id": "F058",
+      "label": "SEMI → 披露统计 → 2026Q2全球半导体设备账单额 US$40.53 billion",
+      "type": "证据断言",
+      "source_id": "T13"
+    },
+    {
+      "id": "F059",
+      "label": "SEMI对2026Q2设备账单增长的解释 → 归因于 → 人工智能基础设施投资",
+      "type": "证据断言",
+      "source_id": "T13"
+    },
+    {
+      "id": "F060",
+      "label": "WWSEMS报告 → 采用统计口径 → 成员提交的全球半导体设备月度账单汇总",
+      "type": "证据断言",
+      "source_id": "T13"
+    },
+    {
+      "id": "F061",
+      "label": "SEMI → 发布预测 → 2026年全球设备销售额 $165.9 billion；同比23.2%",
+      "type": "证据断言",
+      "source_id": "T14"
+    },
+    {
+      "id": "F062",
+      "label": "SEMI → 发布预测 → 2028年全球设备销售额 $229.5 billion",
+      "type": "证据断言",
+      "source_id": "T14"
+    },
+    {
+      "id": "F063",
+      "label": "SEMI → 发布预测 → 2026年WFE销售额 $143.9 billion；同比23.1%",
+      "type": "证据断言",
+      "source_id": "T14"
+    },
+    {
+      "id": "F064",
+      "label": "SEMI → 发布预测 → 2026年测试设备销售额 $15.3 billion；同比31.0%",
+      "type": "证据断言",
+      "source_id": "T14"
+    },
+    {
+      "id": "F065",
+      "label": "SEMI → 发布预测 → 2026年封装设备销售额 $6.7 billion；同比9.6%",
+      "type": "证据断言",
+      "source_id": "T14"
+    },
+    {
+      "id": "F066",
+      "label": "长电科技 → 提供服务 → 半导体微系统集成和封装测试服务",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F067",
+      "label": "XDFOI → 涵盖集成技术 → 2D集成",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F068",
+      "label": "XDFOI → 涵盖集成技术 → 2.5D集成",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F069",
+      "label": "XDFOI → 涵盖集成技术 → 3D集成",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F070",
+      "label": "XDFOI → 应用于 → 高性能计算",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F071",
+      "label": "XDFOI → 应用于 → 人工智能",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F072",
+      "label": "XDFOI → 应用于 → 5G",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F073",
+      "label": "XDFOI → 应用于 → 汽车电子",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F074",
+      "label": "长电科技 → 提供服务 → DRAM、Flash等存储芯片封测服务",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F075",
+      "label": "沪硅产业 → 提供产品 → 300mm半导体硅片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F076",
+      "label": "沪硅产业 → 提供产品 → 200mm及以下半导体硅片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F077",
+      "label": "沪硅产业 → 提供产品 → 抛光片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F078",
+      "label": "沪硅产业 → 提供产品 → 外延片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F079",
+      "label": "沪硅产业 → 提供产品 → SOI硅片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F080",
+      "label": "沪硅产业 → 布局产品 → 压电薄膜衬底材料",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F081",
+      "label": "沪硅产业半导体硅片 → 应用于 → 存储芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F082",
+      "label": "沪硅产业半导体硅片 → 应用于 → 逻辑芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F083",
+      "label": "沪硅产业半导体硅片 → 应用于 → 硅光芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F084",
+      "label": "沪硅产业半导体硅片 → 应用于 → 图像处理芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F085",
+      "label": "沪硅产业半导体硅片 → 应用于 → 通用处理器芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F086",
+      "label": "沪硅产业半导体硅片 → 应用于 → 功率芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F087",
+      "label": "沪硅产业半导体硅片 → 应用于 → 射频芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F088",
+      "label": "沪硅产业半导体硅片 → 应用于 → 模拟芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F089",
+      "label": "沪硅产业半导体硅片 → 应用于 → 分立芯片制造",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F090",
+      "label": "沪硅产业 → 披露客户 → 中芯国际",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F091",
+      "label": "沪硅产业 → 披露客户 → 华虹宏力",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F092",
+      "label": "沪硅产业 → 披露客户 → 华润微",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F093",
+      "label": "沪硅产业 → 拥有子公司 → Okmetic",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F094",
+      "label": "沪硅产业 → 计划研发 → 单晶生长",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F095",
+      "label": "沪硅产业 → 计划研发 → 切割",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F096",
+      "label": "沪硅产业 → 计划研发 → 研磨",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F097",
+      "label": "沪硅产业 → 计划研发 → 抛光",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F098",
+      "label": "沪硅产业 → 计划研发 → 外延",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F099",
+      "label": "沪硅产业 → 计划研发 → SOI",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F100",
+      "label": "沪硅产业 → 披露技术突破 → 300mm近完美单晶生长",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F101",
+      "label": "沪硅产业 → 披露技术突破 → 超平坦抛光工艺",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F102",
+      "label": "沪硅产业 → 披露技术突破 → 极限表征",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F103",
+      "label": "中微公司 → 提供产品 → CCP高能等离子体刻蚀设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F104",
+      "label": "中微公司 → 提供产品 → MOCVD设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F105",
+      "label": "中微公司 → 提供产品 → LPCVD设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F106",
+      "label": "MOCVD设备 → 用于工艺 → LED和功率器件外延片生产",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F107",
+      "label": "中微公司等离子体刻蚀设备 → 应用于 → 先进工艺芯片加工制造与封装",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F108",
+      "label": "中微公司硅通孔刻蚀设备 → 应用于 → 先进工艺芯片加工制造与封装",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F109",
+      "label": "第二子代MRCD和MDB套片 → 应用于 → DDR5 MRDIMM",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F110",
+      "label": "PSE V300Gi → 用于工艺 → TSV孔洞刻蚀",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F111",
+      "label": "长电科技 → 提供技术 → XDFOI",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F112",
+      "label": "长电科技 → 宣布量产 → XDFOI",
+      "type": "证据断言",
+      "source_id": "T18"
+    },
+    {
+      "id": "F113",
+      "label": "北方华创 → 提供产品 → ACE I300V",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F114",
+      "label": "北方华创 → 提供产品 → Ascent 3120G",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F115",
+      "label": "北方华创 → 提供产品 → SC3080D",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F116",
+      "label": "北方华创 → 提供产品 → Cygnus Capella SiO",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F117",
+      "label": "北方华创 → 提供产品 → eVictor CX30T II",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F118",
+      "label": "北方华创 → 提供产品 → Ausip T830",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F119",
+      "label": "北方华创 → 提供产品 → THEORIS A302L",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F120",
+      "label": "北方华创 → 提供产品 → PSE V300Gi",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F121",
+      "label": "澜起科技 → 宣布量产 → 第一子代MRCD和MDB套片",
+      "type": "证据断言",
+      "source_id": "T03"
+    },
+    {
+      "id": "F122",
+      "label": "兆易创新 → 提供产品 → 车规级SPI NOR Flash",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F123",
+      "label": "兆易创新 → 提供产品 → 车规级SPI NAND Flash",
+      "type": "证据断言",
+      "source_id": "T02"
+    },
+    {
+      "id": "F124",
+      "label": "中微公司 → 提供产品 → 中微公司硅通孔刻蚀设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F125",
+      "label": "中微公司 → 提供产品 → 中微公司等离子体刻蚀设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F126",
+      "label": "中微公司硅通孔刻蚀设备 → 用于工艺 → TSV孔洞刻蚀",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F127",
+      "label": "中微公司 → 提供产品 → ICP低能等离子体刻蚀设备",
+      "type": "证据断言",
+      "source_id": "T07R"
+    },
+    {
+      "id": "F128",
+      "label": "沪硅产业 → 提供产品 → 沪硅产业半导体硅片",
+      "type": "证据断言",
+      "source_id": "T19"
+    },
+    {
+      "id": "F129",
+      "label": "TSV → 应用于 → 高性能计算",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F130",
+      "label": "TSV → 应用于 → 消费电子",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F131",
+      "label": "TSV → 应用于 → 汽车电子",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F132",
+      "label": "TSV → 应用于 → 数据中心",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "F133",
+      "label": "TSV工艺全链条解决方案 → 提供技术 → TSV",
+      "type": "证据断言",
+      "source_id": "T06"
+    },
+    {
+      "id": "D001",
+      "label": "兆易创新2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 115.657604,
+        "revenue_yoy_pct": 178.672298,
+        "parent_net_profit_cny_100m": 68.567864,
+        "profit_yoy_pct": 1091.499056,
+        "gross_margin_pct": 63.130451,
+        "parent_net_margin_pct": 59.285219,
+        "rd_ratio_pct": 6.612767,
+        "operating_cash_cny_100m": 60.483411,
+        "capex_cny_100m": 9.451054,
+        "ocf_less_capex_proxy_cny_100m": 51.032356,
+        "liabilities_to_assets_pct": 11.465209
+      }
+    },
+    {
+      "id": "D002",
+      "label": "澜起科技2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 33.354975,
+        "revenue_yoy_pct": 26.65854,
+        "parent_net_profit_cny_100m": 19.973745,
+        "profit_yoy_pct": 72.32556,
+        "gross_margin_pct": 65.312695,
+        "parent_net_margin_pct": 59.882357,
+        "rd_ratio_pct": 13.583676,
+        "operating_cash_cny_100m": 13.28028,
+        "capex_cny_100m": 2.552935,
+        "ocf_less_capex_proxy_cny_100m": 10.727345,
+        "liabilities_to_assets_pct": 7.508839
+      }
+    },
+    {
+      "id": "D003",
+      "label": "中芯国际2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 386.35115,
+        "revenue_yoy_pct": 19.435688,
+        "parent_net_profit_cny_100m": 44.67431,
+        "profit_yoy_pct": 94.163024,
+        "gross_margin_pct": 23.155823,
+        "parent_net_margin_pct": 11.563136,
+        "rd_ratio_pct": 7.054202,
+        "operating_cash_cny_100m": 207.59511,
+        "capex_cny_100m": 197.24655,
+        "ocf_less_capex_proxy_cny_100m": 10.34856,
+        "liabilities_to_assets_pct": 33.815697
+      }
+    },
+    {
+      "id": "D004",
+      "label": "北方华创2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 201.614169,
+        "revenue_yoy_pct": 24.903876,
+        "parent_net_profit_cny_100m": 33.700207,
+        "profit_yoy_pct": 5.051223,
+        "gross_margin_pct": 40.068286,
+        "parent_net_margin_pct": 16.715198,
+        "rd_ratio_pct": 13.278823,
+        "operating_cash_cny_100m": 37.736988,
+        "capex_cny_100m": 8.304743,
+        "ocf_less_capex_proxy_cny_100m": 29.432245,
+        "liabilities_to_assets_pct": 50.25886
+      }
+    },
+    {
+      "id": "D005",
+      "label": "中微公司2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 66.912873,
+        "revenue_yoy_pct": 34.888635,
+        "parent_net_profit_cny_100m": 28.251946,
+        "profit_yoy_pct": 300.216524,
+        "gross_margin_pct": 39.741737,
+        "parent_net_margin_pct": 42.221989,
+        "rd_ratio_pct": 19.571981,
+        "operating_cash_cny_100m": 6.845535,
+        "capex_cny_100m": 7.769361,
+        "ocf_less_capex_proxy_cny_100m": -0.923826,
+        "liabilities_to_assets_pct": 19.733341
+      }
+    },
+    {
+      "id": "D006",
+      "label": "长电科技2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 195.272233,
+        "revenue_yoy_pct": 4.955593,
+        "parent_net_profit_cny_100m": 8.446443,
+        "profit_yoy_pct": 79.41179,
+        "gross_margin_pct": 15.14905,
+        "parent_net_margin_pct": 4.32547,
+        "rd_ratio_pct": 5.296897,
+        "operating_cash_cny_100m": 29.644269,
+        "capex_cny_100m": 47.001452,
+        "ocf_less_capex_proxy_cny_100m": -17.357184,
+        "liabilities_to_assets_pct": 46.21907
+      }
+    },
+    {
+      "id": "D007",
+      "label": "通富微电2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 160.410199,
+        "revenue_yoy_pct": 23.030504,
+        "parent_net_profit_cny_100m": 17.174586,
+        "profit_yoy_pct": 316.765663,
+        "gross_margin_pct": 15.453623,
+        "parent_net_margin_pct": 10.706667,
+        "rd_ratio_pct": 5.145904,
+        "operating_cash_cny_100m": 29.32767,
+        "capex_cny_100m": 51.987266,
+        "ocf_less_capex_proxy_cny_100m": -22.659596,
+        "liabilities_to_assets_pct": 64.138471
+      }
+    },
+    {
+      "id": "D008",
+      "label": "沪硅产业2026H1财务",
+      "type": "财务计算",
+      "metrics": {
+        "revenue_cny_100m": 23.172448,
+        "revenue_yoy_pct": 36.514677,
+        "parent_net_profit_cny_100m": -9.651519,
+        "profit_yoy_pct": null,
+        "gross_margin_pct": -8.340701,
+        "parent_net_margin_pct": -41.650839,
+        "rd_ratio_pct": 11.173729,
+        "operating_cash_cny_100m": 1.789875,
+        "capex_cny_100m": 21.477181,
+        "ocf_less_capex_proxy_cny_100m": -19.687307,
+        "liabilities_to_assets_pct": 37.572649
+      }
+    },
+    {
+      "id": "D009",
+      "label": "半导体区间价格表现",
+      "type": "财务计算",
+      "metrics": {
+        "start": "2026-06-15",
+        "end": "2026-09-14",
+        "observations": 65,
+        "price_return_pct": -13.170379,
+        "max_drawdown_pct": -39.001096
+      }
+    },
+    {
+      "id": "D010",
+      "label": "半导体设备区间价格表现",
+      "type": "财务计算",
+      "metrics": {
+        "start": "2026-06-15",
+        "end": "2026-09-14",
+        "observations": 65,
+        "price_return_pct": -8.121249,
+        "max_drawdown_pct": -41.952586
+      }
+    },
+    {
+      "id": "D011",
+      "label": "半导体材料区间价格表现",
+      "type": "财务计算",
+      "metrics": {
+        "start": "2026-06-15",
+        "end": "2026-09-14",
+        "observations": 65,
+        "price_return_pct": -14.88724,
+        "max_drawdown_pct": -47.990045
+      }
+    },
+    {
+      "id": "D012",
+      "label": "沪深300区间价格表现",
+      "type": "财务计算",
+      "metrics": {
+        "start": "2026-06-15",
+        "end": "2026-09-14",
+        "observations": 65,
+        "price_return_pct": -8.414849,
+        "max_drawdown_pct": -11.45492
+      }
+    },
+    {
+      "id": "D013",
+      "label": "半导体相对沪深300区间差值",
+      "type": "财务计算",
+      "metrics": {
+        "return_difference_pp": -4.75553
+      }
+    },
+    {
+      "id": "D014",
+      "label": "半导体设备相对沪深300区间差值",
+      "type": "财务计算",
+      "metrics": {
+        "return_difference_pp": 0.2936
+      }
+    },
+    {
+      "id": "D015",
+      "label": "半导体材料相对沪深300区间差值",
+      "type": "财务计算",
+      "metrics": {
+        "return_difference_pp": -6.472391
+      }
+    },
+    {
+      "id": "D016",
+      "label": "半导体成分横截面（与主板块交集）",
+      "type": "财务计算",
+      "metrics": {
+        "index_constituents_total": 188,
+        "in_main_sector_count": 188,
+        "excluded_outside_main": 0,
+        "prices_returned": 188,
+        "valid_price_change_count": 188,
+        "up": 121,
+        "down": 66,
+        "flat": 1,
+        "up_ratio_valid_pct": 64.361702,
+        "equal_weight_change_pct": 1.315619,
+        "median_change_pct": 0.704303,
+        "valuation_returned": 188,
+        "positive_pe_count": 141,
+        "nonpositive_pe_count": 47,
+        "missing_pe_count": 0,
+        "positive_pe_median": 92.36013,
+        "positive_pe_q1": 49.313871,
+        "positive_pe_q3": 179.514418
+      }
+    },
+    {
+      "id": "D017",
+      "label": "半导体设备成分横截面（与主板块交集）",
+      "type": "财务计算",
+      "metrics": {
+        "index_constituents_total": 26,
+        "in_main_sector_count": 26,
+        "excluded_outside_main": 0,
+        "prices_returned": 26,
+        "valid_price_change_count": 26,
+        "up": 24,
+        "down": 2,
+        "flat": 0,
+        "up_ratio_valid_pct": 92.307692,
+        "equal_weight_change_pct": 2.788966,
+        "median_change_pct": 2.274508,
+        "valuation_returned": 26,
+        "positive_pe_count": 23,
+        "nonpositive_pe_count": 3,
+        "missing_pe_count": 0,
+        "positive_pe_median": 111.079732,
+        "positive_pe_q1": 89.767567,
+        "positive_pe_q3": 250.44917
+      }
+    },
+    {
+      "id": "D018",
+      "label": "半导体材料成分横截面（与主板块交集）",
+      "type": "财务计算",
+      "metrics": {
+        "index_constituents_total": 29,
+        "in_main_sector_count": 29,
+        "excluded_outside_main": 0,
+        "prices_returned": 29,
+        "valid_price_change_count": 29,
+        "up": 20,
+        "down": 9,
+        "flat": 0,
+        "up_ratio_valid_pct": 68.965517,
+        "equal_weight_change_pct": 1.735745,
+        "median_change_pct": 0.955414,
+        "valuation_returned": 29,
+        "positive_pe_count": 25,
+        "nonpositive_pe_count": 4,
+        "missing_pe_count": 0,
+        "positive_pe_median": 146.550168,
+        "positive_pe_q1": 94.00389,
+        "positive_pe_q3": 238.221845
+      }
+    },
+    {
+      "id": "D019",
+      "label": "八家公司财务样本概览",
+      "type": "财务计算",
+      "metrics": {
+        "companies": 8,
+        "positive_operating_cash_count": 8,
+        "negative_cash_proxy_count": 4,
+        "revenue_yoy_median_pct": 25.781208
+      }
+    },
+    {
+      "id": "T01",
+      "label": "兆易创新公司介绍",
+      "type": "来源"
+    },
+    {
+      "id": "T02",
+      "label": "兆易创新汽车产品",
+      "type": "来源"
+    },
+    {
+      "id": "T03",
+      "label": "澜起第二子代MRCD/MDB送样",
+      "type": "来源"
+    },
+    {
+      "id": "T04",
+      "label": "澜起PCIe5.0 Retimer量产",
+      "type": "来源"
+    },
+    {
+      "id": "T06",
+      "label": "北方华创TSV先进封装方案",
+      "type": "来源"
+    },
+    {
+      "id": "T08",
+      "label": "通富微电公司介绍",
+      "type": "来源"
+    },
+    {
+      "id": "T09",
+      "label": "通富与AMD历史交易公告",
+      "type": "来源"
+    },
+    {
+      "id": "T12",
+      "label": "中芯国际公司介绍",
+      "type": "来源"
+    },
+    {
+      "id": "T13",
+      "label": "SEMI 2026Q2设备统计",
+      "type": "来源"
+    },
+    {
+      "id": "T14",
+      "label": "SEMI设备销售预测",
+      "type": "来源"
+    },
+    {
+      "id": "T18",
+      "label": "长电科技2024半年度报告",
+      "type": "来源"
+    },
+    {
+      "id": "T19",
+      "label": "沪硅产业2025年度报告摘要（新浪转载披露）",
+      "type": "来源"
+    },
+    {
+      "id": "T07R",
+      "label": "中微公司官方事实页（重试）",
+      "type": "来源"
+    },
+    {
+      "id": "J01",
+      "label": "北方华创与中微的硅通孔刻蚀能力值得沿先进封装工艺继续研究",
+      "type": "判断",
+      "premises": [
+        "F110",
+        "F126"
+      ],
+      "assumption": "披露中的相关设备仍在有效供给，目标客户工艺路线需要该类设备；不推出两家公司份额或技术等价。",
+      "verify": "核实当期产品认证、交付、收入与实际客户工艺路线。",
+      "refute": "相关路线改为不需要该工艺，或产品未获验证/被替代。",
+      "question": "先进封装：从技术相关到业绩兑现，还缺什么？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J01_assumption",
+      "label": "披露中的相关设备仍在有效供给，目标客户工艺路线需要该类设备；不推出两家公司份额或技术等价。",
+      "type": "假设"
+    },
+    {
+      "id": "J01_verify",
+      "label": "核实当期产品认证、交付、收入与实际客户工艺路线。",
+      "type": "验证"
+    },
+    {
+      "id": "J01_refute",
+      "label": "相关路线改为不需要该工艺，或产品未获验证/被替代。",
+      "type": "反证"
+    },
+    {
+      "id": "J02",
+      "label": "行业设备景气与工艺暴露构成研究线索，不构成个股订单增长证明",
+      "type": "判断",
+      "premises": [
+        "J01",
+        "F058"
+      ],
+      "assumption": "全球设备支出能传导到目标地区与工艺，并形成公司订单；这些环节尚无直接证据。",
+      "verify": "公司分产品订单、地区占比、验收节奏、在手订单及竞争格局。",
+      "refute": "全球增长集中在不覆盖的地区/产品，公司订单或验收不增长。",
+      "question": "先进封装：从技术相关到业绩兑现，还缺什么？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J02_assumption",
+      "label": "全球设备支出能传导到目标地区与工艺，并形成公司订单；这些环节尚无直接证据。",
+      "type": "假设"
+    },
+    {
+      "id": "J02_verify",
+      "label": "公司分产品订单、地区占比、验收节奏、在手订单及竞争格局。",
+      "type": "验证"
+    },
+    {
+      "id": "J02_refute",
+      "label": "全球增长集中在不覆盖的地区/产品，公司订单或验收不增长。",
+      "type": "反证"
+    },
+    {
+      "id": "J03",
+      "label": "澜起第二子代送样只建立商业化观察起点，不能据此归因2026H1收入",
+      "type": "判断",
+      "premises": [
+        "F016",
+        "D002"
+      ],
+      "assumption": "若讨论后续收益，须额外证明客户验证、量产、实际采购与产品收入；2025送样消息不能补足。",
+      "verify": "更新第二子代量产披露、客户采用、销售拆分与回款。",
+      "refute": "验证延期、产品替代或该代产品收入不足以贡献增长。",
+      "question": "产品代际：送样能否等于收入兑现？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J03_assumption",
+      "label": "若讨论后续收益，须额外证明客户验证、量产、实际采购与产品收入；2025送样消息不能补足。",
+      "type": "假设"
+    },
+    {
+      "id": "J03_verify",
+      "label": "更新第二子代量产披露、客户采用、销售拆分与回款。",
+      "type": "验证"
+    },
+    {
+      "id": "J03_refute",
+      "label": "验证延期、产品替代或该代产品收入不足以贡献增长。",
+      "type": "反证"
+    },
+    {
+      "id": "J04",
+      "label": "长电先进封装已有历史量产披露，但2026H1现金余量代理为负仍需解释",
+      "type": "判断",
+      "premises": [
+        "F112",
+        "D006"
+      ],
+      "assumption": "历史量产持续有效；负现金代理可能来自扩产，但本图没有项目回报和投入归因，不能自动解释为利好或困境。",
+      "verify": "先进封装收入/利润拆分、项目资本开支、现金回收和产能利用率。",
+      "refute": "新增产能长期不达预期，回款恶化，投入回报无法覆盖资本成本。",
+      "question": "产品代际：送样能否等于收入兑现？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J04_assumption",
+      "label": "历史量产持续有效；负现金代理可能来自扩产，但本图没有项目回报和投入归因，不能自动解释为利好或困境。",
+      "type": "假设"
+    },
+    {
+      "id": "J04_verify",
+      "label": "先进封装收入/利润拆分、项目资本开支、现金回收和产能利用率。",
+      "type": "验证"
+    },
+    {
+      "id": "J04_refute",
+      "label": "新增产能长期不达预期，回款恶化，投入回报无法覆盖资本成本。",
+      "type": "反证"
+    },
+    {
+      "id": "J05",
+      "label": "沪硅产业披露中芯国际为客户，关系存在不等于当前订单额或业绩弹性",
+      "type": "判断",
+      "premises": [
+        "F090",
+        "D008",
+        "D003"
+      ],
+      "assumption": "客户身份延续且存在具体采购；金额、份额、产品规格、关联时间仍需新合同或分部披露。",
+      "verify": "双方披露交叉核实，硅片销售结构、价格、数量、认证与产能利用率。",
+      "refute": "客户变化、供货份额下降、降价或良率不足抵消产能扩张。",
+      "question": "真实供应链：哪些连接有出处，哪些仍是猜测？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J05_assumption",
+      "label": "客户身份延续且存在具体采购；金额、份额、产品规格、关联时间仍需新合同或分部披露。",
+      "type": "假设"
+    },
+    {
+      "id": "J05_verify",
+      "label": "双方披露交叉核实，硅片销售结构、价格、数量、认证与产能利用率。",
+      "type": "验证"
+    },
+    {
+      "id": "J05_refute",
+      "label": "客户变化、供货份额下降、降价或良率不足抵消产能扩张。",
+      "type": "反证"
+    },
+    {
+      "id": "J06",
+      "label": "2015年AMD交易文本只能证明当时的拟交易和审批条件",
+      "type": "判断",
+      "premises": [
+        "F048",
+        "F049"
+      ],
+      "assumption": "不预设后来完成，也不预设至今持股/客户关系不变。",
+      "verify": "查找交割公告、历年股权结构与最新客户披露。",
+      "refute": "原交易取消或条件变化；需要新证据更新状态。",
+      "question": "真实供应链：哪些连接有出处，哪些仍是猜测？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J06_assumption",
+      "label": "不预设后来完成，也不预设至今持股/客户关系不变。",
+      "type": "假设"
+    },
+    {
+      "id": "J06_verify",
+      "label": "查找交割公告、历年股权结构与最新客户披露。",
+      "type": "验证"
+    },
+    {
+      "id": "J06_refute",
+      "label": "原交易取消或条件变化；需要新证据更新状态。",
+      "type": "反证"
+    },
+    {
+      "id": "J07",
+      "label": "SEMI的2028年设备预测是情景背景，不能作为2026已实现收入",
+      "type": "判断",
+      "premises": [
+        "F062",
+        "F058"
+      ],
+      "assumption": "预测口径与实现值分别保留；2028总销售预测和2026Q2账单统计不是同一观测。",
+      "verify": "跟踪预测修订、实际设备销售/账单以及分类口径。",
+      "refute": "预测下修、实际增长显著低于预测、指标口径不可直接比较。",
+      "question": "统计与预测：时间和范围如何限制结论？",
+      "status": "有条件研究判断",
+      "authoring": "analyst-authored, evidence-linked; not a learned causal edge",
+      "logic": "all listed premise records must remain available; truth still conditional on assumptions"
+    },
+    {
+      "id": "J07_assumption",
+      "label": "预测口径与实现值分别保留；2028总销售预测和2026Q2账单统计不是同一观测。",
+      "type": "假设"
+    },
+    {
+      "id": "J07_verify",
+      "label": "跟踪预测修订、实际设备销售/账单以及分类口径。",
+      "type": "验证"
+    },
+    {
+      "id": "J07_refute",
+      "label": "预测下修、实际增长显著低于预测、指标口径不可直接比较。",
+      "type": "反证"
+    }
+  ],
+  "edges": [
+    {
+      "source": "T01",
+      "target": "F001",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T01",
+      "target": "F002",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T01",
+      "target": "F003",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T01",
+      "target": "F004",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F005",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F006",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F007",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F008",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F009",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F010",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F011",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F012",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F013",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F014",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F015",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F016",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F017",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F018",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F019",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F020",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F021",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F022",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F023",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F024",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F025",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F026",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F027",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F028",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T04",
+      "target": "F029",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F030",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F031",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F032",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F033",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F034",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F035",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F036",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F037",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F038",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F039",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F040",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F041",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F042",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F043",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F044",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F045",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F046",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T08",
+      "target": "F047",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F048",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F049",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F050",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F051",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F052",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F053",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T09",
+      "target": "F054",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T12",
+      "target": "F055",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T12",
+      "target": "F056",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T12",
+      "target": "F057",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T13",
+      "target": "F058",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T13",
+      "target": "F059",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T13",
+      "target": "F060",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T14",
+      "target": "F061",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T14",
+      "target": "F062",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T14",
+      "target": "F063",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T14",
+      "target": "F064",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T14",
+      "target": "F065",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F066",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F067",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F068",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F069",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F070",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F071",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F072",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F073",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F074",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F075",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F076",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F077",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F078",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F079",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F080",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F081",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F082",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F083",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F084",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F085",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F086",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F087",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F088",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F089",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F090",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F091",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F092",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F093",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F094",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F095",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F096",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F097",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F098",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F099",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F100",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F101",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F102",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F103",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F104",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F105",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F106",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F107",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F108",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F109",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F110",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F111",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T18",
+      "target": "F112",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F113",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F114",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F115",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F116",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F117",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F118",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F119",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F120",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T03",
+      "target": "F121",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F122",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T02",
+      "target": "F123",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F124",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F125",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F126",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T07R",
+      "target": "F127",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T19",
+      "target": "F128",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F129",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F130",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F131",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F132",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "T06",
+      "target": "F133",
+      "relation": "披露支持",
+      "kind": "provenance"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F001",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F001",
+      "target": "E1cfc2bf8c5e8",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F002",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F002",
+      "target": "Ef75e2ab26b87",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F003",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F003",
+      "target": "Eb083fae21983",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F004",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F004",
+      "target": "E55a15ade16ac",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F005",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F005",
+      "target": "Ecfcafb8959f2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F006",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F006",
+      "target": "Ecdcf0dde6184",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F007",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F007",
+      "target": "E997d2a2c08f1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E9ca3787ebc8d",
+      "target": "F008",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F008",
+      "target": "Ebb9f9ebce57e",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ec48faa06b2e0",
+      "target": "F009",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F009",
+      "target": "Ebb9f9ebce57e",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ecdcf0dde6184",
+      "target": "F010",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F010",
+      "target": "E25de611a7aaa",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ecdcf0dde6184",
+      "target": "F011",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F011",
+      "target": "E5226fae7cc30",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ecdcf0dde6184",
+      "target": "F012",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F012",
+      "target": "E7458239c919c",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ecdcf0dde6184",
+      "target": "F013",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F013",
+      "target": "Ecb3d75376550",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ecdcf0dde6184",
+      "target": "F014",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F014",
+      "target": "E5e563bd5878d",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E274913faacef",
+      "target": "F015",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F015",
+      "target": "Ec960755850b1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ede4cbdfcc749",
+      "target": "F016",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F016",
+      "target": "E6fc055dd40a2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E1b1076ae4d04",
+      "target": "F017",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F017",
+      "target": "E5979cc0543d1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E6dc5a27366f9",
+      "target": "F018",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F018",
+      "target": "Edab1e174db32",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E6fc055dd40a2",
+      "target": "F019",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F019",
+      "target": "Ed7d501386683",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ede4cbdfcc749",
+      "target": "F020",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F020",
+      "target": "E4abc66c6caf3",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ede4cbdfcc749",
+      "target": "F021",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F021",
+      "target": "Ebbc0409c4f97",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F022",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F022",
+      "target": "E426f5f7f18f2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F023",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F023",
+      "target": "Ebe0cc94f44c1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F024",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F024",
+      "target": "Ee615d0f10439",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F025",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F025",
+      "target": "E1c01281d3eb9",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F026",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F026",
+      "target": "Edcf2c0f5971f",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F027",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F027",
+      "target": "E4631092f41c4",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F028",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F028",
+      "target": "Ee04018a8b9e2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ebbc0409c4f97",
+      "target": "F029",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F029",
+      "target": "Eea5d15dd5619",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F030",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F030",
+      "target": "Eaf3241908cc7",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb8097c831c29",
+      "target": "F031",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F031",
+      "target": "E58a3aa63ce66",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E4ffe17201c6a",
+      "target": "F032",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F032",
+      "target": "E58a3aa63ce66",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E2a77cec8e848",
+      "target": "F033",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F033",
+      "target": "E48d16566d0ab",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ec2358a824df5",
+      "target": "F034",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F034",
+      "target": "E48d16566d0ab",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E8f70efc6a261",
+      "target": "F035",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F035",
+      "target": "Ef4281767fe6b",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E12075f4ccdc4",
+      "target": "F036",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F036",
+      "target": "E4b6ade2efb08",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E4b6ade2efb08",
+      "target": "F037",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F037",
+      "target": "E75e3404286ca",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E676c745eb375",
+      "target": "F038",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F038",
+      "target": "E75e3404286ca",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E75e3404286ca",
+      "target": "F039",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F039",
+      "target": "E080480779439",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E8283f2d2b133",
+      "target": "F040",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F040",
+      "target": "Ed529f208a38f",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F041",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F041",
+      "target": "Eb396114c1b7a",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F042",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F042",
+      "target": "E1f385bed36c0",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F043",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F043",
+      "target": "Ef99cdec7dc20",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F044",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F044",
+      "target": "Eb2a5a4ed9613",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F045",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F045",
+      "target": "E161332dd5ba2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F046",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F046",
+      "target": "E1b3d54b5cf17",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F047",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F047",
+      "target": "E40ee5f89f414",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E131507539710",
+      "target": "F048",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F048",
+      "target": "E8ce39f1a4319",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E131507539710",
+      "target": "F049",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F049",
+      "target": "E5c01fc615863",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E55f4d2a12e03",
+      "target": "F050",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F050",
+      "target": "Ef3a903ef2a7f",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E55f4d2a12e03",
+      "target": "F051",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F051",
+      "target": "E0478b2225514",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E131507539710",
+      "target": "F052",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F052",
+      "target": "E0fd3e4e71b62",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F053",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F053",
+      "target": "Ea664971148cf",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "F054",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F054",
+      "target": "E965733bb4acc",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E18126b597cb2",
+      "target": "F055",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F055",
+      "target": "E0da1da125604",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E18126b597cb2",
+      "target": "F056",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F056",
+      "target": "E2f1fb62ecae4",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E18126b597cb2",
+      "target": "F057",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F057",
+      "target": "E66832f83edbe",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F058",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F058",
+      "target": "E6e0e1894cfc3",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E8ba99d335e7d",
+      "target": "F059",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F059",
+      "target": "E821f603eb2ed",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb86c89a6c326",
+      "target": "F060",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F060",
+      "target": "E9b4ced75ab14",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F061",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F061",
+      "target": "E4c01845a215b",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F062",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F062",
+      "target": "Ef21c2eda0868",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F063",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F063",
+      "target": "E9e9595978fa1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F064",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F064",
+      "target": "E77184c7c7251",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E77c43aa5a725",
+      "target": "F065",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F065",
+      "target": "E52e8e580c4ea",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E25bf64178f52",
+      "target": "F066",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F066",
+      "target": "E1259eb50bee9",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F067",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F067",
+      "target": "E2db23c263faf",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F068",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F068",
+      "target": "E03349d81cb6b",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F069",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F069",
+      "target": "Ecabd3a3d7ff2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F070",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F070",
+      "target": "Ee615d0f10439",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F071",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F071",
+      "target": "E161332dd5ba2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F072",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F072",
+      "target": "E7e83d640a0d4",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E5cda912a8314",
+      "target": "F073",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F073",
+      "target": "E1b3d54b5cf17",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E25bf64178f52",
+      "target": "F074",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F074",
+      "target": "Ed1a4c3dcf7e4",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F075",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F075",
+      "target": "E3b7ed9aea60c",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F076",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F076",
+      "target": "E42b37b9d0c39",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F077",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F077",
+      "target": "E8b25ba1df4b6",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F078",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F078",
+      "target": "E28fb725038a3",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F079",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F079",
+      "target": "E75fbf79a1b62",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F080",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F080",
+      "target": "E9db4c2f368d8",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F081",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F081",
+      "target": "E33aeeebac2d3",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F082",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F082",
+      "target": "E6829e2935e32",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F083",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F083",
+      "target": "Ea0fa1584271a",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F084",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F084",
+      "target": "E45744a2e0396",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F085",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F085",
+      "target": "Ee6a7a585b65b",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F086",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F086",
+      "target": "E17cbeb005147",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F087",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F087",
+      "target": "E39491d21a453",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F088",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F088",
+      "target": "Eff8816874f46",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efe82152e2361",
+      "target": "F089",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F089",
+      "target": "E2e53237e7d90",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F090",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F090",
+      "target": "E18126b597cb2",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F091",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F091",
+      "target": "E0ee8aab013d1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F092",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F092",
+      "target": "Ea9b9e1e5150e",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F093",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F093",
+      "target": "E80922ff3f89d",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F094",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F094",
+      "target": "E3dd0b848c032",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F095",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F095",
+      "target": "E7a1323dc782f",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F096",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F096",
+      "target": "E5f2a071aa248",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F097",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F097",
+      "target": "E2ac2e3394004",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F098",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F098",
+      "target": "Ea0e87414e2cd",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F099",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F099",
+      "target": "Ec276c26a85a7",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F100",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F100",
+      "target": "Ec1af16c4ecaa",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F101",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F101",
+      "target": "E5a1730cb88c8",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F102",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F102",
+      "target": "E42f3f447b33b",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F103",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F103",
+      "target": "Eddba52775701",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F104",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F104",
+      "target": "Eecfb2aacd7ee",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F105",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F105",
+      "target": "E6165b58ede71",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eecfb2aacd7ee",
+      "target": "F106",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F106",
+      "target": "E22d6e989dc2f",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Edc69beffed33",
+      "target": "F107",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F107",
+      "target": "Ead278259d686",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E026c74304869",
+      "target": "F108",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F108",
+      "target": "Ead278259d686",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E6fc055dd40a2",
+      "target": "F109",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F109",
+      "target": "E5979cc0543d1",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ed8ab013a06e9",
+      "target": "F110",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F110",
+      "target": "Eb8097c831c29",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E25bf64178f52",
+      "target": "F111",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F111",
+      "target": "E5cda912a8314",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E25bf64178f52",
+      "target": "F112",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F112",
+      "target": "E5cda912a8314",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F113",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F113",
+      "target": "E4ffe17201c6a",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F114",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F114",
+      "target": "E2a77cec8e848",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F115",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F115",
+      "target": "Ec2358a824df5",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F116",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F116",
+      "target": "E8f70efc6a261",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F117",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F117",
+      "target": "E12075f4ccdc4",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F118",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F118",
+      "target": "E676c745eb375",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F119",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F119",
+      "target": "E8283f2d2b133",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "F120",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F120",
+      "target": "Ed8ab013a06e9",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ede4cbdfcc749",
+      "target": "F121",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F121",
+      "target": "E6dc5a27366f9",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F122",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F122",
+      "target": "E9ca3787ebc8d",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "F123",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F123",
+      "target": "Ec48faa06b2e0",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F124",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F124",
+      "target": "E026c74304869",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F125",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F125",
+      "target": "Edc69beffed33",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E026c74304869",
+      "target": "F126",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F126",
+      "target": "Eb8097c831c29",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "F127",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F127",
+      "target": "Eae5899ed3cb6",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "F128",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F128",
+      "target": "Efe82152e2361",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efca171475604",
+      "target": "F129",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F129",
+      "target": "Ee615d0f10439",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efca171475604",
+      "target": "F130",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F130",
+      "target": "E1782fefe353a",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efca171475604",
+      "target": "F131",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F131",
+      "target": "E1b3d54b5cf17",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Efca171475604",
+      "target": "F132",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F132",
+      "target": "E04f7acfcd28c",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eaf3241908cc7",
+      "target": "F133",
+      "relation": "断言主体",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F133",
+      "target": "Efca171475604",
+      "relation": "断言对象",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E0cbd5ae0a6d8",
+      "target": "D001",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Ede4cbdfcc749",
+      "target": "D002",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E18126b597cb2",
+      "target": "D003",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E7ee8a205eba1",
+      "target": "D004",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E952589f06560",
+      "target": "D005",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E25bf64178f52",
+      "target": "D006",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "E19d9bbf5be1a",
+      "target": "D007",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "Eb98e005788df",
+      "target": "D008",
+      "relation": "具有财务观测",
+      "kind": "semantic_role"
+    },
+    {
+      "source": "F110",
+      "target": "J01",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "F126",
+      "target": "J01",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J01_assumption",
+      "target": "J01",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J01",
+      "target": "J01_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J01_refute",
+      "target": "J01",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J01",
+      "target": "J02",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "F058",
+      "target": "J02",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J02_assumption",
+      "target": "J02",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J02",
+      "target": "J02_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J02_refute",
+      "target": "J02",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "F016",
+      "target": "J03",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "D002",
+      "target": "J03",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J03_assumption",
+      "target": "J03",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J03",
+      "target": "J03_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J03_refute",
+      "target": "J03",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "F112",
+      "target": "J04",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "D006",
+      "target": "J04",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J04_assumption",
+      "target": "J04",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J04",
+      "target": "J04_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J04_refute",
+      "target": "J04",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "F090",
+      "target": "J05",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "D008",
+      "target": "J05",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "D003",
+      "target": "J05",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J05_assumption",
+      "target": "J05",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J05",
+      "target": "J05_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J05_refute",
+      "target": "J05",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "F048",
+      "target": "J06",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "F049",
+      "target": "J06",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J06_assumption",
+      "target": "J06",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J06",
+      "target": "J06_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J06_refute",
+      "target": "J06",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    },
+    {
+      "source": "F062",
+      "target": "J07",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "F058",
+      "target": "J07",
+      "relation": "论证前提",
+      "kind": "dependency"
+    },
+    {
+      "source": "J07_assumption",
+      "target": "J07",
+      "relation": "前提假设",
+      "kind": "qualification"
+    },
+    {
+      "source": "J07",
+      "target": "J07_verify",
+      "relation": "需要验证",
+      "kind": "qualification"
+    },
+    {
+      "source": "J07_refute",
+      "target": "J07",
+      "relation": "潜在反证",
+      "kind": "qualification"
+    }
+  ]
+}

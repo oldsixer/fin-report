@@ -1,0 +1,148 @@
+{
+  "name": "members_884229.TI",
+  "url": "https://fuyao.aicubes.cn/api/a-share-index/constituents/ths-stock-list?thscode=884229.TI",
+  "fetched_at": "2026-09-15T09:20:54.499097+00:00",
+  "http_status": 200,
+  "sha256": "4288e5c3387d00abdc0675e335fea5e68b7c6ee1949c5e7c6f36af941a4ec095",
+  "bytes": 1768,
+  "payload": {
+    "code": 0,
+    "message": "success",
+    "request_id": "06aa3b2e2e904f6398a4debdae847221",
+    "data": {
+      "timestamp": 1789464060299,
+      "item": [
+        {
+          "thscode": "002371.SZ",
+          "ticker": "002371",
+          "name": "北方华创"
+        },
+        {
+          "thscode": "003043.SZ",
+          "ticker": "003043",
+          "name": "华亚智能"
+        },
+        {
+          "thscode": "300604.SZ",
+          "ticker": "300604",
+          "name": "长川科技"
+        },
+        {
+          "thscode": "301297.SZ",
+          "ticker": "301297",
+          "name": "富乐德"
+        },
+        {
+          "thscode": "301369.SZ",
+          "ticker": "301369",
+          "name": "联动科技"
+        },
+        {
+          "thscode": "301583.SZ",
+          "ticker": "301583",
+          "name": "托伦斯"
+        },
+        {
+          "thscode": "301629.SZ",
+          "ticker": "301629",
+          "name": "矽电股份"
+        },
+        {
+          "thscode": "301717.SZ",
+          "ticker": "301717",
+          "name": "超纯应材"
+        },
+        {
+          "thscode": "603061.SH",
+          "ticker": "603061",
+          "name": "金海通"
+        },
+        {
+          "thscode": "603690.SH",
+          "ticker": "603690",
+          "name": "至纯科技"
+        },
+        {
+          "thscode": "688012.SH",
+          "ticker": "688012",
+          "name": "中微公司"
+        },
+        {
+          "thscode": "688037.SH",
+          "ticker": "688037",
+          "name": "芯源微"
+        },
+        {
+          "thscode": "688072.SH",
+          "ticker": "688072",
+          "name": "拓荆科技"
+        },
+        {
+          "thscode": "688082.SH",
+          "ticker": "688082",
+          "name": "盛美上海"
+        },
+        {
+          "thscode": "688120.SH",
+          "ticker": "688120",
+          "name": "华海清科"
+        },
+        {
+          "thscode": "688147.SH",
+          "ticker": "688147",
+          "name": "微导纳米"
+        },
+        {
+          "thscode": "688200.SH",
+          "ticker": "688200",
+          "name": "华峰测控"
+        },
+        {
+          "thscode": "688361.SH",
+          "ticker": "688361",
+          "name": "中科飞测"
+        },
+        {
+          "thscode": "688409.SH",
+          "ticker": "688409",
+          "name": "富创精密"
+        },
+        {
+          "thscode": "688478.SH",
+          "ticker": "688478",
+          "name": "晶升股份"
+        },
+        {
+          "thscode": "688605.SH",
+          "ticker": "688605",
+          "name": "先锋精科"
+        },
+        {
+          "thscode": "688652.SH",
+          "ticker": "688652",
+          "name": "京仪装备"
+        },
+        {
+          "thscode": "688729.SH",
+          "ticker": "688729",
+          "name": "屹唐股份"
+        },
+        {
+          "thscode": "688785.SH",
+          "ticker": "688785",
+          "name": "恒运昌"
+        },
+        {
+          "thscode": "688809.SH",
+          "ticker": "688809",
+          "name": "强一股份"
+        },
+        {
+          "thscode": "920186.BJ",
+          "ticker": "920186",
+          "name": "中科仪"
+        }
+      ]
+    }
+  }
+}

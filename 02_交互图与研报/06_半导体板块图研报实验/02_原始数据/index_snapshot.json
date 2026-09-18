@@ -1,0 +1,71 @@
+{
+  "name": "index_snapshot",
+  "url": "https://fuyao.aicubes.cn/api/a-share-index/prices/snapshot?thscodes=881121.TI%2C884229.TI%2C884091.TI%2C000300.SH",
+  "fetched_at": "2026-09-15T09:21:27.895848+00:00",
+  "http_status": 200,
+  "sha256": "2ff25a2fa88d9e76b0f0bc5f24e034e097a247f67ec2a6f87be28773c5c27f53",
+  "bytes": 1141,
+  "payload": {
+    "code": 0,
+    "message": "success",
+    "request_id": "2b93b3e9dc3542cf9a0af0688d665d32",
+    "data": {
+      "timestamp": 1789464092000,
+      "total": 4,
+      "item": [
+        {
+          "thscode": "881121.TI",
+          "ticker": "881121",
+          "volume": 2410479800,
+          "turnover": 190551710000,
+          "last_price": 15864.309,
+          "price_change": 206.004,
+          "price_change_ratio_pct": 1.315621,
+          "open_price": 15595.847,
+          "high_price": 16114.885,
+          "low_price": 15595.847,
+          "prev_price": 15658.305
+        },
+        {
+          "thscode": "884229.TI",
+          "ticker": "884229",
+          "volume": 205794530,
+          "turnover": 37212283000,
+          "last_price": 236775.05,
+          "price_change": 6424.4,
+          "price_change_ratio_pct": 2.788965,
+          "open_price": 229215.26,
+          "high_price": 241805.09,
+          "low_price": 228746.81,
+          "prev_price": 230350.65
+        },
+        {
+          "thscode": "884091.TI",
+          "ticker": "884091",
+          "volume": 418627750,
+          "turnover": 24343277000,
+          "last_price": 9872.88,
+          "price_change": 168.444,
+          "price_change_ratio_pct": 1.735742,
+          "open_price": 9635.694,
+          "high_price": 10068.768,
+          "low_price": 9635.694,
+          "prev_price": 9704.436
+        },
+        {
+          "thscode": "000300.SH",
+          "ticker": "1B0300",
+          "volume": 14271810000,
+          "turnover": 394775650000,
+          "last_price": 4450.04,
+          "price_change": -30.04,
+          "price_change_ratio_pct": -0.670524,
+          "open_price": 4473.81,
+          "high_price": 4496.96,
+          "low_price": 4444.63,
+          "prev_price": 4480.08
+        }
+      ]
+    }
+  }
+}

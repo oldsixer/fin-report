@@ -1,0 +1,27 @@
+{
+  "accepted": 72,
+  "rejected": 5,
+  "sources": 13,
+  "relations": [
+    "兼容标准",
+    "前序工艺",
+    "发布预测",
+    "宣布送样",
+    "宣布量产",
+    "应用于",
+    "归因于",
+    "技术特征",
+    "披露客户",
+    "披露统计",
+    "拟收购",
+    "拥有子公司",
+    "提供产品",
+    "提供技术",
+    "提供服务",
+    "用于工艺",
+    "组成部分",
+    "采用业务模式",
+    "须获批准"
+  ],
+  "not_a_quality_score": "Exact quote matching does not establish entailment, completeness or independent accuracy."
+}

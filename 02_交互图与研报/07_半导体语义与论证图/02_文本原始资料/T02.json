@@ -1,0 +1,16 @@
+{
+  "source_id": "T02",
+  "title": "兆易创新汽车产品",
+  "company": "603986.SH",
+  "url": "https://www.gigadevice.com/product/automotive-products",
+  "publication_date": null,
+  "retrieved_at": "2026-09-15T11:34:55.733491+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "15eebc1beaffd1d5c8a1b3e90c48a885c9e1c4d87962d572269a411867c699da",
+  "raw_path": "02_文本原始资料/T02.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 1949,
+  "text_path": "03_文本证据/T02.txt",
+  "status": "ok"
+}

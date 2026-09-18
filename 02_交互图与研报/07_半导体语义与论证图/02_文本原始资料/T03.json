@@ -1,0 +1,16 @@
+{
+  "source_id": "T03",
+  "title": "澜起第二子代MRCD/MDB送样",
+  "company": "688008.SH",
+  "url": "https://www.montage-tech.com/cn/Press_Releases/20250124",
+  "publication_date": "2025-01-24",
+  "retrieved_at": "2026-09-15T11:34:55.733682+00:00",
+  "source_class": "company_disclosure",
+  "http_status": 200,
+  "sha256": "49285e0f4702bb777d5da65837679319bd3bf85778adf91afcfaaefe85d1f94b",
+  "raw_path": "02_文本原始资料/T03.html",
+  "extraction": "HTML main/article/body, navigation removed",
+  "text_characters": 1374,
+  "text_path": "03_文本证据/T03.txt",
+  "status": "ok"
+}

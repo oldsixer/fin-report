@@ -1,0 +1,2542 @@
+{
+  "nodes": [
+    {
+      "id": "E0cbd5ae0a6d8",
+      "label": "兆易创新",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E1cfc2bf8c5e8",
+      "label": "Flash存储器",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ef75e2ab26b87",
+      "label": "32位通用MCU",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb083fae21983",
+      "label": "智能人机交互传感器",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E55a15ade16ac",
+      "label": "模拟产品及解决方案",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ecfcafb8959f2",
+      "label": "车规级Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ecdcf0dde6184",
+      "label": "车规级MCU",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E997d2a2c08f1",
+      "label": "系统基础芯片（SBC）",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E9ca3787ebc8d",
+      "label": "车规级SPI NOR Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebb9f9ebce57e",
+      "label": "汽车电子系统",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ec48faa06b2e0",
+      "label": "车规级SPI NAND Flash",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E25de611a7aaa",
+      "label": "车身控制",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E5226fae7cc30",
+      "label": "车用照明",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E7458239c919c",
+      "label": "智能座舱",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ecb3d75376550",
+      "label": "辅助驾驶",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E5e563bd5878d",
+      "label": "电机电源",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E274913faacef",
+      "label": "车规级产品",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ec960755850b1",
+      "label": "AEC-Q100",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "Ede4cbdfcc749",
+      "label": "澜起科技",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E6fc055dd40a2",
+      "label": "第二子代MRCD和MDB套片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E1b1076ae4d04",
+      "label": "MRCD和MDB",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E5979cc0543d1",
+      "label": "DDR5 MRDIMM",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E6dc5a27366f9",
+      "label": "第一子代MRCD和MDB套片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Edab1e174db32",
+      "label": "8800 MT/s数据速率",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "Ed7d501386683",
+      "label": "12800 MT/s数据速率",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4abc66c6caf3",
+      "label": "DDR5第五子代RCD芯片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebbc0409c4f97",
+      "label": "PCIe 5.0/CXL 2.0 Retimer",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E426f5f7f18f2",
+      "label": "PCIe 4.0 Retimer",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ebe0cc94f44c1",
+      "label": "云计算",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee615d0f10439",
+      "label": "高性能计算",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E1c01281d3eb9",
+      "label": "PCI-SIG和CXL规范",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "Edcf2c0f5971f",
+      "label": "32 GT/s",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4631092f41c4",
+      "label": "下一代服务器",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee04018a8b9e2",
+      "label": "企业存储",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eea5d15dd5619",
+      "label": "加速系统",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E7ee8a205eba1",
+      "label": "北方华创",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eaf3241908cc7",
+      "label": "TSV工艺全链条解决方案",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb8097c831c29",
+      "label": "TSV孔洞刻蚀",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E58a3aa63ce66",
+      "label": "去胶处理",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E4ffe17201c6a",
+      "label": "ACE I300V",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E2a77cec8e848",
+      "label": "Ascent 3120G",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E48d16566d0ab",
+      "label": "清洗作业",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "Ec2358a824df5",
+      "label": "SC3080D",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E8f70efc6a261",
+      "label": "Cygnus Capella SiO",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ef4281767fe6b",
+      "label": "绝缘层沉积",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E12075f4ccdc4",
+      "label": "eVictor CX30T II",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E4b6ade2efb08",
+      "label": "阻挡层/种子层沉积",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E75e3404286ca",
+      "label": "电镀填充",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E676c745eb375",
+      "label": "Ausip T830",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E080480779439",
+      "label": "退火处理",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E8283f2d2b133",
+      "label": "THEORIS A302L",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ed529f208a38f",
+      "label": "铜退火",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E19d9bbf5be1a",
+      "label": "通富微电",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eb396114c1b7a",
+      "label": "设计仿真和封装测试一站式服务",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E1f385bed36c0",
+      "label": "网络通讯",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ef99cdec7dc20",
+      "label": "移动终端",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eb2a5a4ed9613",
+      "label": "家用电器",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E161332dd5ba2",
+      "label": "人工智能",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E1b3d54b5cf17",
+      "label": "汽车电子",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E40ee5f89f414",
+      "label": "集成电路封装测试",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E131507539710",
+      "label": "通富微电2015年AMD交易",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E8ce39f1a4319",
+      "label": "AMD苏州和AMD槟城各85%股权",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E5c01fc615863",
+      "label": "相关政府部门审批",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E55f4d2a12e03",
+      "label": "AMD苏州和AMD槟城",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ef3a903ef2a7f",
+      "label": "高端集成电路封测业务",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E0478b2225514",
+      "label": "FCBGA、FCPGA、FCLGA、MCM",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E0fd3e4e71b62",
+      "label": "AMD",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ea664971148cf",
+      "label": "Bumping技术",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E965733bb4acc",
+      "label": "12英寸28纳米手机处理器芯片后工序全制程大规模生产",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "E18126b597cb2",
+      "label": "中芯国际",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E0da1da125604",
+      "label": "半导体晶圆代工和技术服务",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E2f1fb62ecae4",
+      "label": "8英寸晶圆代工",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E66832f83edbe",
+      "label": "12英寸晶圆代工",
+      "type": "业务模式",
+      "types": [
+        "业务模式"
+      ]
+    },
+    {
+      "id": "E77c43aa5a725",
+      "label": "SEMI",
+      "type": "组织",
+      "types": [
+        "组织"
+      ]
+    },
+    {
+      "id": "E6e0e1894cfc3",
+      "label": "2026Q2全球半导体设备账单额 US$40.53 billion",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E8ba99d335e7d",
+      "label": "SEMI对2026Q2设备账单增长的解释",
+      "type": "事件",
+      "types": [
+        "事件"
+      ]
+    },
+    {
+      "id": "E821f603eb2ed",
+      "label": "人工智能基础设施投资",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eb86c89a6c326",
+      "label": "WWSEMS报告",
+      "type": "标准",
+      "types": [
+        "标准"
+      ]
+    },
+    {
+      "id": "E9b4ced75ab14",
+      "label": "成员提交的全球半导体设备月度账单汇总",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E4c01845a215b",
+      "label": "2026年全球设备销售额 $165.9 billion；同比23.2%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "Ef21c2eda0868",
+      "label": "2028年全球设备销售额 $229.5 billion",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E9e9595978fa1",
+      "label": "2026年WFE销售额 $143.9 billion；同比23.1%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E77184c7c7251",
+      "label": "2026年测试设备销售额 $15.3 billion；同比31.0%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E52e8e580c4ea",
+      "label": "2026年封装设备销售额 $6.7 billion；同比9.6%",
+      "type": "指标",
+      "types": [
+        "指标"
+      ]
+    },
+    {
+      "id": "E25bf64178f52",
+      "label": "长电科技",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E1259eb50bee9",
+      "label": "半导体微系统集成和封装测试服务",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E5cda912a8314",
+      "label": "XDFOI",
+      "type": "工艺",
+      "types": [
+        "工艺",
+        "技术"
+      ]
+    },
+    {
+      "id": "E2db23c263faf",
+      "label": "2D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E03349d81cb6b",
+      "label": "2.5D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ecabd3a3d7ff2",
+      "label": "3D集成",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E7e83d640a0d4",
+      "label": "5G",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ed1a4c3dcf7e4",
+      "label": "DRAM、Flash等存储芯片封测服务",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eb98e005788df",
+      "label": "沪硅产业",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E3b7ed9aea60c",
+      "label": "300mm半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E42b37b9d0c39",
+      "label": "200mm及以下半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E8b25ba1df4b6",
+      "label": "抛光片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E28fb725038a3",
+      "label": "外延片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E75fbf79a1b62",
+      "label": "SOI硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E9db4c2f368d8",
+      "label": "压电薄膜衬底材料",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Efe82152e2361",
+      "label": "沪硅产业半导体硅片",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E33aeeebac2d3",
+      "label": "存储芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E6829e2935e32",
+      "label": "逻辑芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ea0fa1584271a",
+      "label": "硅光芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E45744a2e0396",
+      "label": "图像处理芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Ee6a7a585b65b",
+      "label": "通用处理器芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E17cbeb005147",
+      "label": "功率芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E39491d21a453",
+      "label": "射频芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "Eff8816874f46",
+      "label": "模拟芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E2e53237e7d90",
+      "label": "分立芯片制造",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E0ee8aab013d1",
+      "label": "华虹宏力",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Ea9b9e1e5150e",
+      "label": "华润微",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E80922ff3f89d",
+      "label": "Okmetic",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "E3dd0b848c032",
+      "label": "单晶生长",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E7a1323dc782f",
+      "label": "切割",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E5f2a071aa248",
+      "label": "研磨",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E2ac2e3394004",
+      "label": "抛光",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ea0e87414e2cd",
+      "label": "外延",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ec276c26a85a7",
+      "label": "SOI",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "Ec1af16c4ecaa",
+      "label": "300mm近完美单晶生长",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E5a1730cb88c8",
+      "label": "超平坦抛光工艺",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E42f3f447b33b",
+      "label": "极限表征",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E952589f06560",
+      "label": "中微公司",
+      "type": "公司",
+      "types": [
+        "公司"
+      ]
+    },
+    {
+      "id": "Eddba52775701",
+      "label": "CCP高能等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eecfb2aacd7ee",
+      "label": "MOCVD设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E6165b58ede71",
+      "label": "LPCVD设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "E22d6e989dc2f",
+      "label": "LED和功率器件外延片生产",
+      "type": "工艺",
+      "types": [
+        "工艺"
+      ]
+    },
+    {
+      "id": "Edc69beffed33",
+      "label": "中微公司等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ead278259d686",
+      "label": "先进工艺芯片加工制造与封装",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E026c74304869",
+      "label": "中微公司硅通孔刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Ed8ab013a06e9",
+      "label": "PSE V300Gi",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Eae5899ed3cb6",
+      "label": "ICP低能等离子体刻蚀设备",
+      "type": "产品",
+      "types": [
+        "产品"
+      ]
+    },
+    {
+      "id": "Efca171475604",
+      "label": "TSV",
+      "type": "技术",
+      "types": [
+        "技术"
+      ]
+    },
+    {
+      "id": "E1782fefe353a",
+      "label": "消费电子",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    },
+    {
+      "id": "E04f7acfcd28c",
+      "label": "数据中心",
+      "type": "应用",
+      "types": [
+        "应用"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "F001",
+      "source": "E0cbd5ae0a6d8",
+      "target": "E1cfc2bf8c5e8",
+      "relation": "提供产品",
+      "claim_id": "F001",
+      "source_id": "T01",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；核心产品线"
+    },
+    {
+      "id": "F002",
+      "source": "E0cbd5ae0a6d8",
+      "target": "Ef75e2ab26b87",
+      "relation": "提供产品",
+      "claim_id": "F002",
+      "source_id": "T01",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；核心产品线"
+    },
+    {
+      "id": "F003",
+      "source": "E0cbd5ae0a6d8",
+      "target": "Eb083fae21983",
+      "relation": "提供产品",
+      "claim_id": "F003",
+      "source_id": "T01",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；核心产品线"
+    },
+    {
+      "id": "F004",
+      "source": "E0cbd5ae0a6d8",
+      "target": "E55a15ade16ac",
+      "relation": "提供产品",
+      "claim_id": "F004",
+      "source_id": "T01",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；核心产品线"
+    },
+    {
+      "id": "F005",
+      "source": "E0cbd5ae0a6d8",
+      "target": "Ecfcafb8959f2",
+      "relation": "提供产品",
+      "claim_id": "F005",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；汽车芯片产品矩阵"
+    },
+    {
+      "id": "F006",
+      "source": "E0cbd5ae0a6d8",
+      "target": "Ecdcf0dde6184",
+      "relation": "提供产品",
+      "claim_id": "F006",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；汽车芯片产品矩阵"
+    },
+    {
+      "id": "F007",
+      "source": "E0cbd5ae0a6d8",
+      "target": "E997d2a2c08f1",
+      "relation": "提供产品",
+      "claim_id": "F007",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；汽车芯片产品矩阵"
+    },
+    {
+      "id": "F008",
+      "source": "E9ca3787ebc8d",
+      "target": "Ebb9f9ebce57e",
+      "relation": "应用于",
+      "claim_id": "F008",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "用于可靠的数据与代码存储"
+    },
+    {
+      "id": "F009",
+      "source": "Ec48faa06b2e0",
+      "target": "Ebb9f9ebce57e",
+      "relation": "应用于",
+      "claim_id": "F009",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "用于可靠的数据与代码存储"
+    },
+    {
+      "id": "F010",
+      "source": "Ecdcf0dde6184",
+      "target": "E25de611a7aaa",
+      "relation": "应用于",
+      "claim_id": "F010",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "基于Arm® Cortex®内核"
+    },
+    {
+      "id": "F011",
+      "source": "Ecdcf0dde6184",
+      "target": "E5226fae7cc30",
+      "relation": "应用于",
+      "claim_id": "F011",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "基于Arm® Cortex®内核"
+    },
+    {
+      "id": "F012",
+      "source": "Ecdcf0dde6184",
+      "target": "E7458239c919c",
+      "relation": "应用于",
+      "claim_id": "F012",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "基于Arm® Cortex®内核"
+    },
+    {
+      "id": "F013",
+      "source": "Ecdcf0dde6184",
+      "target": "Ecb3d75376550",
+      "relation": "应用于",
+      "claim_id": "F013",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "基于Arm® Cortex®内核"
+    },
+    {
+      "id": "F014",
+      "source": "Ecdcf0dde6184",
+      "target": "E5e563bd5878d",
+      "relation": "应用于",
+      "claim_id": "F014",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "基于Arm® Cortex®内核"
+    },
+    {
+      "id": "F015",
+      "source": "E274913faacef",
+      "target": "Ec960755850b1",
+      "relation": "兼容标准",
+      "claim_id": "F015",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "“等汽车可靠性标准”；公司自述"
+    },
+    {
+      "id": "F016",
+      "source": "Ede4cbdfcc749",
+      "target": "E6fc055dd40a2",
+      "relation": "宣布送样",
+      "claim_id": "F016",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24",
+      "qualifiers": "向全球主要内存厂商送样；工程样片"
+    },
+    {
+      "id": "F017",
+      "source": "E1b1076ae4d04",
+      "target": "E5979cc0543d1",
+      "relation": "应用于",
+      "claim_id": "F017",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24",
+      "qualifiers": "关键接口芯片；支持“1+10”内存缓冲架构"
+    },
+    {
+      "id": "F018",
+      "source": "E6dc5a27366f9",
+      "target": "Edab1e174db32",
+      "relation": "技术特征",
+      "claim_id": "F018",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24",
+      "qualifiers": "已量产；近期获全球主要内存厂商规模采购"
+    },
+    {
+      "id": "F019",
+      "source": "E6fc055dd40a2",
+      "target": "Ed7d501386683",
+      "relation": "技术特征",
+      "claim_id": "F019",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24",
+      "qualifiers": "工程样片；相较第一子代产品提升约45%"
+    },
+    {
+      "id": "F020",
+      "source": "Ede4cbdfcc749",
+      "target": "E4abc66c6caf3",
+      "relation": "宣布送样",
+      "claim_id": "F020",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2024年第四季度",
+      "qualifiers": "已送样"
+    },
+    {
+      "id": "F021",
+      "source": "Ede4cbdfcc749",
+      "target": "Ebbc0409c4f97",
+      "relation": "宣布量产",
+      "claim_id": "F021",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；已实现量产。"
+    },
+    {
+      "id": "F022",
+      "source": "Ebbc0409c4f97",
+      "target": "E426f5f7f18f2",
+      "relation": "升级自",
+      "claim_id": "F022",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；该产品被表述为基于PCIe 4.0 Retimer的升级。"
+    },
+    {
+      "id": "F023",
+      "source": "Ebbc0409c4f97",
+      "target": "Ebe0cc94f44c1",
+      "relation": "应用于",
+      "claim_id": "F023",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；面向云计算和高性能计算市场。"
+    },
+    {
+      "id": "F024",
+      "source": "Ebbc0409c4f97",
+      "target": "Ee615d0f10439",
+      "relation": "应用于",
+      "claim_id": "F024",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；面向云计算和高性能计算市场。"
+    },
+    {
+      "id": "F025",
+      "source": "Ebbc0409c4f97",
+      "target": "E1c01281d3eb9",
+      "relation": "兼容标准",
+      "claim_id": "F025",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；表述为符合相关规范。"
+    },
+    {
+      "id": "F026",
+      "source": "Ebbc0409c4f97",
+      "target": "Edcf2c0f5971f",
+      "relation": "技术特征",
+      "claim_id": "F026",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；传输速率最高32 GT/s；传输延迟低于5 ns。"
+    },
+    {
+      "id": "F027",
+      "source": "Ebbc0409c4f97",
+      "target": "E4631092f41c4",
+      "relation": "应用于",
+      "claim_id": "F027",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；适用表述涉及下一代服务器、企业存储和加速系统。"
+    },
+    {
+      "id": "F028",
+      "source": "Ebbc0409c4f97",
+      "target": "Ee04018a8b9e2",
+      "relation": "应用于",
+      "claim_id": "F028",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；适用表述涉及下一代服务器、企业存储和加速系统。"
+    },
+    {
+      "id": "F029",
+      "source": "Ebbc0409c4f97",
+      "target": "Eea5d15dd5619",
+      "relation": "应用于",
+      "claim_id": "F029",
+      "source_id": "T04",
+      "status": "公司披露",
+      "time": "2023-01-06",
+      "qualifiers": "公司披露；适用表述涉及下一代服务器、企业存储和加速系统。"
+    },
+    {
+      "id": "F030",
+      "source": "E7ee8a205eba1",
+      "target": "Eaf3241908cc7",
+      "relation": "提供产品",
+      "claim_id": "F030",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；方案覆盖刻蚀、去胶、清洗、ALD、PVD、电镀及退火。"
+    },
+    {
+      "id": "F031",
+      "source": "Eb8097c831c29",
+      "target": "E58a3aa63ce66",
+      "relation": "前序工艺",
+      "claim_id": "F031",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；去胶处理在TSV孔洞刻蚀后进行。"
+    },
+    {
+      "id": "F032",
+      "source": "E4ffe17201c6a",
+      "target": "E58a3aa63ce66",
+      "relation": "用于工艺",
+      "claim_id": "F032",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；用于去胶处理。"
+    },
+    {
+      "id": "F033",
+      "source": "E2a77cec8e848",
+      "target": "E48d16566d0ab",
+      "relation": "用于工艺",
+      "claim_id": "F033",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；单片堆叠清洗设备，用于清洗作业。"
+    },
+    {
+      "id": "F034",
+      "source": "Ec2358a824df5",
+      "target": "E48d16566d0ab",
+      "relation": "用于工艺",
+      "claim_id": "F034",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；单片清洗设备，用于深孔清洗。"
+    },
+    {
+      "id": "F035",
+      "source": "E8f70efc6a261",
+      "target": "Ef4281767fe6b",
+      "relation": "用于工艺",
+      "claim_id": "F035",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；采用PEALD，在高深宽比通孔沉积二氧化硅薄膜。"
+    },
+    {
+      "id": "F036",
+      "source": "E12075f4ccdc4",
+      "target": "E4b6ade2efb08",
+      "relation": "用于工艺",
+      "claim_id": "F036",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；用于阻挡层/种子层沉积；适用深宽比≥15:1孔隙。"
+    },
+    {
+      "id": "F037",
+      "source": "E4b6ade2efb08",
+      "target": "E75e3404286ca",
+      "relation": "前序工艺",
+      "claim_id": "F037",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；电镀填充在阻挡层和种子层沉积完成后进行。"
+    },
+    {
+      "id": "F038",
+      "source": "E676c745eb375",
+      "target": "E75e3404286ca",
+      "relation": "用于工艺",
+      "claim_id": "F038",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；可实现高深宽比TSV无孔洞填充。"
+    },
+    {
+      "id": "F039",
+      "source": "E75e3404286ca",
+      "target": "E080480779439",
+      "relation": "前序工艺",
+      "claim_id": "F039",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；退火处理被列为最后步骤。"
+    },
+    {
+      "id": "F040",
+      "source": "E8283f2d2b133",
+      "target": "Ed529f208a38f",
+      "relation": "用于工艺",
+      "claim_id": "F040",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；专为铜退火设计。"
+    },
+    {
+      "id": "F041",
+      "source": "E19d9bbf5be1a",
+      "target": "Eb396114c1b7a",
+      "relation": "提供服务",
+      "claim_id": "F041",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；服务对象为全球客户。"
+    },
+    {
+      "id": "F042",
+      "source": "E19d9bbf5be1a",
+      "target": "E1f385bed36c0",
+      "relation": "应用于",
+      "claim_id": "F042",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；表述为产品、技术及服务全方位涵盖。"
+    },
+    {
+      "id": "F043",
+      "source": "E19d9bbf5be1a",
+      "target": "Ef99cdec7dc20",
+      "relation": "应用于",
+      "claim_id": "F043",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；表述为产品、技术及服务全方位涵盖。"
+    },
+    {
+      "id": "F044",
+      "source": "E19d9bbf5be1a",
+      "target": "Eb2a5a4ed9613",
+      "relation": "应用于",
+      "claim_id": "F044",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；表述为产品、技术及服务全方位涵盖。"
+    },
+    {
+      "id": "F045",
+      "source": "E19d9bbf5be1a",
+      "target": "E161332dd5ba2",
+      "relation": "应用于",
+      "claim_id": "F045",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；表述为产品、技术及服务全方位涵盖。"
+    },
+    {
+      "id": "F046",
+      "source": "E19d9bbf5be1a",
+      "target": "E1b3d54b5cf17",
+      "relation": "应用于",
+      "claim_id": "F046",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；表述为产品、技术及服务全方位涵盖。"
+    },
+    {
+      "id": "F047",
+      "source": "E19d9bbf5be1a",
+      "target": "E40ee5f89f414",
+      "relation": "采用业务模式",
+      "claim_id": "F047",
+      "source_id": "T08",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司自述；“封测”为封装测试的简称。"
+    },
+    {
+      "id": "F048",
+      "source": "E131507539710",
+      "target": "E8ce39f1a4319",
+      "relation": "拟收购",
+      "claim_id": "F048",
+      "source_id": "T09",
+      "status": "计划或待审批",
+      "time": "2015-10-15",
+      "qualifiers": "拟通过收购平台出资约3.7亿美金；具体金额待交割时确定。"
+    },
+    {
+      "id": "F049",
+      "source": "E131507539710",
+      "target": "E5c01fc615863",
+      "relation": "须获批准",
+      "claim_id": "F049",
+      "source_id": "T09",
+      "status": "计划或待审批",
+      "time": "2015-10-17",
+      "qualifiers": "有望在2016年上半年结束。"
+    },
+    {
+      "id": "F050",
+      "source": "E55f4d2a12e03",
+      "target": "Ef3a903ef2a7f",
+      "relation": "提供服务",
+      "claim_id": "F050",
+      "source_id": "T09",
+      "status": "公司披露",
+      "time": "2015-10-17",
+      "qualifiers": "主要产品包括CPU、GPU、APU及游戏主机处理器等。"
+    },
+    {
+      "id": "F051",
+      "source": "E55f4d2a12e03",
+      "target": "E0478b2225514",
+      "relation": "提供技术",
+      "claim_id": "F051",
+      "source_id": "T09",
+      "status": "公司披露",
+      "time": "2015-10-17",
+      "qualifiers": "先进封装产品占比100%。"
+    },
+    {
+      "id": "F052",
+      "source": "E131507539710",
+      "target": "E0fd3e4e71b62",
+      "relation": "拟服务客户",
+      "claim_id": "F052",
+      "source_id": "T09",
+      "status": "计划或待审批",
+      "time": "2015-10-17披露；以未来交易完成为条件",
+      "qualifiers": "以交易完成后成立合资企业为条件；将作为AMD主要的封测供应商。"
+    },
+    {
+      "id": "F053",
+      "source": "E19d9bbf5be1a",
+      "target": "Ea664971148cf",
+      "relation": "宣布量产",
+      "claim_id": "F053",
+      "source_id": "T09",
+      "status": "公司披露",
+      "time": "2015-10-17",
+      "qualifiers": "公司称Bumping技术已经在规模量产。"
+    },
+    {
+      "id": "F054",
+      "source": "E19d9bbf5be1a",
+      "target": "E965733bb4acc",
+      "relation": "宣布量产",
+      "claim_id": "F054",
+      "source_id": "T09",
+      "status": "公司披露",
+      "time": "2015-10-17",
+      "qualifiers": "包括Bumping、CP、FC、FT、SLT等。"
+    },
+    {
+      "id": "F055",
+      "source": "E18126b597cb2",
+      "target": "E0da1da125604",
+      "relation": "提供服务",
+      "claim_id": "F055",
+      "source_id": "T12",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "面向全球客户；在8英寸及12英寸晶圆上提供。"
+    },
+    {
+      "id": "F056",
+      "source": "E18126b597cb2",
+      "target": "E2f1fb62ecae4",
+      "relation": "提供服务",
+      "claim_id": "F056",
+      "source_id": "T12",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "服务对象为全球客户。"
+    },
+    {
+      "id": "F057",
+      "source": "E18126b597cb2",
+      "target": "E66832f83edbe",
+      "relation": "提供服务",
+      "claim_id": "F057",
+      "source_id": "T12",
+      "status": "公司披露",
+      "time": "原页未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "服务对象为全球客户。"
+    },
+    {
+      "id": "F058",
+      "source": "E77c43aa5a725",
+      "target": "E6e0e1894cfc3",
+      "relation": "披露统计",
+      "claim_id": "F058",
+      "source_id": "T13",
+      "status": "协会统计",
+      "time": "2026年第二季度",
+      "qualifiers": "同比增长23%；环比增长11%；全球口径。"
+    },
+    {
+      "id": "F059",
+      "source": "E8ba99d335e7d",
+      "target": "E821f603eb2ed",
+      "relation": "归因于",
+      "claim_id": "F059",
+      "source_id": "T13",
+      "status": "作者解释",
+      "time": "2026年第二季度",
+      "qualifiers": "SEMI将其归因于支持人工智能投资势头及全球人工智能计算基础设施建设的技术和产能解决方案需求加速。"
+    },
+    {
+      "id": "F060",
+      "source": "Eb86c89a6c326",
+      "target": "E9b4ced75ab14",
+      "relation": "采用统计口径",
+      "claim_id": "F060",
+      "source_id": "T13",
+      "status": "协会统计",
+      "time": "2026-09-03",
+      "qualifiers": "基于SEMI及日本半导体设备协会（SEAJ）成员提交的数据；全球行业口径。"
+    },
+    {
+      "id": "F061",
+      "source": "E77c43aa5a725",
+      "target": "E4c01845a215b",
+      "relation": "发布预测",
+      "claim_id": "F061",
+      "source_id": "T14",
+      "status": "预测",
+      "time": "2026-07-14发布；预测期：2026年",
+      "qualifiers": "全球；OEM销售额；预测"
+    },
+    {
+      "id": "F062",
+      "source": "E77c43aa5a725",
+      "target": "Ef21c2eda0868",
+      "relation": "发布预测",
+      "claim_id": "F062",
+      "source_id": "T14",
+      "status": "预测",
+      "time": "2026-07-14发布；预测期：2028年",
+      "qualifiers": "全球；预测"
+    },
+    {
+      "id": "F063",
+      "source": "E77c43aa5a725",
+      "target": "E9e9595978fa1",
+      "relation": "发布预测",
+      "claim_id": "F063",
+      "source_id": "T14",
+      "status": "预测",
+      "time": "2026-07-14发布；预测期：2026年",
+      "qualifiers": "全球；WFE含晶圆处理、掩模/光罩及晶圆厂设施设备；预测"
+    },
+    {
+      "id": "F064",
+      "source": "E77c43aa5a725",
+      "target": "E77184c7c7251",
+      "relation": "发布预测",
+      "claim_id": "F064",
+      "source_id": "T14",
+      "status": "预测",
+      "time": "2026-07-14发布；预测期：2026年",
+      "qualifiers": "全球；预测"
+    },
+    {
+      "id": "F065",
+      "source": "E77c43aa5a725",
+      "target": "E52e8e580c4ea",
+      "relation": "发布预测",
+      "claim_id": "F065",
+      "source_id": "T14",
+      "status": "预测",
+      "time": "2026-07-14发布；预测期：2026年",
+      "qualifiers": "全球；预测；2025年增长20.8%为已述历史表现"
+    },
+    {
+      "id": "F066",
+      "source": "E25bf64178f52",
+      "target": "E1259eb50bee9",
+      "relation": "提供服务",
+      "claim_id": "F066",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "涵盖高、中、低各种半导体封测类型"
+    },
+    {
+      "id": "F067",
+      "source": "E5cda912a8314",
+      "target": "E2db23c263faf",
+      "relation": "涵盖集成技术",
+      "claim_id": "F067",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "面向Chiplet的极高密度、多扇出型封装高密度异构集成解决方案"
+    },
+    {
+      "id": "F068",
+      "source": "E5cda912a8314",
+      "target": "E03349d81cb6b",
+      "relation": "涵盖集成技术",
+      "claim_id": "F068",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "面向Chiplet的极高密度、多扇出型封装高密度异构集成解决方案"
+    },
+    {
+      "id": "F069",
+      "source": "E5cda912a8314",
+      "target": "Ecabd3a3d7ff2",
+      "relation": "涵盖集成技术",
+      "claim_id": "F069",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "面向Chiplet的极高密度、多扇出型封装高密度异构集成解决方案"
+    },
+    {
+      "id": "F070",
+      "source": "E5cda912a8314",
+      "target": "Ee615d0f10439",
+      "relation": "应用于",
+      "claim_id": "F070",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "经过持续研发与客户产品验证"
+    },
+    {
+      "id": "F071",
+      "source": "E5cda912a8314",
+      "target": "E161332dd5ba2",
+      "relation": "应用于",
+      "claim_id": "F071",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "经过持续研发与客户产品验证"
+    },
+    {
+      "id": "F072",
+      "source": "E5cda912a8314",
+      "target": "E7e83d640a0d4",
+      "relation": "应用于",
+      "claim_id": "F072",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "经过持续研发与客户产品验证"
+    },
+    {
+      "id": "F073",
+      "source": "E5cda912a8314",
+      "target": "E1b3d54b5cf17",
+      "relation": "应用于",
+      "claim_id": "F073",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "经过持续研发与客户产品验证"
+    },
+    {
+      "id": "F074",
+      "source": "E25bf64178f52",
+      "target": "Ed1a4c3dcf7e4",
+      "relation": "提供服务",
+      "claim_id": "F074",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "拥有20多年memory封装量产经验"
+    },
+    {
+      "id": "F075",
+      "source": "Eb98e005788df",
+      "target": "E3b7ed9aea60c",
+      "relation": "提供产品",
+      "claim_id": "F075",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "半导体硅片产品矩阵"
+    },
+    {
+      "id": "F076",
+      "source": "Eb98e005788df",
+      "target": "E42b37b9d0c39",
+      "relation": "提供产品",
+      "claim_id": "F076",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "半导体硅片产品矩阵"
+    },
+    {
+      "id": "F077",
+      "source": "Eb98e005788df",
+      "target": "E8b25ba1df4b6",
+      "relation": "提供产品",
+      "claim_id": "F077",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "压电薄膜衬底材料为布局产品"
+    },
+    {
+      "id": "F078",
+      "source": "Eb98e005788df",
+      "target": "E28fb725038a3",
+      "relation": "提供产品",
+      "claim_id": "F078",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "压电薄膜衬底材料为布局产品"
+    },
+    {
+      "id": "F079",
+      "source": "Eb98e005788df",
+      "target": "E75fbf79a1b62",
+      "relation": "提供产品",
+      "claim_id": "F079",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "压电薄膜衬底材料为布局产品"
+    },
+    {
+      "id": "F080",
+      "source": "Eb98e005788df",
+      "target": "E9db4c2f368d8",
+      "relation": "布局产品",
+      "claim_id": "F080",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "压电薄膜衬底材料为布局产品"
+    },
+    {
+      "id": "F081",
+      "source": "Efe82152e2361",
+      "target": "E33aeeebac2d3",
+      "relation": "应用于",
+      "claim_id": "F081",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F082",
+      "source": "Efe82152e2361",
+      "target": "E6829e2935e32",
+      "relation": "应用于",
+      "claim_id": "F082",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F083",
+      "source": "Efe82152e2361",
+      "target": "Ea0fa1584271a",
+      "relation": "应用于",
+      "claim_id": "F083",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F084",
+      "source": "Efe82152e2361",
+      "target": "E45744a2e0396",
+      "relation": "应用于",
+      "claim_id": "F084",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F085",
+      "source": "Efe82152e2361",
+      "target": "Ee6a7a585b65b",
+      "relation": "应用于",
+      "claim_id": "F085",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F086",
+      "source": "Efe82152e2361",
+      "target": "E17cbeb005147",
+      "relation": "应用于",
+      "claim_id": "F086",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F087",
+      "source": "Efe82152e2361",
+      "target": "E39491d21a453",
+      "relation": "应用于",
+      "claim_id": "F087",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F088",
+      "source": "Efe82152e2361",
+      "target": "Eff8816874f46",
+      "relation": "应用于",
+      "claim_id": "F088",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F089",
+      "source": "Efe82152e2361",
+      "target": "E2e53237e7d90",
+      "relation": "应用于",
+      "claim_id": "F089",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "产品矩阵应用"
+    },
+    {
+      "id": "F090",
+      "source": "Eb98e005788df",
+      "target": "E18126b597cb2",
+      "relation": "披露客户",
+      "claim_id": "F090",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "国内客户；公司披露的客户覆盖范围，不代表独立验证或当前订单"
+    },
+    {
+      "id": "F091",
+      "source": "Eb98e005788df",
+      "target": "E0ee8aab013d1",
+      "relation": "披露客户",
+      "claim_id": "F091",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "国内客户；公司披露的客户覆盖范围，不代表独立验证或当前订单"
+    },
+    {
+      "id": "F092",
+      "source": "Eb98e005788df",
+      "target": "Ea9b9e1e5150e",
+      "relation": "披露客户",
+      "claim_id": "F092",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "国内客户；公司披露的客户覆盖范围，不代表独立验证或当前订单"
+    },
+    {
+      "id": "F093",
+      "source": "Eb98e005788df",
+      "target": "E80922ff3f89d",
+      "relation": "拥有子公司",
+      "claim_id": "F093",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "原文称子公司；深耕高端利基市场"
+    },
+    {
+      "id": "F094",
+      "source": "Eb98e005788df",
+      "target": "E3dd0b848c032",
+      "relation": "计划研发",
+      "claim_id": "F094",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F095",
+      "source": "Eb98e005788df",
+      "target": "E7a1323dc782f",
+      "relation": "计划研发",
+      "claim_id": "F095",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F096",
+      "source": "Eb98e005788df",
+      "target": "E5f2a071aa248",
+      "relation": "计划研发",
+      "claim_id": "F096",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F097",
+      "source": "Eb98e005788df",
+      "target": "E2ac2e3394004",
+      "relation": "计划研发",
+      "claim_id": "F097",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F098",
+      "source": "Eb98e005788df",
+      "target": "Ea0e87414e2cd",
+      "relation": "计划研发",
+      "claim_id": "F098",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F099",
+      "source": "Eb98e005788df",
+      "target": "Ec276c26a85a7",
+      "relation": "计划研发",
+      "claim_id": "F099",
+      "source_id": "T19",
+      "status": "计划或待审批",
+      "time": "2025年",
+      "qualifiers": "重点研发方向；特别加强面向射频、硅光、高压应用的300mmSOI技术研发与工艺优化"
+    },
+    {
+      "id": "F100",
+      "source": "Eb98e005788df",
+      "target": "Ec1af16c4ecaa",
+      "relation": "披露技术突破",
+      "claim_id": "F100",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "公司自述；并建立300mm硅材料极限表征体系"
+    },
+    {
+      "id": "F101",
+      "source": "Eb98e005788df",
+      "target": "E5a1730cb88c8",
+      "relation": "披露技术突破",
+      "claim_id": "F101",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "公司自述；并建立300mm硅材料极限表征体系"
+    },
+    {
+      "id": "F102",
+      "source": "Eb98e005788df",
+      "target": "E42f3f447b33b",
+      "relation": "披露技术突破",
+      "claim_id": "F102",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "公司自述；并建立300mm硅材料极限表征体系"
+    },
+    {
+      "id": "F103",
+      "source": "E952589f06560",
+      "target": "Eddba52775701",
+      "relation": "提供产品",
+      "claim_id": "F103",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；包括十几种细分刻蚀设备；称可覆盖大多数刻蚀应用。"
+    },
+    {
+      "id": "F104",
+      "source": "E952589f06560",
+      "target": "Eecfb2aacd7ee",
+      "relation": "提供产品",
+      "claim_id": "F104",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；最近十年着重开发；属于导体和半导体化学薄膜设备。"
+    },
+    {
+      "id": "F105",
+      "source": "E952589f06560",
+      "target": "E6165b58ede71",
+      "relation": "提供产品",
+      "claim_id": "F105",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；最近十年着重开发；属于导体和半导体化学薄膜设备。"
+    },
+    {
+      "id": "F106",
+      "source": "Eecfb2aacd7ee",
+      "target": "E22d6e989dc2f",
+      "relation": "用于工艺",
+      "claim_id": "F106",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；用于LED和功率器件外延片生产；称早已在客户生产线上投入量产，未披露客户名称。"
+    },
+    {
+      "id": "F107",
+      "source": "Edc69beffed33",
+      "target": "Ead278259d686",
+      "relation": "应用于",
+      "claim_id": "F107",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；称已被广泛应用于“国际一线客户”，未披露具名客户；覆盖诸多先进工艺。"
+    },
+    {
+      "id": "F108",
+      "source": "E026c74304869",
+      "target": "Ead278259d686",
+      "relation": "应用于",
+      "claim_id": "F108",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日（图表统计截至2025-06-30）",
+      "qualifiers": "公司自述；称已被广泛应用于“国际一线客户”，未披露具名客户；覆盖诸多先进工艺。"
+    },
+    {
+      "id": "F109",
+      "source": "E6fc055dd40a2",
+      "target": "E5979cc0543d1",
+      "relation": "应用于",
+      "claim_id": "F109",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24",
+      "qualifiers": "最高支持12800 MT/s传输速率"
+    },
+    {
+      "id": "F110",
+      "source": "Ed8ab013a06e9",
+      "target": "Eb8097c831c29",
+      "relation": "用于工艺",
+      "claim_id": "F110",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；深孔刻蚀设备，用于TSV孔洞形成环节。"
+    },
+    {
+      "id": "F111",
+      "source": "E25bf64178f52",
+      "target": "E5cda912a8314",
+      "relation": "提供技术",
+      "claim_id": "F111",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "应用领域包括高算力及对应存储和连接、人工智能端侧、功率与能源、汽车和工业；已实现规模量产"
+    },
+    {
+      "id": "F112",
+      "source": "E25bf64178f52",
+      "target": "E5cda912a8314",
+      "relation": "宣布量产",
+      "claim_id": "F112",
+      "source_id": "T18",
+      "status": "公司披露",
+      "time": "2024年上半年",
+      "qualifiers": "按计划进入"
+    },
+    {
+      "id": "F113",
+      "source": "E7ee8a205eba1",
+      "target": "E4ffe17201c6a",
+      "relation": "提供产品",
+      "claim_id": "F113",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F114",
+      "source": "E7ee8a205eba1",
+      "target": "E2a77cec8e848",
+      "relation": "提供产品",
+      "claim_id": "F114",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F115",
+      "source": "E7ee8a205eba1",
+      "target": "Ec2358a824df5",
+      "relation": "提供产品",
+      "claim_id": "F115",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F116",
+      "source": "E7ee8a205eba1",
+      "target": "E8f70efc6a261",
+      "relation": "提供产品",
+      "claim_id": "F116",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F117",
+      "source": "E7ee8a205eba1",
+      "target": "E12075f4ccdc4",
+      "relation": "提供产品",
+      "claim_id": "F117",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F118",
+      "source": "E7ee8a205eba1",
+      "target": "E676c745eb375",
+      "relation": "提供产品",
+      "claim_id": "F118",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F119",
+      "source": "E7ee8a205eba1",
+      "target": "E8283f2d2b133",
+      "relation": "提供产品",
+      "claim_id": "F119",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F120",
+      "source": "E7ee8a205eba1",
+      "target": "Ed8ab013a06e9",
+      "relation": "提供产品",
+      "claim_id": "F120",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F121",
+      "source": "Ede4cbdfcc749",
+      "target": "E6dc5a27366f9",
+      "relation": "宣布量产",
+      "claim_id": "F121",
+      "source_id": "T03",
+      "status": "公司披露",
+      "time": "2025-01-24披露；量产起始日期未知",
+      "qualifiers": "该代已量产且获规模采购；不可转移到第二子代"
+    },
+    {
+      "id": "F122",
+      "source": "E0cbd5ae0a6d8",
+      "target": "E9ca3787ebc8d",
+      "relation": "提供产品",
+      "claim_id": "F122",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F123",
+      "source": "E0cbd5ae0a6d8",
+      "target": "Ec48faa06b2e0",
+      "relation": "提供产品",
+      "claim_id": "F123",
+      "source_id": "T02",
+      "status": "公司披露",
+      "time": "未标日期；2026-09-15抓取，不保证当前仍有效",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F124",
+      "source": "E952589f06560",
+      "target": "E026c74304869",
+      "relation": "提供产品",
+      "claim_id": "F124",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F125",
+      "source": "E952589f06560",
+      "target": "Edc69beffed33",
+      "relation": "提供产品",
+      "claim_id": "F125",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F126",
+      "source": "E026c74304869",
+      "target": "Eb8097c831c29",
+      "relation": "用于工艺",
+      "claim_id": "F126",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日",
+      "qualifiers": "硅通孔与TSV术语对齐；仅工艺能力相交，不代表设备性能等价"
+    },
+    {
+      "id": "F127",
+      "source": "E952589f06560",
+      "target": "Eae5899ed3cb6",
+      "relation": "提供产品",
+      "claim_id": "F127",
+      "source_id": "T07R",
+      "status": "公司披露",
+      "time": "2025年事实页；业务描述未标精确有效日",
+      "qualifiers": "公司披露；仅证实所述能力或关系，不证明订单规模"
+    },
+    {
+      "id": "F128",
+      "source": "Eb98e005788df",
+      "target": "Efe82152e2361",
+      "relation": "提供产品",
+      "claim_id": "F128",
+      "source_id": "T19",
+      "status": "公司披露",
+      "time": "2025年",
+      "qualifiers": "报告产品矩阵，不把全体产品都配对到每个应用"
+    },
+    {
+      "id": "F129",
+      "source": "Efca171475604",
+      "target": "Ee615d0f10439",
+      "relation": "应用于",
+      "claim_id": "F129",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "TSV技术的一般适用场景；不是北方华创逐领域订单"
+    },
+    {
+      "id": "F130",
+      "source": "Efca171475604",
+      "target": "E1782fefe353a",
+      "relation": "应用于",
+      "claim_id": "F130",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "TSV技术的一般适用场景；不是北方华创逐领域订单"
+    },
+    {
+      "id": "F131",
+      "source": "Efca171475604",
+      "target": "E1b3d54b5cf17",
+      "relation": "应用于",
+      "claim_id": "F131",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "TSV技术的一般适用场景；不是北方华创逐领域订单"
+    },
+    {
+      "id": "F132",
+      "source": "Efca171475604",
+      "target": "E04f7acfcd28c",
+      "relation": "应用于",
+      "claim_id": "F132",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "TSV技术的一般适用场景；不是北方华创逐领域订单"
+    },
+    {
+      "id": "F133",
+      "source": "Eaf3241908cc7",
+      "target": "Efca171475604",
+      "relation": "提供技术",
+      "claim_id": "F133",
+      "source_id": "T06",
+      "status": "公司披露",
+      "time": "2025-05-28",
+      "qualifiers": "原文方案面向TSV；不推出所有应用均有公司商业交付"
+    }
+  ]
+}
