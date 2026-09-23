@@ -1,0 +1,69 @@
+{
+  "chunk_id": "CHUNK_005",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P001_B008",
+    "SO_P001_B009",
+    "SO_P002_B001",
+    "SO_P002_B002",
+    "SO_P002_B003",
+    "SO_P002_B004"
+  ],
+  "prompt_digest": "f7cb6a48796787084dacde5c987e11d9ab3dbdcd58abf2030f4758d1699e684e",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P001_B008",
+        "classification": "material",
+        "reason": "Standard five-period ROE financial table row and contact info."
+      },
+      {
+        "source_object_id": "SO_P001_B009",
+        "classification": "material",
+        "reason": "Standard five-period PE financial table row and metric definitions."
+      },
+      {
+        "source_object_id": "SO_P002_B001",
+        "classification": "administrative",
+        "reason": "Header text containing company name, stock code, and report date."
+      },
+      {
+        "source_object_id": "SO_P002_B002",
+        "classification": "opaque",
+        "reason": "Figure titles without readable numerical data."
+      },
+      {
+        "source_object_id": "SO_P002_B003",
+        "classification": "administrative",
+        "reason": "Data source attribution metadata."
+      },
+      {
+        "source_object_id": "SO_P002_B004",
+        "classification": "opaque",
+        "reason": "Figure title without readable numerical data."
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "爱建证券研究所",
+        "entity_type": "institution"
+      },
+      {
+        "local_id": "E3",
+        "name": "DRAM",
+        "entity_type": "product"
+      }
+    ],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

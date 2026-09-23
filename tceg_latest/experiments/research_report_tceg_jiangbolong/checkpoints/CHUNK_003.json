@@ -1,0 +1,547 @@
+{
+  "chunk_id": "CHUNK_003",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P001_B004",
+    "SO_P001_B005"
+  ],
+  "prompt_digest": "3ca6a41eb926905482145ced5319c82f67248fbc2115f26c3d30174062376b38",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P001_B004",
+        "classification": "material",
+        "reason": "包含移动DRAM及NAND Flash合约价调价数据、SK Hynix官宣信息以及HBM市场规模及预测"
+      },
+      {
+        "source_object_id": "SO_P001_B005",
+        "classification": "material",
+        "reason": "包含分析师关于智能手机与服务器双重拉动存储涨价及持续性的核心观点"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "SK Hynix",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "Market Research Future",
+        "entity_type": "institution"
+      },
+      {
+        "local_id": "E3",
+        "name": "iPhone",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E4",
+        "name": "DRAM",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E5",
+        "name": "NAND Flash",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E6",
+        "name": "HBM",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E7",
+        "name": "智能手机",
+        "entity_type": "industry"
+      },
+      {
+        "local_id": "E8",
+        "name": "服务器",
+        "entity_type": "industry"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "移动DRAM产品合约价上调15%-30%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "DRAM",
+        "predicate": "PRICE_INCREASE",
+        "object_text": "合约价上调15%-30%",
+        "metric_name": "合约价涨幅",
+        "period_label": null,
+        "data_point_local_ids": [
+          "D1"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "LPDDR4X、LPDDR5/5X 等移动 DRAM 产品合约价 15%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "NAND Flash合约价上调5%-10%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "NAND Flash",
+        "predicate": "PRICE_INCREASE",
+        "object_text": "合约价上调5%-10%",
+        "metric_name": "合约价涨幅",
+        "period_label": null,
+        "data_point_local_ids": [
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "同时将 NAND Flash 合约价上调 5%-10%。"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "服务器市场HBM市场持续向好且长期成长趋势确定",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "HBM",
+        "predicate": "GROWTH_TREND",
+        "object_text": "持续向好，长期成长趋势确定",
+        "metric_name": null,
+        "period_label": "2024-2034",
+        "data_point_local_ids": [
+          "D4",
+          "D5",
+          "D6"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "3）服务器市场 HBM 市场持续向好。"
+          },
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "长期成长趋势确定。"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "市场普遍认为服务器是主要需求",
+        "claim_role": "observation",
+        "modality": "opinion",
+        "polarity": "neutral",
+        "importance": "context",
+        "subject_name": "市场共识",
+        "predicate": "BELIEVES",
+        "object_text": "服务器是主要需求",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "市场普遍认为服务器是主要需求"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "iPhone带动智能手机正在进入升级周期",
+        "claim_role": "interpretation",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "智能手机",
+        "predicate": "ENTER_UPGRADE_CYCLE",
+        "object_text": "进入升级周期",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "iPhone 带动智能手机正在进入升级周期"
+          }
+        ]
+      },
+      {
+        "local_id": "C6",
+        "text": "智能手机和服务器双重拉动本次存储涨价",
+        "claim_role": "interpretation",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "存储芯片",
+        "predicate": "DRIVEN_BY",
+        "object_text": "智能手机和服务器双重拉动",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "智能手机和服务器双重拉动本次存储涨价"
+          }
+        ]
+      },
+      {
+        "local_id": "C7",
+        "text": "本次存储涨价持续性有望超越市场预期",
+        "claim_role": "forecast",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "存储芯片涨价持续性",
+        "predicate": "EXCEED_EXPECTATION",
+        "object_text": "超越市场预期",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "持续性有望超越市场预期。"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": "移动DRAM产品",
+        "metric_name": "合约价涨幅",
+        "period_label": null,
+        "qualifier": "actual",
+        "value": {
+          "kind": "range",
+          "raw": "15%-30%",
+          "normalized_decimal": null,
+          "range_low": 15.0,
+          "range_high": 30.0,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "LPDDR4X、LPDDR5/5X 等移动 DRAM 产品合约价 15%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": "NAND Flash",
+        "metric_name": "合约价涨幅",
+        "period_label": null,
+        "qualifier": "actual",
+        "value": {
+          "kind": "range",
+          "raw": "5%-10%",
+          "normalized_decimal": null,
+          "range_low": 5.0,
+          "range_high": 10.0,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "同时将 NAND Flash 合约价上调 5%-10%。"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": "SK Hynix DRAM与NAND Flash",
+        "metric_name": "合约价最高上调幅度",
+        "period_label": "2025Q4",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "30%",
+          "normalized_decimal": "30",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约价最高上调 30%。"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": "全球HBM市场",
+        "metric_name": "市场规模",
+        "period_label": "2024",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "56.1",
+          "normalized_decimal": "56.1",
+          "range_low": null,
+          "range_high": null,
+          "unit": "USD",
+          "currency": "USD",
+          "scale": 100000000,
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2024 年全球 HBM 市场规模达 56.1 亿美元"
+          }
+        ]
+      },
+      {
+        "local_id": "D5",
+        "subject_name": "全球HBM市场",
+        "metric_name": "市场规模",
+        "period_label": "2034E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "570.9",
+          "normalized_decimal": "570.9",
+          "range_low": null,
+          "range_high": null,
+          "unit": "USD",
+          "currency": "USD",
+          "scale": 100000000,
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2034 年预计增长至 570.9 亿美元"
+          }
+        ]
+      },
+      {
+        "local_id": "D6",
+        "subject_name": "全球HBM市场",
+        "metric_name": "复合增长率",
+        "period_label": "2024-2034",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "26.1%",
+          "normalized_decimal": "26.1",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "预计 2024-2034 年复合增长率达 26.1%"
+          }
+        ]
+      },
+      {
+        "local_id": "D7",
+        "subject_name": "标的公司",
+        "metric_name": "每股净资产",
+        "period_label": null,
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "18.0",
+          "normalized_decimal": "18.0",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY/share",
+          "currency": "CNY",
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "每股净资产（元） 18.0"
+          }
+        ]
+      },
+      {
+        "local_id": "D8",
+        "subject_name": "标的公司",
+        "metric_name": "资产负债率",
+        "period_label": null,
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "58.93",
+          "normalized_decimal": "58.93",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "资产负债率% 58.93"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约价最高上调 30%",
+        "category": "price",
+        "subject_name": "SK Hynix",
+        "period_label": "2024-10-23",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "10 月 23 日，SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约价最高上调 30%。"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "移动DRAM涨价命题包含具体数值D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "LPDDR4X、LPDDR5/5X 等移动 DRAM 产品合约价 15%-30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "NAND Flash涨价命题包含具体数值D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "同时将 NAND Flash 合约价上调 5%-10%。"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V1",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "SK Hynix官宣事件包含调价幅度最高30%",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "10 月 23 日，SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约价最高上调 30%。"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D4",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "HBM市场向好观点引用了2024年市场规模56.1亿美元",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2024 年全球 HBM 市场规模达 56.1 亿美元"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D5",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "HBM市场向好观点引用了2034年预计规模570.9亿美元",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2034 年预计增长至 570.9 亿美元"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D6",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "HBM市场向好观点引用了CAGR 26.1%的预测",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "预计 2024-2034 年复合增长率达 26.1%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "C6",
+        "relation_type": "SUPPORTS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "智能手机进入升级周期支撑了智能手机与服务器双重拉动涨价的观点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "实际上 iPhone 带动智能手机正在进入升级周期，智能手机和服务器双重拉动本次存储涨价"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C6",
+        "target_local_id": "C7",
+        "relation_type": "SUPPORTS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "智能手机和服务器双重拉动推导出本次存储涨价持续性超越市场预期的结论",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B005",
+            "quote": "智能手机和服务器双重拉动本次存储涨价，持续性有望超越市场预期。"
+          }
+        ]
+      }
+    ]
+  }
+}

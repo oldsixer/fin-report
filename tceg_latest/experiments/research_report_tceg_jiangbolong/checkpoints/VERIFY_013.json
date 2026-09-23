@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "d3301cb53280cd0a729612995a678f7159e216db5525c8ff42d1c06fa223dfd1",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_1442F22CC675FD8D",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "iPhone存储升级周期持续是论证智能手机端需求拉动及存储涨价持续性超预期的重要前置事实，方向和SUPPORTS关系合理。"
+      },
+      {
+        "proposal_id": "RELPROP_85CA8C8DE7A89F5F",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "服务器HBM市场的确定性成长趋势，与智能手机端逻辑共同构成了“双重拉动”结论的实质性联合证据，SUPPORTS关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_1CC5457A35B6BD6B",
+        "verdict": "reject",
+        "confidence": 0.85,
+        "reason": "关系类型错误。市场普遍预期是得出“持续性超越预期”这一结论的对比基准和逻辑前提（应为SUPPORTS），而不会对涨价趋势或智能手机升级周期产生实际的因果驱动或影响（AFFECTS），在此处判定为AFFECTS属于因果过强。"
+      },
+      {
+        "proposal_id": "RELPROP_B54FEFDEAAFDC056",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "2026年iPhone存储参数继续提升的预期，直接为“持续性有望超越市场预期”提供了未来的事实依据和支撑，SUPPORTS关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_754B6166F9291859",
+        "verdict": "accept",
+        "confidence": 0.88,
+        "reason": "智能手机与服务器双重拉动及涨价持续性超预期的行业宏观判断，是支持公司核心业务（嵌入式存储）未来三年实现高增速的合理宏观需求前提，SUPPORTS关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_A4A90C02826D2E93",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "终端设备存储参数提升带来的涨价预期，是对公司嵌入式存储业务收入维持高增长预测的直接催化剂和重要支持逻辑，SUPPORTS关系和方向合理。"
+      }
+    ]
+  }
+}

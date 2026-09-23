@@ -1,0 +1,121 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "71a8e471b8e640e7e977a074a5dcdc5c22a8a6eec43026c143e30f394f6b8b40",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "EVT_EE909AF6DCF51B3D",
+        "target_id": "CLM_BC9C9138506AB351",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "主流厂商四季度合约价全面上涨的客观事实，直接证实了行业进入涨价周期。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_EB02660EF9ACDB6C",
+        "target_id": "CLM_BC9C9138506AB351",
+        "relation_type": "CAUSES",
+        "confidence": 0.92,
+        "rationale": "智能手机升级与服务器需求的双重拉动，是引发并维持本轮存储涨价周期的核心原因。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_D701BCCDFC622ECF",
+        "target_id": "CLM_BC9C9138506AB351",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "美光合约价大幅上涨20%-30%的具体数据，为行业涨价论点提供了有力的数据支撑。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_069ACBA23F15016E",
+        "target_id": "CLM_CCBCAB5527464D8C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "公司作为国产存储模组龙头的竞争地位，是给予买入评级的基本面依据。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_BC9C9138506AB351",
+        "target_id": "CLM_CCBCAB5527464D8C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "行业处于涨价周期的β红利，构成了看好公司并给予买入评级的宏观前提。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_07FA6DBB9B7BEF75",
+        "target_id": "CLM_CCBCAB5527464D8C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "预期的2025年高营收增速（37.4%）是支持买入评级的核心财务依据之一。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_DDBE7527D0E0506D",
+        "target_id": "CLM_CCBCAB5527464D8C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.96,
+        "rationale": "2025年净利润134.4%的翻倍增长预期以及对应的估值水平，是买入评级的直接定价基础。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "CLM_A9EEAA6E0021ED83",
+        "target_id": "CLM_CCBCAB5527464D8C",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.85,
+        "rationale": "买入评级高度依赖于“需求不及预期或供过于求导致降价”这一核心风险在预测期内不爆发的假设。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_BC9C9138506AB351",
+        "target_id": "CLM_07FA6DBB9B7BEF75",
+        "relation_type": "CAUSES",
+        "confidence": 0.9,
+        "rationale": "存储行业的涨价周期将直接推升公司产品的ASP（平均售价），进而驱动营业总收入的大幅增长。"
+      },
+      {
+        "proposal_id": "R10",
+        "source_id": "CLM_27FA51ADA5BB1585",
+        "target_id": "CLM_07FA6DBB9B7BEF75",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "核心业务嵌入式存储预计44.6%的高增速，在结构上支撑了公司整体37.4%的营收增长预测。"
+      },
+      {
+        "proposal_id": "R11",
+        "source_id": "CLM_1EE5DF4B2E50701F",
+        "target_id": "CLM_07FA6DBB9B7BEF75",
+        "relation_type": "CAUSES",
+        "confidence": 0.88,
+        "rationale": "手机和服务器双重需求拉动不仅带来涨价，也会促使出货量攀升，量价齐升共同导致营收增长。"
+      },
+      {
+        "proposal_id": "R12",
+        "source_id": "CLM_07FA6DBB9B7BEF75",
+        "target_id": "CLM_DDBE7527D0E0506D",
+        "relation_type": "CAUSES",
+        "confidence": 0.95,
+        "rationale": "37.4%的营业收入扩张提供了丰厚的利润垫，是实现归母净利润高速增长的基础。"
+      },
+      {
+        "proposal_id": "R13",
+        "source_id": "CLM_8628FEC8CDE43F23",
+        "target_id": "CLM_DDBE7527D0E0506D",
+        "relation_type": "CAUSES",
+        "confidence": 0.92,
+        "rationale": "产品结构优化带来的毛利率稳步提升，赋予了利润极大的向上弹性，是净利增速远超营收增速的核心动因。"
+      },
+      {
+        "proposal_id": "R14",
+        "source_id": "CLM_BC9C9138506AB351",
+        "target_id": "CLM_DDBE7527D0E0506D",
+        "relation_type": "CAUSES",
+        "confidence": 0.88,
+        "rationale": "存储涨价周期中，产品提价往往能快速穿透至底线利润，带来净利润的爆发式增长。"
+      }
+    ]
+  }
+}

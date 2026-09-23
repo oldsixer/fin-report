@@ -1,0 +1,716 @@
+{
+  "chunk_id": "CHUNK_004",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P001_B006",
+    "SO_P001_B007"
+  ],
+  "prompt_digest": "e612bc62763b8e56139ce231084182349825ae02106739a62f2a5fdc583dfab0",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P001_B006",
+        "classification": "material",
+        "reason": "包含关键假设、核心业务增速预测、股价催化剂及风险提示等实质语义信息"
+      },
+      {
+        "source_object_id": "SO_P001_B007",
+        "classification": "material",
+        "reason": "包含财务数据及盈利预测表与分析师联系信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "公司",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "嵌入式存储",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E3",
+        "name": "iPhone",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E4",
+        "name": "HBM",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E5",
+        "name": "服务器",
+        "entity_type": "product"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "预测2025年公司总营收同比增速约为37.4%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "公司",
+        "predicate": "EXPECT_REVENUE_GROWTH",
+        "object_text": "37.4%",
+        "metric_name": "营业总收入同比增长率",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D1"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "预测2026年公司总营收同比增速约为27.6%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "公司",
+        "predicate": "EXPECT_REVENUE_GROWTH",
+        "object_text": "27.6%",
+        "metric_name": "营业总收入同比增长率",
+        "period_label": "2026E",
+        "data_point_local_ids": [
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "预测2027年公司总营收同比增速约为24.6%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "公司",
+        "predicate": "EXPECT_REVENUE_GROWTH",
+        "object_text": "24.6%",
+        "metric_name": "营业总收入同比增长率",
+        "period_label": "2027E",
+        "data_point_local_ids": [
+          "D3"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "嵌入式存储作为公司核心业务，2025年收入增速约为44.6%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "嵌入式存储",
+        "predicate": "EXPECT_SEGMENT_GROWTH",
+        "object_text": "44.6%",
+        "metric_name": "嵌入式存储收入增速",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D4"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "2026年嵌入式存储收入增速约为33.9%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "嵌入式存储",
+        "predicate": "EXPECT_SEGMENT_GROWTH",
+        "object_text": "33.9%",
+        "metric_name": "嵌入式存储收入增速",
+        "period_label": "2026E",
+        "data_point_local_ids": [
+          "D5"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "C6",
+        "text": "2027年嵌入式存储收入增速约为28.9%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "嵌入式存储",
+        "predicate": "EXPECT_SEGMENT_GROWTH",
+        "object_text": "28.9%",
+        "metric_name": "嵌入式存储收入增速",
+        "period_label": "2027E",
+        "data_point_local_ids": [
+          "D6"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "C7",
+        "text": "嵌入式存储是公司的核心业务",
+        "claim_role": "observation",
+        "modality": "opinion",
+        "polarity": "neutral",
+        "importance": "context",
+        "subject_name": "嵌入式存储",
+        "predicate": "IS_CORE_BUSINESS_OF",
+        "object_text": "公司",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "C8",
+        "text": "公司通过优化产品结构，毛利率从2024年19.0%提升至2027年20.2%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "公司",
+        "predicate": "IMPROVE_GROSS_MARGIN",
+        "object_text": "20.2%",
+        "metric_name": "毛利率",
+        "period_label": "2024-2027E",
+        "data_point_local_ids": [
+          "D7",
+          "D8"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "2）公司通过优化产品结构，毛利率从 2024 年 19.0%提升至 2027 年 20.2%。"
+          }
+        ]
+      },
+      {
+        "local_id": "C9",
+        "text": "iPhone 存储升级周期仍在持续",
+        "claim_role": "interpretation",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone",
+        "predicate": "HAS_UPGRADE_CYCLE",
+        "object_text": "存储升级周期持续",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "iPhone 存储升级周期仍在持续"
+          }
+        ]
+      },
+      {
+        "local_id": "C10",
+        "text": "预计2026年新款机型存储参数提升将进一步推动存储价格上涨",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone",
+        "predicate": "DRIVE_PRICE_INCREASE",
+        "object_text": "存储价格上涨",
+        "metric_name": null,
+        "period_label": "2026",
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "预计 2026 年新款机型存储参数提升，将会进一步推动存储价格的上涨；"
+          }
+        ]
+      },
+      {
+        "local_id": "C11",
+        "text": "服务器算力持续升级有望带动HBM相关需求维持长期景气",
+        "claim_role": "interpretation",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "服务器算力",
+        "predicate": "DRIVE_DEMAND",
+        "object_text": "HBM相关需求维持长期景气",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "服务器算力持续升级有望带动 HBM 相关需求维持长期景气。"
+          }
+        ]
+      },
+      {
+        "local_id": "C12",
+        "text": "公司面临行业周期性波动风险",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "公司",
+        "predicate": "FACES_RISK",
+        "object_text": "行业周期性波动风险",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "1）行业周期性波动风险"
+          }
+        ]
+      },
+      {
+        "local_id": "C13",
+        "text": "公司面临市场竞争加剧风险",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "公司",
+        "predicate": "FACES_RISK",
+        "object_text": "市场竞争加剧风险",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "2）市场竞争加剧风险"
+          }
+        ]
+      },
+      {
+        "local_id": "C14",
+        "text": "公司面临技术迭代不及预期风险",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "公司",
+        "predicate": "FACES_RISK",
+        "object_text": "技术迭代不及预期风险",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "3）技术迭代不及预期"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": "公司",
+        "metric_name": "总营收同比增速",
+        "period_label": "2025E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "37.4%",
+          "normalized_decimal": "37.4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": "公司",
+        "metric_name": "总营收同比增速",
+        "period_label": "2026E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "27.6%",
+          "normalized_decimal": "27.6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": "公司",
+        "metric_name": "总营收同比增速",
+        "period_label": "2027E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "24.6%",
+          "normalized_decimal": "24.6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": "嵌入式存储",
+        "metric_name": "收入增速",
+        "period_label": "2025E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "44.6%",
+          "normalized_decimal": "44.6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "D5",
+        "subject_name": "嵌入式存储",
+        "metric_name": "收入增速",
+        "period_label": "2026E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "33.9%",
+          "normalized_decimal": "33.9",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "D6",
+        "subject_name": "嵌入式存储",
+        "metric_name": "收入增速",
+        "period_label": "2027E",
+        "qualifier": "assumption",
+        "value": {
+          "kind": "scalar",
+          "raw": "28.9%",
+          "normalized_decimal": "28.9",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "local_id": "D7",
+        "subject_name": "公司",
+        "metric_name": "毛利率",
+        "period_label": "2024",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "19.0%",
+          "normalized_decimal": "19.0",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "毛利率从 2024 年 19.0%提升至 2027 年 20.2%。"
+          }
+        ]
+      },
+      {
+        "local_id": "D8",
+        "subject_name": "公司",
+        "metric_name": "毛利率",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "20.2%",
+          "normalized_decimal": "20.2",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "毛利率从 2024 年 19.0%提升至 2027 年 20.2%。"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "2026年新款iPhone机型存储参数提升",
+        "category": "technology",
+        "subject_name": "iPhone",
+        "period_label": "2026",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "预计 2026 年新款机型存储参数提升"
+          }
+        ]
+      },
+      {
+        "local_id": "V2",
+        "text": "服务器算力持续升级",
+        "category": "technology",
+        "subject_name": "服务器",
+        "period_label": null,
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "服务器算力持续升级有望带动 HBM 相关需求维持长期景气。"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim1引用了2025年公司总营收增速数据点D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim2引用了2026年公司总营收增速数据点D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim3引用了2027年公司总营收增速数据点D3",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "D4",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim4引用了2025年嵌入式存储增速数据点D4",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "D5",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim5引用了2026年嵌入式存储增速数据点D5",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C6",
+        "target_local_id": "D6",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim6引用了2027年嵌入式存储增速数据点D6",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C8",
+        "target_local_id": "D7",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim8引用了起点毛利率数据点D7",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "2）公司通过优化产品结构，毛利率从 2024 年 19.0%提升至 2027 年 20.2%。"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C8",
+        "target_local_id": "D8",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim8引用了终点毛利率数据点D8",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "2）公司通过优化产品结构，毛利率从 2024 年 19.0%提升至 2027 年 20.2%。"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V1",
+        "target_local_id": "C10",
+        "relation_type": "CAUSES",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "原文明确指明2026年新款机型存储参数提升将会进一步推动存储价格上涨",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "预计 2026 年新款机型存储参数提升，将会进一步推动存储价格的上涨；"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V2",
+        "target_local_id": "C11",
+        "relation_type": "CAUSES",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "原文明确指明服务器算力持续升级有望带动HBM相关需求维持长期景气",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B006",
+            "quote": "服务器算力持续升级有望带动 HBM 相关需求维持长期景气。"
+          }
+        ]
+      }
+    ]
+  }
+}

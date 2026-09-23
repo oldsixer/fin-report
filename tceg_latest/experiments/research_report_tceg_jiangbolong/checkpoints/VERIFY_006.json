@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "47c7f9a979cddb3578d1d92007fa77da9985de3248556489ef82cff9918d6f3c",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_05FDBBCE69EF1136",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "证据中明确指出了“AI需求不及预期”或“产能集中释放”会导致“降价”，这正是目标论点“涨价持续性”的直接对立面。因此目标论点（涨价能够持续）的成立必须依赖于来源中的风险条件不发生，属于合理的 DEPENDS_ON（前提依赖）关系。"
+      },
+      {
+        "proposal_id": "RELPROP_85D31B3B158D2D73",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "证据文本中通过“其中”一词明确将核心业务（嵌入式存储）在2025年44.6%的增速与公司总营收37.4%的增速联系在一起，作为总体预测的直接组成部分和驱动力，构成了坚实的 SUPPORTS 关系。"
+      },
+      {
+        "proposal_id": "RELPROP_0635B5AA6F0E9FE9",
+        "verdict": "reject",
+        "confidence": 0.88,
+        "reason": "虽然在金融常识上产品涨价往往会带动营收增长，但给定的两段独立证据中并未明确提供涨价到营收高增长的逻辑推导（如 rationale 中自行引入的“量价齐升”）。该因果关系需要未披露的中间前提，因果推断过强。"
+      },
+      {
+        "proposal_id": "RELPROP_3FE59221715CF918",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "证据仅表明公司是“国产存储模组龙头”，这属于静态的事实陈述。rationale 中引入的“规模与渠道优势”及“承接行业上行周期”等论述在证据中并不存在，属于需要未披露中间前提，无法直接支持具体的 37.4% 营收增速预测。"
+      },
+      {
+        "proposal_id": "RELPROP_FFED5C0FC5D3C634",
+        "verdict": "accept",
+        "confidence": 0.85,
+        "reason": "研报的风险提示部分本身即为分析师给出业绩预测的前提假设。目标论点（激进的营收增长预测）要实现，必然依赖于不出现来源论点中的“技术迭代不及预期导致竞争力下滑”这一核心风险，符合 DEPENDS_ON 的逻辑定义。"
+      },
+      {
+        "proposal_id": "RELPROP_D541C72EBD1B0FBB",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "与提案 85D31B3B158D2D73 同理，证据中在同一句话内明确将2026年核心业务的高增速（33.9%）列为总营收实现27.6%增速的重要拆解构成，逻辑方向和关系类型均十分合理。"
+      }
+    ]
+  }
+}

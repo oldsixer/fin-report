@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="江波龙券商研报 TCEG 证据图谱可视化">
+  <link rel="icon" href="data:,">
+  <title>TCEG 研究工作台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--
+  Design direction 1 / Research Workbench
+  Assumptions: desktop-first local audit tool; graph is canonical state, PDF is evidence.
+  Reasoning: warm editorial materials reduce dashboard noise and keep long evidence readable.
+  Known limitation: source blocks have page locators but no reliable PDF pixel bounding boxes.
+-->
+<body class="workbench">
+  <header class="topbar">
+    <div class="identity">
+      <div class="eyebrow"><span class="dot"></span>TCEG / Research Workbench / Canonical State</div>
+      <h1 id="reportTitle">加载研报…</h1>
+      <div class="subtitle" id="reportSubtitle"></div>
+    </div>
+    <div class="stats" aria-label="图状态摘要">
+      <div class="stat"><strong id="nodeStat">—</strong><span>Graph nodes</span></div>
+      <div class="stat"><strong id="edgeStat">—</strong><span>Graph edges</span></div>
+      <div class="stat"><strong id="validationStat">—</strong><span>Errors / warnings</span></div>
+      <div class="stat"><strong id="benchmarkStat">—</strong><span>Core inventory</span></div>
+    </div>
+  </header>
+  <main class="workspace">
+    <section class="panel report-panel" aria-label="原始研报">
+      <div class="panel-head">
+        <div class="panel-title" data-index="01">原始研报 <small>证据载体</small></div>
+        <div class="page-controls">
+          <a class="pdf-link" id="pdfLink" target="_blank" rel="noreferrer">打开 PDF</a>
+          <button class="page-button" id="prevPage" aria-label="上一页">←</button>
+          <span class="page-indicator" id="pageIndicator">1 / 7</span>
+          <button class="page-button" id="nextPage" aria-label="下一页">→</button>
+        </div>
+      </div>
+      <div class="report-stage"><img class="report-page" id="reportImage" alt="原始研报页面"></div>
+      <div class="source-tray">
+        <div class="source-meta" id="sourceMeta"></div>
+        <div class="source-text" id="sourceText"></div>
+        <div class="source-linked" id="sourceLinked"></div>
+      </div>
+    </section>
+    <section class="panel graph-panel" aria-label="TCEG 图">
+      <div class="panel-head">
+        <div class="panel-title" data-index="02">TCEG 图 <small>主要语义状态</small></div>
+        <div class="panel-title"><small id="graphCount"></small></div>
+      </div>
+      <div class="graph-toolbar">
+        <div class="mode-group" aria-label="图显示范围">
+          <button class="mode-button active" data-mode="thesis">核心论证</button>
+          <button class="mode-button" data-mode="data">关键数据</button>
+          <button class="mode-button" data-mode="full">完整图</button>
+        </div>
+        <div class="search-wrap">
+          <input class="search-input" id="searchInput" placeholder="搜索节点、ID 或原文" aria-label="搜索">
+          <span class="search-hint">/</span>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+        <div class="zoom-controls">
+          <button class="icon-button" id="zoomIn" aria-label="放大">+</button>
+          <button class="icon-button" id="zoomOut" aria-label="缩小">−</button>
+          <button class="icon-button" id="resetView" aria-label="重置视图">↺</button>
+        </div>
+      </div>
+      <div class="graph-stage">
+        <svg id="graphSvg" viewBox="0 0 1600 1000" aria-label="可交互 TCEG 图"><g id="graphLayer"></g></svg>
+        <div class="graph-empty" id="graphEmpty" hidden>当前范围没有可显示节点</div>
+      </div>
+      <div class="legend" aria-label="节点图例">
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--claim)"></i>主张</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--data)"></i>数字</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--event)"></i>事件</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--reason)"></i>推理</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--entity)"></i>实体</span>
+        <span>虚线 = 推断关系 · 点击节点回到原文证据</span>
+      </div>
+    </section>
+    <aside class="panel inspector-panel" aria-label="节点审计详情">
+      <div class="panel-head"><div class="panel-title" data-index="03">审计详情 <small>结构 · 关系 · 证据</small></div></div>
+      <div class="inspector-scroll" id="inspector"></div>
+    </aside>
+  </main>
+  <script>window.TCEG_CONFIG={name:"Research Workbench · Portable",direction:1,offlinePdf:"assets/source-report.pdf"};</script>
+  <script src="tceg_visualization_data.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>

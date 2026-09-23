@@ -1,0 +1,65 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "403d2f6d14f27959f74b1f9b5aa763b90a879f902fded9cfca915f7872678058",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_B34FCF2E055C52E9",
+        "target_id": "CLM_BABF3CA744C1FB28",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "行业本身的强周期特征和供需对价格的敏感性是公司面临周期性波动风险的核心原因。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_A9EEAA6E0021ED83",
+        "target_id": "CLM_BABF3CA744C1FB28",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "需求疲软或产能集中释放导致的潜在降价是周期下行波动的具体业务体现。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_4D1DF0A87C9A17E8",
+        "target_id": "CLM_A3A4216C34561A87",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.96,
+        "rationale": "海外存储巨头在高端赛道的加速布局以及国内厂商的技术追赶直接导致了市场竞争加剧。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_478C03DC8094E931",
+        "target_id": "CLM_2F8A5B5043BB2DE2",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.94,
+        "rationale": "研发进展和良率问题导致竞争力受损，是技术迭代不及预期风险向业绩转化的实质后果。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_11EC89322CB47959",
+        "target_id": "CLM_2F8A5B5043BB2DE2",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "存储行业较快的技术迭代速度构成了公司面临技术迭代不及预期风险的客观行业背景。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_DF5D1C2BC6F506FE",
+        "target_id": "CLM_2F8A5B5043BB2DE2",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "技术迭代要求持续投入巨额研发资金，增加了企业跟进技术的财务门槛和失败风险。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_11EC89322CB47959",
+        "target_id": "CLM_478C03DC8094E931",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.85,
+        "rationale": "正是由于行业技术迭代速度快的特性，单次研发落后或良率不达标才会迅速引发整体产品竞争力下滑的后果。"
+      }
+    ]
+  }
+}

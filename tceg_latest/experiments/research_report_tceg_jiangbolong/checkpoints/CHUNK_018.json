@@ -1,0 +1,29 @@
+{
+  "chunk_id": "CHUNK_018",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P007_B009",
+    "SO_P007_B010"
+  ],
+  "prompt_digest": "f1964c1c14efb072bf4e9730ccf364dcc6b7a862a13022704868d960b4ca8fe1",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P007_B009",
+        "classification": "legal",
+        "reason": "法律主体声明与免责条款，包含证券投资咨询业务资格及免责声明等内容"
+      },
+      {
+        "source_object_id": "SO_P007_B010",
+        "classification": "legal",
+        "reason": "版权声明，包含研报版权归属及翻版复制等法律责任限制"
+      }
+    ],
+    "entities": [],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

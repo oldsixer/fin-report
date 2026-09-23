@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "df72dab181a595ece6ecfdaf62b830ac28c3609cf3bf6490b292ae6772cdbc6d",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_A69892E30CA3B1B5",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "source明确指出了技术研发不及预期的具体负面后果（竞争力下滑），从影响严重性的角度实质性地支持了target所述风险项的成立，符合SUPPORTS的定义。"
+      },
+      {
+        "proposal_id": "RELPROP_529176D340070A24",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "行业技术迭代快构成了公司面临技术迭代不及预期风险的客观背景和重要诱因，实质性支持了target风险的存在。"
+      },
+      {
+        "proposal_id": "RELPROP_9BFED001D826DFC1",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "需持续投入巨额研发资金说明了跟进技术迭代的财务门槛和难度，作为联合前提之一，实质性支持了target中技术迭代不及预期风险的论证。"
+      },
+      {
+        "proposal_id": "RELPROP_97B0905726CCC54C",
+        "verdict": "reject",
+        "confidence": 0.85,
+        "reason": "“技术迭代速度快”与“研发不及预期导致竞争力下滑”在原文中是共同支持整体风险的并列前提或背景，前者并非后者这一条件因果命题成立的严格逻辑上的必要前提（DEPENDS_ON）。即使迭代不快，研发不及预期同样可能导致竞争力下滑。"
+      },
+      {
+        "proposal_id": "RELPROP_642602A684BC1462",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "target是一个包含“若……可能……”的完整条件判断句，其作为一个风险提示命题自身的成立，并不以条件（source）的真正发生或成立为必要前提。source只是target内部的假设情境分支。"
+      },
+      {
+        "proposal_id": "RELPROP_C12ECD11B2745770",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "同上，target是包含条件假设的完整复合命题，其逻辑成立不依赖于具体的条件分支（source）作为外部前提。source仅是target内部表述的假设情境之一，建立DEPENDS_ON关系属于关系类型的误用。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "bfb2afedaf610adeb667eb51ca8611ea2b20da5aba3647ee685eceece6683134",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_2E3D5CCF7FEBB216",
+        "target_id": "CLM_46B14B3F62DB87BB",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "HBM市场的长期成长确定性为2030年存储行业整体市场规模扩张提供了核心动力。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_EB02660EF9ACDB6C",
+        "target_id": "CLM_46B14B3F62DB87BB",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "智能手机与服务器双重需求拉动及超预期的持续性，支撑长期市场大盘增长预期。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_42C5BCFE22B24C19",
+        "target_id": "CLM_41AEC3CB51D2ED6B",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "2025年的营收绝对值预测（239.95亿）是推导2025年净利润数字的直接数学前提。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_413E436E3A1C0076",
+        "target_id": "CLM_41AEC3CB51D2ED6B",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.92,
+        "rationale": "2025年17.7%的毛利率假设是计算当年净利润额的核心财务参数。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_27FA51ADA5BB1585",
+        "target_id": "CLM_41AEC3CB51D2ED6B",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.86,
+        "rationale": "核心业务嵌入式存储在2025年预计实现44.6%的高增速，支撑总体净利润的释放。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_D8A285F618A42551",
+        "target_id": "CLM_41AEC3CB51D2ED6B",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.83,
+        "rationale": "行业进入涨价周期改善盈利空间，是支撑当年利润预测转好的底层产业逻辑。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_39DEBA89ADEEFB1A",
+        "target_id": "CLM_62E1E31B1B824528",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "2026年的营业收入预测（306.18亿元）构成了计算当年21.24亿元净利润的基础规模假设。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "CLM_B67611BDCA0BC99E",
+        "target_id": "CLM_62E1E31B1B824528",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.89,
+        "rationale": "预计2026年iPhone新款机型参数提升推动价格上涨，为2026年利润率扩张提供具体催化剂。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_43810BBD8309DF6F",
+        "target_id": "CLM_62E1E31B1B824528",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "2026年核心业务维持33.9%的高速增长，支撑净利润同比大幅增加的预测。"
+      },
+      {
+        "proposal_id": "R10",
+        "source_id": "CLM_816E065707153EF1",
+        "target_id": "CLM_45B682071441AF4D",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "2027年营收381.50亿元的预测是得到当年22.77亿净利润数字的必备顶层假设。"
+      },
+      {
+        "proposal_id": "R11",
+        "source_id": "CLM_8628FEC8CDE43F23",
+        "target_id": "CLM_45B682071441AF4D",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.91,
+        "rationale": "2027年毛利率提升至20.2%的长期目标假设，决定了远期净利润的绝对高度。"
+      },
+      {
+        "proposal_id": "R12",
+        "source_id": "CLM_84856622D0FA2059",
+        "target_id": "CLM_45B682071441AF4D",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.84,
+        "rationale": "2027年核心业务仍保持28.9%的稳定增长，论证了远期业绩增量的可持续性。"
+      }
+    ]
+  }
+}

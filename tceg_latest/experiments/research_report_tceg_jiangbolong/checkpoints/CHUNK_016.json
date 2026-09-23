@@ -1,0 +1,41 @@
+{
+  "chunk_id": "CHUNK_016",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P007_B002",
+    "SO_P007_B003",
+    "SO_P007_B004",
+    "SO_P007_B005"
+  ],
+  "prompt_digest": "d1c07d32f1d15b74728ca7bb280679e2c0a1c273a646b03ae4b2167297cadb63",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P007_B002",
+        "classification": "legal",
+        "reason": "投资建议评级标准与基准指数说明，属于法律声明与行政信息"
+      },
+      {
+        "source_object_id": "SO_P007_B003",
+        "classification": "legal",
+        "reason": "股票评级小标题，属于评级说明规范部分"
+      },
+      {
+        "source_object_id": "SO_P007_B004",
+        "classification": "legal",
+        "reason": "股票评级划分阈值与定义，属于评级说明规范部分"
+      },
+      {
+        "source_object_id": "SO_P007_B005",
+        "classification": "legal",
+        "reason": "行业评级小标题，属于评级说明规范部分"
+      }
+    ],
+    "entities": [],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

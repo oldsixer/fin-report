@@ -1,0 +1,29 @@
+{
+  "chunk_id": "CHUNK_014",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P006_B006",
+    "SO_P006_B007"
+  ],
+  "prompt_digest": "1f10d2b0d896eaf7ac491d1a4ff4316c895889d51f27af38ecf2a2479e4a3d81",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P006_B006",
+        "classification": "material",
+        "reason": "包含标准财务报表预测及比率数据"
+      },
+      {
+        "source_object_id": "SO_P006_B007",
+        "classification": "material",
+        "reason": "包含标准财务报表预测、每股指标及营运与偿债比率数据"
+      }
+    ],
+    "entities": [],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

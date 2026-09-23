@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>最终图状态与验证</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Result · Graph State & Validation</p></header>
+  <main class="slide">
+    <p class="kicker">Current reproducible state</p>
+    <h1 class="title tight">最终产物不是摘要文本，而是一份带状态哈希、证据和测试结果的图。</h1>
+    <section class="output-layout">
+      <figure class="graph-shot">
+        <img src="../../screenshots/direction-1-workbench-1440x900.png" alt="TCEG 研究工作台截图">
+        <div class="mask"></div>
+      </figure>
+      <section>
+        <div class="result-grid">
+          <article class="result-cell"><strong>854</strong><p>全部节点</p></article>
+          <article class="result-cell"><strong>2,509</strong><p>全部关系边</p></article>
+          <article class="result-cell"><strong>587/587</strong><p>语义节点具有证据</p></article>
+          <article class="result-cell"><strong>63/63</strong><p>人工核心清单命中</p></article>
+        </div>
+        <p class="pass-band">VALIDATION PASS · 0 errors · 6 warnings</p>
+        <p class="method-foot">负向测试覆盖伪造 quote、未验证推断、缺少数字语境、非法置信度与证据空白归一化。</p>
+      </section>
+    </section>
+    <div class="source-note"><p>核心清单：语义 19/19 · 数字 34/34 · 关系 10/10。</p><p class="mono">STATE a54e162b4146…</p></div>
+  </main>
+</body>
+</html>

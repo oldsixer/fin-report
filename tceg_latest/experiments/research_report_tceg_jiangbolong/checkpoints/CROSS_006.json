@@ -1,0 +1,137 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "4ab6e6b162f5947f964f0ab8179821941f53ee6a0561924f6fe9598eff39f919",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_C8590204AFDEB3A0",
+        "target_id": "CLM_D8A285F618A42551",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "江波龙作为国内最大模组厂商的市场地位，直接支撑了其作为“国产存储模组龙头”的结论。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "EVT_18F1AEE5E902828C",
+        "target_id": "CLM_D8A285F618A42551",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "美光宣布上调存储产品价格20%-30%是行业进入涨价周期的核心直接证据。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "EVT_BCC3C2301E8BED89",
+        "target_id": "CLM_D8A285F618A42551",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "SK海力士跟进上调合约价最高达30%，进一步印证了全行业的涨价趋势。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "EVT_EC0532E78248F109",
+        "target_id": "CLM_D8A285F618A42551",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "三星上调存储价格的动作补全了三大原厂联合涨价的逻辑，确认涨价周期来临。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_0FE8127707E1242E",
+        "target_id": "CLM_EB02660EF9ACDB6C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "iPhone存储升级周期的持续是智能手机端拉动本次存储涨价的必要前提。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_2E3D5CCF7FEBB216",
+        "target_id": "CLM_EB02660EF9ACDB6C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "服务器HBM市场持续向好且长期成长趋势确定，支撑了双重拉动逻辑中的服务器需求侧。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_AE09E619FC96708E",
+        "target_id": "CLM_EB02660EF9ACDB6C",
+        "relation_type": "AFFECTS",
+        "confidence": 0.82,
+        "rationale": "市场普遍仅认知到服务器需求，这一基础预期衬托出手机端叠加拉动后“持续性超越预期”的结论。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "EVT_10D2047ADBA47EF0",
+        "target_id": "CLM_EB02660EF9ACDB6C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "2026年iPhone存储参数继续提升的预期，证实了手机端需求拉动的持续性。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_EB02660EF9ACDB6C",
+        "target_id": "CLM_5BFFFD5CFBA65CB6",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "智能手机与服务器需求双轮驱动且持续性超预期，为嵌入式存储业务实现高增速提供了宏观需求支撑。"
+      },
+      {
+        "proposal_id": "R10",
+        "source_id": "CLM_B67611BDCA0BC99E",
+        "target_id": "CLM_5BFFFD5CFBA65CB6",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "手机容量升级与存储涨价将进一步推高存储价格，直接驱动嵌入式存储业务收入的高速增长。"
+      },
+      {
+        "proposal_id": "R11",
+        "source_id": "CLM_D8A285F618A42551",
+        "target_id": "CLM_5BFFFD5CFBA65CB6",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "龙头公司迎来全行业的涨价周期，是其核心嵌入式产品线达成28%-44%高增速预测的关键价格基础。"
+      },
+      {
+        "proposal_id": "R12",
+        "source_id": "CLM_EAF9FD34240B440E",
+        "target_id": "CLM_5BFFFD5CFBA65CB6",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "该收入预测逻辑依赖于将“嵌入式存储”界定为公司核心业务这一前提。"
+      },
+      {
+        "proposal_id": "R13",
+        "source_id": "CLM_5BFFFD5CFBA65CB6",
+        "target_id": "CLM_7D9C67A41781A7B4",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "核心业务（嵌入式存储）的超高收入增速预期，是构成公司整体营收连续三年保持在24%-37%高增的核心动力。"
+      },
+      {
+        "proposal_id": "R14",
+        "source_id": "CLM_D8A285F618A42551",
+        "target_id": "CLM_7D9C67A41781A7B4",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "存储模组行业步入涨价周期直接推动整体量价齐升，是实现大盘营收持续高增的前提。"
+      },
+      {
+        "proposal_id": "R15",
+        "source_id": "CLM_8628FEC8CDE43F23",
+        "target_id": "CLM_7D9C67A41781A7B4",
+        "relation_type": "AFFECTS",
+        "confidence": 0.85,
+        "rationale": "公司通过优化产品结构提升毛利率的能力，影响着其在涨价周期中获得整体营收与盈利增长的兑现程度。"
+      },
+      {
+        "proposal_id": "R16",
+        "source_id": "CLM_EB02660EF9ACDB6C",
+        "target_id": "CLM_7D9C67A41781A7B4",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "双重超预期拉动逻辑证明了总营收高增预测背后具备坚实的下游终端需求承接量。"
+      }
+    ]
+  }
+}

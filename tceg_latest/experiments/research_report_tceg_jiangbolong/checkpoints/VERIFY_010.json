@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "20dcddd3e3dc8028d6152b8f11fb993a6a175606697b9b12b5dc0050f6b290a0",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_199880488B3995F6",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "营业收入是财务预测模型中的最顶层前提，且研报在正文中明确将营收增速列为“关键假设点”，净利润的推导必然依赖于营收规模这一核心前提。"
+      },
+      {
+        "proposal_id": "RELPROP_40BD60DD520454F2",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "研报将2026年iPhone存储参数提升及存储价格上涨作为明确的产业催化剂，从行业基本面角度为2026年公司的净利润实现提供了实质性的论证支撑。"
+      },
+      {
+        "proposal_id": "RELPROP_AEFB151E4DAC8624",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "嵌入式存储作为公司的核心业务，其较高增速的假设是推演公司整体业绩（即2026年净利润预测）的重要组成部分，符合联合前提的SUPPORTS定义。"
+      },
+      {
+        "proposal_id": "RELPROP_3C084BA51C348D2D",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "与2026年逻辑一致，2027年的营业收入规模和增速被研报明确列为关键假设，是推导当年远期净利润必备的顶层计算前提。"
+      },
+      {
+        "proposal_id": "RELPROP_C84D63E917F91D70",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "研报正文明确将毛利率的提升列为“关键假设点”，毛利率假设是连接营业收入与净利润的核心财务指标，属于推导净利润的必要前提，建立DEPENDS_ON关系完全合理。"
+      },
+      {
+        "proposal_id": "RELPROP_4C5B2ED60FCBB919",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "核心业务在2027年保持28.9%的增速预期，构成了支撑公司2027年净利润预测的实质性联合前提，论证了远期业绩的来源。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "chunk_id": "CHUNK_006",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P002_B005",
+    "SO_P002_B006",
+    "SO_P003_B001",
+    "SO_P003_B002",
+    "SO_P003_B003"
+  ],
+  "prompt_digest": "3da0b0a38211c43f16ae5862ac4758dc68cf685f1ed688e07ba0d50a514071cc",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P002_B005",
+        "classification": "administrative",
+        "reason": "数据来源标注信息"
+      },
+      {
+        "source_object_id": "SO_P002_B006",
+        "classification": "legal",
+        "reason": "提示阅读法律声明"
+      },
+      {
+        "source_object_id": "SO_P003_B001",
+        "classification": "administrative",
+        "reason": "页眉公司名称及日期标记"
+      },
+      {
+        "source_object_id": "SO_P003_B002",
+        "classification": "opaque",
+        "reason": "图表标题无具体可读取数值"
+      },
+      {
+        "source_object_id": "SO_P003_B003",
+        "classification": "administrative",
+        "reason": "数据来源标注信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "DRAMexchange",
+        "entity_type": "institution"
+      },
+      {
+        "local_id": "E2",
+        "name": "爱建证券研究所",
+        "entity_type": "institution"
+      },
+      {
+        "local_id": "E3",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E4",
+        "name": "NAND Flash",
+        "entity_type": "product"
+      }
+    ],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

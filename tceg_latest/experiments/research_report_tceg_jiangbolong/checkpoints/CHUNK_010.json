@@ -1,0 +1,321 @@
+{
+  "chunk_id": "CHUNK_010",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P005_B002",
+    "SO_P005_B003",
+    "SO_P005_B004",
+    "SO_P005_B005",
+    "SO_P006_B001",
+    "SO_P006_B002"
+  ],
+  "prompt_digest": "ee26a9fc2c472ac8d1d4ef7d052c58616578f28ce0ea052568f77bb682c659ac",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P005_B002",
+        "classification": "material",
+        "reason": "包含存储芯片行业周期性波动及产品降价的风险提示"
+      },
+      {
+        "source_object_id": "SO_P005_B003",
+        "classification": "material",
+        "reason": "包含主要厂商布局及市场竞争加剧的风险提示"
+      },
+      {
+        "source_object_id": "SO_P005_B004",
+        "classification": "material",
+        "reason": "包含技术迭代与量产良率不及预期的风险提示"
+      },
+      {
+        "source_object_id": "SO_P005_B005",
+        "classification": "legal",
+        "reason": "报告尾部法律声明提示"
+      },
+      {
+        "source_object_id": "SO_P006_B001",
+        "classification": "administrative",
+        "reason": "包含公司名称、股票代码及日期表头信息"
+      },
+      {
+        "source_object_id": "SO_P006_B002",
+        "classification": "opaque",
+        "reason": "财务预测摘要标题，无后续可读取的数据或表格"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "Samsung",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E3",
+        "name": "SK Hynix",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E4",
+        "name": "存储芯片行业",
+        "entity_type": "industry"
+      },
+      {
+        "local_id": "E5",
+        "name": "HBM",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E6",
+        "name": "3D NAND",
+        "entity_type": "product"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "存储芯片行业具有强周期性",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "存储芯片行业",
+        "predicate": "HAS_CHARACTERISTIC",
+        "object_text": "强周期性",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "存储芯片行业具有强周期性"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "供需变化易引发存储芯片产品价格大幅波动",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "存储芯片",
+        "predicate": "AFFECTS_PRICE",
+        "object_text": "产品价格大幅波动",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "供需变化易引发产品价格大幅波动"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "若未来 AI 算力需求不及预期，或行业产能集中释放导致高端存储供过于求，可能出现产品降价的情况",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "高端存储",
+        "predicate": "RISK_OF",
+        "object_text": "产品降价",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "若未来 AI 算力需求不及预期，或行业产能集中释放导致高端存储供过于求，可能出现产品降价的情况。"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "Samsung、SK Hynix 等行业巨头也在加速布局 HBM、先进 3D NAND 等高端赛道",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "Samsung、SK Hynix",
+        "predicate": "EXPANDS_BUSINESS",
+        "object_text": "HBM、先进 3D NAND 等高端赛道",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B003",
+            "quote": "Samsung、SK Hynix 等行业巨头也在加速布局 HBM、先进 3D NAND 等高端赛道"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "存储芯片国内厂商亦在技术追赶",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "国内厂商",
+        "predicate": "PURSUES_TECHNOLOGY",
+        "object_text": "技术追赶",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B003",
+            "quote": "国内厂商亦在技术追赶"
+          }
+        ]
+      },
+      {
+        "local_id": "C6",
+        "text": "存储芯片市场竞争可能进一步加剧",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "存储芯片市场",
+        "predicate": "RISK_OF",
+        "object_text": "市场竞争加剧",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B003",
+            "quote": "市场竞争可能进一步加剧"
+          }
+        ]
+      },
+      {
+        "local_id": "C7",
+        "text": "存储行业技术迭代速度快",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "存储行业",
+        "predicate": "HAS_CHARACTERISTIC",
+        "object_text": "技术迭代速度快",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B004",
+            "quote": "存储行业技术迭代速度快"
+          }
+        ]
+      },
+      {
+        "local_id": "C8",
+        "text": "存储行业需持续投入巨额研发资金",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "存储行业",
+        "predicate": "REQUIRES",
+        "object_text": "持续投入巨额研发资金",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B004",
+            "quote": "需持续投入巨额研发资金"
+          }
+        ]
+      },
+      {
+        "local_id": "C9",
+        "text": "若后续技术研发不及预期、量产良率未达目标，可能导致产品竞争力下滑",
+        "claim_role": "risk",
+        "modality": "risk",
+        "polarity": "negative",
+        "importance": "supporting",
+        "subject_name": "存储产品",
+        "predicate": "RISK_OF",
+        "object_text": "产品竞争力下滑",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B004",
+            "quote": "若后续技术研发不及预期、量产良率未达目标，可能导致产品竞争力下滑。"
+          }
+        ]
+      }
+    ],
+    "data_points": [],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "AI 算力需求不及预期",
+        "category": "demand",
+        "subject_name": "AI 算力",
+        "period_label": null,
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "AI 算力需求不及预期"
+          }
+        ]
+      },
+      {
+        "local_id": "V2",
+        "text": "行业产能集中释放导致高端存储供过于求",
+        "category": "supply",
+        "subject_name": "高端存储",
+        "period_label": null,
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "行业产能集中释放导致高端存储供过于求"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "C2",
+        "relation_type": "SUPPORTS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "行业强周期性明确引出供需变化引发产品价格大幅波动",
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B002",
+            "quote": "存储芯片行业具有强周期性，供需变化易引发产品价格大幅波动。"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "C6",
+        "relation_type": "SUPPORTS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.9,
+        "rationale": "巨头加速布局高端赛道支撑市场竞争可能进一步加剧的风险判别",
+        "evidence": [
+          {
+            "source_object_id": "SO_P005_B003",
+            "quote": "Samsung、SK Hynix 等行业巨头也在加速布局 HBM、先进 3D NAND 等高端赛道，国内厂商亦在技术追赶，市场竞争可能进一步加剧。"
+          }
+        ]
+      }
+    ]
+  }
+}

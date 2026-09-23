@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "7ac669a6998a5dd695d941b8a6ce5f6e17146bd72058dd9bc59d1a1ea93f54ca",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_CAA5FF13143E66D4",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "只是共现。源和目标仅因为同属一张财务表就被建立依赖关系，给定证据中缺乏明确的论述表明具体预测数字直接作为模型的前提依赖。"
+      },
+      {
+        "proposal_id": "RELPROP_D72B2B99844C8B05",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "需要未披露中间前提。源内容仅为概括性的标题趋势（涨价周期），不能直接支持并推导出某年具体的绝对财务数值（23995百万元），缺乏证据中的具体逻辑链条。"
+      },
+      {
+        "proposal_id": "RELPROP_537913C9BC9FCB14",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "方向和关系类型合理。证据明确提到“其中，嵌入式存储作为公司核心业务...收入增速约为44.6%”，这表明核心业务的高增速作为联合前提之一（contributory SUPPORTS），对整体营收达成37.4%的增速预测提供了实质性的部分支持。"
+      },
+      {
+        "proposal_id": "RELPROP_299546FBA3297AC3",
+        "verdict": "reject",
+        "confidence": 0.9,
+        "reason": "只是金融常识上可能有关。源描述的行业涨价周期在常识上有利于公司业绩，但在给定证据内，并未直接将其与具体的 37.4% 营收增速预期建立起紧密的论证关系，需要未披露的中间假设。"
+      },
+      {
+        "proposal_id": "RELPROP_5012E9C08A9614F2",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "只是共现。营业收入增速和归母净利润增速均只是同一张财务预测表内的平行指标，证据文本并未进行前者驱动后者的明确因果论证。"
+      },
+      {
+        "proposal_id": "RELPROP_0F21F628A70147D4",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "只是共现。同属一张财务表中的不同预测指标，即使在财务逻辑上净利润与毛利率相关，也不能在缺乏研报具体文本论证下擅自建立依赖关系（DEPENDS_ON）。"
+      }
+    ]
+  }
+}

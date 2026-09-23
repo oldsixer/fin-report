@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "slide_count": 12,
+  "results": [
+    {
+      "slide": "01-cover.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8765/assets/report-page-1.png",
+            "complete": true,
+            "width": 910
+          },
+          {
+            "src": "http://127.0.0.1:8765/screenshots/direction-1-workbench-1440x900.png",
+            "complete": true,
+            "width": 1440
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "02-thesis-contract.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "03-00-schema-envelope.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "03-01-schema-semantics.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "03-02-schema-edges-audit.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "03-pipeline.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "04-source-layer.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8765/assets/report-page-1.png",
+            "complete": true,
+            "width": 910
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "05-hybrid-extraction.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "06-ontology-numbers.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "07-evidence-gate.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "08-relations-reasoning.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": []
+      },
+      "status": "PASS"
+    },
+    {
+      "slide": "09-output-validation.html",
+      "dimensions": {
+        "bodyWidth": 1920,
+        "bodyHeight": 1080,
+        "htmlWidth": 1920,
+        "htmlHeight": 1080,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8765/screenshots/direction-1-workbench-1440x900.png",
+            "complete": true,
+            "width": 1440
+          }
+        ]
+      },
+      "status": "PASS"
+    }
+  ],
+  "index_navigation": "PASS"
+}

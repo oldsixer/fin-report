@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "6860d1c3f87b6f6767c3e58194d875fd4cf2b6028e950d6f65203e8c581f42b2",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_06C7E07E92BD2D47",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "行业进入涨价周期的定性判断构成了研报看多（买入评级）的核心宏观和行业逻辑支撑，符合 SUPPORTS 的定义。"
+      },
+      {
+        "proposal_id": "RELPROP_2471B0837C866EF8",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "预测的未来高营业收入增速（37.4%）是支持给予“买入”评级的直接财务依据之一，构成合理的 SUPPORTS 关系。"
+      },
+      {
+        "proposal_id": "RELPROP_CE8FDDF8A44B245E",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "强劲的利润增长预期（134.4%）和具体的估值（PE）数据是支持买入评级的直接定价和基本面依据，符合 SUPPORTS 关系。"
+      },
+      {
+        "proposal_id": "RELPROP_9BE8CAD615D0A818",
+        "verdict": "reject",
+        "confidence": 0.98,
+        "reason": "语义不相干及方向错误。买入评级依赖的是“风险不爆发”这一假设，而不是依赖于源节点所描述的“风险事件”本身。将不利的风险情景作为评级的 DEPENDS_ON 前提属于逻辑倒置。"
+      },
+      {
+        "proposal_id": "RELPROP_86C77C5FDD4C98D2",
+        "verdict": "reject",
+        "confidence": 0.96,
+        "reason": "规则明确规定“概括性趋势不能反向证明某个具体事实”。提供的证据并未展现从“涨价周期”这一概括性趋势直接推导出“营收精确增长37.4%”的论证过程。建立 CAUSES 关系不仅因果过强，且完全依赖于未披露的中间定量模型及金融常识。"
+      },
+      {
+        "proposal_id": "RELPROP_F5887F5A5372D15A",
+        "verdict": "accept",
+        "confidence": 0.94,
+        "reason": "核心业务（嵌入式存储）的明确高增速预测作为局部细分数据，在结构上直接支撑了公司整体营收增速的宏观预测，属于典型的 contributory SUPPORTS。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "d833fe4c9065d341ad90b49c8ec46ac3c5d1b228f6c0e7ec4796215ce7d4ce0d",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_197207A92D81C4F2",
+        "verdict": "reject",
+        "confidence": 0.92,
+        "reason": "拒绝。解释中引入了证据未提及的“促使出货量攀升”这一关键前提，且证据并未直接论证行业涨价如何推导出该公司的具体营收数值，仅凭常识推断不符合要求。"
+      },
+      {
+        "proposal_id": "RELPROP_493DE594D1BBFB91",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "拒绝。营业收入与归母净利润属于同一张财务预测表中的项目，不能仅因两项预测指标同属一张财务表、且在财务常识上存在推导关系就建立CAUSES依赖。"
+      },
+      {
+        "proposal_id": "RELPROP_FDCFB342F81A24A8",
+        "verdict": "reject",
+        "confidence": 0.88,
+        "reason": "拒绝。候选解释中使用了“极大的向上弹性”和“核心动因”等强烈的主观推断词汇，而给定证据仅分别陈述了毛利率提升事实和净利润预测值，缺乏将其定性为“核心动因”的论证，属于因果过强。"
+      },
+      {
+        "proposal_id": "RELPROP_8A8C7E0E98E6DB07",
+        "verdict": "reject",
+        "confidence": 0.9,
+        "reason": "拒绝。解释中关于“提价快速穿透至底线利润带来爆发式增长”的逻辑完全是基于金融常识的主观推演，而非给定证据中的研报论证，违反了“不只是金融常识上可能有关”的原则。"
+      },
+      {
+        "proposal_id": "RELPROP_E8F175D048D71AA8",
+        "verdict": "accept",
+        "confidence": 0.94,
+        "reason": "接受。iPhone 16内存容量从6GB提升至8GB的具体事实，实质性地作为论据支持了“iPhone带动智能手机正在进入升级周期”这一概括性判断，方向与SUPPORTS关系均合理。"
+      },
+      {
+        "proposal_id": "RELPROP_6FFECCB5E92EFB95",
+        "verdict": "accept",
+        "confidence": 0.94,
+        "reason": "接受。iPhone 17存储容量从128GB升级至256GB是又一具体事实依据，作为联合前提之一，合理地支持了智能手机进入硬件升级周期这一概括性趋势结论。"
+      }
+    ]
+  }
+}

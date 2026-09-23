@@ -1,0 +1,113 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "307f87c10aa2102c33fe3bbe44fa942cd0d4a3904487cba7046e45a026358eba",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_43810BBD8309DF6F",
+        "target_id": "CLM_FF4C01B9B25D6D5F",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "核心业务（嵌入式存储）在2026年的高增速（33.9%）是总营收实现27.6%增速的核心驱动力。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_3040FA4ECE3DB6D4",
+        "target_id": "CLM_FF4C01B9B25D6D5F",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "2026年新款机型参数提升推动存储价格上涨，为当年营收规模增长提供量价齐升的逻辑支撑。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_EAF9FD34240B440E",
+        "target_id": "CLM_FF4C01B9B25D6D5F",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.9,
+        "rationale": "整体营收增速的测算高度依赖于“嵌入式存储是核心业务”的收入结构前提。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_84856622D0FA2059",
+        "target_id": "CLM_4628256866451EB9",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "核心业务在2027年保持28.9%的增速是总营收实现24.6%增速的直接算术支撑。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_ED0AD53BDFFE788A",
+        "target_id": "CLM_4628256866451EB9",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "服务器算力持续升级带动的长期景气度是维持2027年远期营收继续增长的宏观行业逻辑。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_EAF9FD34240B440E",
+        "target_id": "CLM_4628256866451EB9",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.9,
+        "rationale": "2027年的远期营收预测同样依赖于嵌入式存储作为公司收入压舱石的业务结构前提。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_5BFFFD5CFBA65CB6",
+        "target_id": "CLM_8628FEC8CDE43F23",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "核心业务在未来三年保持高于整体的增速，说明高附加值产品占比在提升，是优化产品结构提升毛利率的实质依据。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "CLM_BC9C9138506AB351",
+        "target_id": "CLM_8628FEC8CDE43F23",
+        "relation_type": "AFFECTS",
+        "confidence": 0.85,
+        "rationale": "行业进入涨价周期是模组厂商能够转嫁成本、并扩大毛利空间的重要外部环境影响因素。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_D701BCCDFC622ECF",
+        "target_id": "CLM_8628FEC8CDE43F23",
+        "relation_type": "AFFECTS",
+        "confidence": 0.82,
+        "rationale": "上游美光合约价大幅上涨构成了明确的价格上行趋势，支持了产品单价及毛利率向好的预测。"
+      },
+      {
+        "proposal_id": "R10",
+        "source_id": "CLM_0FE8127707E1242E",
+        "target_id": "CLM_F582F0D2C7C2498C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "iPhone升级周期持续的整体定性判断，是预测后续单代机型具体存储容量翻倍的底层逻辑。"
+      },
+      {
+        "proposal_id": "R11",
+        "source_id": "CLM_41C6BA75180F3EFE",
+        "target_id": "CLM_F582F0D2C7C2498C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "iPhone 7存储容量从16GB升级至32GB的演进历史，作为类比论据支持未来的容量翻倍预测。"
+      },
+      {
+        "proposal_id": "R12",
+        "source_id": "CLM_328FF7A4B2EE8051",
+        "target_id": "CLM_F582F0D2C7C2498C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "iPhone 8容量从32GB升至64GB的历史趋势，验证了手机存储翻倍的周期规律。"
+      },
+      {
+        "proposal_id": "R13",
+        "source_id": "CLM_B59C72E4BE7451B4",
+        "target_id": "CLM_F582F0D2C7C2498C",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "iPhone 13容量从64GB升级到128GB是最临近的翻倍事实，强力支撑128GB向256GB升级的推断。"
+      }
+    ]
+  }
+}

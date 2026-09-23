@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "81c23c7e19f5351fc5b84178721de5b90dae5161b19f0e752507e97c0fe7f0a3",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_DD3980FE5AE890BC",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "源命题描述的是从2024年到2027年毛利率的整体提升趋势，而目标命题是2025年毛利率降至17.7%的具体预测。概括性的长期提升趋势不能用于支持中间年份的具体下降数据，两者仅为财务预测表中的共现数据。"
+      },
+      {
+        "proposal_id": "RELPROP_E9E8F0D514703AAE",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "目标命题显示2025年的预测毛利率（17.7%）相比2024年（19.0%）出现下滑，而“涨价周期”通常逻辑上指向毛利率上升。研报证据中并没有明确说明涨价周期如何推导或支持2025年毛利率的具体下滑预测，缺乏实质性论证支持。"
+      },
+      {
+        "proposal_id": "RELPROP_0D6F5B830FD71F19",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "源命题指明了江波龙“国内规模最大”的市场地位，这是支持目标命题中将其定义为“国产存储模组龙头”的核心联合前提之一，构成了实质性的支撑关系。"
+      },
+      {
+        "proposal_id": "RELPROP_1E7E401CD04255CB",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "美光（Micron）上调价格是研报论证行业“迎来涨价周期”这一结论的具体且关键的联合前提之一，提供了直接的客观事实支撑。"
+      },
+      {
+        "proposal_id": "RELPROP_B0F5C83D7F5CC0FD",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "SK海力士上调合约价与美光、三星等原厂的提价行为共同构成了事实证据链，作为联合前提实质性地支持了目标命题中“迎来涨价周期”的结论。"
+      },
+      {
+        "proposal_id": "RELPROP_A325D85362ED9C88",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "三星宣布上调存储产品价格同样是研报用于论证“涨价周期”来临的重要事实依据，作为联合前提之一直接支持目标结论。"
+      }
+    ]
+  }
+}

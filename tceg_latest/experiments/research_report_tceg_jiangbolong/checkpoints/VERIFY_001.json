@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "4a57b00e3b2f55d5b979323ce517a5d6c8daf7797fced148ed65383eaa97b561",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_8BAD488DFF28A7A9",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "研报列举了美光（Micron）涨价的具体事实，与三星、SK海力士的涨价行为共同构成联合前提，实质性支持了存储模组龙头迎来涨价周期的结论。"
+      },
+      {
+        "proposal_id": "RELPROP_113C3D58060557AE",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "三星（Samsung）上调两类合约价作为行业涨价的具体事实，与美光等厂商涨价构成联合前提，共同支持了涨价周期到来的判断。"
+      },
+      {
+        "proposal_id": "RELPROP_BF05072C778844F8",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "SK Hynix上调合约价格的事实，同样作为支撑存储行业迎来涨价周期结论的联合事实前提之一。"
+      },
+      {
+        "proposal_id": "RELPROP_54A80C6B2C93FE6A",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "iPhone存储参数升级将推动存储价格上涨，是论证“智能手机和服务器双重拉动本次存储涨价”结论的手机端联合前提之一。"
+      },
+      {
+        "proposal_id": "RELPROP_52CA42E28F828801",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "服务器算力升级带动HBM需求长期景气，是支撑“智能手机和服务器双重拉动存储涨价”论断的服务器端联合逻辑前提。"
+      },
+      {
+        "proposal_id": "RELPROP_B9D12C3A3F6AAA3F",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "毛利率的持续提升预期是公司基本面向好的关键财务假设，作为联合前提之一实质性支持了研报给予其“买入”评级的投资建议。"
+      }
+    ]
+  }
+}

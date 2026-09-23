@@ -1,0 +1,903 @@
+{
+  "chunk_id": "CHUNK_007",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P003_B004",
+    "SO_P003_B005",
+    "SO_P003_B006"
+  ],
+  "prompt_digest": "271fb998a75e0f5601ba8d61ce549eb21a95aaa9c98376cc6c35e9e00cb89746",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P003_B004",
+        "classification": "material",
+        "reason": "包含2015-2023年iPhone标准款内存与存储容量演变及升级历史"
+      },
+      {
+        "source_object_id": "SO_P003_B005",
+        "classification": "material",
+        "reason": "包含2024年iPhone 16内存容量升级信息"
+      },
+      {
+        "source_object_id": "SO_P003_B006",
+        "classification": "material",
+        "reason": "包含2025年iPhone 17存储容量升级预测信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "iPhone 7",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E2",
+        "name": "iPhone 8",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E3",
+        "name": "iPhone X",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E4",
+        "name": "iPhone XS",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E5",
+        "name": "iPhone 13",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E6",
+        "name": "iPhone 14",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E7",
+        "name": "iPhone 16",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E8",
+        "name": "iPhone 17",
+        "entity_type": "product"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "iPhone 7存储容量从16GB向32GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone 7",
+        "predicate": "UPGRADE_STORAGE",
+        "object_text": "从16GB向32GB升级",
+        "metric_name": "存储容量",
+        "period_label": "2016.09",
+        "data_point_local_ids": [
+          "D1",
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 16GB 向 32GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "iPhone 8存储容量从32GB向64GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone 8",
+        "predicate": "UPGRADE_STORAGE",
+        "object_text": "从32GB向64GB升级",
+        "metric_name": "存储容量",
+        "period_label": "2017.09",
+        "data_point_local_ids": [
+          "D3",
+          "D4"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 32GB 向 64GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "iPhone X内存容量从2GB向3GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone X",
+        "predicate": "UPGRADE_MEMORY",
+        "object_text": "从2GB向3GB升级",
+        "metric_name": "内存容量",
+        "period_label": "2017.11",
+        "data_point_local_ids": [
+          "D5",
+          "D6"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 2GB 向 3GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "iPhone XS内存容量从3GB向4GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone XS",
+        "predicate": "UPGRADE_MEMORY",
+        "object_text": "从3GB向4GB升级",
+        "metric_name": "内存容量",
+        "period_label": "2018.09",
+        "data_point_local_ids": [
+          "D7",
+          "D8"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 3GB 向 4GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "iPhone 13存储容量从64GB向128GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone 13",
+        "predicate": "UPGRADE_STORAGE",
+        "object_text": "从64GB向128GB升级",
+        "metric_name": "存储容量",
+        "period_label": "2021.09",
+        "data_point_local_ids": [
+          "D9",
+          "D10"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 64GB 向 128GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C6",
+        "text": "iPhone 14内存容量从4GB向6GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "iPhone 14",
+        "predicate": "UPGRADE_MEMORY",
+        "object_text": "从4GB向6GB升级",
+        "metric_name": "内存容量",
+        "period_label": "2022.09",
+        "data_point_local_ids": [
+          "D11",
+          "D12"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 4GB 向 6GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C7",
+        "text": "iPhone 16内存容量从6GB向8GB升级",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "iPhone 16",
+        "predicate": "UPGRADE_MEMORY",
+        "object_text": "从6GB向8GB升级",
+        "metric_name": "内存容量",
+        "period_label": "2024.09",
+        "data_point_local_ids": [
+          "D13",
+          "D14"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B005",
+            "quote": "内存容量：从 6GB 向 8GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "C8",
+        "text": "iPhone 17存储容量从128GB向256GB升级",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "iPhone 17",
+        "predicate": "UPGRADE_STORAGE",
+        "object_text": "从128GB向256GB升级",
+        "metric_name": "存储容量",
+        "period_label": "2025.09",
+        "data_point_local_ids": [
+          "D15",
+          "D16"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B006",
+            "quote": "存储容量：从 128GB 向 256GB 升级"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": "iPhone 7",
+        "metric_name": "存储容量",
+        "period_label": "2016.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "16GB",
+          "normalized_decimal": "16",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 16GB 向 32GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": "iPhone 7",
+        "metric_name": "存储容量",
+        "period_label": "2016.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "32GB",
+          "normalized_decimal": "32",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 16GB 向 32GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": "iPhone 8",
+        "metric_name": "存储容量",
+        "period_label": "2017.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "32GB",
+          "normalized_decimal": "32",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 32GB 向 64GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": "iPhone 8",
+        "metric_name": "存储容量",
+        "period_label": "2017.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "64GB",
+          "normalized_decimal": "64",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 32GB 向 64GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D5",
+        "subject_name": "iPhone X",
+        "metric_name": "内存容量",
+        "period_label": "2017.11",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "2GB",
+          "normalized_decimal": "2",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 2GB 向 3GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D6",
+        "subject_name": "iPhone X",
+        "metric_name": "内存容量",
+        "period_label": "2017.11",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "3GB",
+          "normalized_decimal": "3",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 2GB 向 3GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D7",
+        "subject_name": "iPhone XS",
+        "metric_name": "内存容量",
+        "period_label": "2018.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "3GB",
+          "normalized_decimal": "3",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 3GB 向 4GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D8",
+        "subject_name": "iPhone XS",
+        "metric_name": "内存容量",
+        "period_label": "2018.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "4GB",
+          "normalized_decimal": "4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 3GB 向 4GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D9",
+        "subject_name": "iPhone 13",
+        "metric_name": "存储容量",
+        "period_label": "2021.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "64GB",
+          "normalized_decimal": "64",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 64GB 向 128GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D10",
+        "subject_name": "iPhone 13",
+        "metric_name": "存储容量",
+        "period_label": "2021.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "128GB",
+          "normalized_decimal": "128",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 64GB 向 128GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D11",
+        "subject_name": "iPhone 14",
+        "metric_name": "内存容量",
+        "period_label": "2022.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "4GB",
+          "normalized_decimal": "4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 4GB 向 6GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D12",
+        "subject_name": "iPhone 14",
+        "metric_name": "内存容量",
+        "period_label": "2022.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "6GB",
+          "normalized_decimal": "6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 4GB 向 6GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D13",
+        "subject_name": "iPhone 16",
+        "metric_name": "内存容量",
+        "period_label": "2024.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "6GB",
+          "normalized_decimal": "6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B005",
+            "quote": "内存容量：从 6GB 向 8GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D14",
+        "subject_name": "iPhone 16",
+        "metric_name": "内存容量",
+        "period_label": "2024.09",
+        "qualifier": "actual",
+        "value": {
+          "kind": "scalar",
+          "raw": "8GB",
+          "normalized_decimal": "8",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B005",
+            "quote": "内存容量：从 6GB 向 8GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D15",
+        "subject_name": "iPhone 17",
+        "metric_name": "存储容量",
+        "period_label": "2025.09",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "128GB",
+          "normalized_decimal": "128",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "before"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B006",
+            "quote": "存储容量：从 128GB 向 256GB 升级"
+          }
+        ]
+      },
+      {
+        "local_id": "D16",
+        "subject_name": "iPhone 17",
+        "metric_name": "存储容量",
+        "period_label": "2025.09",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "256GB",
+          "normalized_decimal": "256",
+          "range_low": null,
+          "range_high": null,
+          "unit": "GB",
+          "currency": null,
+          "scale": "1",
+          "dimensions": {
+            "endpoint": "after"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B006",
+            "quote": "存储容量：从 128GB 向 256GB 升级"
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 16GB 向 32GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 16GB 向 32GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 32GB 向 64GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D4",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 32GB 向 64GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D5",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 2GB 向 3GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D6",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 2GB 向 3GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "D7",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 3GB 向 4GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "D8",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 3GB 向 4GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "D9",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 64GB 向 128GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "D10",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "存储容量：从 64GB 向 128GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C6",
+        "target_local_id": "D11",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 4GB 向 6GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C6",
+        "target_local_id": "D12",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B004",
+            "quote": "内存容量：从 4GB 向 6GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C7",
+        "target_local_id": "D13",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B005",
+            "quote": "内存容量：从 6GB 向 8GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C7",
+        "target_local_id": "D14",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后内存容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B005",
+            "quote": "内存容量：从 6GB 向 8GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C8",
+        "target_local_id": "D15",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级前存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B006",
+            "quote": "存储容量：从 128GB 向 256GB 升级"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C8",
+        "target_local_id": "D16",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim包含该升级后存储容量数据点",
+        "evidence": [
+          {
+            "source_object_id": "SO_P003_B006",
+            "quote": "存储容量：从 128GB 向 256GB 升级"
+          }
+        ]
+      }
+    ]
+  }
+}

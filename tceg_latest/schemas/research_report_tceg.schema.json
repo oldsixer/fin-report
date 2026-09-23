@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://livingfin.local/schemas/research_report_tceg.schema.json",
+  "title": "LivingFin Research Report TCEG Profile",
+  "description": "Evidence-grounded semantic graph extracted from a historical equity research report. The profile preserves facts, quantitative observations and argument structure, but does not model report rendering or future updates.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "graph_id",
+    "state_hash",
+    "document",
+    "source_objects",
+    "nodes",
+    "edges",
+    "extraction_run",
+    "coverage_manifest",
+    "rejected_candidates"
+  ],
+  "properties": {
+    "schema_version": {"const": "research-report-tceg-0.1"},
+    "graph_id": {"type": "string", "minLength": 1},
+    "state_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "document": {"$ref": "#/$defs/document"},
+    "source_objects": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/sourceObject"}
+    },
+    "nodes": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/node"}
+    },
+    "edges": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/edge"}
+    },
+    "extraction_run": {"type": "object"},
+    "coverage_manifest": {"type": "object"},
+    "rejected_candidates": {
+      "type": "array",
+      "items": {"type": "object"}
+    }
+  },
+  "$defs": {
+    "document": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "title", "source_type", "local_path", "sha256"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "source_type": {"enum": ["broker_research_pdf", "research_markdown", "research_text"]},
+        "local_path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "sourceObject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "document_id", "object_type", "sequence", "raw_text",
+        "normalized_text", "sha256", "locator", "processing_status",
+        "candidate_count", "metadata"
+      ],
+      "properties": {
+        "id": {"type": "string"},
+        "document_id": {"type": "string"},
+        "object_type": {"enum": ["paragraph", "table_like", "figure_caption", "legal", "other"]},
+        "sequence": {"type": "integer", "minimum": 0},
+        "raw_text": {"type": "string"},
+        "normalized_text": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "locator": {
+          "type": "object",
+          "required": ["page", "block"],
+          "properties": {
+            "page": {"type": "integer", "minimum": 1},
+            "block": {"type": "integer", "minimum": 1},
+            "char_start": {"type": ["integer", "null"]},
+            "char_end": {"type": ["integer", "null"]}
+          }
+        },
+        "processing_status": {"enum": ["EXTRACTED", "NO_CLAIM", "OPAQUE", "NEEDS_REVIEW", "ERROR"]},
+        "candidate_count": {"type": "integer", "minimum": 0},
+        "irrelevant_reason": {"type": ["string", "null"]},
+        "metadata": {"type": "object"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_object_id", "quote", "quote_sha256", "match_mode"],
+      "properties": {
+        "source_object_id": {"type": "string"},
+        "quote": {"type": "string", "minLength": 1},
+        "quote_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "match_mode": {"enum": ["exact", "whitespace_normalized"]}
+      }
+    },
+    "value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind", "raw", "normalized_decimal", "range_low", "range_high",
+        "unit", "currency", "scale", "dimensions"
+      ],
+      "properties": {
+        "kind": {"enum": ["scalar", "range", "text"]},
+        "raw": {"type": "string", "minLength": 1},
+        "normalized_decimal": {"type": ["string", "null"], "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"},
+        "range_low": {"type": ["string", "null"], "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"},
+        "range_high": {"type": ["string", "null"], "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"},
+        "unit": {"type": ["string", "null"]},
+        "currency": {"type": ["string", "null"]},
+        "scale": {"type": ["string", "null"]},
+        "dimensions": {"type": "object"}
+      }
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "node_type", "label", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "node_type": {"enum": ["Entity", "Metric", "Period", "DataPoint", "Claim", "Event", "ReasoningStep", "Assumption"]},
+        "label": {"type": "string", "minLength": 1},
+        "status": {"enum": ["active", "needs_review", "rejected"]},
+        "claim_role": {"enum": ["observation", "forecast", "interpretation", "valuation", "recommendation", "risk", "guidance"]},
+        "modality": {"enum": ["actual", "forecast", "opinion", "recommendation", "risk", "conditional"]},
+        "assertion_level": {"enum": ["EXPLICIT", "INFERRED"]},
+        "evidence": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/evidence"}
+        },
+        "value": {"$ref": "#/$defs/value"}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "edge_type", "source_id", "target_id", "assertion_level", "status", "confidence"],
+      "properties": {
+        "id": {"type": "string"},
+        "edge_type": {"enum": [
+          "EVIDENCED_BY", "ABOUT", "MEASURES", "VALID_DURING", "HAS_DATA",
+          "SUPPORTS", "CONTRADICTS", "CAUSES", "AFFECTS", "DEPENDS_ON",
+          "PREMISE_OF", "CONCLUDES", "ASSUMES", "SAME_AS"
+        ]},
+        "source_id": {"type": "string"},
+        "target_id": {"type": "string"},
+        "assertion_level": {"enum": ["EXPLICIT", "INFERRED"]},
+        "status": {"enum": ["active", "needs_review", "rejected"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

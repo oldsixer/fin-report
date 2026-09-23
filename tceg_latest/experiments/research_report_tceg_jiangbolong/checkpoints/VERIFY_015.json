@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "98003fa217100814d469b65e5f3df3d1f4440c2bd62a4b8a2b5157d85acc3ec4",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_096637A38B5D59EA",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "iPhone 16内存升级的具体事实，有效支持了目标命题中关于‘存储升级周期持续’的概括性趋势判断，符合具体事实支持概括性趋势的论证原则。"
+      },
+      {
+        "proposal_id": "RELPROP_2281FCB05DAD8D37",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "iPhone 17存储容量翻倍的具体实例，实质性地支持了目标命题中关于‘存储升级周期仍在持续’的概括性趋势结论，符合具体事实可以支持概括性趋势的规则。"
+      },
+      {
+        "proposal_id": "RELPROP_75619C2C55F14F62",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "语义包含与逻辑嵌套。Source（参数提升）只是Target内部的条件子句，Target作为一个完整的因果预测论断（参数提升将推动价格上涨），其因果逻辑本身的成立并不依赖于该条件事实的必然发生，不满足DEPENDS_ON所需的外部必要前提要求。"
+      },
+      {
+        "proposal_id": "RELPROP_8207D9163231E004",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "美光存储产品合约价单季上涨20%-30%的具体调价事实，作为有力例证，实质性地支持了目标命题中‘供需变化易引发产品价格大幅波动’的行业概括性规律。"
+      },
+      {
+        "proposal_id": "RELPROP_2C478C05765F4232",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "SK海力士合约价最高上涨30%的极端调价实例，作为具体证据充分支持了目标命题中‘产品价格大幅波动’的概括性趋势与周期性特征。"
+      },
+      {
+        "proposal_id": "RELPROP_A954AEF37335EDFC",
+        "verdict": "accept",
+        "confidence": 0.88,
+        "reason": "Source陈述了供需变化引发价格波动的通用经济规律，为Target中‘供过于求可能导致产品降价’的特定条件风险场景提供了理论依据与底层逻辑支持，属于一般法则对特定条件推演的支持，而非用概括性趋势反证具体的既定事实。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "chunk_id": "CHUNK_015",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P006_B007",
+    "SO_P006_B008",
+    "SO_P006_B009",
+    "SO_P007_B001"
+  ],
+  "prompt_digest": "100ed17ec5cb054fa3efd3fe112842ea0219e8476cc8bbddf1d89cc99e707901",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P006_B007",
+        "classification": "material",
+        "reason": "包含标准五期财务预测与归母净利润等指标，属于标准财务表片段"
+      },
+      {
+        "source_object_id": "SO_P006_B008",
+        "classification": "material",
+        "reason": "包含标准五期估值比率及EBITDA指标，属于标准财务表片段"
+      },
+      {
+        "source_object_id": "SO_P006_B009",
+        "classification": "legal",
+        "reason": "报告尾部的重要法律声明提示"
+      },
+      {
+        "source_object_id": "SO_P007_B001",
+        "classification": "administrative",
+        "reason": "机构联系方式、地址及网址等行政信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "爱建证券有限责任公司",
+        "entity_type": "institution"
+      }
+    ],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

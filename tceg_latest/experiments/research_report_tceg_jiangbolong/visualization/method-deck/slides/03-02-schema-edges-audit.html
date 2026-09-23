@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TCEG Schema：关系与运行审计</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Schema 03 · Edges & Audit</p></header>
+  <main class="slide schema-slide">
+    <p class="kicker">Relations and extraction accountability</p>
+    <h1 class="title schema-title">边把对象编成论证路径；运行字段解释每条结果是怎样产生的。</h1>
+
+    <section class="schema-columns schema-dual edge-audit" aria-label="关系字段与运行审计字段">
+      <article class="schema-panel">
+        <h2>EDGE RECORD + TYPES</h2>
+        <p class="panel-dek">每条边都有方向、断言级别、置信度与生命周期。</p>
+        <dl class="field-list compact edge-list">
+          <div><dt>id · edge_type · source_id · target_id</dt><dd>关系身份、谓词以及有向边两端。</dd></div>
+          <div><dt>assertion_level · confidence · status</dt><dd>EXPLICIT / INFERRED、0–1 置信度与关系状态。</dd></div>
+          <div><dt>rationale · evidence</dt><dd>论证理由及显式关系的原文依据。</dd></div>
+          <div><dt>extraction_origin · verification</dt><dd>within/cross chunk 来源及独立复核记录。</dd></div>
+          <div><dt>evidence_quote_sha256</dt><dd>EVIDENCED_BY 与节点 evidence.quote 的一致性指纹。</dd></div>
+          <div><dt>EVIDENCED_BY</dt><dd>语义节点 → SourceObject；建立出处链。</dd></div>
+          <div><dt>ABOUT · MEASURES · VALID_DURING</dt><dd>分别连接主体、指标和有效期间。</dd></div>
+          <div><dt>HAS_DATA</dt><dd>Claim → DataPoint；陈述绑定数值。</dd></div>
+          <div><dt>SUPPORTS · CONTRADICTS</dt><dd>支持或反驳另一主张。</dd></div>
+          <div><dt>CAUSES · AFFECTS · DEPENDS_ON</dt><dd>因果、影响与依赖关系。</dd></div>
+          <div><dt>PREMISE_OF · CONCLUDES</dt><dd>前提 → ReasoningStep → 结论 Claim。</dd></div>
+          <div><dt>ASSUMES · SAME_AS</dt><dd>假设依赖与同一对象归并。</dd></div>
+        </dl>
+      </article>
+
+      <article class="schema-panel audit-wide">
+        <h2>EXTRACTION RUN + COVERAGE</h2>
+        <p class="panel-dek">运行诊断不改变语义哈希，但必须保留以便复现。</p>
+        <dl class="field-list compact">
+          <div><dt>RUN · run_id / started_from / finished_at / model / verification_model / extractor / candidate_input / semantic_contract</dt><dd>运行身份、时间、模型、管线版本、输入位置与语义约束。</dd></div>
+          <div><dt>CHUNK · chunk_count / resumed_candidate_chunks / deterministic_table_points_created / deterministic_capacity_points_created</dt><dd>分块、断点恢复与两类确定性 DataPoint 产量。</dd></div>
+          <div><dt>API CALL · api_calls[].id / purpose / model / stage / status / attempt / duration_seconds / finish_reason</dt><dd>逐次模型调用的目标、阶段、状态、重试、耗时与完成原因。</dd></div>
+          <div><dt>CALL INTEGRITY · prompt_sha256 / response_sha256 / json_repair_applied / usage.{prompt_tokens, completion_tokens, total_tokens}</dt><dd>输入输出指纹、JSON 修复标志和 token 用量。</dd></div>
+          <div><dt>COVERAGE · total_source_objects / terminal_source_objects / source_object_status_counts / source_processing_coverage</dt><dd>来源处理总量、终态、状态分布与处理覆盖率。</dd></div>
+          <div><dt>EVIDENCE COVERAGE · semantic_nodes / semantic_nodes_with_evidence / semantic_evidence_coverage</dt><dd>语义节点及其证据覆盖口径。</dd></div>
+          <div><dt>REVIEW · opaque_source_object_ids / needs_review_source_object_ids / definition</dt><dd>不透明对象、复核队列与统计口径定义。</dd></div>
+          <div><dt>REJECTED · rejected_candidates[].{id, candidate_type, chunk_id, reason, candidate}</dt><dd>保留被拒候选及其原始内容和失败原因。</dd></div>
+        </dl>
+      </article>
+    </section>
+    <div class="source-note"><p>语义状态与运行诊断分离：模型或提示改变，不会静默改写已有状态身份。</p><p class="mono">RELATION GRAPH + REPRODUCIBLE RUN</p></div>
+  </main>
+</body>
+</html>

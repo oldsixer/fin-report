@@ -1,0 +1,74 @@
+{
+  "chunk_id": "CHUNK_008",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P003_B007",
+    "SO_P003_B008",
+    "SO_P003_B009",
+    "SO_P004_B001",
+    "SO_P004_B002",
+    "SO_P004_B003"
+  ],
+  "prompt_digest": "1ebcc98f30c2d0953e592e1d720ef982937d20e2879a77f5a55199b3e4072e9c",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P003_B007",
+        "classification": "administrative",
+        "reason": "资料来源标注，属于行政/引用信息"
+      },
+      {
+        "source_object_id": "SO_P003_B008",
+        "classification": "administrative",
+        "reason": "图表说明注释，属于行政/辅助说明"
+      },
+      {
+        "source_object_id": "SO_P003_B009",
+        "classification": "legal",
+        "reason": "法律声明提示，属于法律合规信息"
+      },
+      {
+        "source_object_id": "SO_P004_B001",
+        "classification": "administrative",
+        "reason": "页眉公司名称与日期标注，属于行政信息"
+      },
+      {
+        "source_object_id": "SO_P004_B002",
+        "classification": "opaque",
+        "reason": "图表标题无明确可读取的数据内容"
+      },
+      {
+        "source_object_id": "SO_P004_B003",
+        "classification": "administrative",
+        "reason": "资料来源标注，属于行政/引用信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "苹果",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E3",
+        "name": "爱建证券研究所",
+        "entity_type": "institution"
+      },
+      {
+        "local_id": "E4",
+        "name": "弗若斯特沙利文",
+        "entity_type": "institution"
+      }
+    ],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

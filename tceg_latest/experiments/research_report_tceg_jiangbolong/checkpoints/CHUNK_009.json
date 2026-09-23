@@ -1,0 +1,412 @@
+{
+  "chunk_id": "CHUNK_009",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P004_B004",
+    "SO_P004_B005",
+    "SO_P004_B006",
+    "SO_P004_B007",
+    "SO_P004_B008",
+    "SO_P005_B001"
+  ],
+  "prompt_digest": "5c287765fef475443802a32f24226456729d05fee8bce7f20b4369fcb5f0092e",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P004_B004",
+        "classification": "material",
+        "reason": "包含2025Q4主流存储厂商存储产品合约价上涨幅度数据表格"
+      },
+      {
+        "source_object_id": "SO_P004_B005",
+        "classification": "administrative",
+        "reason": "图表数据来源标注信息"
+      },
+      {
+        "source_object_id": "SO_P004_B006",
+        "classification": "material",
+        "reason": "包含2030年存储市场规模预测的图表标题"
+      },
+      {
+        "source_object_id": "SO_P004_B007",
+        "classification": "administrative",
+        "reason": "图表数据来源标注信息"
+      },
+      {
+        "source_object_id": "SO_P004_B008",
+        "classification": "legal",
+        "reason": "法律声明提示文本"
+      },
+      {
+        "source_object_id": "SO_P005_B001",
+        "classification": "administrative",
+        "reason": "公司名称与报告日期页眉/页脚信息"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "Micron",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "Samsung",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E3",
+        "name": "SK Hynix",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E4",
+        "name": "存储",
+        "entity_type": "industry"
+      },
+      {
+        "local_id": "E5",
+        "name": "江波龙",
+        "entity_type": "company"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "美光2025Q4存储产品DDR4、DDR5、LPDDR4、LPDDR5合约价上涨20%-30%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "Micron",
+        "predicate": "INCREASE",
+        "object_text": "DDR4、DDR5、LPDDR4、LPDDR5合约价上涨20%-30%",
+        "metric_name": "合约价涨幅",
+        "period_label": "2025Q4",
+        "data_point_local_ids": [
+          "D1"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "Micron DDR4、DDR5、LPDDR4、LPDDR5 20%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "三星2025Q4 DRAM（LPDDR4X、LPDDR5/5X等）合约价上涨15%-30%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "Samsung",
+        "predicate": "INCREASE",
+        "object_text": "DRAM合约价上涨15%-30%",
+        "metric_name": "合约价涨幅",
+        "period_label": "2025Q4",
+        "data_point_local_ids": [
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "DRAM（LPDDR4X、LPDDR5/5X 等） 15%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "三星2025Q4 NAND Flash合约价上涨5%-10%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "Samsung",
+        "predicate": "INCREASE",
+        "object_text": "NAND Flash合约价上涨5%-10%",
+        "metric_name": "合约价涨幅",
+        "period_label": "2025Q4",
+        "data_point_local_ids": [
+          "D3"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "NAND Flash 5%-10%"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "SK海力士2025Q4 DRAM、NAND Flash合约价最高上涨30%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "SK Hynix",
+        "predicate": "INCREASE",
+        "object_text": "DRAM、NAND Flash合约价最高上涨30%",
+        "metric_name": "合约价最高涨幅",
+        "period_label": "2025Q4",
+        "data_point_local_ids": [
+          "D4"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "SK Hynix DRAM、NAND Flash 最高 30%"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "2030年存储市场规模或将达到3020亿美元",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "存储市场",
+        "predicate": "REACH",
+        "object_text": "市场规模达到3020亿美元",
+        "metric_name": "存储市场规模",
+        "period_label": "2030年",
+        "data_point_local_ids": [
+          "D5"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B006",
+            "quote": "2030 年存储市场或将达到 3020 亿美元"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": "Micron",
+        "metric_name": "DDR4、DDR5、LPDDR4、LPDDR5合约价涨幅",
+        "period_label": "2025Q4",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "range",
+          "raw": "20%-30%",
+          "normalized_decimal": null,
+          "range_low": 20,
+          "range_high": 30,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "Micron DDR4、DDR5、LPDDR4、LPDDR5 20%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": "Samsung",
+        "metric_name": "DRAM（LPDDR4X、LPDDR5/5X 等）合约价涨幅",
+        "period_label": "2025Q4",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "range",
+          "raw": "15%-30%",
+          "normalized_decimal": null,
+          "range_low": 15,
+          "range_high": 30,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "DRAM（LPDDR4X、LPDDR5/5X 等） 15%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": "Samsung",
+        "metric_name": "NAND Flash合约价涨幅",
+        "period_label": "2025Q4",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "range",
+          "raw": "5%-10%",
+          "normalized_decimal": null,
+          "range_low": 5,
+          "range_high": 10,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "NAND Flash 5%-10%"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": "SK Hynix",
+        "metric_name": "DRAM、NAND Flash合约价最高涨幅",
+        "period_label": "2025Q4",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "最高 30%",
+          "normalized_decimal": "30",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {
+            "bound": "upper"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "SK Hynix DRAM、NAND Flash 最高 30%"
+          }
+        ]
+      },
+      {
+        "local_id": "D5",
+        "subject_name": "存储市场",
+        "metric_name": "市场规模",
+        "period_label": "2030年",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "3020 亿美元",
+          "normalized_decimal": "3020",
+          "range_low": null,
+          "range_high": null,
+          "unit": "USD",
+          "currency": "USD",
+          "scale": "100000000",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B006",
+            "quote": "2030 年存储市场或将达到 3020 亿美元"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "2025Q4主流存储厂商存储产品合约价上涨",
+        "category": "price",
+        "subject_name": "主流存储厂商",
+        "period_label": "2025Q4",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "图表 7：2025Q4 主流存储厂商存储产品合约价上涨情况"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C1 包含数据点 D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "Micron DDR4、DDR5、LPDDR4、LPDDR5 20%-30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C2 包含数据点 D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "DRAM（LPDDR4X、LPDDR5/5X 等） 15%-30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C3 包含数据点 D3",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "NAND Flash 5%-10%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "D4",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C4 包含数据点 D4",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "SK Hynix DRAM、NAND Flash 最高 30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "D5",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C5 包含数据点 D5",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B006",
+            "quote": "2030 年存储市场或将达到 3020 亿美元"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V1",
+        "target_local_id": "C1",
+        "relation_type": "AFFECTS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "价格上涨事件涵盖美光产品合约价涨幅命题",
+        "evidence": [
+          {
+            "source_object_id": "SO_P004_B004",
+            "quote": "图表 7：2025Q4 主流存储厂商存储产品合约价上涨情况"
+          }
+        ]
+      }
+    ]
+  }
+}

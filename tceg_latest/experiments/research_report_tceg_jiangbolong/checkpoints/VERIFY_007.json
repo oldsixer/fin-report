@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "2ede5344be66bd77567edbe08735d6aa4b94090e43a9f2637b5c12c34391aabc",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_DD42C6F19439B7A1",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "原文中“关键假设点”的营收预测与“催化剂”部分提及的价格上涨属于并列表述，文本并未明确建立两者之间的因果或支撑论证关系。Rationale引入了原文未提及的“量价齐升”等金融常识，属于“只是共现”且需要未披露的中间前提。"
+      },
+      {
+        "proposal_id": "RELPROP_93DDCD0F6329B159",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "原文通过“其中，嵌入式存储作为公司核心业务”的表述，明确将该业务的核心地位作为测算总体营收增速的结构性前提假设，符合 DEPENDS_ON 的定义。"
+      },
+      {
+        "proposal_id": "RELPROP_63507917204A1397",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "原文明确使用“其中”一词进行拆解，将嵌入式业务的高增速作为预测总营收增速的直接组成部分，符合 SUPPORTS 关系中对结论有实质性贡献的要求。"
+      },
+      {
+        "proposal_id": "RELPROP_7B2AEFA5083E1883",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "原文仅在“催化剂”部分提及HBM需求长期景气，并未将其与2027年具体的24.6%营收增速预测建立直接的论证关系。Rationale基于金融常识进行了过度推断，实际上属于语义上的“只是共现”。"
+      },
+      {
+        "proposal_id": "RELPROP_79850BAF43BA0CFE",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "与 Proposal 2 逻辑一致，原文明确将嵌入式存储作为核心业务这一事实作为测算远期整体营收增速（2027年）的结构性前提，属于有效的 DEPENDS_ON 关系。"
+      },
+      {
+        "proposal_id": "RELPROP_3799137BE29F4378",
+        "verdict": "reject",
+        "confidence": 0.98,
+        "reason": "原文仅分别陈述了核心业务的高增速与产品结构优化带来的毛利率提升，并未指明嵌入式存储就是高附加值产品或其增速是毛利率提升的原因。Rationale严重依赖未披露的中间前提，属于语义不相干的过度推断。"
+      }
+    ]
+  }
+}

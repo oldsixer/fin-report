@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>端到端流程</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">How · End-to-end Pipeline</p></header>
+  <main class="slide">
+    <p class="kicker">One-way semantic compilation</p>
+    <h1 class="title">抽取不是一次提示词调用，而是六层带门禁的语义编译。</h1>
+    <section class="pipeline" aria-label="端到端建图流程">
+      <article class="stage-box"><p class="num">01</p><h3>注册来源</h3><p>PDF 文本层、文件哈希、页码和稳定文档 ID。</p><strong>7 pages</strong></article>
+      <article class="stage-box"><p class="num">02</p><h3>保真分块</h3><p>source object 与 extraction view 分离，长块可拆、证据身份不变。</p><strong>56 objects</strong></article>
+      <article class="stage-box"><p class="num">03</p><h3>混合抽取</h3><p>模型识别语义，Python 解析规则表格，并对候选逐项审计。</p><strong>244 + 414</strong></article>
+      <article class="stage-box"><p class="num">04</p><h3>规范化</h3><p>稳定 ID、实体/指标/期间复用，数值统一单位和尺度。</p><strong>7 node types</strong></article>
+      <article class="stage-box"><p class="num">05</p><h3>构建关系</h3><p>显式关系直连；推断关系由独立模型复核并防止论证环。</p><strong>69 accepted</strong></article>
+      <article class="stage-box"><p class="num">06</p><h3>验证状态</h3><p>schema、证据、数值语境、DAG、覆盖和状态哈希。</p><strong>PASS</strong></article>
+    </section>
+    <div class="source-note"><p>所有阶段都生成可复查中间产物与拒绝记录。</p><p class="mono">PDF → SOURCE → CANDIDATE → GRAPH → VALIDATION</p></div>
+  </main>
+</body>
+</html>

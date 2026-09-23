@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="江波龙券商研报 TCEG 论证星图">
+  <link rel="icon" href="data:,">
+  <title>TCEG 论证星图</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--
+  Design direction 2 / Argument Atlas
+  Assumptions: graph-first presentation for exploring causal and support structures.
+  Reasoning: warm charcoal and amber create depth without using generic blue-purple neon UI.
+  Known limitation: the full 854-node state prioritizes topology over non-overlapping labels.
+-->
+<body class="atlas">
+  <header class="topbar">
+    <div class="identity">
+      <div class="eyebrow"><span class="dot"></span>TCEG / Argument Atlas / Verified Relations</div>
+      <h1 id="reportTitle">加载研报…</h1>
+      <div class="subtitle" id="reportSubtitle"></div>
+    </div>
+    <div class="stats" aria-label="图状态摘要">
+      <div class="stat"><strong id="nodeStat">—</strong><span>Graph nodes</span></div>
+      <div class="stat"><strong id="edgeStat">—</strong><span>Graph edges</span></div>
+      <div class="stat"><strong id="validationStat">—</strong><span>Errors / warnings</span></div>
+      <div class="stat"><strong id="benchmarkStat">—</strong><span>Core inventory</span></div>
+    </div>
+  </header>
+  <main class="workspace">
+    <section class="panel report-panel" aria-label="原始研报">
+      <div class="panel-head">
+        <div class="panel-title" data-index="01">Source report <small>证据载体</small></div>
+        <div class="page-controls">
+          <a class="pdf-link" id="pdfLink" target="_blank" rel="noreferrer">PDF</a>
+          <button class="page-button" id="prevPage" aria-label="上一页">←</button>
+          <span class="page-indicator" id="pageIndicator">1 / 7</span>
+          <button class="page-button" id="nextPage" aria-label="下一页">→</button>
+        </div>
+      </div>
+      <div class="report-stage"><img class="report-page" id="reportImage" alt="原始研报页面"></div>
+      <div class="source-tray">
+        <div class="source-meta" id="sourceMeta"></div>
+        <div class="source-text" id="sourceText"></div>
+        <div class="source-linked" id="sourceLinked"></div>
+      </div>
+    </section>
+    <section class="panel graph-panel" aria-label="TCEG 图">
+      <div class="panel-head">
+        <div class="panel-title" data-index="02">Argument field <small>图是主状态</small></div>
+        <div class="panel-title"><small id="graphCount"></small></div>
+      </div>
+      <div class="graph-toolbar">
+        <div class="mode-group">
+          <button class="mode-button active" data-mode="thesis">核心论证</button>
+          <button class="mode-button" data-mode="data">关键数据</button>
+          <button class="mode-button" data-mode="full">完整图</button>
+        </div>
+        <div class="search-wrap">
+          <input class="search-input" id="searchInput" placeholder="搜索整个状态" aria-label="搜索">
+          <span class="search-hint">/</span>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+        <div class="zoom-controls">
+          <button class="icon-button" id="zoomIn" aria-label="放大">+</button>
+          <button class="icon-button" id="zoomOut" aria-label="缩小">−</button>
+          <button class="icon-button" id="resetView" aria-label="重置视图">↺</button>
+        </div>
+      </div>
+      <div class="graph-stage">
+        <svg id="graphSvg" viewBox="0 0 1600 1000" aria-label="可交互 TCEG 图"><g id="graphLayer"></g></svg>
+        <div class="graph-empty" id="graphEmpty" hidden>当前范围没有可显示节点</div>
+      </div>
+      <div class="legend">
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--claim)"></i>Claim</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--data)"></i>Data</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--event)"></i>Event</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--reason)"></i>Reasoning</span>
+        <span>Solid explicit / dashed inferred</span>
+      </div>
+    </section>
+    <aside class="panel inspector-panel" aria-label="节点审计详情">
+      <div class="panel-head"><div class="panel-title" data-index="03">Trace <small>structure / relation / evidence</small></div></div>
+      <div class="inspector-scroll" id="inspector"></div>
+    </aside>
+  </main>
+  <script>window.TCEG_CONFIG={name:"Argument Atlas",direction:2,liveEndpoint:"/api/data"};</script>
+  <script src="tceg_visualization_data.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+{
+  "chunk_id": "CHUNK_013",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P006_B006"
+  ],
+  "prompt_digest": "49de57261ccf0e7fbf5a093db79230f7b54d7a7c647a3cb9615b48e721b3b2fc",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P006_B006",
+        "classification": "material",
+        "reason": "包含公司财务预测、成长能力及盈利能力指标数据表"
+      }
+    ],
+    "entities": [],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "预计2025E营业收入为23,995百万元",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "neutral",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "FORECAST_REVENUE",
+        "object_text": "23,995百万元",
+        "metric_name": "营业收入",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D1"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入 10,125 17,464 23,995 30,618 38,150"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "预计2025E营业收入增速为37.4%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "FORECAST_REVENUE_GROWTH",
+        "object_text": "37.4%",
+        "metric_name": "营业收入增速",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入增速 21.6% 72.5% 37.4% 27.6% 24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "预计2025E归母净利润增速为134.4%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "FORECAST_NET_PROFIT_GROWTH",
+        "object_text": "134.4%",
+        "metric_name": "归母净利润增速",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D3"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "归母净利润增速 -1,237.1 -160.2% 134.4% 79.8% 7.2%"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "预计2025E毛利率为17.7%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "neutral",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "FORECAST_GROSS_MARGIN",
+        "object_text": "17.7%",
+        "metric_name": "毛利率",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D4"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "毛利率 8.2% 19.0% 17.7% 21.0% 20.2%"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": null,
+        "metric_name": "营业收入",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "23,995",
+          "normalized_decimal": "23995",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": "1000000",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入 10,125 17,464 23,995 30,618 38,150"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": null,
+        "metric_name": "营业收入增速",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "37.4%",
+          "normalized_decimal": "37.4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入增速 21.6% 72.5% 37.4% 27.6% 24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": null,
+        "metric_name": "归母净利润增速",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "134.4%",
+          "normalized_decimal": "134.4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "归母净利润增速 -1,237.1 -160.2% 134.4% 79.8% 7.2%"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": null,
+        "metric_name": "毛利率",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "17.7%",
+          "normalized_decimal": "17.7",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": "0.01",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "毛利率 8.2% 19.0% 17.7% 21.0% 20.2%"
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C1 data is provided by data point D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入 10,125 17,464 23,995 30,618 38,150"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C2 data is provided by data point D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "营业收入增速 21.6% 72.5% 37.4% 27.6% 24.6%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C3 data is provided by data point D3",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "归母净利润增速 -1,237.1 -160.2% 134.4% 79.8% 7.2%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C4",
+        "target_local_id": "D4",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "Claim C4 data is provided by data point D4",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B006",
+            "quote": "毛利率 8.2% 19.0% 17.7% 21.0% 20.2%"
+          }
+        ]
+      }
+    ]
+  }
+}

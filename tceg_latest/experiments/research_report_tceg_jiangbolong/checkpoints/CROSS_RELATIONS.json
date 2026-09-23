@@ -1,0 +1,28 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "node_digest": "f505720c8d164030859424cfe1f926bde8c131eab4eeab32feee67d8971ebe90",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_DDD7FD7C7D9342CD",
+        "target_id": "CLM_609C59889C9D906E",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "营业收入的持续增长预期是支持买入评级的核心财务基础。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_4E54BDEDDE2E30C8",
+        "target_id": "CLM_609C59889C9D906E",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "归母净利润的增长预期直接支撑其投资价值及买入评级。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_C8590204AFDEB3A0"
+      }
+    ]
+  }
+}

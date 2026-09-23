@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "1071530001d67fc6173227ed57070e98b566dabdab53f519f9cfb92489efb7d4",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_205E4FE048E1FF12",
+        "verdict": "reject",
+        "confidence": 0.9,
+        "reason": "给定证据分别出自独立段落，未展示“存储参数提升”与“进入升级周期”的直接逻辑推演，强行建立支持关系需要未披露的中间前提。"
+      },
+      {
+        "proposal_id": "RELPROP_A43EB0946007DD02",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "证据原句“iPhone 带动智能手机正在进入升级周期，智能手机和服务器双重拉动本次存储涨价”明确显示前者是后者的组成前提之一，作为联合前提的 contributory SUPPORTS 完全合理。"
+      },
+      {
+        "proposal_id": "RELPROP_A86807D17730EAA3",
+        "verdict": "reject",
+        "confidence": 0.85,
+        "reason": "来源和目标分属不同段落证据，文本并未建立“HBM需求景气”支撑“服务器双重拉动”论点的直接联系，仅属于常识上的可能有关及文本共现。"
+      },
+      {
+        "proposal_id": "RELPROP_724056A6E32B5FC0",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "证据原句“双重拉动本次存储涨价，持续性有望超越市场预期”在语境上构成了因果推导，双重拉动正是持续性超预期的根本原因，关系类型与方向均正确。"
+      },
+      {
+        "proposal_id": "RELPROP_46ECEF3E7D2F7734",
+        "verdict": "reject",
+        "confidence": 0.9,
+        "reason": "SK Hynix上调价格只是当前涨价的事实依据，并不能直接论证“持续性超越市场预期”。文本中持续性超预期是由“双重拉动”得出的结论，该提议需要未披露的中间前提。"
+      },
+      {
+        "proposal_id": "RELPROP_B760EA0B8142191F",
+        "verdict": "reject",
+        "confidence": 0.9,
+        "reason": "同理，美光上调价格仅能证明行业涨价的现状，证据中并未将其作为“涨价持续性超预期”的论据，建立联系属于过度引申，语义不相干且需要未披露前提。"
+      }
+    ]
+  }
+}

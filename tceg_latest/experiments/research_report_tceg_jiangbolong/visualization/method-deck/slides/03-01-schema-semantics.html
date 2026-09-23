@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TCEG Schema：节点与嵌套记录</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Schema 02 · Nodes & Embedded Records</p></header>
+  <main class="slide schema-slide">
+    <p class="kicker">Semantic node dictionary</p>
+    <h1 class="title schema-title">节点描述“是什么”；证据和值对象让它保持可核验、可计算。</h1>
+
+    <section class="schema-columns schema-dual node-records" aria-label="节点、证据和值字段">
+      <article class="schema-panel">
+        <h2>NODE RECORD</h2>
+        <p class="panel-dek">所有节点共享身份字段，再由 node_type 补充语义。</p>
+        <dl class="field-list node-list">
+          <div><dt>id · node_type · label · status</dt><dd>稳定身份、类型、可读名称及 active / needs_review / rejected 状态。</dd></div>
+          <div><dt>Entity.entity_type</dt><dd>公司、产品、人物等实体类别。</dd></div>
+          <div><dt>Metric.canonical_name</dt><dd>跨表格复用的规范指标名。</dd></div>
+          <div><dt>Period.normalized_label</dt><dd>统一后的年度、季度或时点表达。</dd></div>
+          <div><dt>Claim</dt><dd>claim_role / modality / polarity / importance；subject_ref / predicate / object_text / metric_ref / period_ref；assertion_level / evidence。</dd></div>
+          <div><dt>DataPoint</dt><dd>subject_ref / metric_ref / period_ref / qualifier；value / extraction_method / assertion_level / evidence。</dd></div>
+          <div><dt>Event</dt><dd>category / subject_ref / period_ref / assertion_level / evidence。</dd></div>
+          <div><dt>ReasoningStep</dt><dd>reasoning_method / premise_node_ids / conclusion_claim_ids / rationale / assertion_level / verification。</dd></div>
+          <div><dt>Assumption</dt><dd>Schema 预留的假设节点；当前样本为 0，至少使用公共身份字段。</dd></div>
+        </dl>
+      </article>
+
+      <article class="schema-panel">
+        <h2>EMBEDDED RECORDS</h2>
+        <p class="panel-dek">这些字段是受约束的结构，不是随意附加的备注。</p>
+        <dl class="field-list embedded-list">
+          <div><dt>evidence.source_object_id</dt><dd>被引用的不可漂移来源对象。</dd></div>
+          <div><dt>evidence.quote · quote_sha256</dt><dd>连续原文及其内容指纹。</dd></div>
+          <div><dt>evidence.match_mode</dt><dd>exact 或 whitespace_normalized。</dd></div>
+          <div><dt>value.kind · raw</dt><dd>scalar / range / text；同时保留报告中的原始字形。</dd></div>
+          <div><dt>value.normalized_decimal</dt><dd>标量的精确十进制规范值。</dd></div>
+          <div><dt>value.range_low · range_high</dt><dd>范围型数字的下界与上界。</dd></div>
+          <div><dt>value.unit · currency · scale</dt><dd>单位、币种和倍率；三者共同还原真实量级。</dd></div>
+          <div><dt>value.dimensions</dt><dd>产品、地区、业务口径等附加维度。</dd></div>
+          <div><dt>verification.verdict · confidence</dt><dd>独立模型的 accept / reject 判断与 0–1 置信度。</dd></div>
+          <div><dt>verification.reason · model</dt><dd>复核理由以及实际验证模型。</dd></div>
+        </dl>
+      </article>
+    </section>
+    <div class="source-note"><p>引用字段全部指向稳定 ID；DataPoint 缺少主体、指标或期间即验证失败。</p><p class="mono">IDENTITY + VALUE + EVIDENCE</p></div>
+  </main>
+</body>
+</html>

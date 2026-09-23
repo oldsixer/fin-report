@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "f5d9a9efe8fd2fcb6cd5a0f7cc6f97d75865a4356824d96cc103b912e2939214",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_1453F0C3FD7346B5",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "给定证据中仅分别提及了HBM市场的长期预测与2030年整体存储市场规模预测，并未论证二者之间的支撑关系，不能仅凭常识将前者臆测为后者的核心动力，该关系需要未披露的中间前提。"
+      },
+      {
+        "proposal_id": "RELPROP_7200118ED3BF77D0",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "证据中“智能手机和服务器双重拉动”讨论的是当下存储涨价周期的驱动力及持续性，并未将其与2030年的长期存储市场总体规模相联系，属于语义不相干。"
+      },
+      {
+        "proposal_id": "RELPROP_977C84F0A65EF013",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "在财务预测模型中，营业收入的绝对预测值是自上而下推导净利润的必要前置假设，符合DEPENDS_ON关系关于“必要假设或前提”的要求。"
+      },
+      {
+        "proposal_id": "RELPROP_5B776B50A146BD8A",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "毛利率预测是财务预测表中计算当年净利润额不可或缺的核心财务参数，作为必要计算前提符合DEPENDS_ON的定义要求。"
+      },
+      {
+        "proposal_id": "RELPROP_B021ADD47069672E",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "公司核心业务（嵌入式存储）的预期高增速是对公司整体盈利（净利润）释放有实质性贡献的重要组成因素，作为联合前提之一支持了整体利润预测结论。"
+      },
+      {
+        "proposal_id": "RELPROP_D0F407D9C739E2DC",
+        "verdict": "accept",
+        "confidence": 0.88,
+        "reason": "行业进入涨价周期是研报的核心投资逻辑，这一产业级别的趋势变化为公司未来盈利改善和具体的净利润预测数字向好提供了实质性的论点支撑。"
+      }
+    ]
+  }
+}

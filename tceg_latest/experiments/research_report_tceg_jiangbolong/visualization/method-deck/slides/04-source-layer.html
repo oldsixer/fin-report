@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>来源保真层</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Layer 01 · Source Fidelity</p></header>
+  <main class="slide">
+    <p class="kicker">Immutable evidence anchors</p>
+    <h1 class="title tight">模型看到的是可拆分的抽取视图；图引用的始终是不可漂移的来源对象。</h1>
+    <section class="two-col wide-left">
+      <figure class="report-frame">
+        <img src="../../assets/report-page-1.png" alt="原始研报第一页">
+        <figcaption class="caption">原始 PDF 页保持可视；证据锚定到 page / block / quote，而不是模型生成的摘要。</figcaption>
+      </figure>
+      <section>
+        <dl class="anatomy">
+          <div class="anatomy-row"><dt>STABLE ID</dt><dd class="mono">SO_P001_B004</dd></div>
+          <div class="anatomy-row"><dt>TEXT</dt><dd>同时保存 raw_text 与 normalized_text。</dd></div>
+          <div class="anatomy-row"><dt>LOCATOR</dt><dd>page、block、char_start、char_end。</dd></div>
+          <div class="anatomy-row"><dt>INTEGRITY</dt><dd>source object SHA-256 与原文件 SHA-256。</dd></div>
+          <div class="anatomy-row"><dt>VIEW</dt><dd>超长块可生成 extraction view；source ID 不被改写。</dd></div>
+        </dl>
+        <div class="status-strip" aria-label="来源对象处理状态">
+          <div class="status-extracted">EXTRACTED · 22</div>
+          <div class="status-review">NEEDS REVIEW · 30</div>
+          <div class="status-opaque">4</div>
+        </div>
+      </section>
+    </section>
+    <div class="source-note"><p>处理覆盖率 100% 表示 56 个对象都有终态，不表示穷尽语义召回率 100%。</p><p class="mono">SOURCE GRAPH</p></div>
+  </main>
+</body>
+</html>

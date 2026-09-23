@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "page": "direction-1-workbench.html",
+      "viewport": "1440x900",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "direction-1-workbench.html",
+      "viewport": "1920x1080",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "direction-2-atlas.html",
+      "viewport": "1440x900",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "direction-2-atlas.html",
+      "viewport": "1920x1080",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "direction-3-ledger.html",
+      "viewport": "1440x900",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "direction-3-ledger.html",
+      "viewport": "1920x1080",
+      "initialState": {
+        "currentMode": "thesis",
+        "currentPage": 1,
+        "currentSourceId": "SO_P001_B004",
+        "selectedNodeId": null,
+        "renderedNodes": 145,
+        "renderedEdges": 217
+      },
+      "status": "PASS"
+    }
+  ]
+}

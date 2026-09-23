@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "SCHEMA_VERSION",
+      "status": "PASS",
+      "detail": "research-report-tceg-0.1"
+    },
+    {
+      "name": "ROOT_FIELDS",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "name": "SCHEMA_DOCUMENT_VERSION",
+      "status": "PASS",
+      "detail": "schemas/research_report_tceg.schema.json"
+    },
+    {
+      "name": "STATE_HASH",
+      "status": "PASS",
+      "detail": "canonical semantic payload hash"
+    },
+    {
+      "name": "SOURCE_FILE_EXISTS",
+      "status": "PASS",
+      "detail": "/home/bhy/LivingFin/sources/broker_reports/jiangbolong_2025/aijian_jiangbolong_2025-12-31.pdf"
+    },
+    {
+      "name": "SOURCE_FILE_HASH",
+      "status": "PASS",
+      "detail": "/home/bhy/LivingFin/sources/broker_reports/jiangbolong_2025/aijian_jiangbolong_2025-12-31.pdf"
+    },
+    {
+      "name": "UNIQUE_IDS",
+      "status": "PASS",
+      "detail": "duplicates=[]"
+    },
+    {
+      "name": "SOURCE_IDS",
+      "status": "PASS",
+      "detail": "all source objects have IDs"
+    },
+    {
+      "name": "NODE_IDS",
+      "status": "PASS",
+      "detail": "all nodes have IDs"
+    },
+    {
+      "name": "EDGE_IDS",
+      "status": "PASS",
+      "detail": "all edges have IDs"
+    },
+    {
+      "name": "ARGUMENT_DAG",
+      "status": "PASS",
+      "detail": "argument relations are acyclic"
+    },
+    {
+      "name": "COVERAGE_STATUS_COUNTS",
+      "status": "PASS",
+      "detail": "expected={'EXTRACTED': 22, 'NEEDS_REVIEW': 30, 'OPAQUE': 4}"
+    },
+    {
+      "name": "COVERAGE_TERMINAL",
+      "status": "PASS",
+      "detail": "total=56"
+    },
+    {
+      "name": "COVERAGE_EVIDENCE",
+      "status": "PASS",
+      "detail": "1.0"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_DDBE7527D0E0506D"
+    },
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_8628FEC8CDE43F23"
+    },
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_46B14B3F62DB87BB"
+    },
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_42C5BCFE22B24C19"
+    },
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_CEE65992450CCA06"
+    },
+    {
+      "code": "CORE_CLAIM_WITHOUT_ARGUMENT",
+      "message": "core analytical claim has no incoming argument relation",
+      "object_id": "CLM_413E436E3A1C0076"
+    }
+  ],
+  "metrics": {
+    "source_objects": 56,
+    "nodes": 854,
+    "edges": 2509,
+    "node_type_counts": {
+      "Claim": 76,
+      "DataPoint": 498,
+      "Entity": 55,
+      "Event": 13,
+      "Metric": 106,
+      "Period": 35,
+      "ReasoningStep": 71
+    },
+    "edge_type_counts": {
+      "ABOUT": 582,
+      "CAUSES": 6,
+      "CONCLUDES": 71,
+      "DEPENDS_ON": 9,
+      "EVIDENCED_BY": 611,
+      "HAS_DATA": 16,
+      "MEASURES": 536,
+      "PREMISE_OF": 71,
+      "SUPPORTS": 56,
+      "VALID_DURING": 551
+    },
+    "semantic_nodes": 587,
+    "semantic_evidence_coverage": 1.0,
+    "core_claims_without_argument": 6,
+    "rejected_candidates": 41
+  }
+}

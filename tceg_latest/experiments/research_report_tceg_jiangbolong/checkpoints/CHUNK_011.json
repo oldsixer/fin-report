@@ -1,0 +1,206 @@
+{
+  "chunk_id": "CHUNK_011",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P006_B003"
+  ],
+  "prompt_digest": "b6f076c72ed2cb2fb8f6cf71526b915a7c9e7e6b43b82fc2822de90f357f6278",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P006_B003",
+        "classification": "material",
+        "reason": "包含资产负债表与现金流量表核心预测数据"
+      }
+    ],
+    "entities": [],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "预测2025年净利润为1178百万元",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "NET_PROFIT_FORECAST",
+        "object_text": "1178百万元",
+        "metric_name": "净利润",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D1"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "预测2026年净利润为2124百万元",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "NET_PROFIT_FORECAST",
+        "object_text": "2124百万元",
+        "metric_name": "净利润",
+        "period_label": "2026E",
+        "data_point_local_ids": [
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "预测2027年净利润为2277百万元",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": null,
+        "predicate": "NET_PROFIT_FORECAST",
+        "object_text": "2277百万元",
+        "metric_name": "净利润",
+        "period_label": "2027E",
+        "data_point_local_ids": [
+          "D3"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": null,
+        "metric_name": "净利润",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "1,178",
+          "normalized_decimal": "1178",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": "1000000",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": null,
+        "metric_name": "净利润",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "2,124",
+          "normalized_decimal": "2124",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": "1000000",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": null,
+        "metric_name": "净利润",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "2,277",
+          "normalized_decimal": "2277",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": "1000000",
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "relations": [
+      {
+        "source_local_id": "C1",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C1关联2025E净利润预测数据点D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C2关联2026E净利润预测数据点D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C3",
+        "target_local_id": "D3",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C3关联2027E净利润预测数据点D3",
+        "evidence": [
+          {
+            "source_object_id": "SO_P006_B003",
+            "quote": "净利润 -837 505 1,178 2,124 2,277"
+          }
+        ]
+      }
+    ]
+  }
+}

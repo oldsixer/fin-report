@@ -1,0 +1,1195 @@
+{
+  "document": {
+    "id": "DOC_16B8EEDCC1FCF4CE",
+    "title": "国产存储模组龙头迎来涨价周期——江波龙(301308.SZ)首次覆盖报告",
+    "source_type": "broker_research_pdf",
+    "local_path": "/home/bhy/LivingFin/sources/broker_reports/jiangbolong_2025/aijian_jiangbolong_2025-12-31.pdf",
+    "sha256": "fedd70866bc7950f219f12669f2ffb1d074f1363458e074a9ed37136c934a4ca",
+    "source_url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202512311812058468",
+    "publisher": "爱建证券",
+    "published_at": "2025-12-31",
+    "issuer": "江波龙"
+  },
+  "source_objects": [
+    {
+      "id": "SO_P001_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 1,
+      "raw_text": "证券研究报告",
+      "normalized_text": "证券研究报告",
+      "sha256": "18ac5588f9ce2499c537f516b1b00d3a30e4e98d91c11a4b17b7a7cbb58bd257",
+      "locator": {
+        "page": 1,
+        "block": 1,
+        "char_start": 0,
+        "char_end": 6
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 2,
+      "raw_text": "公司研究 / 首次覆盖                                                                                         2025 年 12 月 31 日",
+      "normalized_text": "公司研究 / 首次覆盖 2025 年 12 月 31 日",
+      "sha256": "93b25e19baf45756ac068df59e2953c46ae7d2610a360e00c1c2cee5f6a89e9f",
+      "locator": {
+        "page": 1,
+        "block": 2,
+        "char_start": 8,
+        "char_end": 124
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 3,
+      "raw_text": "国产存储模组龙头迎来涨价周期\n电子\n                                            ——江波龙(301308.SZ)首次覆盖报告\n报告原因：                                       投资要点：",
+      "normalized_text": "国产存储模组龙头迎来涨价周期\n电子\n——江波龙(301308.SZ)首次覆盖报告\n报告原因： 投资要点：",
+      "sha256": "8fef6027476cd54bf0a67a904a5276c7d829186980947eeb5025b3edf5a84190",
+      "locator": {
+        "page": 1,
+        "block": 3,
+        "char_start": 172,
+        "char_end": 306
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 4,
+      "raw_text": "买入（首次评级）                                       投 资 建 议 : 首 次 覆 盖 江 波 龙 （ 301308.SZ ） ， 给 予 “ 买 入 ” 评 级 。 我 们 预 计 公 司\n                                                2025E/2026E/2027E 营 业 收 入 分 别 为 239.95/306.18/381.50 亿 元 ， 同 比 增 长\n市场数据：                  2025 年 12 月 30 日\n收盘价（元）                 254.75                   37.4%/27.6%/24.6%; 归 母 净 利 润 分 别 为 11.69/21.01/22.53 亿 元 ， 同 比 增 长\n一年内最高/最低（元）      326.21/67.26                   134.4%/79.8%/7.2%，对应市盈率分别为 95.0/52.8/49.3 倍。\n市净率                      14.2\n股息率（分红/股价）                  -\n流通 A 股市值（百万元）          69,903                业务情况:1）江波龙是国内规模最大的综合性存储模组厂商,产品覆盖 NAND·Flash 及 DRAM\n上证指数/深证成指        3,965/13,604\n注：“股息率”以最近一年已公布分红计算                             存储产品，主要面向消费级、企业级及工规级应用。2）2025 年 9 月 14 日，Micron 宣布上\n                                                调 存 储 产 品 价 格 20%-30% ， 紧 接 其 后 9 月 22 日 Newdaily 报 道 Samsung 宣 布 上 调\n基础数据：                   2025 年 09 月 30 日\n每股净资产（元）                            18.0        LPDDR4X、LPDDR5/5X 等移动 DRAM 产品合约价 15%-30%，同时将 NAND Flash 合约\n资产负债率%                             58.93\n总股本/流通 A 股（百万）                   419/274        价上调 5%-10%。之后 10 月 23 日，SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约\n流通 B 股/H 股（百万）                        -/-\n                                                价最高上调 30%。3）服务器市场 HBM 市场持续向好。Market Research Future 数据显示，\n                                                2024 年全球 HBM 市场规模达 56.1 亿美元，2034 年预计增长至 570.9 亿美元，预计\n一年内股价与沪深 300 指数对比走势：\n                                                2024-2034 年复合增长率达 26.1%，长期成长趋势确定。",
+      "normalized_text": "买入（首次评级）  投资建议 : 首次覆盖江波龙 （ 301308.SZ ） ， 给予 “ 买入 ” 评级。 我们预计公司\n2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元， 同比增长\n市场数据： 2025 年 12 月 30 日\n收盘价（元） 254.75 37.4%/27.6%/24.6%; 归母净利润分别为 11.69/21.01/22.53 亿元， 同比增长\n一年内最高/最低（元） 326.21/67.26 134.4%/79.8%/7.2%，对应市盈率分别为 95.0/52.8/49.3 倍。\n市净率 14.2\n股息率（分红/股价） -\n流通 A 股市值（百万元） 69,903  业务情况:1）江波龙是国内规模最大的综合性存储模组厂商,产品覆盖 NAND·Flash 及 DRAM\n上证指数/深证成指 3,965/13,604\n注：“股息率”以最近一年已公布分红计算存储产品，主要面向消费级、企业级及工规级应用。2）2025 年 9 月 14 日，Micron 宣布上\n调存储产品价格 20%-30% ， 紧接其后 9 月 22 日 Newdaily 报道 Samsung 宣布上调\n基础数据： 2025 年 09 月 30 日\n每股净资产（元） 18.0 LPDDR4X、LPDDR5/5X 等移动 DRAM 产品合约价 15%-30%，同时将 NAND Flash 合约\n资产负债率% 58.93\n总股本/流通 A 股（百万） 419/274 价上调 5%-10%。之后 10 月 23 日，SK Hynix 官宣 2025Q4 DRAM 与 NAND Flash 合约\n流通 B 股/H 股（百万） -/-\n价最高上调 30%。3）服务器市场 HBM 市场持续向好。Market Research Future 数据显示，\n2024 年全球 HBM 市场规模达 56.1 亿美元，2034 年预计增长至 570.9 亿美元，预计\n一年内股价与沪深 300 指数对比走势：\n2024-2034 年复合增长率达 26.1%，长期成长趋势确定。",
+      "sha256": "97f7996f151f81eb626459afe9e808dd7a296375b24af14abdf33a12eb02171b",
+      "locator": {
+        "page": 1,
+        "block": 4,
+        "char_start": 309,
+        "char_end": 1847
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 5,
+      "raw_text": " 有别于市场的认识:市场普遍认为服务器是主要需求，实际上 iPhone 带动智能手机正在进入\n                                                升级周期，智能手机和服务器双重拉动本次存储涨价，持续性有望超越市场预期。",
+      "normalized_text": " 有别于市场的认识:市场普遍认为服务器是主要需求，实际上 iPhone 带动智能手机正在进入\n升级周期，智能手机和服务器双重拉动本次存储涨价，持续性有望超越市场预期。",
+      "sha256": "dd5463b05721019fc44994ba3c2f9d63c22ca3aa131eda5f89d8e59e46601d50",
+      "locator": {
+        "page": 1,
+        "block": 5,
+        "char_start": 1893,
+        "char_end": 2025
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 6,
+      "raw_text": " 关键假设点:1）我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，\n                                                其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；\n                                                2）公司通过优化产品结构，毛利率从 2024 年 19.0%提升至 2027 年 20.2%。\n资料来源：聚源数据\n                                             股价表现的催化剂:iPhone 存储升级周期仍在持续，预计 2026 年新款机型存储参数提升，将\n相关研究\n                                                会进一步推动存储价格的上涨；服务器算力持续升级有望带动 HBM 相关需求维持长期景气。\n-\n                                             风险提示：1）行业周期性波动风险；2）市场竞争加剧风险；3）技术迭代不及预期\n    证券分析师",
+      "normalized_text": " 关键假设点:1）我们预测 2025-2027 年公司总营收同比增速约为 37.4%、27.6%、24.6%，\n其中，嵌入式存储作为公司核心业务，2025-2027 年收入增速约为 44.6%、33.9%、28.9%；\n2）公司通过优化产品结构，毛利率从 2024 年 19.0%提升至 2027 年 20.2%。\n资料来源：聚源数据\n 股价表现的催化剂:iPhone 存储升级周期仍在持续，预计 2026 年新款机型存储参数提升，将\n相关研究\n会进一步推动存储价格的上涨；服务器算力持续升级有望带动 HBM 相关需求维持长期景气。\n-\n 风险提示：1）行业周期性波动风险；2）市场竞争加剧风险；3）技术迭代不及预期\n证券分析师",
+      "sha256": "94546f07b26ecbec27dfeb651171a9bb229255b9692797886378f8ddf0de2904",
+      "locator": {
+        "page": 1,
+        "block": 6,
+        "char_start": 2071,
+        "char_end": 2624
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B007",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 7,
+      "raw_text": "许亮\n                                            财务数据及盈利预测\n    S0820525010002\n                                             报告期                       2023       2024     2025E      2026E     2027E\n    0755-83562506\n                                             营业总收入（百万元）               10,125     17,464    23,995     30,618   38,150\n    xuliang@ajzq.com                         同比增长率（%）                  21.6%     72.5%     37.4%      27.6%     24.6%\n                                             归母净利润（百万元）                 -828       499      1,169      2,101    2,253\n    联系人\n                                             同比增长（%）                -1237.1%   -160.2%    134.4%      79.8%      7.2%\n    朱俊宇                                      每股收益（元/股）                 -1.97       1.19      2.81       5.05     5.42\n    S0820125040021                           毛利率（%）                     8.2%     19.0%     17.7%      21.0%     20.2%",
+      "normalized_text": "许亮\n财务数据及盈利预测\nS0820525010002\n报告期 2023 2024 2025E 2026E 2027E\n0755-83562506\n营业总收入（百万元） 10,125 17,464 23,995 30,618 38,150\nxuliang@ajzq.com 同比增长率（%） 21.6% 72.5% 37.4% 27.6% 24.6%\n归母净利润（百万元） -828 499 1,169 2,101 2,253\n联系人\n同比增长（%） -1237.1% -160.2% 134.4% 79.8% 7.2%\n朱俊宇每股收益（元/股） -1.97 1.19 2.81 5.05 5.42\nS0820125040021 毛利率（%） 8.2% 19.0% 17.7% 21.0% 20.2%",
+      "sha256": "6201fb70f7d8d54c0f248a10c8a568bdf7dc7ac0325384e1e76dbcee75292902",
+      "locator": {
+        "page": 1,
+        "block": 7,
+        "char_start": 2630,
+        "char_end": 3557
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B008",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 8,
+      "raw_text": "021-32229888-25520                       ROE（%）                   -13.7%      7.7%     15.3%      21.6%     18.8%",
+      "normalized_text": "021-32229888-25520 ROE（%） -13.7% 7.7% 15.3% 21.6% 18.8%",
+      "sha256": "1e78541e33a79731da8f5c6688cc95041eff61b1bdf48a866e2a15607d1503b2",
+      "locator": {
+        "page": 1,
+        "block": 8,
+        "char_start": 3563,
+        "char_end": 3676
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P001_B009",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 9,
+      "raw_text": "zhujunyu@ajzq.com                        市盈率                      -133.1      222.6      95.0       52.8     49.3\n                                            注：“市盈率”是指目前股价除以各年每股收益;“净资产收益率”是指摊薄后归属于母公司所有者的 ROE",
+      "normalized_text": "zhujunyu@ajzq.com 市盈率 -133.1 222.6 95.0 52.8 49.3\n注：“市盈率”是指目前股价除以各年每股收益;“净资产收益率”是指摊薄后归属于母公司所有者的 ROE",
+      "sha256": "824441c0435cdeb339172ffd97045f43d9394ba132ed13c6739100570f4c763c",
+      "locator": {
+        "page": 1,
+        "block": 9,
+        "char_start": 3682,
+        "char_end": 3889
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 10,
+      "raw_text": "江波龙（301308.SZ)                             2025 年 12 月 31 日\n                日",
+      "normalized_text": "江波龙（301308.SZ) 2025 年 12 月 31 日\n日",
+      "sha256": "c73414ea4f374fd4d0b867a34607b4d9c724e5c41b4d430bb64a73f870464849",
+      "locator": {
+        "page": 2,
+        "block": 1,
+        "char_start": 16,
+        "char_end": 93
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 11,
+      "raw_text": "图表 1：2020-2025 Q1-3 江波龙营业收入及同比       图表 2：2020-2025 Q1-3 江波龙毛利率情况",
+      "normalized_text": "图表 1：2020-2025 Q1-3 江波龙营业收入及同比图表 2：2020-2025 Q1-3 江波龙毛利率情况",
+      "sha256": "c376fc889097ec2cba6e1b473affb860283e859593a9ab10c898e58bdbfe8c99",
+      "locator": {
+        "page": 2,
+        "block": 2,
+        "char_start": 95,
+        "char_end": 160
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 12,
+      "raw_text": "资料来源：江波龙公司公告，爱建证券研究所                 资料来源：江波龙公司公告，爱建证券研究所",
+      "normalized_text": "资料来源：江波龙公司公告，爱建证券研究所资料来源：江波龙公司公告，爱建证券研究所",
+      "sha256": "356d2f9703127fc2f5ddfcc653b04bbbf9af004de687178c3cb3432eae57bfad",
+      "locator": {
+        "page": 2,
+        "block": 3,
+        "char_start": 165,
+        "char_end": 222
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 13,
+      "raw_text": "图表 3：2025 年 DRAM 现货平均价",
+      "normalized_text": "图表 3：2025 年 DRAM 现货平均价",
+      "sha256": "f352faeb41fd02b3db78c6c5f036c30da8cab357215d98f279288f4784714356",
+      "locator": {
+        "page": 2,
+        "block": 4,
+        "char_start": 244,
+        "char_end": 266
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 14,
+      "raw_text": "资料来源：DRAMexchange，全球半导体观察，爱建证券研究所",
+      "normalized_text": "资料来源：DRAMexchange，全球半导体观察，爱建证券研究所",
+      "sha256": "a53fea086be1d7fd7c0a7746a6e4bd9186ad1f0fbada250811a940ee17e51f2b",
+      "locator": {
+        "page": 2,
+        "block": 5,
+        "char_start": 288,
+        "char_end": 321
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P002_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 15,
+      "raw_text": "请仔细阅读在本报告尾部的重要法律声明                                                      2",
+      "normalized_text": "请仔细阅读在本报告尾部的重要法律声明 2",
+      "sha256": "c9b0b1a170abcf64a6b8e27159446abc00982feb25331374e2ccd9b200093d3d",
+      "locator": {
+        "page": 2,
+        "block": 6,
+        "char_start": 326,
+        "char_end": 399
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 16,
+      "raw_text": "江波龙（301308.SZ)                             2025 年 12 月 31 日\n                日",
+      "normalized_text": "江波龙（301308.SZ) 2025 年 12 月 31 日\n日",
+      "sha256": "c73414ea4f374fd4d0b867a34607b4d9c724e5c41b4d430bb64a73f870464849",
+      "locator": {
+        "page": 3,
+        "block": 1,
+        "char_start": 16,
+        "char_end": 93
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 17,
+      "raw_text": "图表 4：2025 年 NAND Flash 现货平均价",
+      "normalized_text": "图表 4：2025 年 NAND Flash 现货平均价",
+      "sha256": "c468bdb6d7718502ba1badf334b6dea3ac633b004be5ed85d523245b4c4b2724",
+      "locator": {
+        "page": 3,
+        "block": 2,
+        "char_start": 111,
+        "char_end": 139
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 18,
+      "raw_text": "资料来源：DRAMexchange，全球半导体观察，爱建证券研究所",
+      "normalized_text": "资料来源：DRAMexchange，全球半导体观察，爱建证券研究所",
+      "sha256": "a53fea086be1d7fd7c0a7746a6e4bd9186ad1f0fbada250811a940ee17e51f2b",
+      "locator": {
+        "page": 3,
+        "block": 3,
+        "char_start": 160,
+        "char_end": 193
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 19,
+      "raw_text": "图表 5：2015-2025 iPhone 标准款内存容量与存储容量信息梳理\n     机型         发行年份        内存容量         存储容量             核心变化\n   iPhone 6S    2015.09          2GB      16GB               -\n   iPhone 7     2016.09          2GB      32GB   存储容量：从 16GB 向 32GB 升级\n   iPhone 8     2017.09          2GB      64GB   存储容量：从 32GB 向 64GB 升级\n   iPhone X     2017.11          3GB      64GB   内存容量：从 2GB 向 3GB 升级\n   iPhone XR    2018.09          3GB      64GB               -\n   iPhone XS    2018.09          4GB      64GB   内存容量：从 3GB 向 4GB 升级\n   iPhone 11    2019.09          4GB      64GB               -\n   iPhone 12    2020.01          4GB      64GB               -\n   iPhone 13    2021.09          4GB     128GB   存储容量：从 64GB 向 128GB 升级\n   iPhone 14    2022.09          6GB     128GB   内存容量：从 4GB 向 6GB 升级\n   iPhone 15    2023.09          6GB     128GB               -",
+      "normalized_text": "图表 5：2015-2025 iPhone 标准款内存容量与存储容量信息梳理\n机型发行年份内存容量存储容量核心变化\niPhone 6S 2015.09 2GB 16GB -\niPhone 7 2016.09 2GB 32GB 存储容量：从 16GB 向 32GB 升级\niPhone 8 2017.09 2GB 64GB 存储容量：从 32GB 向 64GB 升级\niPhone X 2017.11 3GB 64GB 内存容量：从 2GB 向 3GB 升级\niPhone XR 2018.09 3GB 64GB -\niPhone XS 2018.09 4GB 64GB 内存容量：从 3GB 向 4GB 升级\niPhone 11 2019.09 4GB 64GB -\niPhone 12 2020.01 4GB 64GB -\niPhone 13 2021.09 4GB 128GB 存储容量：从 64GB 向 128GB 升级\niPhone 14 2022.09 6GB 128GB 内存容量：从 4GB 向 6GB 升级\niPhone 15 2023.09 6GB 128GB -",
+      "sha256": "c6c39d050ac2050534af97be68e2155f1645d7c5f48b234f52864f164134c1f2",
+      "locator": {
+        "page": 3,
+        "block": 4,
+        "char_start": 198,
+        "char_end": 1035
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 20,
+      "raw_text": "iPhone 16    2024.09          8GB     128GB   内存容量：从 6GB 向 8GB 升级",
+      "normalized_text": "iPhone 16 2024.09 8GB 128GB 内存容量：从 6GB 向 8GB 升级",
+      "sha256": "a3acb4be87daf6a46f068adaea470ec69a51952a70f457555e8742c970a6ccf2",
+      "locator": {
+        "page": 3,
+        "block": 5,
+        "char_start": 1040,
+        "char_end": 1105
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 21,
+      "raw_text": "iPhone 17    2025.09          8GB     256GB   存储容量：从 128GB 向 256GB 升级",
+      "normalized_text": "iPhone 17 2025.09 8GB 256GB 存储容量：从 128GB 向 256GB 升级",
+      "sha256": "d8f07775661d8bc1b31ea58575da77a8d91d8c60473807ac0a6f183a3a212949",
+      "locator": {
+        "page": 3,
+        "block": 6,
+        "char_start": 1110,
+        "char_end": 1179
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B007",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 22,
+      "raw_text": "资料来源：苹果官网，iFixit，中关村在线，爱建证券研究所",
+      "normalized_text": "资料来源：苹果官网，iFixit，中关村在线，爱建证券研究所",
+      "sha256": "f4c5989376fe2e3a8b4f1eb257ca847a67f0ccea188a79c370acf3e1e2d50b32",
+      "locator": {
+        "page": 3,
+        "block": 7,
+        "char_start": 1181,
+        "char_end": 1211
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B008",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 23,
+      "raw_text": "注：未梳理全部机型，存储容量为最低存储容量",
+      "normalized_text": "注：未梳理全部机型，存储容量为最低存储容量",
+      "sha256": "206ca6e2dc31ac67bebc917f08f44032b5fbf6d1d79caece576b10649668e19b",
+      "locator": {
+        "page": 3,
+        "block": 8,
+        "char_start": 1213,
+        "char_end": 1234
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P003_B009",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 24,
+      "raw_text": "请仔细阅读在本报告尾部的重要法律声明                                                       3",
+      "normalized_text": "请仔细阅读在本报告尾部的重要法律声明 3",
+      "sha256": "cb2b6e6c4d1b3f5aec2fac2abba1313ea4a82a30fafb881751900b6fa84c0c19",
+      "locator": {
+        "page": 3,
+        "block": 9,
+        "char_start": 1239,
+        "char_end": 1313
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 25,
+      "raw_text": "江波龙（301308.SZ)                            2025 年 12 月 31 日\n                日",
+      "normalized_text": "江波龙（301308.SZ) 2025 年 12 月 31 日\n日",
+      "sha256": "4d1261ca3b6da54c3e4ec77b3e583254cbd4c97e95d6f858770cdcbb7cad9e24",
+      "locator": {
+        "page": 4,
+        "block": 1,
+        "char_start": 16,
+        "char_end": 92
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 26,
+      "raw_text": "图表 6：全球服务器市场规模（按服务器类别）",
+      "normalized_text": "图表 6：全球服务器市场规模（按服务器类别）",
+      "sha256": "d652144049fb43a7ba7499abbf94d196688f37bc446d151a256a400f52acec5f",
+      "locator": {
+        "page": 4,
+        "block": 2,
+        "char_start": 110,
+        "char_end": 132
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 27,
+      "raw_text": "资料来源：弗若斯特沙利文，爱建证券研究所",
+      "normalized_text": "资料来源：弗若斯特沙利文，爱建证券研究所",
+      "sha256": "ebe8c0d0681fe352cef6c68bb73b96f71c8aa449efb0734ac1abe05de71a7298",
+      "locator": {
+        "page": 4,
+        "block": 3,
+        "char_start": 153,
+        "char_end": 173
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 28,
+      "raw_text": "图表 7：2025Q4 主流存储厂商存储产品合约价上涨情况\n     企业                 产品类型                   存储产品合约价\n   Micron     DDR4、DDR5、LPDDR4、LPDDR5           20%-30%\n              DRAM（LPDDR4X、LPDDR5/5X 等）         15%-30%\n   Samsung\n                       NAND Flash               5%-10%\n   SK Hynix         DRAM、NAND Flash             最高 30%",
+      "normalized_text": "图表 7：2025Q4 主流存储厂商存储产品合约价上涨情况\n企业产品类型存储产品合约价\nMicron DDR4、DDR5、LPDDR4、LPDDR5 20%-30%\nDRAM（LPDDR4X、LPDDR5/5X 等） 15%-30%\nSamsung\nNAND Flash 5%-10%\nSK Hynix DRAM、NAND Flash 最高 30%",
+      "sha256": "a89046bcb3a2129e8a816ed915c8267981fa436d0221182bc1c89c56c2fc092a",
+      "locator": {
+        "page": 4,
+        "block": 4,
+        "char_start": 178,
+        "char_end": 495
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 29,
+      "raw_text": "资料来源：财联社，电子元件技术，爱建证券研究所",
+      "normalized_text": "资料来源：财联社，电子元件技术，爱建证券研究所",
+      "sha256": "5ece3af15cbd8e6fb26ae411b8bee9fa57348dfbae1a34ba461cf6436858e78f",
+      "locator": {
+        "page": 4,
+        "block": 5,
+        "char_start": 497,
+        "char_end": 520
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "figure_caption",
+      "sequence": 30,
+      "raw_text": "图表 8：2030 年存储市场或将达到 3020 亿美元",
+      "normalized_text": "图表 8：2030 年存储市场或将达到 3020 亿美元",
+      "sha256": "93ad3ce1456216bb96ec6fad6e2629eb1e983dc37dbb7cd8803f69432a9f0ac0",
+      "locator": {
+        "page": 4,
+        "block": 6,
+        "char_start": 541,
+        "char_end": 569
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B007",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 31,
+      "raw_text": "资料来源：Yole，爱建证券研究所",
+      "normalized_text": "资料来源：Yole，爱建证券研究所",
+      "sha256": "d4aa9aa492a1b777344b0d3d1fd68f2fcb8c40689522c405c01697ce65b4203f",
+      "locator": {
+        "page": 4,
+        "block": 7,
+        "char_start": 590,
+        "char_end": 607
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P004_B008",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 32,
+      "raw_text": "请仔细阅读在本报告尾部的重要法律声明                                                     4",
+      "normalized_text": "请仔细阅读在本报告尾部的重要法律声明 4",
+      "sha256": "f05049d6281e373dd67389079c8695ebec0cb5063d0bc427441723becee32167",
+      "locator": {
+        "page": 4,
+        "block": 8,
+        "char_start": 610,
+        "char_end": 682
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P005_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 33,
+      "raw_text": "江波龙（301308.SZ)                         2025 年 12 月 31 日\n              日",
+      "normalized_text": "江波龙（301308.SZ) 2025 年 12 月 31 日\n日",
+      "sha256": "e8b752b201f5f41bb95de8b8a8c754cce665987aed2f033f9171bb3aff44c5be",
+      "locator": {
+        "page": 5,
+        "block": 1,
+        "char_start": 14,
+        "char_end": 85
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P005_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 34,
+      "raw_text": "风险提示\n                  1）行业周期性波动风险：存储芯片行业具有强周期性，供需变化易引发产品价格大\n                  幅波动。若未来 AI 算力需求不及预期，或行业产能集中释放导致高端存储供过于求，\n                  可能出现产品降价的情况。",
+      "normalized_text": "风险提示\n1）行业周期性波动风险：存储芯片行业具有强周期性，供需变化易引发产品价格大\n幅波动。若未来 AI 算力需求不及预期，或行业产能集中释放导致高端存储供过于求，\n可能出现产品降价的情况。",
+      "sha256": "89c759348912caaddae248eea74b0f67185a0629326e7747074c464218bd28f5",
+      "locator": {
+        "page": 5,
+        "block": 2,
+        "char_start": 100,
+        "char_end": 250
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P005_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 35,
+      "raw_text": "2）市场竞争加剧风险：Samsung、SK Hynix 等行业巨头也在加速布局 HBM、先进\n                  3D NAND 等高端赛道，国内厂商亦在技术追赶，市场竞争可能进一步加剧。",
+      "normalized_text": "2）市场竞争加剧风险：Samsung、SK Hynix 等行业巨头也在加速布局 HBM、先进\n3D NAND 等高端赛道，国内厂商亦在技术追赶，市场竞争可能进一步加剧。",
+      "sha256": "486dee3a498c6226d5a5536b39cfd25229583c0554ce2489c1b25cf353ef460b",
+      "locator": {
+        "page": 5,
+        "block": 3,
+        "char_start": 270,
+        "char_end": 372
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P005_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 36,
+      "raw_text": "3）技术迭代不及预期：存储行业技术迭代速度快，需持续投入巨额研发资金。若后\n                  续技术研发不及预期、量产良率未达目标，可能导致产品竞争力下滑。",
+      "normalized_text": "3）技术迭代不及预期：存储行业技术迭代速度快，需持续投入巨额研发资金。若后\n续技术研发不及预期、量产良率未达目标，可能导致产品竞争力下滑。",
+      "sha256": "a73a19895c871b98d326002d51459aedcd6747901f75000aa573adcd975c7b7b",
+      "locator": {
+        "page": 5,
+        "block": 4,
+        "char_start": 392,
+        "char_end": 479
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P005_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 37,
+      "raw_text": "请仔细阅读在本报告尾部的重要法律声明                                                5",
+      "normalized_text": "请仔细阅读在本报告尾部的重要法律声明 5",
+      "sha256": "df5a88adce11f89cf79d72d35d1899efd26abd11de0f5604fe902aa74c3e94d7",
+      "locator": {
+        "page": 5,
+        "block": 5,
+        "char_start": 484,
+        "char_end": 551
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 38,
+      "raw_text": "江波龙（301308.SZ）                                                                          2025 年 12 月 31 日",
+      "normalized_text": "江波龙（301308.SZ） 2025 年 12 月 31 日",
+      "sha256": "5cbca4779afb0ab0cea537068464d1cb3bd715d1ef02fb3ae34555c52be5f182",
+      "locator": {
+        "page": 6,
+        "block": 1,
+        "char_start": 34,
+        "char_end": 138
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 39,
+      "raw_text": "财务预测摘要：",
+      "normalized_text": "财务预测摘要：",
+      "sha256": "b3a558d4487f5df31383d3d08e3fda26ef68297e0030515574d9b705b9c1643e",
+      "locator": {
+        "page": 6,
+        "block": 2,
+        "char_start": 143,
+        "char_end": 150
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 40,
+      "raw_text": "资产负债表                                                    单位:百万元              现金流量表                                                         单位:百万元\n            2023A        2024A        2025E        2026E        2027E                    2023A          2024A         2025E         2026E         2027E\n   货币资金     1,219        1,025        2,248        1,715         881\n                                                                                   净利润   -837            505          1,178         2,124          2,277\n   应收款项     1,345        1,672        2,905        3,015        4,049\n      存货    5,893        7,833        3,451        4,611        7,566           折旧摊销      117            322           255           291           321",
+      "normalized_text": "资产负债表单位:百万元现金流量表单位:百万元\n2023A 2024A 2025E 2026E 2027E 2023A 2024A 2025E 2026E 2027E\n货币资金 1,219 1,025 2,248 1,715 881\n净利润 -837 505 1,178 2,124 2,277\n应收款项 1,345 1,672 2,905 3,015 4,049\n存货 5,893 7,833 3,451 4,611 7,566 折旧摊销 117 322 255 291 321",
+      "sha256": "a81b0185191cbcef8945fa1d081a6732913dda2735896aa696b99a42f33b52d6",
+      "locator": {
+        "page": 6,
+        "block": 3,
+        "char_start": 152,
+        "char_end": 892
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 41,
+      "raw_text": "流动资产     9,065        11,683       9,957        11,122       14,651        营运资本变动     3,522          4,322         -1,545        1,580          6,141\n  长期股权投资     25           30           40           45           52\n                                                                             经营活动现金流     -2,798         -1,190        6,196          808           460\n   固定资产     1,518        2,080        2,428        2,837        3,038\n                                                                                资本开支      499            944           524           666           525\n   在建工程      423          266          178          118          79\n   无形资产      465          424          396          370          345            投资变动     -1,167         -199           337           223           459\n  非流动资产     4,614        5,213        5,827        6,667        7,193        投资活动现金流     -1,661         -1,102        -1,128        -1,245        -1,169\n   资产合计     13,680       16,897       15,784       17,789       21,844\n                                                                                银行借款     5,008          6,213         2,517         2,517          2,517\n   短期借款     2,916        3,696          0            0            0\n   应付款项     1,147        1,141        2,408        1,891        3,367        筹资活动现金流     3,718          2,141         -3,772          -4            -1",
+      "normalized_text": "流动资产 9,065 11,683 9,957 11,122 14,651 营运资本变动 3,522 4,322 -1,545 1,580 6,141\n长期股权投资 25 30 40 45 52\n经营活动现金流 -2,798 -1,190 6,196 808 460\n固定资产 1,518 2,080 2,428 2,837 3,038\n资本开支 499 944 524 666 525\n在建工程 423 266 178 118 79\n无形资产 465 424 396 370 345 投资变动 -1,167 -199 337 223 459\n非流动资产 4,614 5,213 5,827 6,667 7,193 投资活动现金流 -1,661 -1,102 -1,128 -1,245 -1,169\n资产合计 13,680 16,897 15,784 17,789 21,844\n银行借款 5,008 6,213 2,517 2,517 2,517\n短期借款 2,916 3,696 0 0 0\n应付款项 1,147 1,141 2,408 1,891 3,367 筹资活动现金流 3,718 2,141 -3,772 -4 -1",
+      "sha256": "bd9322c1653e3acd75a1b0fd26fbac3e3f0d72d623485fb38e868d744446f846",
+      "locator": {
+        "page": 6,
+        "block": 4,
+        "char_start": 897,
+        "char_end": 2301
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 42,
+      "raw_text": "流动负债     1,147        1,141        2,408        1,891        3,367         现金净增加额     -708           -186          1,223         -533           -834\n   长期借款     2,092        2,517        2,517        2,517        2,517\n                                                                                期初现金     1,917          1,219         1,025         2,248          1,715\n   应付债券       0            0            0            0            0\n  非流动负债     2,297        2,774        2,774        2,774        2,774           期末现金     1,219          1,025         2,248         1,715          881",
+      "normalized_text": "流动负债 1,147 1,141 2,408 1,891 3,367 现金净增加额 -708 -186 1,223 -533 -834\n长期借款 2,092 2,517 2,517 2,517 2,517\n期初现金 1,917 1,219 1,025 2,248 1,715\n应付债券 0 0 0 0 0\n非流动负债 2,297 2,774 2,774 2,774 2,774 期末现金 1,219 1,025 2,248 1,715 881",
+      "sha256": "07195b599c814e90ff77d21b7732118e8bb1d951c26265b6dfb22fb09f4eaf9b",
+      "locator": {
+        "page": 6,
+        "block": 5,
+        "char_start": 2306,
+        "char_end": 2896
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 43,
+      "raw_text": "负债合计     7,230        9,997        7,706        7,588        9,366\n      股本     413          416          416          416          416\n   资本公积     4,078        4,416        4,416        4,416        4,416\n   留存收益     1,382        1,777        2,945        5,046        7,299\n                                                                             财务比率\n  归母股东权益    6,021        6,467        7,636        9,737        11,990\n                                                                                          2023A         2024A         2025E         2026E         2027E\n  少数股东权益     428          432          442          464          489\n                                                                             成长能力指标\n 负债和权益总计    13,680       16,897       15,784       17,789       21,844\n                                                                             营业收入增速          21.6%         72.5%         37.4%        27.6%         24.6%\n                                                                             营业利润增速        -2,526.1      -155.3%         85.1%       114.8%          2.7%\n                                                                                                   %\n                                                                             归母净利润增速       -1,237.1      -160.2%       134.4%         79.8%          7.2%\n                                                                                                   %\n                                                                             盈利能力指标\n利润表                                                      单位:百万元\n                                                                             毛利率                8.2%       19.0%         17.7%        21.0%         20.2%\n           2023A        2024A        2025E        2026E        2027E\n                                                                             净利率             -8.3%          2.9%          4.9%         6.9%          6.0%\n营业收入         10,125       17,464       23,995       30,618       38,150\n                                                                             ROE            -13.0%          7.3%         14.6%        20.8%         18.2%\n营业成本          9,296       14,137       19,748       24,188       30,443\n                                                                             ROIC            -7.1%          3.4%          9.7%        14.9%         13.8%\n税金及附加              11           26           28           38           50\n                                                                             偿债能力\n销售费用              482          772          720      1,072        1,526",
+      "normalized_text": "负债合计 7,230 9,997 7,706 7,588 9,366\n股本 413 416 416 416 416\n资本公积 4,078 4,416 4,416 4,416 4,416\n留存收益 1,382 1,777 2,945 5,046 7,299\n财务比率\n归母股东权益 6,021 6,467 7,636 9,737 11,990\n2023A 2024A 2025E 2026E 2027E\n少数股东权益 428 432 442 464 489\n成长能力指标\n负债和权益总计 13,680 16,897 15,784 17,789 21,844\n营业收入增速 21.6% 72.5% 37.4% 27.6% 24.6%\n营业利润增速 -2,526.1 -155.3% 85.1% 114.8% 2.7%\n%\n归母净利润增速 -1,237.1 -160.2% 134.4% 79.8% 7.2%\n%\n盈利能力指标\n利润表单位:百万元\n毛利率 8.2% 19.0% 17.7% 21.0% 20.2%\n2023A 2024A 2025E 2026E 2027E\n净利率 -8.3% 2.9% 4.9% 6.9% 6.0%\n营业收入 10,125 17,464 23,995 30,618 38,150\nROE -13.0% 7.3% 14.6% 20.8% 18.2%\n营业成本 9,296 14,137 19,748 24,188 30,443\nROIC -7.1% 3.4% 9.7% 14.9% 13.8%\n税金及附加 11 26 28 38 50\n偿债能力\n销售费用 482 772 720 1,072 1,526",
+      "sha256": "11605dbcfd7a83bb134a6b53b8528c01c5795fc7c4262240e92c78a19286148d",
+      "locator": {
+        "page": 6,
+        "block": 6,
+        "char_start": 2901,
+        "char_end": 5574
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B007",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 44,
+      "raw_text": "资产负债率           52.9%         59.2%         48.8%        42.7%         42.9%\n管理费用              440          605          960      1,225        1,526\n                                                                             净负债比率               1.12          1.45          0.95          0.74         0.75\n研发费用              594          910      1,440        1,837        2,289\n                                                                             流动比率                1.84          1.62          2.02          2.31         2.22\n财务费用               71          320          172          129          175\n                                                                             速动比率                0.53          0.41          1.11          1.04         0.80\n资产减值损失        -356         -566              38           51           67\n                                                                             营运能力\n公允价值变动             39          307          123          156          195\n                                                                             总资产周转率              0.74          1.03          1.52          1.72         1.75\n投资净收益               1           47           23           33           50\n                                                                             应收账款周转率             7.53       10.45            8.26      10.16            9.42\n营业利润         -1,060         586        1,085        2,330        2,393\n                                                                             存货周转率               1.72          2.23          6.95          6.64         5.04\n营业外收支               1            4            2            2             3\n                                                                             每股指标\n利润总额         -1,058         590        1,087        2,332        2,396\n                                                                             每股收益               -2.01          1.20          2.81          5.05         5.42\n所得税           -221              84          -91          208          119\n                                                                             每股经营性现金流           -6.78       -2.86        14.90             1.94         1.11\n净利润           -837          505        1,178        2,124        2,277\n                                                                             每股净资产              15.62       16.59        19.42         24.52         30.00\n少数股东损益             -9            7           10           23           24\n                                                                             估值比率\n归母净利润         -828          499        1,169        2,101        2,253",
+      "normalized_text": "资产负债率 52.9% 59.2% 48.8% 42.7% 42.9%\n管理费用 440 605 960 1,225 1,526\n净负债比率 1.12 1.45 0.95 0.74 0.75\n研发费用 594 910 1,440 1,837 2,289\n流动比率 1.84 1.62 2.02 2.31 2.22\n财务费用 71 320 172 129 175\n速动比率 0.53 0.41 1.11 1.04 0.80\n资产减值损失 -356 -566 38 51 67\n营运能力\n公允价值变动 39 307 123 156 195\n总资产周转率 0.74 1.03 1.52 1.72 1.75\n投资净收益 1 47 23 33 50\n应收账款周转率 7.53 10.45 8.26 10.16 9.42\n营业利润 -1,060 586 1,085 2,330 2,393\n存货周转率 1.72 2.23 6.95 6.64 5.04\n营业外收支 1 4 2 2 3\n每股指标\n利润总额 -1,058 590 1,087 2,332 2,396\n每股收益 -2.01 1.20 2.81 5.05 5.42\n所得税 -221 84 -91 208 119\n每股经营性现金流 -6.78 -2.86 14.90 1.94 1.11\n净利润 -837 505 1,178 2,124 2,277\n每股净资产 15.62 16.59 19.42 24.52 30.00\n少数股东损益 -9 7 10 23 24\n估值比率\n归母净利润 -828 499 1,169 2,101 2,253",
+      "sha256": "47b7595a65f49d644f0a32ad32fa4ef8927a9a1262ffe8b260f8e9b96f8f267b",
+      "locator": {
+        "page": 6,
+        "block": 7,
+        "char_start": 5652,
+        "char_end": 8332
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B008",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 45,
+      "raw_text": "市盈率           -133.11        222.63         95.00         52.85         49.28\nEBITDA        -859         1,183        1,508        2,742        2,821\n                                                                             市销率                10.88          6.36          4.63          3.63         2.91\n                                                                             市净率                17.09       16.09        13.74         10.88            8.90\n                                                                             EV/EBIT       -119.04        139.37         92.94         47.71         47.80\n                                                                             EV/EBITDA     -135.26        101.41         77.23         42.64         42.36\n资料来源：公司公告，聚源数据，爱建证券研究所",
+      "normalized_text": "市盈率 -133.11 222.63 95.00 52.85 49.28\nEBITDA -859 1,183 1,508 2,742 2,821\n市销率 10.88 6.36 4.63 3.63 2.91\n市净率 17.09 16.09 13.74 10.88 8.90\nEV/EBIT -119.04 139.37 92.94 47.71 47.80\nEV/EBITDA -135.26 101.41 77.23 42.64 42.36\n资料来源：公司公告，聚源数据，爱建证券研究所",
+      "sha256": "0566133e0e5553816b8f61e3f07e6da24e1e284801a522453976334f3833b8a8",
+      "locator": {
+        "page": 6,
+        "block": 8,
+        "char_start": 8410,
+        "char_end": 9206
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P006_B009",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 46,
+      "raw_text": "请仔细阅读在本报告尾部的重要法律声明                                                                                                                                  6",
+      "normalized_text": "请仔细阅读在本报告尾部的重要法律声明 6",
+      "sha256": "5943f0b571c0b48db7a68a8a7bda8ecfce798d44b4947364c578400523649e11",
+      "locator": {
+        "page": 6,
+        "block": 9,
+        "char_start": 9211,
+        "char_end": 9360
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B001",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 47,
+      "raw_text": "爱建证券有限责任公司\n上海市浦东新区前滩大道 199 弄 5 号\n电话：021-32229888 传真：021-68728700      服务热线：956021\n邮政编码：200124     邮箱：ajzq@ajzq.com     网址：http://www.ajzq.com",
+      "normalized_text": "爱建证券有限责任公司\n上海市浦东新区前滩大道 199 弄 5 号\n电话：021-32229888 传真：021-68728700 服务热线：956021\n邮政编码：200124 邮箱：ajzq@ajzq.com 网址：http://www.ajzq.com",
+      "sha256": "c25cd0ab467302a5e145ac6e2e5e5103fffb99b55e9cebe7944ee337c61715e1",
+      "locator": {
+        "page": 7,
+        "block": 1,
+        "char_start": 0,
+        "char_end": 141
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B002",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "legal",
+      "sequence": 48,
+      "raw_text": "评级说明\n投资建议的评级标准\n报告中投资建议所涉及的评级分为股票评级和行业评级（另有说明的除外）。评级标准为报告发布日后 6 个月内的相对市场表现，也即：\n以报告发布日后的 6 个月内的公司股价（或行业指数）相对同期相关证券市场代表性指数的涨跌幅作为基准。其中：A 股市场：沪深 300\n指数（000300.SH）；新三板市场：三板成指（899001.CSI）（针对协议转让标的）或三板做市指数（899002.CSI）（针对做市转让标的）       ；\n北交所市场：北证 50 指数（899050. BJ）；香港市场：恒生指数（HIS.HI）；美国市场：标普 500 指数（SPX.GI）或纳斯达克指数（IXIC.GI）\n                                                                                  。",
+      "normalized_text": "评级说明\n投资建议的评级标准\n报告中投资建议所涉及的评级分为股票评级和行业评级（另有说明的除外）。评级标准为报告发布日后 6 个月内的相对市场表现，也即：\n以报告发布日后的 6 个月内的公司股价（或行业指数）相对同期相关证券市场代表性指数的涨跌幅作为基准。其中：A 股市场：沪深 300\n指数（000300.SH）；新三板市场：三板成指（899001.CSI）（针对协议转让标的）或三板做市指数（899002.CSI）（针对做市转让标的） ；\n北交所市场：北证 50 指数（899050. BJ）；香港市场：恒生指数（HIS.HI）；美国市场：标普 500 指数（SPX.GI）或纳斯达克指数（IXIC.GI）\n。",
+      "sha256": "abfd4cb088e2536db9d6e50498dd1ec92d7f014ba68b6823f4b500d70cb786f8",
+      "locator": {
+        "page": 7,
+        "block": 2,
+        "char_start": 146,
+        "char_end": 541
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B003",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 49,
+      "raw_text": "股票评级",
+      "normalized_text": "股票评级",
+      "sha256": "266defcd7ffd997f4447e4cbcd8c17d669b76e170ed9a433d1086f8e9b1e09e5",
+      "locator": {
+        "page": 7,
+        "block": 3,
+        "char_start": 543,
+        "char_end": 547
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B004",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "table_like",
+      "sequence": 50,
+      "raw_text": "买入               相对同期相关证券市场代表性指数涨幅大于 15%\n增持               相对同期相关证券市场代表性指数涨幅在 5%～15%之间\n持有               相对同期相关证券市场代表性指数涨幅在-5%～5%之间\n卖出               相对同期相关证券市场代表性指数涨幅小于-5%",
+      "normalized_text": "买入相对同期相关证券市场代表性指数涨幅大于 15%\n增持相对同期相关证券市场代表性指数涨幅在 5%～15%之间\n持有相对同期相关证券市场代表性指数涨幅在-5%～5%之间\n卖出相对同期相关证券市场代表性指数涨幅小于-5%",
+      "sha256": "1fb32830ce19a4203ce938e38311d793a107beaa59f66bd6f3d1f754ae0904b0",
+      "locator": {
+        "page": 7,
+        "block": 4,
+        "char_start": 549,
+        "char_end": 718
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B005",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 51,
+      "raw_text": "行业评级",
+      "normalized_text": "行业评级",
+      "sha256": "ede6558683d7e72e19261dc56a3cc99333c01c947e8440ac2ccb33aa21a7ff37",
+      "locator": {
+        "page": 7,
+        "block": 5,
+        "char_start": 720,
+        "char_end": 724
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B006",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 52,
+      "raw_text": "强于大市             相对表现优于同期相关证券市场代表性指数\n中  性             相对表现与同期相关证券市场代表性指数持平\n弱于大市             相对表现弱于同期相关证券市场代表性指数",
+      "normalized_text": "强于大市相对表现优于同期相关证券市场代表性指数\n中性相对表现与同期相关证券市场代表性指数持平\n弱于大市相对表现弱于同期相关证券市场代表性指数",
+      "sha256": "e0c7fae3a3a4f7d341f3598699dcb461138dec5e95da4ae56e9ef8b886c230b9",
+      "locator": {
+        "page": 7,
+        "block": 6,
+        "char_start": 726,
+        "char_end": 837
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B007",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "paragraph",
+      "sequence": 53,
+      "raw_text": "301308",
+      "normalized_text": "301308",
+      "sha256": "774d4230f6698457563cac5e99955618e017b168de6103b572d4399e341aa666",
+      "locator": {
+        "page": 7,
+        "block": 7,
+        "char_start": 842,
+        "char_end": 848
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B008",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "legal",
+      "sequence": 54,
+      "raw_text": "分析师声明\n本报告署名分析师在此声明：我们具有中国证券业协会授予的证券投资咨询执业资格或相当的专业胜任能力，本报告采用信\n息和数据来自公开、合规渠道，所表述的观点均准确地反映了我们对标的证券和发行人的独立看法。研究报告对所涉及的证\n券或发行人的评价是分析师本人通过财务分析预测、数量化方法、或行业比较分析所得出的结论，但使用以上信息和分析方\n法可能存在局限性，请谨慎参考。",
+      "normalized_text": "分析师声明\n本报告署名分析师在此声明：我们具有中国证券业协会授予的证券投资咨询执业资格或相当的专业胜任能力，本报告采用信\n息和数据来自公开、合规渠道，所表述的观点均准确地反映了我们对标的证券和发行人的独立看法。研究报告对所涉及的证\n券或发行人的评价是分析师本人通过财务分析预测、数量化方法、或行业比较分析所得出的结论，但使用以上信息和分析方\n法可能存在局限性，请谨慎参考。",
+      "sha256": "cec05429b9d2656d1ddde3f0a2be316e8103216714ebb8f0e06f88d26a85d4d6",
+      "locator": {
+        "page": 7,
+        "block": 8,
+        "char_start": 853,
+        "char_end": 1039
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B009",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "legal",
+      "sequence": 55,
+      "raw_text": "法律主体声明\n本报告由爱建证券有限责任公司（以下统称为“爱建证券”）证券研究所制作，爱建证券具备中国证监会批复的证券投资咨\n询业务资格，接受中国证监会监管。\n本报告是机密的，仅供我们的签约客户使用，爱建证券不因收件人收到本报告而视其为爱建证券的签约客户。本报告中的信\n息均来源于我们认为可靠的已公开资料，但爱建证券对这些信息的准确性及完整性不作任何保证。本报告中的信息、意见等\n均仅供签约客户参考，不构成所述证券买卖的出价或征价邀请或要约。该等信息、意见未考虑到获取本报告人员的具体投资\n目的、财务状况以及特定需求，在任何时候均不构成对任何人的个人推荐。客户应当对本报告中的信息和意见进行独立评估，\n并应同时考量各自的投资目的、财务状况和特定需求，必要时就法律、商业、财务、税收等方面咨询专家的意见。对依据或\n者使用本报告所造成的一切后果，爱建证券及其关联人员均不承担任何法律责任。\n本报告所载的意见、评估及预测仅为本报告出具日的观点和判断。该等意见、评估及预测后续可随时更改。过往的表现亦不\n应作为日后表现的预示和担保。在不同时期，爱建证券可能会发出与本报告所载意见、评估及预测不一致的研究报告。",
+      "normalized_text": "法律主体声明\n本报告由爱建证券有限责任公司（以下统称为“爱建证券”）证券研究所制作，爱建证券具备中国证监会批复的证券投资咨\n询业务资格，接受中国证监会监管。\n本报告是机密的，仅供我们的签约客户使用，爱建证券不因收件人收到本报告而视其为爱建证券的签约客户。本报告中的信\n息均来源于我们认为可靠的已公开资料，但爱建证券对这些信息的准确性及完整性不作任何保证。本报告中的信息、意见等\n均仅供签约客户参考，不构成所述证券买卖的出价或征价邀请或要约。该等信息、意见未考虑到获取本报告人员的具体投资\n目的、财务状况以及特定需求，在任何时候均不构成对任何人的个人推荐。客户应当对本报告中的信息和意见进行独立评估，\n并应同时考量各自的投资目的、财务状况和特定需求，必要时就法律、商业、财务、税收等方面咨询专家的意见。对依据或\n者使用本报告所造成的一切后果，爱建证券及其关联人员均不承担任何法律责任。\n本报告所载的意见、评估及预测仅为本报告出具日的观点和判断。该等意见、评估及预测后续可随时更改。过往的表现亦不\n应作为日后表现的预示和担保。在不同时期，爱建证券可能会发出与本报告所载意见、评估及预测不一致的研究报告。",
+      "sha256": "351833fc9fc50437e9c01c88f151f317d9637d18ae7bdbf266f70d9c5b91184b",
+      "locator": {
+        "page": 7,
+        "block": 9,
+        "char_start": 1041,
+        "char_end": 1540
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    },
+    {
+      "id": "SO_P007_B010",
+      "document_id": "DOC_16B8EEDCC1FCF4CE",
+      "object_type": "legal",
+      "sequence": 56,
+      "raw_text": "版权声明\n本报告版权归属爱建证券所有，未经爱建证券事先书面许可，任何机构或个人不得以任何形式翻版、复制、转载、刊登和引\n请仔细阅读在本报告尾部的重要法律声明                                    7\n用。否则由此造成的一切不良后果及法律责任由私自翻版、复制、转载、刊登和引用者承担。版权所有，违者必究。",
+      "normalized_text": "版权声明\n本报告版权归属爱建证券所有，未经爱建证券事先书面许可，任何机构或个人不得以任何形式翻版、复制、转载、刊登和引\n请仔细阅读在本报告尾部的重要法律声明 7\n用。否则由此造成的一切不良后果及法律责任由私自翻版、复制、转载、刊登和引用者承担。版权所有，违者必究。",
+      "sha256": "d1d300b49f369203fc03fdefb7e942171f2d48b4bc87836d5ef46d423f1dd4fb",
+      "locator": {
+        "page": 7,
+        "block": 10,
+        "char_start": 1542,
+        "char_end": 1709
+      },
+      "processing_status": "NEEDS_REVIEW",
+      "candidate_count": 0,
+      "irrelevant_reason": null,
+      "metadata": {
+        "extraction_method": "pdftotext-layout"
+      }
+    }
+  ],
+  "extraction_method": "pdftotext-layout+block-segmentation",
+  "page_count": 7,
+  "chunk_count": 4,
+  "extraction_view_count": 59
+}

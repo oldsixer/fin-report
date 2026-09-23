@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="江波龙券商研报 TCEG 证据账本">
+  <link rel="icon" href="data:,">
+  <title>TCEG 证据账本</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--
+  Design direction 3 / Evidence Ledger
+  Assumptions: audit and acceptance testing matter more than atmospheric presentation.
+  Reasoning: strict Swiss grid exposes source IDs, counts, status, and warnings as first-class data.
+  Known limitation: this viewer is read-only and does not write graph edits back to tceg.json.
+-->
+<body class="ledger">
+  <header class="topbar">
+    <div class="identity">
+      <div class="eyebrow"><span class="dot"></span>EVIDENCE LEDGER / TCEG 0.1</div>
+      <h1 id="reportTitle">加载研报…</h1>
+      <div class="subtitle" id="reportSubtitle"></div>
+    </div>
+    <div class="stats" aria-label="图状态摘要">
+      <div class="stat"><strong id="nodeStat">—</strong><span>01 / Nodes</span></div>
+      <div class="stat"><strong id="edgeStat">—</strong><span>02 / Edges</span></div>
+      <div class="stat"><strong id="validationStat">—</strong><span>03 / E-W</span></div>
+      <div class="stat"><strong id="benchmarkStat">—</strong><span>04 / Core</span></div>
+    </div>
+  </header>
+  <main class="workspace">
+    <section class="panel report-panel" aria-label="原始研报">
+      <div class="panel-head">
+        <div class="panel-title" data-index="01">原始页 / Source</div>
+        <div class="page-controls">
+          <a class="pdf-link" id="pdfLink" target="_blank" rel="noreferrer">PDF</a>
+          <button class="page-button" id="prevPage" aria-label="上一页">←</button>
+          <span class="page-indicator" id="pageIndicator">1 / 7</span>
+          <button class="page-button" id="nextPage" aria-label="下一页">→</button>
+        </div>
+      </div>
+      <div class="report-stage"><img class="report-page" id="reportImage" alt="原始研报页面"></div>
+      <div class="source-tray">
+        <div class="source-meta" id="sourceMeta"></div>
+        <div class="source-text" id="sourceText"></div>
+        <div class="source-linked" id="sourceLinked"></div>
+      </div>
+    </section>
+    <section class="panel graph-panel" aria-label="TCEG 图">
+      <div class="panel-head">
+        <div class="panel-title" data-index="02">语义状态 / Graph</div>
+        <div class="panel-title"><small id="graphCount"></small></div>
+      </div>
+      <div class="graph-toolbar">
+        <div class="mode-group">
+          <button class="mode-button active" data-mode="thesis">核心论证</button>
+          <button class="mode-button" data-mode="data">关键数据</button>
+          <button class="mode-button" data-mode="full">完整图</button>
+        </div>
+        <div class="search-wrap">
+          <input class="search-input" id="searchInput" placeholder="LABEL / ID / QUOTE" aria-label="搜索">
+          <span class="search-hint">/</span>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+        <div class="zoom-controls">
+          <button class="icon-button" id="zoomIn" aria-label="放大">+</button>
+          <button class="icon-button" id="zoomOut" aria-label="缩小">−</button>
+          <button class="icon-button" id="resetView" aria-label="重置视图">↺</button>
+        </div>
+      </div>
+      <div class="graph-stage">
+        <svg id="graphSvg" viewBox="0 0 1600 1000" aria-label="可交互 TCEG 图"><g id="graphLayer"></g></svg>
+        <div class="graph-empty" id="graphEmpty" hidden>NO OBJECTS IN CURRENT SCOPE</div>
+      </div>
+      <div class="legend">
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--claim)"></i>CLAIM</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--data)"></i>DATA</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--event)"></i>EVENT</span>
+        <span class="legend-item"><i class="legend-dot" style="--dot:var(--reason)"></i>STEP</span>
+        <span>DASHED = INFERRED</span>
+      </div>
+    </section>
+    <aside class="panel inspector-panel" aria-label="节点审计详情">
+      <div class="panel-head"><div class="panel-title" data-index="03">审计 / Inspect</div></div>
+      <div class="inspector-scroll" id="inspector"></div>
+    </aside>
+  </main>
+  <script>window.TCEG_CONFIG={name:"Evidence Ledger",direction:3,liveEndpoint:"/api/data"};</script>
+  <script src="tceg_visualization_data.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "f72038cdba8011e462a0361fb3017e81ca5411178071844e7973f6ea2cf5f124",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_35468C0136E3A772",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "目标命题已明确将毛利率提升的原因归结为“优化产品结构”，并未提及“涨价周期”。将行业涨价周期作为毛利率提升的直接影响因素需要未披露的中间前提，且与目标命题自身的归因不符，属于因果过强。"
+      },
+      {
+        "proposal_id": "RELPROP_C89DF1D3DB5C4C4C",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "目标命题明确毛利率提升的驱动力是“优化产品结构”。上游原材料合约价大幅上涨通常意味着成本上升，将其视为毛利率向好的直接原因需要未披露的成本转嫁及溢价前提，存在语义不相干及因果过强。"
+      },
+      {
+        "proposal_id": "RELPROP_1A0BA4DA8CA35DE5",
+        "verdict": "reject",
+        "confidence": 0.98,
+        "reason": "源命题属于关于行业周期的概括性趋势（升级周期仍在持续），而目标命题是具体的预测事实（iPhone 17具体升级参数）。根据规范，概括性趋势不能反向证明某个具体事实，方向错误。"
+      },
+      {
+        "proposal_id": "RELPROP_0B36134F30E1E8F9",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "历史机型（iPhone 7）容量翻倍的具体事实作为归纳推理的经验证据之一，实质性地支持了对未来机型（iPhone 17）容量升级的预测，关系类型与方向合理。"
+      },
+      {
+        "proposal_id": "RELPROP_87C653E182EF4C25",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "历史机型（iPhone 8）容量翻倍的具体事实验证了存储升级的演进规律，作为类比和归纳论据，对未来单代机型的升级预测提供了实质性支持，关系合理。"
+      },
+      {
+        "proposal_id": "RELPROP_D91D7C427F32CF0C",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "作为时间线上更临近的历史机型（iPhone 13）升级事实，为推断 iPhone 17 的容量升级提供了有力的类比与归纳支持，方向和关系类型均合理。"
+      }
+    ]
+  }
+}

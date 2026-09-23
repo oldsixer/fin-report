@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "6467b9257461a9650b6546b63350e2f4fab04ce7f0074d8dab1a6b310266d91b",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_FB118B7947EBF39D",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "目标命题本身是一个完整的条件句（已经包含了Source的内容），条件句作为一个整体论断，其成立并不依赖于条件事实的必然发生。在论证逻辑中，应该是预测结论（产品降价）依赖于条件前提（需求不及预期），当前Target未分离条件与结论，导致关系变成命题包含其自身前提，属于语义重叠而非依赖。"
+      },
+      {
+        "proposal_id": "RELPROP_759CE7B1666B6FB8",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "与前一条同理，目标命题是一个已包含该前提的条件预测句。条件句的成立不依赖于该条件事实（产能集中释放）的发生，只有具体的结论（降价风险）才依赖该假设前提。Target未剥离条件导致关系不成立。"
+      },
+      {
+        "proposal_id": "RELPROP_577CA1AE996A5121",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "证据明确指出海外巨头加速布局高端赛道与国内厂商技术追赶的客观事实，是直接引发“市场竞争进一步加剧”后果的原因，CAUSES关系方向与逻辑完全相符。"
+      },
+      {
+        "proposal_id": "RELPROP_65BEB04C196C38F9",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "行业的强周期性特征以及供需变化对价格的影响，是公司面临“行业周期性波动风险”的核心客观依据，有效支持了该风险提示命题，符合SUPPORTS关系。"
+      },
+      {
+        "proposal_id": "RELPROP_9C9A37C3554D03BE",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "潜在的降价情景（需求疲软或供过于求）是对“周期下行波动”的具体化业务推演，这种具体的不利情景能够实质性地支持公司面临“行业周期性波动风险”的概括性结论。"
+      },
+      {
+        "proposal_id": "RELPROP_9C7ADBBF9450B28C",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "国内外厂商加速布局和追赶的技术与市场动态，作为强有力的事实论据，直接且实质性地支持了“公司面临市场竞争加剧风险”的结论，SUPPORTS关系成立。"
+      }
+    ]
+  }
+}

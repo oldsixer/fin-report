@@ -1,0 +1,81 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "15daed1d6cc874795bd0f977f7111ead97435a30813201b4df7e860e7421de4c",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_DF95C3DE32AD3A1B",
+        "target_id": "CLM_B67611BDCA0BC99E",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "iPhone 16的内存升级事实构成了存储升级周期仍在持续的直接证据。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_F582F0D2C7C2498C",
+        "target_id": "CLM_B67611BDCA0BC99E",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "对iPhone 17存储容量翻倍的预测，支撑了后续机型参数将继续提升并推动存储需求的论断。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "EVT_10D2047ADBA47EF0",
+        "target_id": "CLM_B67611BDCA0BC99E",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.92,
+        "rationale": "2026年新款iPhone机型存储参数提升是推导存储价格被进一步推动上涨的必要前提条件。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_D701BCCDFC622ECF",
+        "target_id": "CLM_B34FCF2E055C52E9",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "美光合约价单季上涨20%-30%的实例，充分印证了存储产品具有价格大幅波动的强周期属性。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_EF4F86EE61F31A55",
+        "target_id": "CLM_B34FCF2E055C52E9",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "SK海力士合约价最高上涨30%的极端调价行为，为行业供需易引发价格剧烈波动提供了有力实证。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_B34FCF2E055C52E9",
+        "target_id": "CLM_A9EEAA6E0021ED83",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "存储行业供需变化易引发价格大幅波动的基础客观规律，是需求不足或供给过剩将导致产品降价的底层核心逻辑。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "EVT_857E136081E0237E",
+        "target_id": "CLM_A9EEAA6E0021ED83",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.9,
+        "rationale": "降价风险推演直接依赖于“AI算力需求不及预期”这一负面外部冲击条件。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "EVT_C348B6635F7F634C",
+        "target_id": "CLM_A9EEAA6E0021ED83",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.9,
+        "rationale": "降价风险同样依赖于“产能集中释放造成高端存储供过于求”这一供给端恶化的假设前提。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_4D1DF0A87C9A17E8",
+        "target_id": "CLM_FD4D284FE9708E0F",
+        "relation_type": "CAUSES",
+        "confidence": 0.94,
+        "rationale": "海外巨头布局高端赛道叠加国内厂商技术追赶的双端挤压态势，是直接导致未来市场竞争加剧的根本原因。"
+      }
+    ]
+  }
+}

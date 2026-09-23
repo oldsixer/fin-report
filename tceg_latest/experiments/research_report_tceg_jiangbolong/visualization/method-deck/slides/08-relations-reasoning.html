@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>关系与论证</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Layer 05 · Relations & Reasoning</p></header>
+  <main class="slide">
+    <p class="kicker">Propose, verify, materialize</p>
+    <h1 class="title tight">推断关系先由模型提出，再由独立模型验证；被接受后才写入论证 DAG。</h1>
+    <section class="relation-metrics">
+      <article class="relation-metric"><strong>106</strong><p>进入独立验证队列的推断关系</p></article>
+      <article class="relation-metric"><strong class="teal">69</strong><p>accept · 置信度满足门槛</p></article>
+      <article class="relation-metric"><strong class="red">37</strong><p>reject · 保留原因和原始候选</p></article>
+    </section>
+    <section class="reasoning-flow" aria-label="论证路径示例">
+      <article class="reason-node"><p class="type">EVENT / DATAPOINT</p><h3>主流存储厂商提高 DRAM 与 NAND 合约价</h3></article>
+      <p class="flow-arrow">→</p>
+      <article class="reason-node step"><p class="type">REASONING STEP</p><h3>多家厂商同步涨价，构成行业价格周期的市场证据</h3></article>
+      <p class="flow-arrow">→</p>
+      <article class="reason-node"><p class="type">CLAIM</p><h3>国产存储模组行业迎来涨价周期</h3></article>
+    </section>
+    <div class="source-note"><p>confidence 必须直接输出为 0–1 JSON number；不把 high / medium / low 人为映射成数值。</p><p class="mono">PREMISE_OF → CONCLUDES</p></div>
+  </main>
+</body>
+</html>

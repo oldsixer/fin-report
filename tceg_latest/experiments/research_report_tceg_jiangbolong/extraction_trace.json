@@ -1,0 +1,104 @@
+{
+  "document_id": "DOC_16B8EEDCC1FCF4CE",
+  "model": "gpt-5.6-luna",
+  "verification_model": "gemini-3.1-pro-high",
+  "api_calls": [
+    {
+      "id": "CALL_001",
+      "purpose": "cross_chunk_argument_relations_8",
+      "model": "gemini-3.1-pro-high",
+      "attempt": 1,
+      "duration_seconds": 34.593,
+      "prompt_sha256": "403d2f6d14f27959f74b1f9b5aa763b90a879f902fded9cfca915f7872678058",
+      "response_sha256": "728962a97033a7de24e429278af675220e7d8ecf06758df22a5b175ac4af7fb2",
+      "finish_reason": "stop",
+      "json_repair_applied": false,
+      "usage": {
+        "prompt_tokens": 18116,
+        "completion_tokens": 4567,
+        "total_tokens": 22683
+      },
+      "status": "success",
+      "stage": "relation_reasoning"
+    },
+    {
+      "id": "CALL_002",
+      "purpose": "cross_chunk_argument_relations_9",
+      "model": "gemini-3.1-pro-high",
+      "attempt": 1,
+      "duration_seconds": 23.076,
+      "prompt_sha256": "70b6a578cc36b585c38f5ff6c06c80f7e491f61c782194ea74ef6f61f6fc7248",
+      "response_sha256": "06e1dba800c809b2fd6f28145f614d15b060e80d0233f3e763e912006db19b93",
+      "finish_reason": "stop",
+      "json_repair_applied": false,
+      "usage": {
+        "prompt_tokens": 18099,
+        "completion_tokens": 2818,
+        "total_tokens": 20917
+      },
+      "status": "success",
+      "stage": "relation_reasoning"
+    },
+    {
+      "id": "CALL_003",
+      "purpose": "verify_argument_relations_16",
+      "model": "gemini-3.1-pro-high",
+      "attempt": 1,
+      "duration_seconds": 34.304,
+      "prompt_sha256": "6467b9257461a9650b6546b63350e2f4fab04ce7f0074d8dab1a6b310266d91b",
+      "response_sha256": "74a284368a19050b1499bd9ef1f465a6906ec0f3dc155bae898bede520ffaf4a",
+      "finish_reason": "stop",
+      "json_repair_applied": false,
+      "usage": {
+        "prompt_tokens": 3282,
+        "completion_tokens": 3864,
+        "total_tokens": 7146
+      },
+      "status": "success",
+      "stage": "relation_reasoning"
+    },
+    {
+      "id": "CALL_004",
+      "purpose": "verify_argument_relations_17",
+      "model": "gemini-3.1-pro-high",
+      "attempt": 1,
+      "duration_seconds": 26.787,
+      "prompt_sha256": "df72dab181a595ece6ecfdaf62b830ac28c3609cf3bf6490b292ae6772cdbc6d",
+      "response_sha256": "e6723e3fcba426975fa901e03fd22bd9e452b14178628503e1fc0015c1aa99bd",
+      "finish_reason": "stop",
+      "json_repair_applied": false,
+      "usage": {
+        "prompt_tokens": 3065,
+        "completion_tokens": 2988,
+        "total_tokens": 6053
+      },
+      "status": "success",
+      "stage": "relation_reasoning"
+    },
+    {
+      "id": "CALL_005",
+      "purpose": "verify_argument_relations_18",
+      "model": "gemini-3.1-pro-high",
+      "attempt": 1,
+      "duration_seconds": 15.307,
+      "prompt_sha256": "6cc5b5504b92bb4b713d039749b4309b9ffa03d6ccecb212e126be72fb97ad42",
+      "response_sha256": "e109bf5c8e330d62956cb72a240e26f4cf18372338588b2a9ffdbba51057ea67",
+      "finish_reason": "stop",
+      "json_repair_applied": false,
+      "usage": {
+        "prompt_tokens": 2352,
+        "completion_tokens": 1566,
+        "total_tokens": 3918
+      },
+      "status": "success",
+      "stage": "relation_reasoning"
+    }
+  ],
+  "source_object_count": 56,
+  "chunk_count": 1,
+  "candidate_input": "/home/bhy/LivingFin/experiments/research_report_tceg_jiangbolong/luna_extraction_audit.json",
+  "resumed_candidate_chunks": 0,
+  "deterministic_table_points_created": 380,
+  "deterministic_capacity_points_created": 34,
+  "candidate_rejections": 41
+}

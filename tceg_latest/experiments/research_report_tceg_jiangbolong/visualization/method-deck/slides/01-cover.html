@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>从券商研报到 TCEG</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<!--
+  假设：这套 Deck 面向论文审稿人和研究合作者，重点是方法可审计性，而非产品宣传。
+  视觉推理：以真实 PDF 和真实图谱界面形成输入/输出对照，Cardinal 红箭头表达状态迁移。
+-->
+<body class="cover-slide">
+  <main class="cover-layout">
+    <section class="cover-copy">
+      <div>
+        <p class="series">LivingFin · Technical Method Brief</p>
+        <h1>从券商研报<br>到 <span>TCEG</span></h1>
+        <p class="lead">如何把事实、数字、分析结论与证据路径，转化为可验证、可持续维护的金融研究图状态。</p>
+      </div>
+      <div class="cover-meta">
+        <p><strong>真实样本</strong><br>爱建证券 · 江波龙首次覆盖报告<br>2025-12-31 · 7 pages</p>
+        <p><strong>当前状态</strong><br>854 nodes · 2,509 edges<br>Validation PASS</p>
+      </div>
+    </section>
+    <section class="cover-visual" aria-label="原始研报到图状态">
+      <img class="report" src="../../assets/report-page-1.png" alt="江波龙原始券商研报第一页">
+      <img class="graph" src="../../screenshots/direction-1-workbench-1440x900.png" alt="TCEG 图谱工作台截图">
+      <div class="arrow">→</div>
+      <p class="stamp">PDF → CANONICAL GRAPH</p>
+    </section>
+  </main>
+</body>
+</html>

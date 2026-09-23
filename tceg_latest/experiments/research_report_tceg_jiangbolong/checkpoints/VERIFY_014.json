@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "b77a0fa4b113646a34416cb1c1799b242427efaa41fbbace6c43979012d5dd3f",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_82A55FE64F72E3BA",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "行业和公司面临的涨价周期为核心业务的收入高增长预测提供了合理的宏观与价格基础，构成有效的SUPPORTS关系。"
+      },
+      {
+        "proposal_id": "RELPROP_243123373862CDD5",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "“嵌入式存储是核心业务”这一事实仅仅是定性描述，与后文具体的增速预测在原句中属于共现和修饰关系，并不是推导出具体增速数值（44.6%等）的必要逻辑前提，不满足DEPENDS_ON的严苛要求。"
+      },
+      {
+        "proposal_id": "RELPROP_CFFA4470292E2136",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "嵌入式存储作为核心业务，其显著的高增长预期是支撑公司整体总营收保持高增长的最直接构成部分，符合contributory SUPPORTS的定义。"
+      },
+      {
+        "proposal_id": "RELPROP_1711A83A08E9AC49",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "处于涨价周期的大背景是支持整个公司总营收持续多年保持较高同比增速（量价齐升逻辑）的重要行业环境证据，支持关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_13304C69CD4D5EB0",
+        "verdict": "reject",
+        "confidence": 0.85,
+        "reason": "在给定的研报证据中，营收增速与毛利率提升分别是并列的“关键假设点”1和2。毛利率反映的是盈利结构，通常不会直接影响（AFFECTS）总营业收入的规模增速，两者属于互相平行的财务预测。"
+      },
+      {
+        "proposal_id": "RELPROP_B89658B60CA473C2",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "下游智能手机和服务器的双重拉动导致存储涨价持续性超预期，为公司未来三年总营收保持高增长的预测提供了坚实的终端需求证据支撑。"
+      }
+    ]
+  }
+}

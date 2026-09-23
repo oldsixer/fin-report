@@ -1,0 +1,113 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "4d11fa5cf4ad7bfe8aa4df1174cee216988bd5560d0d711e51e18bda79a588c9",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_DF95C3DE32AD3A1B",
+        "target_id": "CLM_882E3A802197D059",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "iPhone 16内存从6GB升级至8GB是智能手机进入新一轮硬件升级周期的直接事实证据。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_F582F0D2C7C2498C",
+        "target_id": "CLM_882E3A802197D059",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "预计iPhone 17存储容量翻倍进一步印证了升级周期的延续性。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "EVT_10D2047ADBA47EF0",
+        "target_id": "CLM_882E3A802197D059",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "2026年新款iPhone机型存储参数提升的预期支撑了手机端升级周期的核心逻辑。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_882E3A802197D059",
+        "target_id": "CLM_1EE5DF4B2E50701F",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "iPhone带动的智能手机升级周期构成了“双重拉动”论点中的移动端需求基础。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_ED0AD53BDFFE788A",
+        "target_id": "CLM_1EE5DF4B2E50701F",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "服务器算力升级带动HBM需求景气构成了“双重拉动”论点中的服务器端需求基础。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_1EE5DF4B2E50701F",
+        "target_id": "CLM_D91F912714EEEB59",
+        "relation_type": "CAUSES",
+        "confidence": 0.88,
+        "rationale": "智能手机与服务器双重需求共振，是导致本轮存储涨价持续性能够超越单一市场预期（仅靠服务器）的根本原因。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "EVT_BCC3C2301E8BED89",
+        "target_id": "CLM_D91F912714EEEB59",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "SK Hynix大幅上调2025Q4合约价达30%，作为头部厂商实际行动，验证了涨价趋势的强劲与持续性。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "EVT_18F1AEE5E902828C",
+        "target_id": "CLM_D91F912714EEEB59",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "美光宣布上调存储价格20%-30%，进一步为超预期的行业涨价趋势提供事实支撑。"
+      },
+      {
+        "proposal_id": "R9",
+        "source_id": "CLM_3B96A5813435DD1D",
+        "target_id": "CLM_D91F912714EEEB59",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.82,
+        "rationale": "涨价周期的持续性依赖于AI需求不爆冷且行业产能扩张保持克制的前提，否则面临降价风险。"
+      },
+      {
+        "proposal_id": "R10",
+        "source_id": "CLM_27FA51ADA5BB1585",
+        "target_id": "CLM_B49FA96CDD9BEC7A",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "核心业务嵌入式存储在2025年高达44.6%的增速预测，是支撑公司整体营收实现37.4%高增长的直接数学基础。"
+      },
+      {
+        "proposal_id": "R11",
+        "source_id": "CLM_D91F912714EEEB59",
+        "target_id": "CLM_B49FA96CDD9BEC7A",
+        "relation_type": "CAUSES",
+        "confidence": 0.85,
+        "rationale": "存储行业超预期的涨价周期将直接带动存储模组产品的量价齐升，从而促成公司2025年营收的高增长。"
+      },
+      {
+        "proposal_id": "R12",
+        "source_id": "CLM_069ACBA23F15016E",
+        "target_id": "CLM_B49FA96CDD9BEC7A",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.8,
+        "rationale": "作为国产存储模组龙头，公司具备充足的规模与渠道优势来承接行业上行周期带来的市场红利。"
+      },
+      {
+        "proposal_id": "R13",
+        "source_id": "CLM_478C03DC8094E931",
+        "target_id": "CLM_B49FA96CDD9BEC7A",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.78,
+        "rationale": "激进的营收增长预测建立在公司技术研发进度和量产良率顺利达标的基础之上，产品竞争力不能滑坡。"
+      }
+    ]
+  }
+}

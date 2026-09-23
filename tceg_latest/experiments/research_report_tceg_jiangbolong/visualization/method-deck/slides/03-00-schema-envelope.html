@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TCEG Schema：状态封装与来源字段</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Schema 01 · State & Provenance</p></header>
+  <main class="slide schema-slide">
+    <p class="kicker">Canonical state envelope</p>
+    <h1 class="title schema-title">一个 TCEG 文件同时保存语义状态、来源身份和抽取审计。</h1>
+
+    <section class="schema-columns schema-dual root-source" aria-label="TCEG 根状态与来源对象字段">
+      <article class="schema-panel">
+        <h2>ROOT + DOCUMENT</h2>
+        <p class="panel-dek">回答“这是谁的图、来自哪份文件”。</p>
+        <dl class="field-list">
+          <div><dt>schema_version · graph_id</dt><dd>结构契约版本；这份图的稳定身份。</dd></div>
+          <div><dt>state_hash</dt><dd>document、source、node、edge 规范状态的内容指纹。</dd></div>
+          <div><dt>source_objects · nodes · edges</dt><dd>证据对象、语义对象和有向关系三类主集合。</dd></div>
+          <div><dt>extraction_run · coverage_manifest</dt><dd>运行审计与覆盖统计；不参与语义状态哈希。</dd></div>
+          <div><dt>rejected_candidates</dt><dd>保存被拒候选，不让失败样本从审计链消失。</dd></div>
+          <div><dt>document.id · title · source_type</dt><dd>文档身份、标题与载体类型。</dd></div>
+          <div><dt>local_path · source_url · sha256</dt><dd>本地文件、外部入口及原文件完整性。</dd></div>
+          <div><dt>publisher · published_at · issuer</dt><dd>发布机构、日期和研究标的。</dd></div>
+        </dl>
+      </article>
+
+      <article class="schema-panel">
+        <h2>SOURCE OBJECT</h2>
+        <p class="panel-dek">回答“这条语义究竟引用了哪段原文”。</p>
+        <dl class="field-list">
+          <div><dt>id · document_id · sequence</dt><dd>稳定来源 ID、所属文档及阅读顺序。</dd></div>
+          <div><dt>object_type</dt><dd>paragraph / table_like / figure_caption / legal / other。</dd></div>
+          <div><dt>raw_text · normalized_text</dt><dd>保留原始文本；另存证据匹配用规范文本。</dd></div>
+          <div><dt>sha256</dt><dd>raw_text 的内容哈希，检测来源漂移。</dd></div>
+          <div><dt>locator.page · block</dt><dd>定位到 PDF 页与页内块。</dd></div>
+          <div><dt>locator.char_start · char_end</dt><dd>可用时记录页内字符边界。</dd></div>
+          <div><dt>processing_status</dt><dd>EXTRACTED / NO_CLAIM / OPAQUE / NEEDS_REVIEW / ERROR。</dd></div>
+          <div><dt>candidate_count · irrelevant_reason</dt><dd>候选数量；无有效语义时保留原因。</dd></div>
+          <div><dt>metadata.extraction_method</dt><dd>记录该来源对象由何种解析器生成。</dd></div>
+        </dl>
+      </article>
+
+    </section>
+    <div class="source-note"><p>根字段定义来自 <span class="mono">research-report-tceg-0.1</span> 与当前真实图状态。</p><p class="mono">STATE = SEMANTICS + PROVENANCE + AUDIT</p></div>
+  </main>
+</body>
+</html>

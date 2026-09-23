@@ -1,0 +1,33 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "6cc5b5504b92bb4b713d039749b4309b9ffa03d6ccecb212e126be72fb97ad42",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_467272C9C3066328",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "源命题陈述了“供需变化引发价格波动”的一般性行业规律，该规律为目标命题中关于“供过于求或需求不及预期导致降价”的具体风险预测提供了逻辑前提和支持，符合SUPPORTS关系。"
+      },
+      {
+        "proposal_id": "RELPROP_0E1B198DDC5D6768",
+        "verdict": "accept",
+        "confidence": 0.98,
+        "reason": "文本明确表述巨头加速布局和国内厂商技术追赶这两个动作，会导致“市场竞争可能进一步加剧”的后果，因果逻辑直接且有原文明确支持，CAUSES关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_E5D43B58C9334656",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "“技术迭代速度快”是行业背景特征，它构成了“若研发不及预期则产品竞争力下滑”的重要逻辑支撑，解释了落后即挨打的行业前提，属于实质性贡献的SUPPORTS关系。"
+      },
+      {
+        "proposal_id": "RELPROP_0EEDD5A8AE3D2D17",
+        "verdict": "accept",
+        "confidence": 0.9,
+        "reason": "“需持续投入巨额研发资金”与“技术迭代快”同为行业背景，共同构成了研发风险的联合前提。巨额资金投入要求使得试错成本极高，从而支持了“研发不及预期会导致竞争力下滑”的结论，属于联合前提的SUPPORTS关系。"
+      }
+    ]
+  }
+}

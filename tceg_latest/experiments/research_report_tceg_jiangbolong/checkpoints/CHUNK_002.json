@@ -1,0 +1,996 @@
+{
+  "chunk_id": "CHUNK_002",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P001_B004"
+  ],
+  "prompt_digest": "a54da13890afb0dab44b21d8cddd448eb1bda41dc9e4ca4565118bcb14cbb049",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P001_B004",
+        "classification": "material",
+        "reason": "包含针对江波龙的首次评级、财务指标预测、市场基础数据、业务情况及存储产品调价事件"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "NAND·Flash",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E3",
+        "name": "DRAM",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E4",
+        "name": "Micron",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E5",
+        "name": "Samsung",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E6",
+        "name": "Newdaily",
+        "entity_type": "institution"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "首次覆盖江波龙并给予“买入”评级",
+        "claim_role": "recommendation",
+        "modality": "recommendation",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "江波龙",
+        "predicate": "RATING",
+        "object_text": "买入",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "首次覆盖江波龙 （ 301308.SZ ） ， 给予 “ 买入 ” 评级。"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "预计江波龙2025E营业收入为239.95亿元，同比增长37.4%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_REVENUE",
+        "object_text": "239.95亿元",
+        "metric_name": "营业收入",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D1",
+          "D2"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元， 同比增长\n市场数据： 2025 年 12 月 30 日\n收盘价（元） 254.75 37.4%/27.6%/24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "C3",
+        "text": "预计江波龙2026E营业收入为306.18亿元，同比增长27.6%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_REVENUE",
+        "object_text": "306.18亿元",
+        "metric_name": "营业收入",
+        "period_label": "2026E",
+        "data_point_local_ids": [
+          "D3",
+          "D4"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元， 同比增长\n市场数据： 2025 年 12 月 30 日\n收盘价（元） 254.75 37.4%/27.6%/24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "C4",
+        "text": "预计江波龙2027E营业收入为381.50亿元，同比增长24.6%",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_REVENUE",
+        "object_text": "381.50亿元",
+        "metric_name": "营业收入",
+        "period_label": "2027E",
+        "data_point_local_ids": [
+          "D5",
+          "D6"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元， 同比增长\n市场数据： 2025 年 12 月 30 日\n收盘价（元） 254.75 37.4%/27.6%/24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "C5",
+        "text": "预计江波龙2025E归母净利润为11.69亿元，同比增长134.4%，对应PE为95.0倍",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_NET_PROFIT",
+        "object_text": "11.69亿元",
+        "metric_name": "归母净利润",
+        "period_label": "2025E",
+        "data_point_local_ids": [
+          "D7",
+          "D8",
+          "D9"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "归母净利润分别为 11.69/21.01/22.53 亿元， 同比增长\n一年内最高/最低（元） 326.21/67.26 134.4%/79.8%/7.2%，对应市盈率分别为 95.0/52.8/49.3 倍。"
+          }
+        ]
+      },
+      {
+        "local_id": "C6",
+        "text": "预计江波龙2026E归母净利润为21.01亿元，同比增长79.8%，对应PE为52.8倍",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_NET_PROFIT",
+        "object_text": "21.01亿元",
+        "metric_name": "归母净利润",
+        "period_label": "2026E",
+        "data_point_local_ids": [
+          "D10",
+          "D11",
+          "D12"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "归母净利润分别为 11.69/21.01/22.53 亿元， 同比增长\n一年内最高/最低（元） 326.21/67.26 134.4%/79.8%/7.2%，对应市盈率分别为 95.0/52.8/49.3 倍。"
+          }
+        ]
+      },
+      {
+        "local_id": "C7",
+        "text": "预计江波龙2027E归母净利润为22.53亿元，同比增长7.2%，对应PE为49.3倍",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "FORECAST_NET_PROFIT",
+        "object_text": "22.53亿元",
+        "metric_name": "归母净利润",
+        "period_label": "2027E",
+        "data_point_local_ids": [
+          "D13",
+          "D14",
+          "D15"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "归母净利润分别为 11.69/21.01/22.53 亿元， 同比增长\n一年内最高/最低（元） 326.21/67.26 134.4%/79.8%/7.2%，对应市盈率分别为 95.0/52.8/49.3 倍。"
+          }
+        ]
+      },
+      {
+        "local_id": "C8",
+        "text": "江波龙是国内规模最大的综合性存储模组厂商",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "江波龙",
+        "predicate": "MARKET_POSITION",
+        "object_text": "国内规模最大的综合性存储模组厂商",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "江波龙是国内规模最大的综合性存储模组厂商"
+          }
+        ]
+      },
+      {
+        "local_id": "C9",
+        "text": "江波龙产品覆盖 NAND·Flash 及 DRAM 存储产品",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "PRODUCT_COVERAGE",
+        "object_text": "NAND·Flash 及 DRAM 存储产品",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "产品覆盖 NAND·Flash 及 DRAM"
+          }
+        ]
+      },
+      {
+        "local_id": "C10",
+        "text": "江波龙存储产品主要面向消费级、企业级及工规级应用",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "neutral",
+        "importance": "supporting",
+        "subject_name": "江波龙",
+        "predicate": "APPLICATION_SCENARIO",
+        "object_text": "消费级、企业级及工规级应用",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "存储产品，主要面向消费级、企业级及工规级应用。"
+          }
+        ]
+      },
+      {
+        "local_id": "C11",
+        "text": "Micron 宣布上调存储产品价格 20%-30%",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "Micron",
+        "predicate": "PRICE_ADJUSTMENT",
+        "object_text": "上调存储产品价格 20%-30%",
+        "metric_name": "价格调幅",
+        "period_label": "2025年9月14日",
+        "data_point_local_ids": [
+          "D23"
+        ],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025 年 9 月 14 日，Micron 宣布上\n调存储产品价格 20%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "C12",
+        "text": "Newdaily 报道 Samsung 宣布上调存储产品价格",
+        "claim_role": "observation",
+        "modality": "actual",
+        "polarity": "positive",
+        "importance": "supporting",
+        "subject_name": "Samsung",
+        "predicate": "PRICE_ADJUSTMENT",
+        "object_text": "宣布上调",
+        "metric_name": null,
+        "period_label": "2025年9月22日",
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "9 月 22 日 Newdaily 报道 Samsung 宣布上调"
+          }
+        ]
+      }
+    ],
+    "data_points": [
+      {
+        "local_id": "D1",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "239.95",
+          "normalized_decimal": "239.95",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "239.95"
+          }
+        ]
+      },
+      {
+        "local_id": "D2",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入同比增长率",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "37.4%",
+          "normalized_decimal": "37.4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "37.4%"
+          }
+        ]
+      },
+      {
+        "local_id": "D3",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "306.18",
+          "normalized_decimal": "306.18",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "306.18"
+          }
+        ]
+      },
+      {
+        "local_id": "D4",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入同比增长率",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "27.6%",
+          "normalized_decimal": "27.6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "27.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "D5",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "381.50",
+          "normalized_decimal": "381.50",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "381.50"
+          }
+        ]
+      },
+      {
+        "local_id": "D6",
+        "subject_name": "江波龙",
+        "metric_name": "营业收入同比增长率",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "24.6%",
+          "normalized_decimal": "24.6",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "24.6%"
+          }
+        ]
+      },
+      {
+        "local_id": "D7",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "11.69",
+          "normalized_decimal": "11.69",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "11.69"
+          }
+        ]
+      },
+      {
+        "local_id": "D8",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润同比增长率",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "134.4%",
+          "normalized_decimal": "134.4",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "134.4%"
+          }
+        ]
+      },
+      {
+        "local_id": "D9",
+        "subject_name": "江波龙",
+        "metric_name": "市盈率",
+        "period_label": "2025E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "95.0",
+          "normalized_decimal": "95.0",
+          "range_low": null,
+          "range_high": null,
+          "unit": "multiple",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "95.0"
+          }
+        ]
+      },
+      {
+        "local_id": "D10",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "21.01",
+          "normalized_decimal": "21.01",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "21.01"
+          }
+        ]
+      },
+      {
+        "local_id": "D11",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润同比增长率",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "79.8%",
+          "normalized_decimal": "79.8",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "79.8%"
+          }
+        ]
+      },
+      {
+        "local_id": "D12",
+        "subject_name": "江波龙",
+        "metric_name": "市盈率",
+        "period_label": "2026E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "52.8",
+          "normalized_decimal": "52.8",
+          "range_low": null,
+          "range_high": null,
+          "unit": "multiple",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "52.8"
+          }
+        ]
+      },
+      {
+        "local_id": "D13",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "22.53",
+          "normalized_decimal": "22.53",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 100000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "22.53"
+          }
+        ]
+      },
+      {
+        "local_id": "D14",
+        "subject_name": "江波龙",
+        "metric_name": "归母净利润同比增长率",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "7.2%",
+          "normalized_decimal": "7.2",
+          "range_low": null,
+          "range_high": null,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "7.2%"
+          }
+        ]
+      },
+      {
+        "local_id": "D15",
+        "subject_name": "江波龙",
+        "metric_name": "市盈率",
+        "period_label": "2027E",
+        "qualifier": "forecast",
+        "value": {
+          "kind": "scalar",
+          "raw": "49.3",
+          "normalized_decimal": "49.3",
+          "range_low": null,
+          "range_high": null,
+          "unit": "multiple",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "49.3"
+          }
+        ]
+      },
+      {
+        "local_id": "D16",
+        "subject_name": "江波龙",
+        "metric_name": "收盘价",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "254.75",
+          "normalized_decimal": "254.75",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY/share",
+          "currency": "CNY",
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "收盘价（元） 254.75"
+          }
+        ]
+      },
+      {
+        "local_id": "D17",
+        "subject_name": "江波龙",
+        "metric_name": "一年内最高价",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "326.21",
+          "normalized_decimal": "326.21",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY/share",
+          "currency": "CNY",
+          "scale": 1,
+          "dimensions": {
+            "endpoint": "high"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "一年内最高/最低（元） 326.21/67.26"
+          }
+        ]
+      },
+      {
+        "local_id": "D18",
+        "subject_name": "江波龙",
+        "metric_name": "一年内最低价",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "67.26",
+          "normalized_decimal": "67.26",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY/share",
+          "currency": "CNY",
+          "scale": 1,
+          "dimensions": {
+            "endpoint": "low"
+          }
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "一年内最高/最低（元） 326.21/67.26"
+          }
+        ]
+      },
+      {
+        "local_id": "D19",
+        "subject_name": "江波龙",
+        "metric_name": "市净率",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "14.2",
+          "normalized_decimal": "14.2",
+          "range_low": null,
+          "range_high": null,
+          "unit": "multiple",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "市净率 14.2"
+          }
+        ]
+      },
+      {
+        "local_id": "D20",
+        "subject_name": "江波龙",
+        "metric_name": "流通A股市值",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "69,903",
+          "normalized_decimal": "69903",
+          "range_low": null,
+          "range_high": null,
+          "unit": "CNY",
+          "currency": "CNY",
+          "scale": 1000000,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "流通 A 股市值（百万元） 69,903"
+          }
+        ]
+      },
+      {
+        "local_id": "D21",
+        "subject_name": "上证指数",
+        "metric_name": "指数点位",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "3,965",
+          "normalized_decimal": "3965",
+          "range_low": null,
+          "range_high": null,
+          "unit": "other",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "上证指数/深证成指 3,965/13,604"
+          }
+        ]
+      },
+      {
+        "local_id": "D22",
+        "subject_name": "深证成指",
+        "metric_name": "指数点位",
+        "period_label": "2025年12月30日",
+        "qualifier": "market_data",
+        "value": {
+          "kind": "scalar",
+          "raw": "13,604",
+          "normalized_decimal": "13604",
+          "range_low": null,
+          "range_high": null,
+          "unit": "other",
+          "currency": null,
+          "scale": 1,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "上证指数/深证成指 3,965/13,604"
+          }
+        ]
+      },
+      {
+        "local_id": "D23",
+        "subject_name": "Micron",
+        "metric_name": "存储产品价格上调幅度",
+        "period_label": "2025年9月14日",
+        "qualifier": "actual",
+        "value": {
+          "kind": "range",
+          "raw": "20%-30%",
+          "normalized_decimal": null,
+          "range_low": 20.0,
+          "range_high": 30.0,
+          "unit": "percent",
+          "currency": null,
+          "scale": 0.01,
+          "dimensions": {}
+        },
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "20%-30%"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "Micron宣布上调存储产品价格20%-30%",
+        "category": "price",
+        "subject_name": "Micron",
+        "period_label": "2025年9月14日",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025 年 9 月 14 日，Micron 宣布上\n调存储产品价格 20%-30%"
+          }
+        ]
+      },
+      {
+        "local_id": "V2",
+        "text": "Samsung宣布上调存储产品价格",
+        "category": "price",
+        "subject_name": "Samsung",
+        "period_label": "2025年9月22日",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "9 月 22 日 Newdaily 报道 Samsung 宣布上调"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D1",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C2命题包含数据点D1",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C2",
+        "target_local_id": "D2",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C2命题包含数据点D2",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "同比增长\n市场数据： 2025 年 12 月 30 日\n收盘价（元） 254.75 37.4%/27.6%/24.6%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C5",
+        "target_local_id": "D7",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C5命题包含数据点D7",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "归母净利润分别为 11.69/21.01/22.53 亿元"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C11",
+        "target_local_id": "D23",
+        "relation_type": "HAS_DATA",
+        "assertion_level": "EXPLICIT",
+        "confidence": 1.0,
+        "rationale": "C11命题包含数据点D23",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025 年 9 月 14 日，Micron 宣布上\n调存储产品价格 20%-30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V1",
+        "target_local_id": "C11",
+        "relation_type": "SAME_AS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "Micron涨价事件对应C11观点陈述",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "2025 年 9 月 14 日，Micron 宣布上\n调存储产品价格 20%-30%"
+          }
+        ]
+      },
+      {
+        "source_local_id": "V2",
+        "target_local_id": "C12",
+        "relation_type": "SAME_AS",
+        "assertion_level": "EXPLICIT",
+        "confidence": 0.95,
+        "rationale": "Samsung涨价事件对应C12观点陈述",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B004",
+            "quote": "9 月 22 日 Newdaily 报道 Samsung 宣布上调"
+          }
+        ]
+      },
+      {
+        "source_local_id": "C8",
+        "target_local_id": "C1",
+        "relation_type": "SUPPORTS",
+        "assertion_level": "INFERRED",
+        "confidence": 0.85,
+        "rationale": "公司在行业内的龙头规模地位支撑买入评级",
+        "evidence": []
+      }
+    ]
+  }
+}

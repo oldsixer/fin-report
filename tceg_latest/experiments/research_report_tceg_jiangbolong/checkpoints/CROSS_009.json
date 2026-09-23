@@ -1,0 +1,57 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "70b6a578cc36b585c38f5ff6c06c80f7e491f61c782194ea74ef6f61f6fc7248",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "EVT_857E136081E0237E",
+        "target_id": "CLM_3B96A5813435DD1D",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "产品降价风险直接依赖于AI算力需求不及预期的假设情形"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "EVT_C348B6635F7F634C",
+        "target_id": "CLM_3B96A5813435DD1D",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "产品降价风险同样建立在行业产能集中释放导致供过于求的假设之上"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_63001BC9A6A206E0",
+        "target_id": "CLM_3B96A5813435DD1D",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "供需变化易引发价格波动的行业规律是产品降价风险的重要逻辑支撑"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_4D1DF0A87C9A17E8",
+        "target_id": "CLM_9DFE068602A5B7BE",
+        "relation_type": "CAUSES",
+        "confidence": 0.95,
+        "rationale": "行业巨头加速布局及国内厂商技术追赶是导致市场竞争可能加剧的直接原因"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_11EC89322CB47959",
+        "target_id": "CLM_22651433174BFB28",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.92,
+        "rationale": "存储行业技术迭代速度快这一特点，解释了为何研发不及预期会立刻导致竞争力下滑"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_DF5D1C2BC6F506FE",
+        "target_id": "CLM_22651433174BFB28",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "需要持续投入巨额研发资金凸显了技术研发的高门槛和试错成本，增加了落后丧失竞争力的风险"
+      }
+    ]
+  }
+}

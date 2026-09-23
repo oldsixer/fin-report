@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>证据门</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Layer 04 · Evidence Gate</p></header>
+  <main class="slide">
+    <p class="kicker">No quote, no semantic object</p>
+    <h1 class="title">候选只有通过原文证据门，才能进入图。</h1>
+    <section class="evidence-layout">
+      <blockquote class="quote-block">
+        <p>“2025E/2026E/2027E 营业收入分别为 239.95/306.18/381.50 亿元”</p>
+        <p class="quote-id">SO_P001_B004 · PAGE 1 · EXACT MATCH</p>
+      </blockquote>
+      <section class="gate-list">
+        <article class="gate"><p class="gate-num">01</p><div><h3>来源 ID 必须存在</h3><p>候选只能引用本次 source graph 中的对象。</p></div></article>
+        <article class="gate"><p class="gate-num">02</p><div><h3>quote 必须回到原文</h3><p>只允许 exact 或 whitespace_normalized 连续匹配。</p></div></article>
+        <article class="gate"><p class="gate-num">03</p><div><h3>数字字形必须出现</h3><p>数值节点不能只凭模型改写后的描述生成。</p></div></article>
+        <article class="gate"><p class="gate-num">04</p><div><h3>证据哈希与边同步</h3><p>节点 evidence 与 EVIDENCED_BY 关系必须一致。</p></div></article>
+      </section>
+    </section>
+    <div class="source-note"><p>负向测试会伪造 quote；验证器必须失败，而不是“尽量接受”。</p><p class="mono">FABRICATED_QUOTE → FAIL</p></div>
+  </main>
+</body>
+</html>

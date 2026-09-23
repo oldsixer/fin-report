@@ -1,0 +1,73 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "e6987de9aec3fc59f20864d706150b48f79dc0d2dd4deea492581910fffedf4e",
+  "finish_reason": "stop",
+  "result": {
+    "relations": [
+      {
+        "proposal_id": "R1",
+        "source_id": "CLM_9EFEB8B58D271796",
+        "target_id": "CLM_42C5BCFE22B24C19",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.95,
+        "rationale": "营业收入绝对值的测算模型直接依赖于2025年营收增速达到37.4%的预期。"
+      },
+      {
+        "proposal_id": "R2",
+        "source_id": "CLM_D8A285F618A42551",
+        "target_id": "CLM_42C5BCFE22B24C19",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "国产存储模组龙头迎来行业的涨价周期，为实现近240亿的大规模营收提供了有利的宏观价格环境。"
+      },
+      {
+        "proposal_id": "R3",
+        "source_id": "CLM_5BFFFD5CFBA65CB6",
+        "target_id": "CLM_9EFEB8B58D271796",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.98,
+        "rationale": "作为核心业务的嵌入式存储预期取得44.6%的增速，是驱动整体营业收入实现37.4%高增长的最直接业务动力。"
+      },
+      {
+        "proposal_id": "R4",
+        "source_id": "CLM_EB02660EF9ACDB6C",
+        "target_id": "CLM_9EFEB8B58D271796",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.88,
+        "rationale": "智能手机升级与服务器需求的双重拉动逻辑，构成了支撑公司营收维持高增长的核心行业需求叙事。"
+      },
+      {
+        "proposal_id": "R5",
+        "source_id": "CLM_9EFEB8B58D271796",
+        "target_id": "CLM_CEE65992450CCA06",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.95,
+        "rationale": "营业收入的规模化扩张（37.4%增速）是驱动归母净利润实现134.4%爆发式增长的收入端基础。"
+      },
+      {
+        "proposal_id": "R6",
+        "source_id": "CLM_413E436E3A1C0076",
+        "target_id": "CLM_CEE65992450CCA06",
+        "relation_type": "DEPENDS_ON",
+        "confidence": 0.92,
+        "rationale": "净利润高增速结论在财务模型上直接依赖于2025年毛利率保持在17.7%这一成本盈利假设。"
+      },
+      {
+        "proposal_id": "R7",
+        "source_id": "CLM_8628FEC8CDE43F23",
+        "target_id": "CLM_413E436E3A1C0076",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.9,
+        "rationale": "公司内部不断优化产品结构的战略，是支撑毛利率水平改善与预测目标的核心内部理由。"
+      },
+      {
+        "proposal_id": "R8",
+        "source_id": "CLM_BC9C9138506AB351",
+        "target_id": "CLM_413E436E3A1C0076",
+        "relation_type": "SUPPORTS",
+        "confidence": 0.85,
+        "rationale": "存储模组行业步入涨价周期，是维持和提升产品毛利率的关键外部市场因素。"
+      }
+    ]
+  }
+}

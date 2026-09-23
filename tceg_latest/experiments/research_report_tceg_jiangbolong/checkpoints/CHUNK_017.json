@@ -1,0 +1,35 @@
+{
+  "chunk_id": "CHUNK_017",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P007_B006",
+    "SO_P007_B007",
+    "SO_P007_B008"
+  ],
+  "prompt_digest": "5811ccc01b6b61c91fd769db149f61cf178363855c46ce6a75964ef6427a90e0",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P007_B006",
+        "classification": "administrative",
+        "reason": "评级说明与市场基准定义"
+      },
+      {
+        "source_object_id": "SO_P007_B007",
+        "classification": "administrative",
+        "reason": "证券代码页脚信息"
+      },
+      {
+        "source_object_id": "SO_P007_B008",
+        "classification": "legal",
+        "reason": "分析师独立性声明与合规免责条款"
+      }
+    ],
+    "entities": [],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "batch_digest": "c60b2fc40499635ef82cf0922301c441db91fb968207272805a886da29e0dbb2",
+  "finish_reason": "stop",
+  "result": {
+    "verdicts": [
+      {
+        "proposal_id": "RELPROP_C534F374D637FF86",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "涨价周期的行业背景是研报给予江波龙买入评级的核心逻辑与论证前提，方向与关系类型（SUPPORTS）合理。"
+      },
+      {
+        "proposal_id": "RELPROP_6EBD6F0DEB7F5C20",
+        "verdict": "reject",
+        "confidence": 0.95,
+        "reason": "证据显示源命题和目标命题分别是研报中列举的第2点“市场竞争加剧风险”和第3点“技术迭代不及预期”，两者是并列的风险提示，而非论证支持关系。"
+      },
+      {
+        "proposal_id": "RELPROP_97E29D2253D91446",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "图表中主流存储厂商的合约价上涨是具体客观事实，实质性支持了“行业迎来涨价周期”这一宏观结论。"
+      },
+      {
+        "proposal_id": "RELPROP_EC97BB19F45A8906",
+        "verdict": "accept",
+        "confidence": 0.95,
+        "reason": "文本明确指出“智能手机和服务器双重拉动本次存储涨价”，说明下游需求是导致涨价的原因，CAUSES 关系成立。"
+      },
+      {
+        "proposal_id": "RELPROP_67022ABEE230E5C0",
+        "verdict": "accept",
+        "confidence": 0.92,
+        "reason": "美光合约价格的大幅上涨是证明存储行业迎来涨价周期的具体微观证据，构成有力的论据支持（SUPPORTS）。"
+      },
+      {
+        "proposal_id": "RELPROP_369D641C6CBCDB26",
+        "verdict": "accept",
+        "confidence": 0.88,
+        "reason": "江波龙作为“国产存储模组龙头”的行业地位，是研报推荐其股票并给予买入评级的基本面依据和联合前提之一，符合 SUPPORTS 的定义。"
+      }
+    ]
+  }
+}

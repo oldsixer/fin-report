@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>本体与数字语义</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Layer 03 · Ontology & Numbers</p></header>
+  <main class="slide">
+    <p class="kicker">Canonical objects</p>
+    <h1 class="title tight">“239.95”不是事实；只有主体、指标、期间、币种和尺度齐全，它才是可计算数据。</h1>
+    <section class="ontology-grid">
+      <div class="type-bars" aria-label="节点类型统计">
+        <div class="type-row"><p>DataPoint</p><div class="bar-track"><div class="bar-fill" style="--w:100%"></div></div><strong>498</strong></div>
+        <div class="type-row"><p>Metric</p><div class="bar-track"><div class="bar-fill" style="--w:21.3%"></div></div><strong>106</strong></div>
+        <div class="type-row"><p>Claim</p><div class="bar-track"><div class="bar-fill" style="--w:15.3%"></div></div><strong>76</strong></div>
+        <div class="type-row"><p>ReasoningStep</p><div class="bar-track"><div class="bar-fill" style="--w:14.3%"></div></div><strong>71</strong></div>
+        <div class="type-row"><p>Entity</p><div class="bar-track"><div class="bar-fill" style="--w:11%"></div></div><strong>55</strong></div>
+        <div class="type-row"><p>Period</p><div class="bar-track"><div class="bar-fill" style="--w:7%"></div></div><strong>35</strong></div>
+        <div class="type-row"><p>Event</p><div class="bar-track"><div class="bar-fill" style="--w:2.6%"></div></div><strong>13</strong></div>
+      </div>
+      <div>
+        <section class="code-panel" aria-label="标准数字对象示例">
+          <pre>{
+  <span class="key">"subject"</span>: <span class="string">"江波龙"</span>,
+  <span class="key">"metric"</span>: <span class="string">"营业收入"</span>,
+  <span class="key">"period"</span>: <span class="string">"2025E"</span>,
+  <span class="key">"raw"</span>: <span class="string">"239.95"</span>,
+  <span class="key">"normalized_decimal"</span>: <span class="value">239.95</span>,
+  <span class="key">"unit"</span>: <span class="string">"CNY"</span>,
+  <span class="key">"scale"</span>: <span class="value">100000000</span>
+}</pre>
+        </section>
+        <p class="scale-equation">239.95 × 100,000,000 CNY<br><span class="red">= 23,995,000,000 CNY</span></p>
+      </div>
+    </section>
+    <div class="source-note"><p>亿元、百万元、亿美元和百分比统一落到 base unit + scale，避免重复放大。</p><p class="mono">RAW ≠ NORMALIZED ≠ SCALED</p></div>
+  </main>
+</body>
+</html>

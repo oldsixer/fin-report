@@ -1,0 +1,575 @@
+{
+  "benchmark": "aijian_jiangbolong_2025-12-31_manual_core_v1",
+  "graph_state_hash": "a54e162b41464745d5901a9321ae8011b54b97879de2321762f450b69dec0077",
+  "summary": {
+    "semantic": {
+      "passed": 19,
+      "total": 19,
+      "recall": 1.0
+    },
+    "data": {
+      "passed": 34,
+      "total": 34,
+      "recall": 1.0
+    },
+    "relations": {
+      "passed": 10,
+      "total": 10,
+      "recall": 1.0
+    }
+  },
+  "semantic_items": [
+    {
+      "id": "S01",
+      "description": "首次覆盖并给予江波龙买入评级",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_CCBCAB5527464D8C"
+      ]
+    },
+    {
+      "id": "S02",
+      "description": "江波龙是国内规模最大的综合性存储模组厂商",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_C8590204AFDEB3A0"
+      ]
+    },
+    {
+      "id": "S03",
+      "description": "产品覆盖 NAND Flash、DRAM 及消费/企业/工规应用",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_F35BF108052526BE",
+        "CLM_743C4CB9888C2238"
+      ]
+    },
+    {
+      "id": "S04",
+      "description": "智能手机与服务器共同拉动涨价且持续性可能超预期",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_EB02660EF9ACDB6C"
+      ]
+    },
+    {
+      "id": "S05",
+      "description": "2025-2027 总营收增速假设",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_7D9C67A41781A7B4"
+      ]
+    },
+    {
+      "id": "S06",
+      "description": "2025-2027 嵌入式存储收入增速假设",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_5BFFFD5CFBA65CB6"
+      ]
+    },
+    {
+      "id": "S07",
+      "description": "产品结构优化推动毛利率由 19.0% 至 20.2%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_8628FEC8CDE43F23"
+      ]
+    },
+    {
+      "id": "S08",
+      "description": "2026 新款 iPhone 存储参数提升催化价格上涨",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_3040FA4ECE3DB6D4",
+        "CLM_B67611BDCA0BC99E"
+      ]
+    },
+    {
+      "id": "S09",
+      "description": "服务器算力升级支撑 HBM 长期需求景气",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_ED0AD53BDFFE788A"
+      ]
+    },
+    {
+      "id": "S10",
+      "description": "行业周期波动风险",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_BABF3CA744C1FB28"
+      ]
+    },
+    {
+      "id": "S11",
+      "description": "市场竞争加剧风险",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_A3A4216C34561A87",
+        "CLM_FD4D284FE9708E0F"
+      ]
+    },
+    {
+      "id": "S12",
+      "description": "技术迭代不及预期风险",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_2F8A5B5043BB2DE2"
+      ]
+    },
+    {
+      "id": "S13",
+      "description": "Micron 上调存储价格",
+      "status": "PASS",
+      "matching_node_ids": [
+        "EVT_18F1AEE5E902828C",
+        "CLM_E6F88170C0FF0D94"
+      ]
+    },
+    {
+      "id": "S14",
+      "description": "Samsung 上调 DRAM 价格",
+      "status": "PASS",
+      "matching_node_ids": [
+        "EVT_0C0AD2D32C3C1057"
+      ]
+    },
+    {
+      "id": "S15",
+      "description": "Samsung 上调 NAND Flash 价格",
+      "status": "PASS",
+      "matching_node_ids": [
+        "EVT_0C0AD2D32C3C1057"
+      ]
+    },
+    {
+      "id": "S16",
+      "description": "SK Hynix 上调 DRAM 与 NAND Flash 价格",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_EF4F86EE61F31A55"
+      ]
+    },
+    {
+      "id": "S17",
+      "description": "AI 需求不足或产能释放可能引发降价",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_3B96A5813435DD1D",
+        "CLM_A9EEAA6E0021ED83"
+      ]
+    },
+    {
+      "id": "S18",
+      "description": "行业厂商加速布局高端赛道",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_BEE5B1F06B5ACC55",
+        "CLM_4D1DF0A87C9A17E8"
+      ]
+    },
+    {
+      "id": "S19",
+      "description": "研发或良率不达目标会削弱竞争力",
+      "status": "PASS",
+      "matching_node_ids": [
+        "CLM_22651433174BFB28",
+        "CLM_478C03DC8094E931"
+      ]
+    }
+  ],
+  "data_items": [
+    {
+      "id": "D01",
+      "description": "2025E 营业收入 23995 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_23539C10A911F7F8",
+        "DATA_E6D305425E8049FF"
+      ]
+    },
+    {
+      "id": "D02",
+      "description": "2026E 营业收入 30618 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_5372F74BC3267705",
+        "DATA_337C062C836BB335"
+      ]
+    },
+    {
+      "id": "D03",
+      "description": "2027E 营业收入 38150 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_AD878AFF849762F1",
+        "DATA_635CFB92FE52F2E7"
+      ]
+    },
+    {
+      "id": "D04",
+      "description": "2025E 归母净利润 1169 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_9F565B8667E071C4"
+      ]
+    },
+    {
+      "id": "D05",
+      "description": "2026E 归母净利润 2101 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_C88B90964FA4F99C"
+      ]
+    },
+    {
+      "id": "D06",
+      "description": "2027E 归母净利润 2253 百万元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_96F822D46FE59E94"
+      ]
+    },
+    {
+      "id": "D07",
+      "description": "2025E EPS 2.81",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_59501DFD5E37E709"
+      ]
+    },
+    {
+      "id": "D08",
+      "description": "2026E EPS 5.05",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_819BD2406A1673AF"
+      ]
+    },
+    {
+      "id": "D09",
+      "description": "2027E EPS 5.42",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_BE1311A870FA2FE1"
+      ]
+    },
+    {
+      "id": "D10",
+      "description": "2025E 毛利率 17.7%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_2C71D18C9A00839F"
+      ]
+    },
+    {
+      "id": "D11",
+      "description": "2026E 毛利率 21.0%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_6858F01FAA20B673"
+      ]
+    },
+    {
+      "id": "D12",
+      "description": "2027E 毛利率 20.2%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_40C63023AD921022",
+        "DATA_FEEF433AA428D7A6"
+      ]
+    },
+    {
+      "id": "D13",
+      "description": "2025E PE 95",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_EB50AA3FC12FB60A",
+        "DATA_E951D2F32C0D3A5E"
+      ]
+    },
+    {
+      "id": "D14",
+      "description": "2026E PE 52.8/52.85",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_29ADD6C92A41D06C",
+        "DATA_A893FA1F155A2B8C"
+      ]
+    },
+    {
+      "id": "D15",
+      "description": "2027E PE 49.3/49.28",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_3A36F9FE4E13849A",
+        "DATA_7E228DA8C8168E14"
+      ]
+    },
+    {
+      "id": "D16",
+      "description": "2025E 总营收增速 37.4%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_BACC84E750ACA707",
+        "DATA_47A7391FBE6B9B77",
+        "DATA_CE4AFB4CB2B0AB88"
+      ]
+    },
+    {
+      "id": "D17",
+      "description": "2026E 总营收增速 27.6%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_D87ACC6B5A618754",
+        "DATA_123F97ECBFC050B5",
+        "DATA_3851DFB7B3D03532"
+      ]
+    },
+    {
+      "id": "D18",
+      "description": "2027E 总营收增速 24.6%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_95401134E4E8FB85",
+        "DATA_B58AEE8E8DA8EEBA",
+        "DATA_FB789C23B93B3AEF"
+      ]
+    },
+    {
+      "id": "D19",
+      "description": "2025E 嵌入式存储增速 44.6%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_8E6434594C56432F"
+      ]
+    },
+    {
+      "id": "D20",
+      "description": "2026E 嵌入式存储增速 33.9%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_2554BD1F176E9496"
+      ]
+    },
+    {
+      "id": "D21",
+      "description": "2027E 嵌入式存储增速 28.9%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_2AE4FCE677034606"
+      ]
+    },
+    {
+      "id": "D22",
+      "description": "2024 HBM 市场规模 56.1 亿美元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_B8441E2118E504C9",
+        "DATA_1409863FD327F4D2"
+      ]
+    },
+    {
+      "id": "D23",
+      "description": "2034E HBM 市场规模 570.9 亿美元",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_7F4412B5CA942ED2"
+      ]
+    },
+    {
+      "id": "D24",
+      "description": "2024-2034 HBM CAGR 26.1%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_CEBE1D53ADF5E15B",
+        "DATA_9095F7954807659D"
+      ]
+    },
+    {
+      "id": "D25",
+      "description": "Micron 涨价 20%-30%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_52AB070120CFC165"
+      ]
+    },
+    {
+      "id": "D26",
+      "description": "Samsung DRAM 涨价 15%-30%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_C3C8549E94CE1145",
+        "DATA_5DF916FAE40F2D31"
+      ]
+    },
+    {
+      "id": "D27",
+      "description": "Samsung NAND 涨价 5%-10%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_471FD28E02B31FEC",
+        "DATA_914DDF136B84E197"
+      ]
+    },
+    {
+      "id": "D28",
+      "description": "SK Hynix 涨价最高 30%",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_D4EF3F17317A0B90",
+        "DATA_5F7AC75AF72BAD33"
+      ]
+    },
+    {
+      "id": "D29",
+      "description": "iPhone 14 升级前内存 4GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_768E1CE4BD665FF9",
+        "DATA_44DE9708E79F2B43"
+      ]
+    },
+    {
+      "id": "D30",
+      "description": "iPhone 14 升级后内存 6GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_75BDBDE7CD749741",
+        "DATA_EBD503DF79A7AAF3"
+      ]
+    },
+    {
+      "id": "D31",
+      "description": "iPhone 16 升级前内存 6GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_481045BFB45F986B",
+        "DATA_D78B335F834BD5A8"
+      ]
+    },
+    {
+      "id": "D32",
+      "description": "iPhone 16 升级后内存 8GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_915CB9B641A36A2C",
+        "DATA_26ADC6DF6771FE25"
+      ]
+    },
+    {
+      "id": "D33",
+      "description": "iPhone 17 升级前存储 128GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_306BCE7CA8F71BAD",
+        "DATA_C65DAE71BC84C459",
+        "DATA_1008497DB3908074"
+      ]
+    },
+    {
+      "id": "D34",
+      "description": "iPhone 17 升级后存储 256GB",
+      "status": "PASS",
+      "matching_node_ids": [
+        "DATA_EED57DD7BEF86D29",
+        "DATA_71AF00AD4E401406",
+        "DATA_E70780D83B9F6921"
+      ]
+    }
+  ],
+  "relation_items": [
+    {
+      "id": "R01",
+      "description": "Micron 涨价支持存储涨价周期",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_7029E3EA6F34FACF"
+      ]
+    },
+    {
+      "id": "R02",
+      "description": "Samsung 涨价支持存储涨价周期",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_A8DB3C06ED27A524",
+        "EDGE_AF01820A05806507"
+      ]
+    },
+    {
+      "id": "R03",
+      "description": "iPhone 升级支持双需求涨价判断",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_2DA5D8ED1C2AFF99",
+        "EDGE_6B217B983BB57D09",
+        "EDGE_EA1701BA6F3A404E"
+      ]
+    },
+    {
+      "id": "R04",
+      "description": "服务器/HBM 景气支持双需求涨价判断",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_4285FB8B06467C8A"
+      ]
+    },
+    {
+      "id": "R05",
+      "description": "嵌入式业务增速支持总营收增速",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_B3F189B3B3C33731",
+        "EDGE_90A7A56B445A88EC",
+        "EDGE_CC80B04FE916C484",
+        "EDGE_15C9A3E595125D6C"
+      ]
+    },
+    {
+      "id": "R06",
+      "description": "营业收入增长预测支持买入评级",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_56038BFEAF75CD9E"
+      ]
+    },
+    {
+      "id": "R07",
+      "description": "毛利率改善支持买入评级",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_4A4B4DEE49127043"
+      ]
+    },
+    {
+      "id": "R08",
+      "description": "涨价周期支持买入评级",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_EE1B4F341F90E5D8",
+        "EDGE_2769B777788E9828"
+      ]
+    },
+    {
+      "id": "R09",
+      "description": "潜在降价事件支持公司行业周期风险",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_63E63183F4DA45B2"
+      ]
+    },
+    {
+      "id": "R10",
+      "description": "高端赛道布局支持竞争加剧风险",
+      "status": "PASS",
+      "matching_edge_ids": [
+        "EDGE_8E2BA161027778FC",
+        "EDGE_2BEEC747E1C58285",
+        "EDGE_778A9F6F3814C89A",
+        "EDGE_6A6A7758F7A7238E"
+      ]
+    }
+  ],
+  "interpretation": "Manual core recall; it does not estimate precision or exhaustive full-report recall."
+}

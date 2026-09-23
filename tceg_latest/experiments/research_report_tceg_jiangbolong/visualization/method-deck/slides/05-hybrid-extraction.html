@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>混合抽取</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../shared/deck.css">
+</head>
+<body>
+  <header class="masthead"><p>TCEG METHOD</p><p class="section">Layer 02 · Hybrid Extraction</p></header>
+  <main class="slide">
+    <p class="kicker">LLM semantics + deterministic parsing</p>
+    <h1 class="title tight">关系理解交给模型；规则表格和单位尺度交给确定性程序。</h1>
+    <section class="hybrid-grid">
+      <article class="method-column">
+        <p class="tag">Semantic candidates</p>
+        <h3>gpt-5.6-luna 识别主张、事件、数字与候选关系</h3>
+        <p class="hero-metric">244</p>
+        <ul>
+          <li>89 Claim · 110 DataPoint · 16 Event · 29 Relation</li>
+          <li>每个候选必须携带 source object ID 和连续原文 quote</li>
+          <li>本次从独立 Luna 审计文件导入；管线也支持兼容 API 分块调用</li>
+        </ul>
+      </article>
+      <div class="merge-arrow">＋</div>
+      <article class="method-column">
+        <p class="tag">Deterministic tables</p>
+        <h3>Python 逐列解析周期财务表与容量升级表</h3>
+        <p class="hero-metric">380 + 34</p>
+        <ul>
+          <li>380 个周期财务 DataPoint</li>
+          <li>34 个 iPhone 内存/存储容量 DataPoint</li>
+          <li>原始数字、指标、期间、单位与尺度逐项绑定</li>
+        </ul>
+      </article>
+    </section>
+    <p class="method-foot">二者进入同一个 evidence gate 和 GraphBuilder：模型不能绕过证据校验，规则解析也不能绕过统一数据模型。</p>
+  </main>
+</body>
+</html>

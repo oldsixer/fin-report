@@ -1,0 +1,116 @@
+{
+  "chunk_id": "CHUNK_001",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P001_B001",
+    "SO_P001_B002",
+    "SO_P001_B003"
+  ],
+  "prompt_digest": "9159259a290957e368012e3f161349b0505dbe7b6ae8f1b87b438d48eb7bdd0f",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P001_B001",
+        "classification": "administrative",
+        "reason": "证券研究报告表头标识"
+      },
+      {
+        "source_object_id": "SO_P001_B002",
+        "classification": "administrative",
+        "reason": "报告类型与发布日期"
+      },
+      {
+        "source_object_id": "SO_P001_B003",
+        "classification": "material",
+        "reason": "包含公司市场地位与行业涨价周期的核心论点"
+      }
+    ],
+    "entities": [
+      {
+        "local_id": "E1",
+        "name": "江波龙",
+        "entity_type": "company"
+      },
+      {
+        "local_id": "E2",
+        "name": "存储模组",
+        "entity_type": "product"
+      },
+      {
+        "local_id": "E3",
+        "name": "电子",
+        "entity_type": "industry"
+      }
+    ],
+    "claims": [
+      {
+        "local_id": "C1",
+        "text": "江波龙是国产存储模组龙头",
+        "claim_role": "observation",
+        "modality": "opinion",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "江波龙",
+        "predicate": "MARKET_STATUS",
+        "object_text": "国产存储模组龙头",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B003",
+            "quote": "国产存储模组龙头"
+          }
+        ]
+      },
+      {
+        "local_id": "C2",
+        "text": "国产存储模组行业迎来涨价周期",
+        "claim_role": "forecast",
+        "modality": "forecast",
+        "polarity": "positive",
+        "importance": "core",
+        "subject_name": "国产存储模组",
+        "predicate": "TREND",
+        "object_text": "迎来涨价周期",
+        "metric_name": null,
+        "period_label": null,
+        "data_point_local_ids": [],
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B003",
+            "quote": "国产存储模组龙头迎来涨价周期"
+          }
+        ]
+      }
+    ],
+    "data_points": [],
+    "events": [
+      {
+        "local_id": "V1",
+        "text": "首次覆盖报告发布",
+        "category": "strategy",
+        "subject_name": "江波龙",
+        "period_label": "2025年12月31日",
+        "evidence": [
+          {
+            "source_object_id": "SO_P001_B002",
+            "quote": "首次覆盖 2025 年 12 月 31 日"
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source_local_id": "C2",
+        "target_local_id": "C1",
+        "relation_type": "AFFECTS",
+        "assertion_level": "INFERRED",
+        "confidence": 0.85,
+        "rationale": "行业进入涨价周期利好存储模组龙头公司",
+        "evidence": []
+      }
+    ]
+  }
+}

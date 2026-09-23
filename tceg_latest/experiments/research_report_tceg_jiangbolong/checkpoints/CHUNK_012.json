@@ -1,0 +1,29 @@
+{
+  "chunk_id": "CHUNK_012",
+  "model": "gemini-3.6-flash-low",
+  "source_object_ids": [
+    "SO_P006_B004",
+    "SO_P006_B005"
+  ],
+  "prompt_digest": "8f6ba01c6076b7aa80dd03f65260e400c83dadf688805455deabe7a0218fc48b",
+  "finish_reason": "stop",
+  "result": {
+    "source_reviews": [
+      {
+        "source_object_id": "SO_P006_B004",
+        "classification": "material",
+        "reason": "标准财务报表数据块，包含资产与现金流量相关五期数值"
+      },
+      {
+        "source_object_id": "SO_P006_B005",
+        "classification": "material",
+        "reason": "标准财务报表数据块，包含负债与现金余额相关五期数值"
+      }
+    ],
+    "entities": [],
+    "claims": [],
+    "data_points": [],
+    "events": [],
+    "relations": []
+  }
+}
